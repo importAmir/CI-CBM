@@ -1,0 +1,878 @@
+{
+    "cock": [
+        "a crest on the head",
+        "a large body",
+        "a long tail",
+        "a loud crow",
+        "a protruding crest on the head",
+        "red or orange wattles",
+        "spurs on the legs"
+    ],
+    "goldfinch, Carduelis carduelis": [
+        "a bright yellow color",
+        "a long, pointed beak",
+        "a short, pointed beak",
+        "a small head",
+        "a small, forked tail",
+        "a small, round body",
+        "black wings with white bars",
+        "black wings with white stripes",
+        "yellow feathers"
+    ],
+    "indigo bunting, indigo finch, indigo bird, Passerina cyanea": [
+        "a black bill",
+        "a black head",
+        "a blue body",
+        "a small songbird",
+        "a vibrant blue color",
+        "a white chest",
+        "a white throat",
+        "pointed wings",
+        "white wingbars"
+    ],
+    "alligator lizard": [
+        "a green or brown color",
+        "a long tail",
+        "a long, slender body",
+        "a long, snake-like body",
+        "a pointed snout",
+        "a rough, scaly skin",
+        "a wide head",
+        "short legs",
+        "smooth, shiny scales"
+    ],
+    "hognose snake, puff adder, sand viper": [
+        "a flattened, upturned nose",
+        "a large, triangular head",
+        "a light brown or tan color",
+        "a long, slender body",
+        "a upturned nose"
+    ],
+    "rock python, rock snake, Python sebae": [
+        "a large body",
+        "a long, thick tail",
+        "a triangular head",
+        "a wide, triangular head",
+        "heavy build",
+        "yellow spots on the body"
+    ],
+    "black widow, Latrodectus mactans": [
+        "a black, shiny body",
+        "a large abdomen",
+        "a small head",
+        "long, slender legs",
+        "long, thin legs"
+    ],
+    "wolf spider, hunting spider": [
+        "a brown or black color",
+        "a large, hairy body",
+        "eight long legs",
+        "excellent night vision",
+        "good eyesight",
+        "two long, curved fangs",
+        "two long, pedipalps (or fangs)"
+    ],
+    "quail": [
+        "a round head",
+        "a short beak",
+        "a short neck",
+        "a short, round tail",
+        "a small head",
+        "a small, plump body",
+        "short legs"
+    ],
+    "koala, koala bear, kangaroo bear, native bear, Phascolarctos cinereus": [
+        "a black nose",
+        "a furry coat",
+        "a large head",
+        "a long tail",
+        "a small, fuzzy body",
+        "a small, round body",
+        "big, black eyes",
+        "black eyes",
+        "large, round ears",
+        "long claws",
+        "short, stubby legs"
+    ],
+    "sea anemone, anemone": [
+        "a central mouth",
+        "a round body",
+        "a sedentary lifestyle",
+        "a soft, round body",
+        "a variety of colors",
+        "attached to a surface",
+        "found in marine environments",
+        "tentacles"
+    ],
+    "spiny lobster, langouste, rock lobster, crawfish, crayfish, sea crawfish": [
+        "a hard shell covered in spines",
+        "a hard, spiny shell",
+        "a large, elongated body",
+        "a long tail",
+        "eight legs",
+        "large, spiny antennae",
+        "two large claws",
+        "two large, fan-like tails"
+    ],
+    "isopod": [
+        "a flattened shape",
+        "a hard exoskeleton",
+        "a small, flattened body",
+        "a small, segmented body",
+        "seven pairs of legs",
+        "two pairs of antennae",
+        "two sets of eyes"
+    ],
+    "white stork, Ciconia ciconia": [
+        "a black beak",
+        "a large body",
+        "a long, curved neck",
+        "black and white plumage",
+        "large size",
+        "long legs",
+        "long neck",
+        "long, orange beak",
+        "long, red legs",
+        "white feathers"
+    ],
+    "bittern": [
+        "a black bill",
+        "a long, curved neck",
+        "a long, slender body",
+        "a long, thin neck",
+        "a reedy call",
+        "brown and white feathers",
+        "long, black legs",
+        "long, orange legs"
+    ],
+    "dowitcher": [
+        "a long, black tail",
+        "a long, sharp bill",
+        "a long, slender body",
+        "a long, straight bill",
+        "a plump body",
+        "a short tail",
+        "long legs",
+        "short legs"
+    ],
+    "Afghan hound, Afghan": [
+        "a bushy tail",
+        "a large, athletic build",
+        "a large, slender body",
+        "a long, silky coat",
+        "a regal bearing",
+        "long ears",
+        "long, thin legs"
+    ],
+    "Norwegian elkhound, elkhound": [
+        "a bushy tail",
+        "a dark mask around the eyes",
+        "a large, muscular body",
+        "a long, bushy tail",
+        "a mottled gray and white coat",
+        "a thick, double coat of fur",
+        "pointed ears"
+    ],
+    "Norwich terrier": [
+        "a black-and-tan coloration",
+        "a inflated with air",
+        "a large, round shape",
+        "a long, shaggy coat",
+        "a rubber or synthetic material",
+        "a short, blunt muzzle",
+        "a small, compact body",
+        "a small, stocky body",
+        "a smooth, leather surface",
+        "erect ears",
+        "pointed ears",
+        "short legs",
+        "small, dark eyes"
+    ],
+    "cairn, cairn terrier": [
+        "a bushy tail",
+        "a shaggy coat of fur",
+        "a shaggy, wiry coat",
+        "a short muzzle",
+        "a short tail",
+        "a small to medium-sized dog",
+        "a small, sturdy body",
+        "a sturdy, compact body",
+        "pointed ears",
+        "small, pointed ears"
+    ],
+    "Brittany spaniel": [
+        "a keyboard",
+        "a long, straight coat",
+        "a pointed nose",
+        "a pointed snout",
+        "a screen that opens and closes",
+        "a short, smooth coat",
+        "a small to medium size",
+        "a tail that is carried high",
+        "a thin, rectangular shape",
+        "a trackpad or mouse",
+        "pricked ears"
+    ],
+    "cocker spaniel, English cocker spaniel, cocker": [
+        "a long, feathered tail",
+        "a long, fluffy coat",
+        "a medium-sized body",
+        "a pointed muzzle",
+        "a short, smooth coat",
+        "a small to medium size",
+        "a tail that is often docked",
+        "long, floppy ears"
+    ],
+    "groenendael": [
+        "a black coat",
+        "a large, muscular body",
+        "a long, thick tail",
+        "a regal bearing",
+        "a strong jaw",
+        "broad shoulders",
+        "pointed ears"
+    ],
+    "Greater Swiss Mountain dog": [
+        "a large, muscular body",
+        "a long tail",
+        "a long, thick tail",
+        "a thick, furry coat",
+        "black and white coloration",
+        "floppy ears",
+        "triangular ears"
+    ],
+    "Appenzeller": [
+        "a bushy tail",
+        "a large, muscular body",
+        "a thick, shaggy coat",
+        "long ears"
+    ],
+    "chow, chow chow": [
+        "a blue-black tongue",
+        "a large, fluffy body",
+        "a large, square head",
+        "a lion-like mane",
+        "a short snout",
+        "a short, broad muzzle",
+        "a stumpy tail",
+        "a thick coat of fur"
+    ],
+    "Brabancon griffon": [
+        "a large, round head",
+        "a rough coat",
+        "a rough, wiry coat",
+        "a short, blunt muzzle",
+        "a short, square muzzle",
+        "a small, compact body",
+        "large, round eyes",
+        "small, dark eyes"
+    ],
+    "dhole, Cuon alpinus": [
+        "a bushy tail",
+        "a long snout",
+        "a long, bushy tail",
+        "a reddish-brown coat",
+        "a slender body",
+        "a white underbelly",
+        "pointed ears"
+    ],
+    "African hunting dog, hyena dog, Cape hunting dog, Lycaon pictus": [
+        "a bushy tail",
+        "a large, muscular body",
+        "a long snout",
+        "a slender, yet muscular build",
+        "large, round ears",
+        "long legs",
+        "pointed ears",
+        "spotted coat"
+    ],
+    "Arctic fox, white fox, Alopex lagopus": [
+        "a bushy tail",
+        "a small, compact body",
+        "a thick coat of fur",
+        "black tipped ears",
+        "short legs",
+        "thick, white fur"
+    ],
+    "Siamese cat, Siamese": [
+        "a long, curved neck",
+        "a long, slender body",
+        "a short tail",
+        "a slender body",
+        "blue eyes",
+        "long legs",
+        "pointed ears",
+        "seal point markings"
+    ],
+    "leopard, Panthera pardus": [
+        "a fierce expression",
+        "a large, muscular body",
+        "a large, spotted body",
+        "a long tail",
+        "a tawny coat",
+        "good night vision",
+        "sharp claws",
+        "spotted fur"
+    ],
+    "snow leopard, ounce, Panthera uncia": [
+        "a large, muscular body",
+        "a long tail",
+        "a small head",
+        "large, round eyes",
+        "long legs",
+        "short legs",
+        "spotted fur",
+        "white fur on the underside"
+    ],
+    "long-horned beetle, longicorn, longicorn beetle": [
+        "a brown or black color",
+        "a hard exoskeleton",
+        "a long, curved body",
+        "a long, slender body",
+        "long antennae",
+        "sometimes has spots or stripes"
+    ],
+    "cricket": [
+        "a hard exoskeleton",
+        "a segmented abdomen",
+        "a small, dark-colored body",
+        "a small, thin body",
+        "antennae",
+        "long antennae",
+        "long legs",
+        "six legs",
+        "two pairs of wings"
+    ],
+    "monarch, monarch butterfly, milkweed butterfly, Danaus plexippus": [
+        "a small body",
+        "a wingspan of 3-4 inches",
+        "antennae",
+        "clubbed ends on the antennae",
+        "long, thin antennae",
+        "orange and black wing pattern",
+        "two pairs of wings"
+    ],
+    "cabbage butterfly": [
+        "a slender body",
+        "antennae",
+        "antennae on the head",
+        "small size",
+        "two pairs of wings",
+        "white color"
+    ],
+    "beaver": [
+        "a large, furry body",
+        "a large, stocky body",
+        "a long, flat tail",
+        "a long, wide tail",
+        "brown fur",
+        "large front teeth",
+        "small eyes",
+        "webbed hind feet"
+    ],
+    "eel": [
+        "a long, cylindrical body",
+        "a long, slender body",
+        "a long, snake-like body",
+        "a small mouth",
+        "no scales",
+        "pointed teeth",
+        "smooth, dry skin",
+        "smooth, slimy skin"
+    ],
+    "coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch": [
+        "a forked tail",
+        "a long, slender body",
+        "a silver color",
+        "black spots on the sides",
+        "large scales",
+        "silver-colored skin"
+    ],
+    "sturgeon": [
+        "a large body",
+        "a long, narrow body",
+        "a long, pointy nose",
+        "a long, scaly tail",
+        "a long, thick body",
+        "a pointed snout",
+        "barbel on the chin",
+        "grayish color",
+        "grayish-brown color"
+    ],
+    "academic gown, academic robe, judge's robe": [
+        "a hood",
+        "a long, flowing garment",
+        "sleeves that reach the wrist",
+        "wide sleeves",
+        "worn over clothing",
+        "worn over everyday clothes"
+    ],
+    "assault rifle, assault gun": [
+        "a front sight",
+        "a handguard",
+        "a long barrel",
+        "a magazine",
+        "a pistol grip",
+        "a rear sight",
+        "a stock",
+        "a trigger"
+    ],
+    "Band Aid": [
+        "a cotton pad in the center",
+        "a small, rectangular shape",
+        "a white or beige color",
+        "a white or flesh-toned color",
+        "an adhesive backing"
+    ],
+    "beacon, lighthouse, beacon light, pharos": [
+        "a dark color",
+        "a light at the top",
+        "a location near water",
+        "a sturdy base",
+        "a tall, cylindrical shape"
+    ],
+    "binder, ring-binder": [
+        "a cover with a hinge",
+        "a cover with a ring binding",
+        "a rectangular shape",
+        "may have a handle or strap",
+        "usually has a handle"
+    ],
+    "bullet train, bullet": [
+        "a long length",
+        "a sleek, aerodynamic design",
+        "a sleek, metallic exterior",
+        "high top speed",
+        "high-speed capability",
+        "large windows",
+        "multiple cars or engines",
+        "multiple compartments"
+    ],
+    "candle, taper, wax light": [
+        "a flame at the top",
+        "a tall, thin shape",
+        "a wick at the top",
+        "awick at the top",
+        "melted wax around the wick",
+        "melting wax around the wick"
+    ],
+    "cannon": [
+        "a large, cylindrical shape",
+        "a long barrel",
+        "a mechanism for firing",
+        "a platform for mounting",
+        "a sturdy base",
+        "a trigger mechanism",
+        "usually made of metal"
+    ],
+    "can opener, tin opener": [
+        "a comfortable grip",
+        "a compact size",
+        "a metal blade for cutting",
+        "a simple design",
+        "a small, handheld tool"
+    ],
+    "carton": [
+        "a brown or white color",
+        "a fluted / corrugated surface",
+        "a lid or opening at one end",
+        "a rectangular shape",
+        "made of cardboard",
+        "may be decorated or plain",
+        "two or more handles"
+    ],
+    "chain mail, ring mail, mail, chain armor, chain armour, ring armor, ring armour": [
+        "a dull metallic color",
+        "a dull silver color",
+        "a flexible and strong material",
+        "a flexible, yet strong texture",
+        "a weighty feel"
+    ],
+    "chiffonier, commode": [
+        "a light wood or painted finish",
+        "a mirror on the front",
+        "a mirrored door or panel",
+        "a tall, slender cabinet",
+        "decorative molding or trim",
+        "drawers for storage",
+        "drawers or shelves for storage",
+        "intricate carvings or details"
+    ],
+    "chime, bell, gong": [
+        "a metal or glass body",
+        "attached to a frame or ring"
+    ],
+    "combination lock": [
+        "a circular or rectangular body",
+        "a knob or handle",
+        "a locking mechanism"
+    ],
+    "computer keyboard, keypad": [
+        "a QWERTY key layout",
+        "a QWERTY layout",
+        "a black or gray color",
+        "a rectangular shape",
+        "a row of function keys",
+        "a spacebar",
+        "arrow keys",
+        "numeric keypad"
+    ],
+    "confectionery, confectionary, candy store": [
+        "a bright, colorful exterior",
+        "a brightly colored exterior",
+        "a door leading inside",
+        "a door that leads inside",
+        "a sign that says \"candy store\"",
+        "a sign with the word \"candy\"",
+        "a sweet smell",
+        "a window display with candy"
+    ],
+    "corkscrew, bottle screw": [
+        "a large, handle end",
+        "a larger, handle end",
+        "a long, spiral shape",
+        "a metal construction",
+        "a metal spiral shape",
+        "a small, pointed end"
+    ],
+    "crutch": [
+        "a Y-shaped design",
+        "a long, curved shape",
+        "a padded armrest",
+        "a padded hand grip",
+        "a place to rest your armpit",
+        "arm rests on either side",
+        "handled grips",
+        "rubber tips at the end"
+    ],
+    "doormat, welcome mat": [
+        "a dull color",
+        "a flat, rectangular shape",
+        "a low profile",
+        "a mat or nap surface",
+        "a non-slip backing",
+        "a nonslip backing",
+        "a rectangular or oval shape",
+        "a textured surface",
+        "coarse texture"
+    ],
+    "drumstick": [
+        "a dark color",
+        "a long, thin shape",
+        "a pointed end",
+        "a rounded end",
+        "a smooth surface",
+        "pointed at one end",
+        "rounded at the other end",
+        "smooth, dry surface"
+    ],
+    "entertainment center": [
+        "a TV stand",
+        "a large piece of furniture",
+        "may have a TV stand",
+        "may have drawers",
+        "may have drawers or cabinets",
+        "usually made of wood or metal"
+    ],
+    "hand-held computer, hand-held microcomputer": [
+        "a physical keyboard",
+        "a small, portable size",
+        "a small, rectangular shape",
+        "a touch screen",
+        "a touchscreen display",
+        "an operating system",
+        "icons or apps on the screen",
+        "portable",
+        "various apps"
+    ],
+    "holster": [
+        "a flap or snap closure",
+        "a leather or fabric pouch"
+    ],
+    "hook, claw": [
+        "a curved or bent shape",
+        "a curved or pointed shape",
+        "a metal or hard material",
+        "a sharp point at one end",
+        "a small size",
+        "a thin shaft in the middle"
+    ],
+    "lens cap, lens cover": [
+        "a central hole",
+        "a flat back",
+        "a plastic or metal material",
+        "a raised edge or lip",
+        "a small, round shape"
+    ],
+    "loudspeaker, speaker, speaker unit, loudspeaker system, speaker system": [
+        "can be a variety of colors",
+        "can be portable or mounted",
+        "varying sizes"
+    ],
+    "lumbermill, sawmill": [
+        "a circular structure",
+        "a large, rectangular structure",
+        "a platform with seats",
+        "a roof",
+        "large doors",
+        "large, industrial building",
+        "lots of machinery",
+        "loud noises",
+        "music",
+        "sawdust",
+        "walls made of wood or metal",
+        "wooden beams"
+    ],
+    "mailbox, letter box": [
+        "a flag on the side",
+        "a large, rectangular shape",
+        "a postal address",
+        "a rectangular shape",
+        "a red or blue color",
+        "a slot for mail at the top",
+        "a slot for outgoing mail"
+    ],
+    "microphone, mike": [
+        "a cord or wire attached",
+        "a long, thin shaft",
+        "a mesh or grille covering",
+        "a round or oval-shaped head",
+        "a small, round head"
+    ],
+    "mitten": [
+        "a cuff at the wrist",
+        "a decorative exterior",
+        "a hand-shaped piece of fabric",
+        "a soft, warm interior",
+        "a thick, insulating material",
+        "a thumb opening",
+        "a wide, hand-shaped opening",
+        "usually one color or pattern"
+    ],
+    "moped": [
+        "a gasoline engine",
+        "a seat for the rider",
+        "a small, lightweight vehicle",
+        "handlebars",
+        "two wheels"
+    ],
+    "panpipe, pandean pipe, syrinx": [
+        "a long, thin tube"
+    ],
+    "parking meter": [
+        "a button for adding time",
+        "a button to start the timer",
+        "a coin slot",
+        "a digital or analog display",
+        "a metal or plastic casing",
+        "a rectangular box at the top",
+        "a tall, cylindrical shape",
+        "a tall, thin pole"
+    ],
+    "ping-pong ball": [
+        "a slightly bouncy texture",
+        "a small, round shape",
+        "a smooth surface",
+        "a white color",
+        "bouncy texture"
+    ],
+    "plow, plough": [
+        "a large, heavy object",
+        "a metal or wooden frame"
+    ],
+    "purse": [
+        "a flap or closure",
+        "a small, rectangular shape",
+        "a soft, pliable material",
+        "a strap or handle",
+        "a strap or handles",
+        "a zipper or clasp for closure"
+    ],
+    "remote control, remote": [
+        "a digital display",
+        "a small, rectangular shape",
+        "a variety of buttons",
+        "smooth, plastic surface",
+        "two AAA batteries"
+    ],
+    "screen, CRT screen": [
+        "a bulky, rectangular shape",
+        "a curved back",
+        "a glass screen",
+        "a heavy, bulky frame",
+        "a large stand",
+        "a large, rectangular shape",
+        "a screen with a curved surface",
+        "a small control panel"
+    ],
+    "screw": [
+        "a cylindrical shape",
+        "a head at one end for turning",
+        "a pointed end",
+        "a sharp point at the other end",
+        "a small head at the other end",
+        "threads along the body"
+    ],
+    "space shuttle": [
+        "NASA markings",
+        "a large tail fin",
+        "a large, rectangular shape",
+        "a tailfin",
+        "a white color",
+        "engines on the back",
+        "two large wings",
+        "two smaller wings"
+    ],
+    "sunglass": [
+        "a nose bridge",
+        "dark lenses",
+        "side shields",
+        "two dark lenses"
+    ],
+    "swimming trunks, bathing trunks": [
+        "a pair of shorts",
+        "made of quick-drying fabric",
+        "may have a mesh lining",
+        "may have a pattern or design",
+        "usually brightly colored"
+    ],
+    "teddy, teddy bear": [
+        "a black nose",
+        "a friendly face",
+        "a plump body",
+        "a round, furry face",
+        "a soft, furry exterior",
+        "a soft, plush body",
+        "a stitched mouth",
+        "small, black eyes",
+        "small, button eyes",
+        "stubby arms and legs"
+    ],
+    "tennis ball": [
+        "a bounce",
+        "a bright yellow color",
+        "a fuzzy texture",
+        "a green or yellow color",
+        "a hard surface",
+        "a rough surface",
+        "a small, round shape"
+    ],
+    "thresher, thrasher, threshing machine": [
+        "a large, open loading area",
+        "a large, powerful engine",
+        "a large, rectangular body",
+        "a metal frame"
+    ],
+    "toaster": [
+        "a boxy shape",
+        "a bright, metallic color",
+        "a cord",
+        "a cord at the back",
+        "a rectangular or boxy shape",
+        "a toaster knob",
+        "a toaster lever",
+        "a toaster slot on the top",
+        "toaster slots"
+    ],
+    "vending machine": [
+        "a coin or bill slot",
+        "a large, box-like structure",
+        "a large, rectangular box",
+        "a slot for inserting bills"
+    ],
+    "wardrobe, closet, press": [
+        "a door or doors on the front",
+        "a tall, rectangular shape"
+    ],
+    "Windsor tie": [
+        "a Windsor knot",
+        "a long, narrow tail",
+        "a pointed tip",
+        "a small knot at the top",
+        "a solid color",
+        "a wide, triangular shape",
+        "usually made of silk"
+    ],
+    "wool, woolen, woollen": [
+        "a fluffy, soft texture",
+        "a natural fiber",
+        "a soft, furry texture",
+        "can be spun into yarn",
+        "usually made from sheep's hair"
+    ],
+    "worm fence, snake fence, snake-rail fence, Virginia fence": [],
+    "ice cream, icecream": [
+        "a cold temperature",
+        "a cone or cup",
+        "a creamy, soft texture",
+        "a soft, creamy texture",
+        "a sweet flavor",
+        "a variety of toppings",
+        "several different flavors"
+    ],
+    "carbonara": [
+        "a creamy sauce",
+        "a creamy white sauce",
+        "bacon",
+        "bacon or pancetta",
+        "black pepper",
+        "cheese",
+        "pasta",
+        "pasta noodles",
+        "pepper"
+    ],
+    "red wine": [
+        "a bottle with a long neck",
+        "a cork at the top",
+        "a dark red color",
+        "a label on the front",
+        "a long neck",
+        "a round body",
+        "a small opening at the top",
+        "dark red color"
+    ],
+    "valley, vale": [
+        "a long, downward slope",
+        "verdant vegetation"
+    ],
+    "acorn": [
+        "a brown or tan color",
+        "a hard shell",
+        "a pointy top",
+        "a ridged surface",
+        "a short stem",
+        "a small, brown cap",
+        "a small, round shape"
+    ],
+    "hip, rose hip, rosehip": [
+        "a hairy exterior",
+        "a hollow interior",
+        "a pointy end",
+        "a red, orange, or yellow color",
+        "a small, round fruit",
+        "a small, round shape",
+        "a sour or tart flavor",
+        "a thin, papery outer skin",
+        "red or orange color"
+    ],
+    "buckeye, horse chestnut, conker": [
+        "a brown or black color",
+        "a hard, glossy shell",
+        "a large, hard seed",
+        "a large, round shape",
+        "a pointy end",
+        "a shiny, brown exterior",
+        "a smooth surface",
+        "a smooth, curved surface",
+        "a white interior"
+    ],
+    "toilet tissue, toilet paper, bathroom tissue": [
+        "a cylindrical shape",
+        "a long, rectangular shape",
+        "a roll shape",
+        "a soft texture",
+        "used for hygiene",
+        "white color",
+        "white or off-white color"
+    ]
+}

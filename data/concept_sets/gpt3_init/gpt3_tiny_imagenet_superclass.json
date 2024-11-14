@@ -1,0 +1,1089 @@
+{
+    "goldfish, Carassius auratus": [
+        "animal",
+        "fish",
+        "vertebrate"
+    ],
+    "European fire salamander, Salamandra salamandra": [
+        "amphibian",
+        "animal",
+        "reptile",
+        "salamander",
+        "vertebrate"
+    ],
+    "bullfrog, Rana catesbeiana": [
+        "amphibian",
+        "animal",
+        "frog",
+        "vertebrate"
+    ],
+    "tailed frog, bell toad, ribbed toad, tailed toad, Ascaphus trui": [
+        "amphibian",
+        "animal",
+        "frog",
+        "vertebrate"
+    ],
+    "American alligator, Alligator mississipiensis": [
+        "alligator",
+        "animal",
+        "crocodilian",
+        "reptile"
+    ],
+    "boa constrictor, Constrictor constrictor": [
+        "animal",
+        "reptile",
+        "snake"
+    ],
+    "trilobite": [
+        "animal",
+        "arthropod",
+        "invertebrate"
+    ],
+    "scorpion": [
+        "animal",
+        "arachnid",
+        "arthropod",
+        "insect"
+    ],
+    "black widow, Latrodectus mactans": [
+        "animal",
+        "arachnid",
+        "arthropod",
+        "insect",
+        "spider"
+    ],
+    "tarantula": [
+        "animal",
+        "arachnid",
+        "insect"
+    ],
+    "centipede": [
+        "animal",
+        "arthropod",
+        "invertebrate"
+    ],
+    "goose": [
+        "animal",
+        "bird",
+        "vertebrate"
+    ],
+    "koala, koala bear, kangaroo bear, native bear, Phascolarctos cinereus": [
+        "animal",
+        "mammal",
+        "marsupial",
+        "vertebrate"
+    ],
+    "jellyfish": [
+        "animal",
+        "fish",
+        "invertebrate"
+    ],
+    "brain coral": [
+        "animal",
+        "coral",
+        "invertebrate"
+    ],
+    "snail": [
+        "animal",
+        "invertebrate",
+        "mollusc",
+        "mollusk"
+    ],
+    "slug": [
+        "animal",
+        "invertebrate",
+        "mollusc",
+        "mollusk"
+    ],
+    "sea slug, nudibranch": [
+        "animal",
+        "invertebrate",
+        "mollusc",
+        "mollusk",
+        "slug"
+    ],
+    "American lobster, Northern lobster, Maine lobster, Homarus americanus": [
+        "animal",
+        "lobster",
+        "seafood"
+    ],
+    "spiny lobster, langouste, rock lobster, crawfish, crayfish, sea crawfish": [
+        "animal",
+        "arthropod",
+        "invertebrate",
+        "lobster"
+    ],
+    "black stork, Ciconia nigra": [
+        "animal",
+        "bird",
+        "vertebrate"
+    ],
+    "king penguin, Aptenodytes patagonica": [
+        "animal",
+        "bird",
+        "penguin"
+    ],
+    "albatross, mollymawk": [
+        "animal",
+        "bird",
+        "vertebrate"
+    ],
+    "dugong, Dugong dugon": [
+        "animal",
+        "mammal",
+        "marine animal"
+    ],
+    "Chihuahua": [
+        "animal",
+        "dog",
+        "mammal"
+    ],
+    "Yorkshire terrier": [
+        "animal",
+        "dog",
+        "mammal",
+        "terrier"
+    ],
+    "golden retriever": [
+        "animal",
+        "dog",
+        "mammal"
+    ],
+    "Labrador retriever": [
+        "animal",
+        "dog",
+        "mammal",
+        "vertebrate"
+    ],
+    "German shepherd, German shepherd dog, German police dog, alsatian": [
+        "animal",
+        "dog",
+        "mammal"
+    ],
+    "standard poodle": [
+        "animal",
+        "dog",
+        "mammal",
+        "vertebrate"
+    ],
+    "tabby, tabby cat": [
+        "animal",
+        "cat",
+        "domestic animal",
+        "mammal"
+    ],
+    "Persian cat": [
+        "animal",
+        "cat",
+        "mammal"
+    ],
+    "Egyptian cat": [
+        "Mau",
+        "animal",
+        "cat",
+        "mammal"
+    ],
+    "cougar, puma, catamount, mountain lion, painter, panther, Felis concolor": [
+        "animal",
+        "carnivore",
+        "mammal",
+        "predator"
+    ],
+    "lion, king of beasts, Panthera leo": [
+        "animal",
+        "carnivore",
+        "mammal",
+        "vertebrate"
+    ],
+    "brown bear, bruin, Ursus arctos": [
+        "animal",
+        "bear",
+        "mammal",
+        "vertebrate"
+    ],
+    "ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle": [
+        "animal",
+        "arthropod",
+        "insect"
+    ],
+    "fly": [
+        "animal",
+        "arthropod",
+        "insect"
+    ],
+    "bee": [
+        "animal",
+        "arthropod",
+        "insect"
+    ],
+    "grasshopper, hopper": [
+        "animal",
+        "arthropod",
+        "insect"
+    ],
+    "walking stick, walkingstick, stick insect": [
+        "animal",
+        "arthropod",
+        "insect"
+    ],
+    "cockroach, roach": [
+        "animal",
+        "arthropod",
+        "insect"
+    ],
+    "mantis, mantid": [
+        "animal",
+        "arthropod",
+        "insect"
+    ],
+    "dragonfly, darning needle, devil's darning needle, sewing needle, snake feeder, snake doctor, mosquito hawk, skeeter hawk": [
+        "animal",
+        "arthropod",
+        "insect"
+    ],
+    "monarch, monarch butterfly, milkweed butterfly, Danaus plexippus": [
+        "animal",
+        "arthropod",
+        "butterfly",
+        "insect"
+    ],
+    "sulphur butterfly, sulfur butterfly": [
+        "animal",
+        "arthropod",
+        "butterfly",
+        "insect"
+    ],
+    "sea cucumber, holothurian": [
+        "animal",
+        "cucumber",
+        "sea creature",
+        "sea vegetable",
+        "vegetable"
+    ],
+    "guinea pig, Cavia cobaya": [
+        "animal",
+        "mammal",
+        "rodent"
+    ],
+    "hog, pig, grunter, squealer, Sus scrofa": [
+        "animal",
+        "mammal",
+        "vertebrate"
+    ],
+    "ox": [
+        "animal",
+        "livestock",
+        "mammal",
+        "vertebrate"
+    ],
+    "bison": [
+        "animal",
+        "beef",
+        "mammal",
+        "vertebrate"
+    ],
+    "bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis": [
+        "animal",
+        "mammal",
+        "sheep"
+    ],
+    "gazelle": [
+        "animal",
+        "hoofed animal",
+        "mammal",
+        "ungulate"
+    ],
+    "Arabian camel, dromedary, Camelus dromedarius": [
+        "animal",
+        "camel",
+        "mammal"
+    ],
+    "orangutan, orang, orangutang, Pongo pygmaeus": [
+        "animal",
+        "mammal",
+        "primate"
+    ],
+    "chimpanzee, chimp, Pan troglodytes": [
+        "animal",
+        "mammal",
+        "primate"
+    ],
+    "baboon": [
+        "animal",
+        "mammal",
+        "primate"
+    ],
+    "African elephant, Loxodonta africana": [
+        "animal",
+        "elephant",
+        "mammal"
+    ],
+    "lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens": [
+        "animal",
+        "carnivore",
+        "mammal",
+        "vertebrate"
+    ],
+    "abacus": [
+        "calculator",
+        "math tool",
+        "object",
+        "tool"
+    ],
+    "academic gown, academic robe, judge's robe": [
+        "clothing",
+        "garment",
+        "gown",
+        "item of clothing",
+        "object"
+    ],
+    "altar": [
+        "building",
+        "object",
+        "place",
+        "structure"
+    ],
+    "apron": [
+        "clothing",
+        "garment",
+        "object"
+    ],
+    "backpack, back pack, knapsack, packsack, rucksack, haversack": [
+        "bag",
+        "container",
+        "object"
+    ],
+    "bannister, banister, balustrade, balusters, handrail": [
+        "object",
+        "railing",
+        "structure",
+        "support"
+    ],
+    "barbershop": [
+        "building",
+        "business",
+        "shop"
+    ],
+    "barn": [
+        "building",
+        "object",
+        "structure"
+    ],
+    "barrel, cask": [
+        "container",
+        "object",
+        "thing",
+        "vessel"
+    ],
+    "basketball": [
+        "ball",
+        "object",
+        "sport"
+    ],
+    "bathtub, bathing tub, bath, tub": [
+        "container",
+        "object",
+        "tub"
+    ],
+    "beach wagon, station wagon, wagon, estate car, beach waggon, station waggon, waggon": [
+        "car",
+        "transportation",
+        "vehicle",
+        "wagon"
+    ],
+    "beacon, lighthouse, beacon light, pharos": [
+        "building",
+        "object",
+        "structure"
+    ],
+    "beaker": [
+        "container",
+        "glass",
+        "object"
+    ],
+    "beer bottle": [
+        "bottle",
+        "container",
+        "object"
+    ],
+    "bikini, two-piece": [
+        "article of clothing",
+        "clothing",
+        "garment"
+    ],
+    "binoculars, field glasses, opera glasses": [
+        "instrument",
+        "object",
+        "optical instrument",
+        "tool"
+    ],
+    "birdhouse": [
+        "birdhouse",
+        "house",
+        "object",
+        "shelter"
+    ],
+    "bow tie, bow-tie, bowtie": [
+        "accessory",
+        "clothing",
+        "object",
+        "tie"
+    ],
+    "brass, memorial tablet, plaque": [
+        "brass",
+        "memorial plaque",
+        "object"
+    ],
+    "broom": [
+        "cleaning tool",
+        "object",
+        "tool"
+    ],
+    "bucket, pail": [
+        "container",
+        "object",
+        "tool"
+    ],
+    "bullet train, bullet": [
+        "mode of transportation",
+        "train",
+        "transportation",
+        "vehicle"
+    ],
+    "butcher shop, meat market": [
+        "building",
+        "business",
+        "shop"
+    ],
+    "candle, taper, wax light": [
+        "flame",
+        "light",
+        "object"
+    ],
+    "cannon": [
+        "object",
+        "weapon"
+    ],
+    "cardigan": [
+        "article of clothing",
+        "clothing",
+        "garment"
+    ],
+    "cash machine, cash dispenser, automated teller machine, automatic teller machine, automated teller, automatic teller, ATM": [
+        "electronic device",
+        "machine",
+        "object"
+    ],
+    "CD player": [
+        "device",
+        "electronic",
+        "object"
+    ],
+    "chain": [
+        "metal",
+        "object",
+        "tool"
+    ],
+    "chest": [
+        "chest",
+        "container",
+        "furniture",
+        "object"
+    ],
+    "Christmas stocking": [
+        "Christmas decoration",
+        "decoration",
+        "object",
+        "stocking",
+        "textile"
+    ],
+    "cliff dwelling": [
+        "building",
+        "shelter",
+        "structure"
+    ],
+    "computer keyboard, keypad": [
+        "computer peripheral",
+        "electronic device",
+        "input device",
+        "keyboard",
+        "object"
+    ],
+    "confectionery, confectionary, candy store": [
+        "building",
+        "business",
+        "store"
+    ],
+    "convertible": [
+        "car",
+        "object",
+        "transportation",
+        "vehicle"
+    ],
+    "crane": [
+        "animal",
+        "bird",
+        "vertebrate"
+    ],
+    "dam, dike, dyke": [
+        "barrier",
+        "object",
+        "structure"
+    ],
+    "desk": [
+        "furniture",
+        "object"
+    ],
+    "dining table, board": [
+        "furniture",
+        "object",
+        "table"
+    ],
+    "drumstick": [
+        "musical instrument",
+        "object",
+        "utensil"
+    ],
+    "dumbbell": [
+        "exercise equipment",
+        "object",
+        "weight"
+    ],
+    "flagpole, flagstaff": [
+        "object",
+        "pole",
+        "support"
+    ],
+    "fountain": [
+        "object",
+        "structure",
+        "water feature"
+    ],
+    "freight car": [
+        "car",
+        "object",
+        "vehicle"
+    ],
+    "frying pan, frypan, skillet": [
+        "cooking implement",
+        "cookware",
+        "object",
+        "pan"
+    ],
+    "fur coat": [
+        "article of clothing",
+        "clothing",
+        "coat",
+        "garment",
+        "object"
+    ],
+    "gasmask, respirator, gas helmet": [
+        "mask",
+        "protective gear",
+        "respirator"
+    ],
+    "go-kart": [
+        "machine",
+        "object",
+        "toy",
+        "vehicle"
+    ],
+    "gondola": [
+        "boat",
+        "object",
+        "vehicle",
+        "vessel"
+    ],
+    "hourglass": [
+        "container",
+        "glass",
+        "hourglass",
+        "object",
+        "sand timer",
+        "timekeeper"
+    ],
+    "iPod": [
+        "consumer electronics",
+        "digital music player",
+        "electronic device",
+        "music player",
+        "portable device",
+        "portable media player"
+    ],
+    "jinrikisha, ricksha, rickshaw": [
+        "object",
+        "transportation",
+        "vehicle"
+    ],
+    "kimono": [
+        "article of clothing",
+        "clothing",
+        "garment"
+    ],
+    "lampshade, lamp shade": [
+        "cover",
+        "covering",
+        "object",
+        "shade"
+    ],
+    "lawn mower, mower": [
+        "garden equipment",
+        "lawn equipment",
+        "machine",
+        "object",
+        "tool"
+    ],
+    "lifeboat": [
+        "boat",
+        "object",
+        "vehicle"
+    ],
+    "limousine, limo": [
+        "car",
+        "transportation",
+        "vehicle"
+    ],
+    "magnetic compass": [
+        "compass",
+        "instrument",
+        "magnetic",
+        "navigational instrument",
+        "object"
+    ],
+    "maypole": [
+        "decoration",
+        "object",
+        "pole",
+        "tool"
+    ],
+    "military uniform": [
+        "attire",
+        "clothing",
+        "garment"
+    ],
+    "miniskirt, mini": [
+        "clothing",
+        "garment",
+        "skirt"
+    ],
+    "moving van": [
+        "object",
+        "transportation",
+        "vehicle"
+    ],
+    "nail": [
+        "metal",
+        "object",
+        "tool"
+    ],
+    "neck brace": [
+        "brace",
+        "medical device",
+        "object"
+    ],
+    "obelisk": [
+        "monument",
+        "object",
+        "structure"
+    ],
+    "oboe, hautboy, hautbois": [
+        "musical instrument",
+        "object",
+        "woodwind instrument"
+    ],
+    "organ, pipe organ": [
+        "musical instrument",
+        "object",
+        "organ"
+    ],
+    "parking meter": [
+        "instrument",
+        "meter",
+        "object",
+        "structure"
+    ],
+    "pay-phone, pay-station": [
+        "device",
+        "object",
+        "phone",
+        "tool"
+    ],
+    "picket fence, paling": [
+        "barrier",
+        "fence",
+        "object"
+    ],
+    "pill bottle": [
+        "bottle",
+        "container",
+        "object"
+    ],
+    "plunger, plumber's helper": [
+        "object",
+        "tool"
+    ],
+    "pole": [
+        "object",
+        "tool"
+    ],
+    "police van, police wagon, paddy wagon, patrol wagon, wagon, black Maria": [
+        "car",
+        "object",
+        "transportation",
+        "vehicle"
+    ],
+    "poncho": [
+        "article of clothing",
+        "clothing",
+        "garment"
+    ],
+    "pop bottle, soda bottle": [
+        "bottle",
+        "container",
+        "object"
+    ],
+    "potter's wheel": [
+        "object",
+        "tool",
+        "wheel"
+    ],
+    "projectile, missile": [
+        "object",
+        "weapon"
+    ],
+    "punching bag, punch bag, punching ball, punchball": [
+        "bag",
+        "container",
+        "object",
+        "sport equipment",
+        "sports equipment"
+    ],
+    "reel": [
+        "casting reel",
+        "fishing reel",
+        "object",
+        "reel"
+    ],
+    "refrigerator, icebox": [
+        "appliance",
+        "electrical",
+        "machine",
+        "object"
+    ],
+    "remote control, remote": [
+        "control",
+        "device",
+        "electronic",
+        "object"
+    ],
+    "rocking chair, rocker": [
+        "chair",
+        "furniture",
+        "object"
+    ],
+    "rugby ball": [
+        "ball",
+        "object",
+        "toy"
+    ],
+    "sandal": [
+        "clothing",
+        "footwear",
+        "object",
+        "shoe"
+    ],
+    "school bus": [
+        "bus",
+        "object",
+        "transportation",
+        "vehicle"
+    ],
+    "scoreboard": [
+        "board",
+        "display",
+        "object"
+    ],
+    "sewing machine": [
+        "machine",
+        "object",
+        "tool"
+    ],
+    "snorkel": [
+        "diving equipment",
+        "object",
+        "tube"
+    ],
+    "sock": [
+        "clothing",
+        "footwear",
+        "object"
+    ],
+    "sombrero": [
+        "clothing",
+        "hat",
+        "object"
+    ],
+    "space heater": [
+        "appliance",
+        "heater",
+        "object"
+    ],
+    "spider web, spider's web": [
+        "object",
+        "structure",
+        "web"
+    ],
+    "sports car, sport car": [
+        "car",
+        "object",
+        "vehicle"
+    ],
+    "steel arch bridge": [
+        "bridge",
+        "object",
+        "structure"
+    ],
+    "stopwatch, stop watch": [
+        "clock",
+        "object",
+        "timepiece"
+    ],
+    "sunglasses, dark glasses, shades": [
+        "clothing",
+        "eyewear",
+        "glasses"
+    ],
+    "suspension bridge": [
+        "bridge",
+        "object",
+        "structure"
+    ],
+    "swimming trunks, bathing trunks": [
+        "apparel",
+        "clothing",
+        "garment"
+    ],
+    "syringe": [
+        "instrument",
+        "medical device",
+        "object"
+    ],
+    "teapot": [
+        "container",
+        "object",
+        "pot"
+    ],
+    "teddy, teddy bear": [
+        "bear",
+        "stuffed animal",
+        "toy"
+    ],
+    "thatch, thatched roof": [
+        "building",
+        "roof",
+        "structure"
+    ],
+    "torch": [
+        "light",
+        "object",
+        "tool"
+    ],
+    "tractor": [
+        "machine",
+        "object",
+        "vehicle"
+    ],
+    "triumphal arch": [
+        "arch",
+        "object",
+        "structure"
+    ],
+    "trolleybus, trolley coach, trackless trolley": [
+        "bus",
+        "transportation",
+        "trolley",
+        "vehicle"
+    ],
+    "turnstile": [
+        "barrier",
+        "gate",
+        "object",
+        "structure"
+    ],
+    "umbrella": [
+        "object",
+        "rain gear",
+        "tool",
+        "umbrella"
+    ],
+    "vestment": [
+        "article of clothing",
+        "clothing",
+        "garment"
+    ],
+    "viaduct": [
+        "bridge",
+        "built environment",
+        "structure"
+    ],
+    "volleyball": [
+        "ball",
+        "object",
+        "physical activity",
+        "sport"
+    ],
+    "water jug": [
+        "container",
+        "jug",
+        "object"
+    ],
+    "water tower": [
+        "building",
+        "object",
+        "structure",
+        "tower"
+    ],
+    "wok": [
+        "cooking implement",
+        "cooking vessel",
+        "kitchenware",
+        "object",
+        "pan"
+    ],
+    "wooden spoon": [
+        "object",
+        "spoon",
+        "utensil"
+    ],
+    "comic book": [
+        "book",
+        "object",
+        "printed matter"
+    ],
+    "plate": [
+        "container",
+        "dish",
+        "object"
+    ],
+    "guacamole": [
+        "cuisine",
+        "dish",
+        "food",
+        "substance"
+    ],
+    "ice cream, icecream": [
+        "dessert",
+        "food",
+        "sweet"
+    ],
+    "ice lolly, lolly, lollipop, popsicle": [
+        "dessert",
+        "food",
+        "object",
+        "snack"
+    ],
+    "pretzel": [
+        "food",
+        "object",
+        "snack"
+    ],
+    "mashed potato": [
+        "comestible",
+        "dish",
+        "food",
+        "meal"
+    ],
+    "cauliflower": [
+        "flowering plant",
+        "plant",
+        "vegetable"
+    ],
+    "bell pepper": [
+        "fruit",
+        "pepper",
+        "plant",
+        "vegetable"
+    ],
+    "mushroom": [
+        "fungus",
+        "living thing",
+        "organism"
+    ],
+    "orange": [
+        "food",
+        "fruit",
+        "object",
+        "plant"
+    ],
+    "lemon": [
+        "citrus",
+        "food",
+        "fruit",
+        "plant"
+    ],
+    "banana": [
+        "food",
+        "fruit",
+        "organism",
+        "plant"
+    ],
+    "pomegranate": [
+        "fruit",
+        "organism",
+        "plant"
+    ],
+    "meat loaf, meatloaf": [
+        "dish",
+        "food",
+        "meat"
+    ],
+    "pizza, pizza pie": [
+        "dish",
+        "food"
+    ],
+    "potpie": [
+        "dish",
+        "food",
+        "pie"
+    ],
+    "espresso": [
+        "beverage",
+        "coffee",
+        "drink"
+    ],
+    "alp": [
+        "geographic feature",
+        "landform"
+    ],
+    "cliff, drop, drop-off": [
+        "geographic feature",
+        "geological feature",
+        "landform"
+    ],
+    "coral reef": [
+        "coral",
+        "ecosystem",
+        "habitat",
+        "marine ecosystem",
+        "reef"
+    ],
+    "lakeside, lakeshore": [
+        "landscape",
+        "location",
+        "shore"
+    ],
+    "seashore, coast, seacoast, sea-coast": [
+        "land",
+        "landscape",
+        "location",
+        "outdoors",
+        "place",
+        "shore"
+    ],
+    "acorn": [
+        "nut",
+        "object",
+        "organism",
+        "plant"
+    ]
+}

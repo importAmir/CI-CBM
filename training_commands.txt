@@ -1,0 +1,82 @@
+CIFAR10 (5 task):
+python main.py --dataset cifar10 --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --backbone resnet18 --clip_name ViT-L-16-SigLIP-384 --batch_size 100
+python evaluate_cbm.py --dataset cifar10 --strategy backbone_prototype --backbone resnet18  --clip_name ViT-L-16-SigLIP-384
+
+CIFAR100 (5 task):
+python main.py --dataset cifar100 --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --backbone resnet18 --clip_name ViT-L-16-SigLIP-384 --batch_size 100 --n_experiences 5
+python evaluate_cbm.py --dataset cifar100 --strategy backbone_prototype --backbone resnet18  --clip_name ViT-L-16-SigLIP-384 --n_experiences 5
+CIFAR100 (10 task):
+python main.py --dataset cifar100 --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --backbone resnet18 --clip_name ViT-L-16-SigLIP-384 --batch_size 100 --n_experiences 10
+python evaluate_cbm.py --dataset cifar100 --strategy backbone_prototype --backbone resnet18  --clip_name ViT-L-16-SigLIP-384 --n_experiences 10
+CIFAR100 (20 task):
+python main.py --dataset cifar100 --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --backbone resnet18 --clip_name ViT-L-16-SigLIP-384 --batch_size 100 --n_experiences 20
+python evaluate_cbm.py --dataset cifar100 --strategy backbone_prototype --backbone resnet18  --clip_name ViT-L-16-SigLIP-384 --n_experiences 20
+
+CUB (4 task):
+python main.py --dataset cub --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 500 --lam 0.0002 --backbone resnet18 --clip_name ViT-L-16-SigLIP-384 --n_experiences 4
+python evaluate_cbm.py --dataset cub --strategy backbone_prototype --backbone resnet18 --clip_name ViT-L-16-SigLIP-384 --n_experiences 4
+python main.py --dataset cub --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 500 --lam 0.0002 --backbone resnet18 --clip_name ViT-L-16-SigLIP-384 --n_experiences 10
+python evaluate_cbm.py --dataset cub --strategy backbone_prototype --backbone resnet18 --clip_name ViT-L-16-SigLIP-384 --n_experiences 10
+python main.py --dataset cub --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 500 --lam 0.0002 --backbone resnet18 --clip_name ViT-L-16-SigLIP-384 --n_experiences 20
+python evaluate_cbm.py --dataset cub --strategy backbone_prototype --backbone resnet18 --clip_name ViT-L-16-SigLIP-384 --n_experiences 20
+
+Places365 (5 task):
+python main.py --dataset places365 --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 80 --lam 0.0003 --backbone resnet18 --clip_name ViT-L-16-SigLIP-384 --batch_size 100 --n_experiences 5
+python evaluate_cbm.py --dataset places365 --strategy backbone_prototype --backbone resnet18  --clip_name ViT-L-16-SigLIP-384 --n_experiences 5
+Places365 (10 task):
+python main.py --dataset places365 --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 80 --lam 0.0003 --backbone resnet18 --clip_name ViT-L-16-SigLIP-384 --batch_size 100 --n_experiences 10
+python evaluate_cbm.py --dataset places365 --strategy backbone_prototype --backbone resnet18  --clip_name ViT-L-16-SigLIP-384 --n_experiences 10
+Places365 (20 task):
+python main.py --dataset places365 --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 80 --lam 0.0003 --backbone resnet18 --clip_name ViT-L-16-SigLIP-384 --batch_size 100 --n_experiences 20
+python evaluate_cbm.py --dataset places365 --strategy backbone_prototype --backbone resnet18  --clip_name ViT-L-16-SigLIP-384 --n_experiences 20
+
+ImageNet (5 task):
+python main.py --dataset imagenet --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 80 --lam 0.0001 --backbone resnet18_places --clip_name ViT-L-16-SigLIP-384 --batch_size 100 --n_experiences 5 
+python evaluate_cbm.py --dataset imagenet --strategy backbone_prototype --backbone resnet18_places  --clip_name ViT-L-16-SigLIP-384 --n_experiences 5
+ImageNet (10 task):
+python main.py --dataset imagenet --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 80 --lam 0.0001 --backbone resnet18_places --clip_name ViT-L-16-SigLIP-384 --batch_size 100 --n_experiences 10 
+python evaluate_cbm.py --dataset imagenet --strategy backbone_prototype --backbone resnet18_places  --clip_name ViT-L-16-SigLIP-384 --n_experiences 10
+ImageNet (20 task):
+python main.py --dataset imagenet --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 80 --lam 0.0001 --backbone resnet18_places --clip_name ViT-L-16-SigLIP-384 --batch_size 100 --n_experiences 20 
+python evaluate_cbm.py --dataset imagenet --strategy backbone_prototype --backbone resnet18_places  --clip_name ViT-L-16-SigLIP-384 --n_experiences 20
+
+Using the backbone model trained on the first phase:
+
+CIFAR100 (5+1 task):
+python main.py --seed 1993 --backbone resnet18_FeTrIL_cifar100_b50 --strategy backbone_prototype --SAGA_lr 0.1 --dataset cifar100 --half_split --n_experiences 5 --clip_name ViT-L-16-SigLIP-384 --batch_size 100
+python evaluate_cbm.py --seed 1993 --backbone resnet18_FeTrIL_cifar100_b50 --strategy backbone_prototype --dataset cifar100 --half_split --n_experiences 5 
+CIFAR100 (10+1 task):
+python main.py --seed 1993 --backbone resnet18_FeTrIL_cifar100_b50 --strategy backbone_prototype --SAGA_lr 0.1 --dataset cifar100 --half_split --n_experiences 10 --clip_name ViT-L-16-SigLIP-384 --batch_size 100
+python evaluate_cbm.py --seed 1993 --backbone resnet18_FeTrIL_cifar100_b50 --strategy backbone_prototype --dataset cifar100 --half_split --n_experiences 10
+CIFAR100 (20+1 task):
+python main.py --seed 1993 --backbone resnet18_FeTrIL_cifar100_b40 --strategy backbone_prototype --SAGA_lr 0.1 --dataset cifar100 --half_split --n_experiences 20 --clip_name ViT-L-16-SigLIP-384 --batch_size 100
+python evaluate_cbm.py --seed 1993 --backbone resnet18_FeTrIL_cifar100_b40 --strategy backbone_prototype --dataset cifar100 --half_split --n_experiences 20
+CIFAR100 (60+1 task):
+python main.py --seed 1993 --backbone resnet18_FeTrIL_cifar100_b40 --strategy backbone_prototype --SAGA_lr 0.1 --dataset cifar100 --half_split --n_experiences 60 --clip_name ViT-L-16-SigLIP-384 --batch_size 100
+python evaluate_cbm.py --seed 1993 --backbone resnet18_FeTrIL_cifar100_b40 --strategy backbone_prototype --dataset cifar100 --half_split --n_experiences 60
+
+TinyImageNet (5+1 task):
+python main.py --dataset tiny_imagenet  --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --lam 0.0005 --backbone resnet18_FeTrIL_tinyimagenet_b100 --half_split --n_experiences 5 --clip_name ViT-L-16-SigLIP-384 --batch_size 100
+python evaluate_cbm.py --dataset tiny_imagenet --strategy backbone_prototype --backbone resnet18_FeTrIL_tinyimagenet_b100 --half_split --n_experiences 5 --clip_name ViT-L-16-SigLIP-384
+TinyImageNet (10+1 task):
+python main.py --dataset tiny_imagenet  --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --lam 0.0005 --backbone resnet18_FeTrIL_tinyimagenet_b100 --half_split --n_experiences 10 --clip_name ViT-L-16-SigLIP-384 --batch_size 100
+python evaluate_cbm.py --dataset tiny_imagenet --strategy backbone_prototype --backbone resnet18_FeTrIL_tinyimagenet_b100 --half_split --n_experiences 10 --clip_name ViT-L-16-SigLIP-384
+TinyImageNet (20+1 task):
+python main.py --dataset tiny_imagenet  --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --lam 0.0005 --backbone resnet18_FeTrIL_tinyimagenet_b100 --half_split --n_experiences 20 --clip_name ViT-L-16-SigLIP-384 --batch_size 100
+python evaluate_cbm.py --dataset tiny_imagenet --strategy backbone_prototype --backbone resnet18_FeTrIL_tinyimagenet_b100 --half_split --n_experiences 20 --clip_name ViT-L-16-SigLIP-384
+TinyImageNet (100+1 task):
+python main.py --dataset tiny_imagenet  --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --lam 0.0005 --backbone resnet18_FeTrIL_tinyimagenet_b100 --half_split --n_experiences 100 --clip_name ViT-L-16-SigLIP-384 --batch_size 100
+python evaluate_cbm.py --dataset tiny_imagenet --strategy backbone_prototype --backbone resnet18_FeTrIL_tinyimagenet_b100 --half_split --n_experiences 100 --clip_name ViT-L-16-SigLIP-384
+
+ImageNet-Subset (5+1 task):
+python main.py --dataset imagenetsubset  --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --lam 0.0005 --backbone resnet18_FeTrIL_imagenetsubset_b50 --half_split --n_experiences 5 --clip_name ViT-L-16-SigLIP-384 --batch_size 100
+python evaluate_cbm.py --dataset imagenetsubset --strategy backbone_prototype --backbone resnet18_FeTrIL_imagenetsubset_b50 --half_split --n_experiences 5 --clip_name ViT-L-16-SigLIP-384
+ImageNet-Subset (10+1 task):
+python main.py --dataset imagenetsubset  --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --lam 0.0005 --backbone resnet18_FeTrIL_imagenetsubset_b50 --half_split --n_experiences 10 --clip_name ViT-L-16-SigLIP-384 --batch_size 100
+python evaluate_cbm.py --dataset imagenetsubset --strategy backbone_prototype --backbone resnet18_FeTrIL_imagenetsubset_b50 --half_split --n_experiences 10 --clip_name ViT-L-16-SigLIP-384
+ImageNet-Subset (20+1 task):
+python main.py --dataset imagenetsubset  --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --lam 0.0005 --backbone resnet18_FeTrIL_imagenetsubset_b40 --half_split --n_experiences 20 --clip_name ViT-L-16-SigLIP-384 --batch_size 100
+python evaluate_cbm.py --dataset imagenetsubset --strategy backbone_prototype --backbone resnet18_FeTrIL_imagenetsubset_b40 --half_split --n_experiences 20 --clip_name ViT-L-16-SigLIP-384
+ImageNet-Subset (60+1 task):
+python main.py --dataset imagenetsubset  --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --lam 0.0005 --backbone resnet18_FeTrIL_imagenetsubset_b40 --half_split --n_experiences 60 --clip_name ViT-L-16-SigLIP-384 --batch_size 100
+python evaluate_cbm.py --dataset imagenetsubset --strategy backbone_prototype --backbone resnet18_FeTrIL_imagenetsubset_b40 --half_split --n_experiences 60 --clip_name ViT-L-16-SigLIP-384

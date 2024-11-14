@@ -1,0 +1,7 @@
+Write bash files to download Imagenet, Subset, Tiny, CUB
+Write link to FeTrIL code to train
+
+Tell them to write appropriate links to datasets and pretrained models in data_utils
+
+Write the markdown for models
+
