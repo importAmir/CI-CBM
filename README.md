@@ -1,52 +1,44 @@
 # Class-Incremental Concept Bottleneck Models
 
+This repository contains code for training Class-Incremental Concept Bottleneck Models (CI-CBM).  
+
 ## Setup
+To set up the environment and download necessary datasets and models, follow the instructions below.
 
-1. Install Python
+1. Install Python (Version 3.7 or higher is recommended.)
 2. Install dependencies by running `pip install -r requirements.txt`
-3. Install CLIP and SigLip `pip install git+https://github.com/openai/CLIP.git`
-3. Download and process dataset by running `bash download_cub.sh` for CUB, 
-
-5. Download ResNet18(Places365) backbone by running `bash download_rn18_places.sh`
-
-We do not provide download instructions for ImageNet data, to evaluate using your own copy of ImageNet you must set the correct path in `DATASET_ROOTS["imagenet_train"]` and `DATASET_ROOTS["imagenet_val"]` variables in `data_utils.py`.
+3. Install CLIP `pip install git+https://github.com/openai/CLIP.git` and SigLip `pip install open_clip_torch`
+3. Download the process datasets by following files in `dataset_download` folder
+    * CUB: `bash download_cub.sh`
+    * ImageNet Subset: `bash download_imagenetsubset.sh`
+    * TinyImgeNet: `bash download_tinyimagenet` and group the validation samples by their class using `tinyimagenet_val_grouping.py`
+    * ImageNet: `bash download_imagenet.sh` and group the validation samples by their class using `imagenet_val_grouping.py`
+4. Download pretrained backbone
+    * Download the ResNet18 model pretrained on Places365: `bash download_rn18_places.sh`
+    * Download the ResNet18 models trained from scratch using FeTrIL by running `bash download_rn18_FeTrIL.sh`, or follow the instructions in the FeTrIL repository to train the model on the initial phase of data, which includes about half of the classes.
+5. Update the `DATASET_ROOTS` and `MODEL_ROOTS` dictionaries in data_utils.py with the file paths to your datasets and backbone models.
 
 ## Running the models
 
-### 1. Creating Concept Sets (Optional):
-A. Create initial concept set using GPT-3 - `GPT_initial_concepts.ipynb`, do this for all 3 prompt types (can be skipped if using the concept sets we have provided). NOTE: This step costs money and you will have to provide your own `openai.api_key`.
+### 1. Train CI-CBM
 
-B. Process and filter the conceptset by running `GPT_conceptset_processor.ipynb` (Alternatively get ConceptNet concepts by running ConceptNet_conceptset.ipynb)
+To train a Class-Incremental Concept Bottleneck Model (CI-CBM), run main.py using the configurations specified in `training_commands.txt`.
 
-### 2. Train LF-CBM
+Key Parameters:
+* `seed`: Random seed for shuffling classes and splitting them into phases (default: 1993).
+* `backbone`: Pretrained CNN model, options include resnet18, resnet18_places, or a CNN model trained using FeTrIL. For FeTrIL models, use the format resnet18_FeTrIL_{dataset_name}_b{initial_phase_classes}, e.g., resnet18_FeTrIL_cifar100_b50.
+* `strategy`: Strategy for model training (backbone_prototype (default), naive, full_rehearsal).
+* `clip_name`: Vision-Language model to use, either SigLip (e.g., ViT-L-16-SigLIP-384 (default)) or CLIP (e.g., ViT-B/16).
+* `dataset`: Dataset to train the model on (options: cifar10, cifar100, cub, tiny_imagenet, imagenetsubset, places365).
+* `SAGA_lr`: Learning rate for the sparse prediction layer (default: 0.1).
+* `n_iters`: Maximum number of iterations for training the sparse prediction layer.
+* `lam`: Sparsity regularization parameter.
+* `n_experiences`: Number of incremental phases in the experiment.
+* `half_split`: If True, use a larger initial phase followed by smaller subsequent phases.
+  
+### 2. Evaluate trained models
 
-Train a concept bottleneck model on CIFAR10 by running:
-
-`python train_cbm.py --concept_set data/concept_sets/cifar10_filtered.txt`
-
-
-### 3. Evaluate trained models
-
-Evaluate the trained models by running `evaluate_cbm.ipynb`. This measures model accuracy, creates barplots explaining individual decisions and prints final layer weights which are the basis for creating weight visualizations.
-
-Additional evaluations and reproductions of our model editing experiments are available in the notebooks of `experiments` directory.
-
-## Results
-
-High Accuracy:
-
-|                   |         |          | Dataset |           |          |
-|-------------------|---------|----------|---------|-----------|----------|
-| Model             | CIFAR10 | CIFAR100 | CUB200  | Places365 | ImageNet |
-| Standard          | 88.80%  | 70.10%   | 76.70%  | 48.56%    | 76.13%   |
-| Standard (sparse) | 82.96%  | 58.34%   | **75.96%**  | 38.46%    | **74.35%**   |
-| Label-free CBM    | **86.37%** | **65.27%**   | 74.59%  | **43.71%**   | 71.98%   |
-
-For commands to train Label-free CBM and Standard (sparse) models on all 5 datasets, see `training_commands.txt`.
-
-Explainable Decsisions:
-
-![](data/lf_cbm_ind_decision.png)
+Evaluate the trained models by `running evaluate_cbm.py` with the parameters specified in `training_commands.txt` to calculate performance metrics.
 
 ## Sources
 
@@ -54,19 +46,6 @@ CUB dataset: https://www.vision.caltech.edu/datasets/cub_200_2011/
 
 Sparse final layer training: https://github.com/MadryLab/glm_saga
 
-Explanation bar plots adapted from: https://github.com/slundberg/shap
-
 CLIP: https://github.com/openai/CLIP
 
-## Cite this work
-T. Oikarinen, S. Das, L. Nguyen and T.-W. Weng, [*Label-free Concept Bottleneck Models*](https://openreview.net/pdf?id=FlCg47MNvBA), ICLR 2023.
-
-```
-@inproceedings{oikarinenlabel,
-  title={Label-free Concept Bottleneck Models},
-  author={Oikarinen, Tuomas and Das, Subhro and Nguyen, Lam M and Weng, Tsui-Wei},
-  booktitle={International Conference on Learning Representations},
-  year={2023}
-}
-```
-
+FeTrIL: https://github.com/GregoirePetit/FeTrIL
