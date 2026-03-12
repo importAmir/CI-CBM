@@ -1,0 +1,42 @@
+{
+    "airplane": [
+        "\u2022 wings\n\u2022 engines\n\u2022 cockpit\n\u2022 seats\n\u2022 aisle\n\u2022 luggage\n\u2022 controls\n\u2022 passengers\n\u2022 pilot\n\u2022 flight attendants",
+        "\u2022 runway\n\u2022 wings\n\u2022 engines\n\u2022 seats\n\u2022 luggage\n\u2022 flight attendants\n\u2022 passengers"
+    ],
+    "automobile": [
+        "\u2022 wheels\n\u2022 seats\n\u2022 steering wheel\n\u2022 mirrors\n\u2022 pedals\n\u2022 headlights\n\u2022 license plate\n\u2022 tires\n\u2022 trunk",
+        "\u2022 tires\n\u2022 wheels\n\u2022 bumper\n\u2022 headlights\n\u2022 taillights\n\u2022 license plate\n\u2022 mirrors\n\u2022 doors\n\u2022 hood\n\u2022 trunk"
+    ],
+    "bird": [
+        "\u2022 feathers\n\u2022 beak\n\u2022 wings\n\u2022 tail\n\u2022 nest\n\u2022 food\n\u2022 branch\n\u2022 perch",
+        "\u2022 feathers\n\u2022 beak\n\u2022 wings\n\u2022 nest\n\u2022 eggs\n\u2022 branch\n\u2022 leaves"
+    ],
+    "cat": [
+        "\u2022 bed\n\u2022 collar\n\u2022 food bowl\n\u2022 litter box\n\u2022 scratching post\n\u2022 toys\n\u2022 whiskers",
+        "\u2022 bed\n\u2022 blanket\n\u2022 collar\n\u2022 food bowl\n\u2022 litter box\n\u2022 toy\n\u2022 whiskers"
+    ],
+    "deer": [
+        "* forest\n* leaves\n* grass\n* twigs\n* acorns\n* berries\n* antlers\n* hooves",
+        "\u2022 forest\n\u2022 trees\n\u2022 grass\n\u2022 leaves\n\u2022 twigs\n\u2022 berries\n\u2022 fawn\n\u2022 antlers\n\u2022 hooves"
+    ],
+    "dog": [
+        "\u2022 leash\n\u2022 collar\n\u2022 tag\n\u2022 bowl\n\u2022 bed\n\u2022 toy\n\u2022 ball",
+        "Here are the lists:\n\n\u2022 leash\n\u2022 collar\n\u2022 tag\n\u2022 bowl\n\u2022 food\n\u2022 water\n\u2022 bed\n\u2022 toy\n\u2022 person"
+    ],
+    "frog": [
+        "\u2022 leaf\n\u2022 branch\n\u2022 water\n\u2022 stone\n\u2022 insect",
+        "\u2022 leaf\n\u2022 lily pad\n\u2022 water\n\u2022 insect\n\u2022 branch\n\u2022 rock\n\u2022 mud"
+    ],
+    "horse": [
+        "List of things most commonly seen around a \"horse\":\n\u2022 stall\n\u2022 saddle\n\u2022 bridle\n\u2022 reins\n\u2022 halter\n\u2022 hoof pick\n\u2022 manure",
+        "\u2022 stable\n\u2022 hay\n\u2022 saddle\n\u2022 reins\n\u2022 halter\n\u2022 mane\n\u2022 hoof"
+    ],
+    "ship": [
+        "\u2022 mast\n\u2022 sails\n\u2022 anchor\n\u2022 hull\n\u2022 propeller\n\u2022 rudder\n\u2022 lifeboat\n\u2022 cargo\n\u2022 crew",
+        "\u2022 water\n\u2022 anchors\n\u2022 propellers\n\u2022 ropes\n\u2022 sails\n\u2022 lifeboats\n\u2022 crew members\n\u2022 cargo containers"
+    ],
+    "truck": [
+        "\u2022 wheels\n\u2022 tires\n\u2022 mirrors\n\u2022 headlights\n\u2022 grille\n\u2022 bumper\n\u2022 hubcaps\n\u2022 license plate\n\u2022 gas cap\n\u2022 seatbelts",
+        "\u2022 road\n\u2022 wheels\n\u2022 seat\n\u2022 mirrors\n\u2022 headlights\n\u2022 license plate\n\u2022 bumper\n\u2022 grille"
+    ]
+}

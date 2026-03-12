@@ -2,8 +2,6 @@ import json
 import random
 import torch
 from concept_utils import save_feature_dict, remove_too_long, filter_too_similar_to_cls, filter_too_similar
-# import data_utils
-# import conceptset_utils
 
 """
 CLASS_SIM_CUTOFF: Concenpts with cos similarity higher than this to any class will be removed

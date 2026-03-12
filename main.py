@@ -11,67 +11,54 @@ import data_utils
 import training_utils
 from glm_saga.elasticnet import IndexedTensorDataset, glm_saga
 
-# Initialize the argument parser
 parser = argparse.ArgumentParser(description='Class-Incremental Concept Bottleneck Models')
-
-# ** General settings **
 parser.add_argument("--seed", type=int, default=1993, help="Random seed for reproducibility")
 parser.add_argument("--device", type=str, default="cuda", help="Device to use for computation (e.g., 'cuda', 'cpu')")
-
-# ** Model settings **
 parser.add_argument("--backbone", type=str, default="resnet18", help="Pretrained model to use as backbone") 
 parser.add_argument("--strategy", type=str, default="backbone_prototype", 
                     choices=["naive", "full_rehearsal", "disjoint_pred", "bottleneck_prototype", "backbone_prototype"], 
                     help="CIL strategy")
-parser.add_argument("--clip_name", type=str, default="ViT-L-16-SigLIP-384", help="CLIP model to use") 
+parser.add_argument("--clip_name", type=str, default="ViT-B/16", choices=utils.CLIP_MODEL_NAMES, help="CLIP or SigLIP model to use") 
 parser.add_argument("--feature_layer", type=str, default='layer4', help="Layer for activations")
-
-# ** Data settings **
 parser.add_argument("--dataset", type=str, default="cifar10", help="Dataset name (e.g., 'cifar10', 'imagenet')")
 parser.add_argument("--concept_set", type=str, default=None, help="Path to concept set file")
-
-# ** Training parameters **
+parser.add_argument("--conceptnet_flag", action="store_true")
 parser.add_argument("--batch_size", type=int, default=512, help="Batch size for saving activations")
 parser.add_argument("--proj_steps", type=int, default=1000, help="Projection layer training steps")
 parser.add_argument("--proj_eval_freq", type=int, default=50, help="Frequency for evaluating projection layer")
 parser.add_argument("--proj_batch_size", type=int, default=50000, help="Batch size for learning projection layer")
+parser.add_argument("--distill_weight", type=float, default=2.0,
+                    help="Weight applied to the LwF distillation loss term when training the projection layer (only used for LwF runs).")
 parser.add_argument("--saga_batch_size", type=int, default=256, help="Batch size for fitting final layer")
 parser.add_argument("--SAGA_lr", type=float, default=0.1, help="Learning rate for prediction layer (SAGA algorithm)")
 parser.add_argument("--n_iters", type=int, default=1000, help="Iterations for final layer solver")
-
-# ** Regularization & Sparsity **
 parser.add_argument("--lam", type=float, default=0.0007, help="Sparsity regularization parameter")
-
-# ** Incremental Learning settings **
 parser.add_argument("--n_experiences", type=int, default=5, help="Number of incremental experiences")
 parser.add_argument("--half_split", action="store_true", help="Split classes: first half in the first experience, others across remaining ones")
-
-# ** Directories **
 parser.add_argument("--activation_dir", type=str, default='saved_activations', help="Directory for saving activations")
 parser.add_argument("--save_dir", type=str, default='saved_models', help="Directory for saving trained models")
 
-# Parse arguments
 args = parser.parse_args()
 
-# Set default values if arguments are not provided
-if not args.concept_set:  # If concept_set is None or an empty string
-    args.concept_set = f"data/concept_sets/{args.dataset}_filtered.txt"
+if not args.concept_set:
+    if  args.conceptnet_flag == True:
+        print('using concetps from conceptnet')
+        args.concept_set = f"data/concept_sets/conceptnet/{args.dataset}_filtered.txt"
+    else:
+        args.concept_set = f"data/concept_sets/{args.dataset}_filtered.txt"
 
-if args.half_split:  # If half_split flag is set (True)
-    args.n_experiences += 1  # Increment the number of experiences by 1
+if args.half_split:
+    args.n_experiences += 1
 
-# Print the parsed arguments for review
 print("Parsed arguments:")
 for key, value in vars(args).items():
     print(f"{key}: {value}")
 
 if __name__=='__main__':
-    # Set seed for reproducibility to ensure the results are consistent across runs
     utils.set_seed(args.seed)
 
-    # Create save directories if they do not already exist
     if not os.path.exists(args.save_dir):
-        os.mkdir(args.save_dir)
+        os.makedirs(args.save_dir, exist_ok=True)
 
     # Define the similarity function (cosine similarity cubed in this case)
     similarity_fn = similarity.cos_similarity_cubed_single
@@ -88,7 +75,7 @@ if __name__=='__main__':
         concepts = f.read().split("\n")
 
     # Save activations for both training and validation datasets
-    for d_probe in [d_val, d_train]:
+    for d_probe in [d_train, d_val]:
         utils.save_activations(
             clip_name = args.clip_name, 
             target_name = args.backbone, 
@@ -121,13 +108,21 @@ if __name__=='__main__':
         save_dir = args.activation_dir
     )
     
-    # Split the dataset into groups based on the incremental learning setup
-    grouped_classes, grouped_train_indices, grouped_test_indices, mapping_from_classes_to_cl_classes, _ = data_utils.split_data(
-        n_experiences = args.n_experiences, 
-        dataset_name = args.dataset, 
-        classes = classes,
-        half_split = args.half_split,
-    )
+    if args.backbone.startswith('SelfPromptDeit_mytiny'):
+        grouped_classes, grouped_train_indices, grouped_test_indices, mapping_from_classes_to_cl_classes, _ = data_utils.split_data_SelfPromptDeit(
+            n_experiences = args.n_experiences, 
+            dataset_name = args.dataset, 
+            classes = classes,
+            half_split = args.half_split,
+        )
+    else:
+        # Split the dataset into groups based on the incremental learning setup
+        grouped_classes, grouped_train_indices, grouped_test_indices, mapping_from_classes_to_cl_classes, _ = data_utils.split_data(
+            n_experiences = args.n_experiences, 
+            dataset_name = args.dataset, 
+            classes = classes,
+            half_split = args.half_split,
+        )
     
     # Print mapping from original classes to grouped classes
     print("Mapping from original classes to grouped classes:", mapping_from_classes_to_cl_classes)
@@ -144,7 +139,7 @@ if __name__=='__main__':
         classes_cl = classes_cl + grouped_classes[exp_id]
 
         # Get the concepts corresponding to the classes for the current experience
-        selected_concepts = data_utils.get_concepts_for_classes(grouped_classes[exp_id], args.dataset)
+        selected_concepts = data_utils.get_concepts_for_classes(grouped_classes[exp_id], args.dataset, args.conceptnet_flag)
         # print(f"Selected concepts for experience {exp_id}: {selected_concepts}")
 
         # Merge new concepts with the already accumulated ones, tracking duplicates
@@ -331,7 +326,7 @@ if __name__=='__main__':
             train_y = torch.LongTensor(train_targets)
             # Create a dataset for the training data
             indexed_train_ds = IndexedTensorDataset(train_c, train_y)
-            
+
             # Normalize validation features using the training mean and std
             val_c = (val_c - train_mean) / train_std
             val_y = torch.LongTensor(val_targets)

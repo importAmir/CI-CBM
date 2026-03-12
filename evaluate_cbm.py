@@ -6,6 +6,7 @@ from torch.utils.data import Subset
 import utils
 import data_utils
 import cbm
+import metrics
 
 # Initialize the argument parser
 parser = argparse.ArgumentParser(description='Class-Incremental Concept Bottleneck Models')
@@ -19,11 +20,12 @@ parser.add_argument("--backbone", type=str, default="resnet18", help="Pretrained
 parser.add_argument("--strategy", type=str, default="backbone_prototype", 
                     choices=["naive", "full_rehearsal", "disjoint_pred", "bottleneck_prototype", "backbone_prototype"], 
                     help="CIL strategy")
-parser.add_argument("--clip_name", type=str, default="ViT-L-16-SigLIP-384", help="CLIP model to use") 
+parser.add_argument("--clip_name", type=str, default="ViT-B/16", choices=utils.CLIP_MODEL_NAMES, help="CLIP or SigLIP model to use") 
 
 # ** Data settings **
 parser.add_argument("--dataset", type=str, default="cifar10", help="Dataset name (e.g., 'cifar10', 'imagenet')")
 parser.add_argument("--concept_set", type=str, default=None, help="Path to concept set file")
+parser.add_argument("--conceptnet_flag", action="store_true")
 
 # ** Incremental Learning settings **
 parser.add_argument("--n_experiences", type=int, default=5, help="Number of incremental experiences")
@@ -60,12 +62,21 @@ if __name__=='__main__':
         classes = f.read().split("\n")
     
     # Split data into incremental learning groups
-    grouped_classes, grouped_train_indices, grouped_test_indices, mapping_from_classes_to_cl_classes, mapping_from_cl_classes_to_classes = data_utils.split_data(
-        n_experiences = args.n_experiences, 
-        dataset_name = args.dataset, 
-        classes = classes,
-        half_split = args.half_split,
-    )
+    if args.backbone.startswith('SelfPromptDeit_mytiny'):
+        grouped_classes, grouped_train_indices, grouped_test_indices, mapping_from_classes_to_cl_classes, mapping_from_cl_classes_to_classes = data_utils.split_data_SelfPromptDeit(
+            n_experiences = args.n_experiences, 
+            dataset_name = args.dataset, 
+            classes = classes,
+            half_split = args.half_split,
+        )
+    else:
+        # Split the dataset into groups based on the incremental learning setup
+        grouped_classes, grouped_train_indices, grouped_test_indices, mapping_from_classes_to_cl_classes, mapping_from_cl_classes_to_classes = data_utils.split_data(
+            n_experiences = args.n_experiences, 
+            dataset_name = args.dataset, 
+            classes = classes,
+            half_split = args.half_split,
+        )
 
     # Display the class mappings
     print("Mapping from original classes to grouped classes:", mapping_from_classes_to_cl_classes)
@@ -73,7 +84,10 @@ if __name__=='__main__':
 
     # Initialize a matrix to hold accuracy results
     result_matrix = np.zeros((args.n_experiences))
-    
+
+    per_task_result_matrix = np.zeros((args.n_experiences, args.n_experiences))
+    per_task_data_size = np.zeros((args.n_experiences, args.n_experiences))
+
     # Iterate through each experience increment
     for exp_id in range(args.n_experiences):
         print("#"*20, f"experience {exp_id}", "#"*20)
@@ -97,7 +111,13 @@ if __name__=='__main__':
         accuracy = utils.get_accuracy_cbm(model, val_dataset_cl, device, mapping_from_cl_classes_to_classes)
         print(f"Accuracy of model in exp {exp_id}: {accuracy*100:.2f}%")
         result_matrix[exp_id] = accuracy
-    
+
+        for counter in range(exp_id+1):
+            val_dataset_cl = Subset(val_dataset, grouped_test_indices[counter])
+            accuracy = utils.get_accuracy_cbm(model, val_dataset_cl, device, mapping_from_cl_classes_to_classes)
+            per_task_result_matrix[exp_id, counter] = accuracy
+            per_task_data_size[exp_id, counter] = len(val_dataset_cl) 
+
 
     print(result_matrix)
 
@@ -112,8 +132,32 @@ if __name__=='__main__':
         f"{args.dataset}_cbm",
         f"{args.backbone}_backbone_{args.clip_name}_clip_name",
         f"{args.seed}_seed_{args.n_experiences}_nexp",
-        "metric.txt"
+        "metric2.txt"
     )
+
+    
+    # print(per_task_result_matrix)
+    # print(per_task_data_size)
+    # row_sums = np.sum(per_task_data_size, axis=1, keepdims=True)
+    # per_task_data_weight = per_task_data_size / row_sums
+
+    # print(per_task_data_weight)
+
+    # weighted_avg_accuracies = [
+    #     metrics.weighted_average_accuracy(per_task_result_matrix, t, per_task_data_weight[t,:]) for t in range(args.n_experiences)
+    # ]
+
+    # weighted_avg_forgetting = [
+    #     metrics.weighted_average_forgetting(per_task_result_matrix, t, per_task_data_weight[t,:]) for t in range(args.n_experiences)
+    # ]
+
+    # print(weighted_avg_accuracies)
+
+    # print(weighted_avg_forgetting)
+
+    average_incremental_forgetting = metrics.average_incremental_forgetting(per_task_result_matrix, per_task_data_size)
+
+    print(f"Average Incremental Forgetting: {average_incremental_forgetting:.3f}")
 
     # Write each task's accuracy and average accuracy to file
     with open(metrics_file_path, 'w') as f:
@@ -123,3 +167,13 @@ if __name__=='__main__':
         
         f.write("\nAverage Incremental Accuracy (Ā_T):\n")
         f.write(f"{avg_incremental_accuracy:.3f}\n")
+
+        f.write("\nAverage Incremental Forgetting (F~_T):\n")
+        f.write(f"{average_incremental_forgetting:.3f}\n")
+
+
+
+
+
+
+

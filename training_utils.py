@@ -104,6 +104,9 @@ def train_projection_layer_lwf(proj_layer, opt, target_features, clip_features, 
     train_c_lwf = batch_process(target_features, proj_layer, proj_batch_size, args.device, n_c_prev)
     val_c_lwf = batch_process(val_target_features, proj_layer, proj_batch_size, args.device, n_c_prev)
 
+    # Weight for the LwF distillation loss term (kept robust for older checkpoints/scripts).
+    distill_weight = float(getattr(args, "distill_weight", 2.0))
+
     for i in range(args.proj_steps):
         # Shuffle indices for training data to introduce randomness during training
         random.shuffle(indices)
@@ -124,7 +127,7 @@ def train_projection_layer_lwf(proj_layer, opt, target_features, clip_features, 
             dist_loss = -similarity_fn(train_c_lwf[batch].to(args.device), outs[:, :n_c_prev])
 
             # Combine both losses (main loss + distillation loss) with equal weighting
-            loss = 0.5 * torch.mean(loss) + 0.5 * torch.mean(dist_loss)
+            loss = 0.5 * torch.mean(loss) + 0.5 * distill_weight * torch.mean(dist_loss)
 
             # Backpropagate the combined loss
             loss.backward()
@@ -153,7 +156,7 @@ def train_projection_layer_lwf(proj_layer, opt, target_features, clip_features, 
                     val_dist_loss_list.append(torch.mean(val_dist_loss).cpu())
                 
                 # Calculate total validation loss by combining both loss terms
-                val_loss = sum(val_loss_list) + sum(val_dist_loss_list)
+                val_loss = sum(val_loss_list) + distill_weight * sum(val_dist_loss_list)
             
              # If validation loss improved, save the model weights and update tracking variables
             if val_loss < best_val_loss:
@@ -300,8 +303,6 @@ def compute_class_means_incremental(train_c, train_targets, class_means=None):
     return class_means
 
 
-import torch.nn.functional as F
-
 def find_nearest_classes(class_means, train_targets):
     """
     Find the nearest new class for each previously seen class based on cosine similarity,
@@ -337,7 +338,11 @@ def find_nearest_classes(class_means, train_targets):
             new_mean_trimmed = new_mean[:min_dim]
 
             # Calculate cosine similarity
-            cosine_similarity = F.cosine_similarity(prev_mean_trimmed.unsqueeze(0), new_mean_trimmed.unsqueeze(0))
+            cosine_similarity = torch.cosine_similarity(
+                prev_mean_trimmed.unsqueeze(0),
+                new_mean_trimmed.unsqueeze(0),
+                dim=1
+            )
 
             # Check if this new class is the closest one
             if cosine_similarity > max_similarity:

@@ -5,7 +5,6 @@ import json
 import clip 
 import torch 
 
-# Dictionary mapping dataset names to their respective class label files
 LABEL_FILES = {
     "cifar10": "data/cifar10_classes.txt",
     "cifar100": "data/cifar100_classes.txt",
@@ -16,22 +15,26 @@ LABEL_FILES = {
     "imagenet" : "data/imagenet_classes.txt",
     }
 
-# Dataset root paths for training and validation directories
-# Replace 'YOUR_PATH' with the actual path on your local system where each dataset is stored
+# =============================================================================
+# IMPORTANT: Edit these paths before running the code!
+# Replace YOUR_PATH_TO_DATASET and YOUR_PATH_TO_MODEL with your actual paths.
+# =============================================================================
+
 DATASET_ROOTS = {
-    "imagenet_train": "YOUR_PATH to Imagenet/train/", 
-    "imagenet_val": "YOUR_PATH to Imagenet/validation/",
-    "cub_train": "YOUR_PATH to CUB/train",
-    "cub_val"  : "YOUR_PATH to CUB/test",
-    "tiny_imagenet_train" : "YOUR_PATH to tiny_imagenet/train",
-    "tiny_imagenet_val" : "YOUR_PATH to tiny_imagenet/val",
-    "imagenetsubset_train" : "YOUR_PATH to imagenetsubset/train",
-    "imagenetsubset_val" : "YOUR_PATH to imagenetsubset/val",
+    "imagenet_train": "YOUR_PATH_TO_DATASET/ImageNet/train/",
+    "imagenet_val": "YOUR_PATH_TO_DATASET/ImageNet/validation/",
+    "cub_train": "YOUR_PATH_TO_DATASET/CUB/train",
+    "cub_val": "YOUR_PATH_TO_DATASET/CUB/test",
+    "tiny_imagenet_train": "YOUR_PATH_TO_DATASET/tiny-imagenet-200/train",
+    "tiny_imagenet_val": "YOUR_PATH_TO_DATASET/tiny-imagenet-200/val",
+    "imagenetsubset_train": "YOUR_PATH_TO_DATASET/seed_1993_subset_100_imagenet/data/train",
+    "imagenetsubset_val": "YOUR_PATH_TO_DATASET/seed_1993_subset_100_imagenet/data/val",
 }
 
 MODEL_ROOTS = {
-    "resnet18_places365": 'data/resnet18_places365.pth.tar',
-    "resnet18_FeTrIL": 'FeTrIL/data/model',
+    "resnet18_places365": "backbone_checkpoints/resnet18_places365.pth.tar",
+    "resnet18_FeTrIL": "backbone_checkpoints/Models_Trained_by_FeTrIL",
+    "SelfPromptDeit_mytiny": "backbone_checkpoints/Models_Trained_by_APG",
 }
 
 def get_resnet_imagenet_preprocess():
@@ -75,17 +78,25 @@ def get_data(dataset_name, preprocess=None):
     # Load Places365 training or validation dataset with error handling for download issues
     elif dataset_name == "places365_train":
         try:
-            dataset = datasets.Places365(root=os.path.expanduser("~/.cache"), split='train-standard', small=True, download=True,
+            # dataset = datasets.Places365(root=os.path.expanduser("~/.cache"), split='train-standard', small=True, download=True,
+            #                            transform=preprocess)
+            dataset = datasets.Places365(root=os.path.join('data', 'places365'), split='train-standard', small=True, download=True,
                                        transform=preprocess)
         except(RuntimeError):
-            dataset = datasets.Places365(root=os.path.expanduser("~/.cache"), split='train-standard', small=True, download=False,
+            # dataset = datasets.Places365(root=os.path.expanduser("~/.cache"), split='train-standard', small=True, download=False,
+            #                        transform=preprocess)
+            dataset = datasets.Places365(root=os.path.join('data', 'places365'), split='train-standard', small=True, download=False,
                                    transform=preprocess)    
     elif dataset_name == "places365_val":
         try:
-            dataset = datasets.Places365(root=os.path.expanduser("~/.cache"), split='val', small=True, download=True,
+            # dataset = datasets.Places365(root=os.path.expanduser("~/.cache"), split='val', small=True, download=True,
+            #                        transform=preprocess)
+            dataset = datasets.Places365(root=os.path.join('data', 'places365'), split='val', small=True, download=True,
                                    transform=preprocess)
         except(RuntimeError):
-            dataset = datasets.Places365(root=os.path.expanduser("~/.cache"), split='val', small=True, download=False,
+            # dataset = datasets.Places365(root=os.path.expanduser("~/.cache"), split='val', small=True, download=False,
+            #                        transform=preprocess)
+            dataset = datasets.Places365(root=os.path.join('data', 'places365'), split='val', small=True, download=False,
                                    transform=preprocess)
             
     else:
@@ -105,6 +116,107 @@ def get_targets_only(dataset_name):
     """
     dataset = get_data(dataset_name)
     return dataset.targets
+
+def split_data_SelfPromptDeit(n_experiences, dataset_name, classes, half_split=False):
+    if dataset_name == "cifar100":
+        # Load CIFAR100 dataset for train and test sets
+        train_dataset = datasets.CIFAR100(root=os.path.expanduser("~/.cache"), download=True, train=True,
+                                   transform=None)
+        test_dataset  = datasets.CIFAR100(root=os.path.expanduser("~/.cache"), download=True, train=False,
+                                   transform=None)
+    
+    elif dataset_name == "imagenetsubset":
+        # Load ImageNet subset dataset for train and test sets
+        train_dataset = datasets.ImageFolder(DATASET_ROOTS["imagenetsubset_train"], None)
+        test_dataset = datasets.ImageFolder(DATASET_ROOTS["imagenetsubset_val"], None)
+
+    else:
+        # Raise error if dataset name is unsupported
+        raise ValueError("Unsupported dataset_name.")
+
+    train_class_indices = {i: [] for i in range(len(classes))}
+    for idx, label in enumerate(train_dataset.targets):
+        train_class_indices[label].append(idx)
+
+    test_class_indices = {i: [] for i in range(len(classes))}
+    for idx, label in enumerate(test_dataset.targets):
+        test_class_indices[label].append(idx)
+
+    shuffled_class_indices = [68, 56, 78, 8, 23, 84, 90, 65, 74, 76, 40, 89, 3, 92, 55, 9, 26, 80, 43, 38, 58, 70, 77, 1, 85, 19, 17, 50, 28, 53, 13, 81, 45, 82, 6, 59, 83, 16, 15, 44, 91, 41, 72, 60, 79, 52, 20, 10, 31, 54, 37, 95, 14, 71, 96, 98, 97, 2, 64, 66, 42, 22, 35, 86, 24, 34, 87, 21, 99, 0, 88, 27, 18, 94, 11, 12, 47, 25, 30, 46, 62, 69, 36, 61, 7, 63, 75, 5, 32, 4, 51, 48, 73, 93, 39, 67, 29, 49, 57, 33]
+
+    print("Shuffled classes:", shuffled_class_indices, np.array(classes)[shuffled_class_indices])
+
+    mapping_from_classes_to_cl_classes = {}
+    mapping_from_cl_classes_to_classes = {}
+    for i in range(len(shuffled_class_indices)):
+        mapping_from_classes_to_cl_classes[shuffled_class_indices[i]] = i
+        mapping_from_cl_classes_to_classes[i] = shuffled_class_indices[i]
+
+    # Split dataset into one large group of classes for the first phase, then split the remaining classes into n_experiences - 1 equal groups.
+    if half_split:
+        if dataset_name == "cifar100" or dataset_name == "imagenetsubset":
+            # Special splitting for specific datasets
+            if n_experiences == 6 or n_experiences == 11:
+                half_point = 50
+                first_half = shuffled_class_indices[:half_point]
+                second_half = shuffled_class_indices[half_point:]
+                
+                # The first half forms one group
+                first_group = [first_half]
+                
+                # Split the second half into n_experiences groups
+                second_groups = np.array_split(second_half, n_experiences-1)
+                
+                # Combine the groups
+                groups = first_group + second_groups
+
+            elif n_experiences == 21 or n_experiences == 61:
+                # Split into two parts
+                first_phase_point = 40
+                first_phase = shuffled_class_indices[:first_phase_point]
+                rest_phase = shuffled_class_indices[first_phase_point:]
+
+                # The first half forms one group
+                first_group = [first_phase]
+
+                # Split the second half into n_experiences groups
+                second_groups = np.array_split(rest_phase, n_experiences-1)
+
+                # Combine the groups
+                groups = first_group + second_groups
+
+            elif n_experiences == 15:
+                first_phase_point = 30
+                first_phase = shuffled_class_indices[:first_phase_point]
+                rest_phase = shuffled_class_indices[first_phase_point:]
+                first_group = [first_phase]
+                second_groups = np.array_split(rest_phase, n_experiences-1)
+                groups = first_group + second_groups
+        else:
+            print("dataset is not added in data utils")
+            print(dataset_name)
+            exit()
+    else:
+        print("half_split should be True")
+    
+    # Split classes into groups
+    grouped_classes = [list(np.array(classes)[group]) for group in groups]
+    print("Grouped classes:", grouped_classes)
+
+    # Collect training indices for each group
+    grouped_train_indices = [
+        [idx for cls in group for idx in train_class_indices[cls]]
+        for group in groups
+    ]
+
+    # Collect testing indices for each group
+    grouped_test_indices = [
+        [idx for cls in group for idx in test_class_indices[cls]]
+        for group in groups
+    ]
+    
+    return grouped_classes, grouped_train_indices, grouped_test_indices, mapping_from_classes_to_cl_classes, mapping_from_cl_classes_to_classes
+
 
 def split_data(n_experiences, dataset_name, classes, half_split=False):
     """
@@ -229,6 +341,9 @@ def split_data(n_experiences, dataset_name, classes, half_split=False):
 
                 # Combine the groups
                 groups = first_group + second_groups
+            else:
+                print("n_experiences is not supported for imagenetsubset")
+                exit()
 
         elif dataset_name == "tiny_imagenet":
             half_point = 100
@@ -284,7 +399,7 @@ def split_data(n_experiences, dataset_name, classes, half_split=False):
     return grouped_classes, grouped_train_indices, grouped_test_indices, mapping_from_classes_to_cl_classes, mapping_from_cl_classes_to_classes
 
 
-def get_concepts_for_classes(selected_classes, dataset_name):
+def get_concepts_for_classes(selected_classes, dataset_name, conceptnet_flag = False):
     """
     Retrieve a list of unique concepts for the given classes from a pre-saved JSON file.
 
@@ -296,7 +411,10 @@ def get_concepts_for_classes(selected_classes, dataset_name):
     list: List of unique concepts for the given classes.
     """
     # Construct the path to the JSON file containing the concept sets
-    saved_path = os.path.join('data', 'concept_sets', 'filtered_concepts', dataset_name, 'similar_concept_filtered_feature_dict.json')
+    if conceptnet_flag == True:
+        saved_path = os.path.join('data', 'concept_sets', 'conceptnet', 'filtered_concepts', dataset_name, 'similar_concept_filtered_feature_dict.json')
+    else:
+        saved_path = os.path.join('data', 'concept_sets', 'filtered_concepts', dataset_name, 'similar_concept_filtered_feature_dict.json')
     
     # Load concept sets from JSON
     with open(saved_path, "r") as f:
@@ -391,7 +509,7 @@ def get_target_model(target_name, device):
         
         # Load the appropriate model
         model_path = f'{MODEL_ROOTS["resnet18_FeTrIL"]}/{dataset}/seed1993/{num_base_classes}/scratch.pth'
-        target_model = torch.load(model_path) 
+        target_model = torch.load(model_path, weights_only=False)
         if dataset == "imagenet" and isinstance(target_model, dict):
             target_model = models.resnet18(pretrained=False, num_classes=1000).to(device)
             # Load the state_dict from the saved file
@@ -429,7 +547,6 @@ def get_target_model(target_name, device):
             transforms.Normalize(mean=dataset_mean, std=dataset_std)
         ])
 
-    
     elif target_name.endswith("_v2"):
         target_name = target_name[:-3]
         target_name_cap = target_name.replace("resnet", "ResNet")
@@ -437,7 +554,30 @@ def get_target_model(target_name, device):
         target_model = eval("models.{}(weights).to(device)".format(target_name))
         target_model.eval()
         preprocess = weights.transforms()
-        
+
+    elif target_name == "ViT-B/16-IN21K":
+        from transformers import ViTModel, ViTImageProcessor
+        target_model = ViTModel.from_pretrained("google/vit-base-patch16-224-in21k").to(device)
+        preprocor = ViTImageProcessor.from_pretrained("google/vit-base-patch16-224-in21k")
+        def preprocess(image):
+            # Preprocess each image individually (returns a dictionary with 'pixel_values')
+            return preprocor(images=image, return_tensors="pt")["pixel_values"][0] 
+    
+    elif target_name.startswith('SelfPromptDeit_mytiny'): # SelfPromptDeit_mytiny_cifar100_b50 
+        parts = target_name.split('_')
+        dataset = parts[-2]
+        from create_model_for_APG import create_SelfPromptDeit_mytiny
+        target_model = create_SelfPromptDeit_mytiny(dataset).to(device)
+        test_transforms = [
+            transforms.Resize(256),
+            transforms.CenterCrop(224),
+        ]
+        common_transforms = [
+            transforms.ToTensor(),
+            transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+        ]
+        preprocess = transforms.Compose([*test_transforms, *common_transforms])
+
     else:
         target_name_cap = target_name.replace("resnet", "ResNet")
         weights = eval("models.{}_Weights.IMAGENET1K_V1".format(target_name_cap))

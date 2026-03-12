@@ -1,0 +1,802 @@
+{
+    "Black footed Albatross": [
+        "\u2022 Ocean\n\u2022 Waves\n\u2022 Seabirds\n\u2022 Feathers\n\u2022 Beak\n\u2022 Legs\n\u2022 Islands\n\u2022 Coral\n\u2022 Kelp",
+        "\u2022 Ocean\n\u2022 Waves\n\u2022 Skies\n\u2022 Islands\n\u2022 Feathers\n\u2022 Beak\n\u2022 Eyes\n\u2022 Nesting material\n\u2022 Eggs\n\u2022 Chickens\n\u2022 Shore"
+    ],
+    "Laysan Albatross": [
+        "\u2022 ocean\n\u2022 waves\n\u2022 sand\n\u2022 shells\n\u2022 seaweed\n\u2022 feathers",
+        "\u2022 Ocean\n\u2022 Water\n\u2022 Seabirds\n\u2022 Feathers\n\u2022 Beak\n\u2022 Nesting material (e.g. twine, sticks)\n\u2022 Eggs\n\u2022 Islands\n\u2022 Coral reefs"
+    ],
+    "Sooty Albatross": [
+        "\u2022 Ocean\n\u2022 Waves\n\u2022 Seabirds\n\u2022 Kelp\n\u2022 Fins\n\u2022 Feathers\n\u2022 Beak\n\u2022 Eyes",
+        "* Ocean\n* Waves\n* Sky\n* Feathers\n* Beak\n* Talons\n* Flight feathers\n* Wingspan"
+    ],
+    "Groove billed Ani": [
+        "\u2022 leaves\n\u2022 twigs\n\u2022 branches\n\u2022 flowers\n\u2022 insects\n\u2022 fruit",
+        "\u2022 tropical rainforest\n\u2022 trees\n\u2022 vines\n\u2022 leaves\n\u2022 branches\n\u2022 flowers\n\u2022 fruit\n\u2022 insects\n\u2022 feathers"
+    ],
+    "Crested Auklet": [
+        "\u2022 Ocean\n\u2022 Rocks\n\u2022 Kelp\n\u2022 Schooling fish\n\u2022 Feathers\n\u2022 Beak\n\u2022 Eyes",
+        "* Rocks\n* Pebbles\n* Sand\n* Seaweed\n* Ocean"
+    ],
+    "Least Auklet": [
+        "\u2022 ocean\n\u2022 seaweed\n\u2022 rocks\n\u2022 feathers\n\u2022 beak\n\u2022 wings\n\u2022 fish",
+        "\u2022 Ocean\n\t\u2013 Water\n\t\u2013 Seaweed\n\t\u2013 Rocks\n\t\u2013 Waves\n\t\u2022 Feathers\n\t\u2013 Beak\n\t\u2013 Eyes\n\t\u2013 Wings\n\t\u2013 Tail\n\t\u2022 Perch\n\t\u2022 Flock"
+    ],
+    "Parakeet Auklet": [
+        "\u2022 perches\n\u2022 cage\n\u2022 food\n\u2022 water\n\u2022 toys\n\u2022 feathers",
+        "\u2022 aviary\n\u2022 perch\n\u2022 food\n\u2022 water\n\u2022 toys\n\u2022 feathers"
+    ],
+    "Rhinoceros Auklet": [
+        "\u2022 Coral\n\u2022 Rockweed\n\u2022 Kelp\n\u2022 Seaweed\n\u2022 Water\n\u2022 Ocean",
+        "\u2022 Ocean\n\u2022 Water\n\u2022 Seaweed\n\u2022 Kelp\n\u2022 Coral\n\u2022 Fish\n\u2022 Rock\n\u2022 Shell"
+    ],
+    "Brewer Blackbird": [
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 feathers\n\u2022 beak\n\u2022 eyes\n\u2022 wings",
+        "\u2022 leaves\n\u2022 twigs\n\u2022 berries\n\u2022 branches\n\u2022 forest\n\u2022 trees\n\u2022 birds"
+    ],
+    "Red winged Blackbird": [
+        "\u2022 bushes\n\u2022 leaves\n\u2022 twigs\n\u2022 grass\n\u2022 seeds\n\u2022 insects\n\u2022 branches\n\u2022 water\n\u2022 reeds",
+        "* a birdhouse\n* shrubs\n* branches\n* leaves\n* twigs\n* berries\n* insects\n* worms\n* feathers"
+    ],
+    "Rusty Blackbird": [
+        "\u2022 Bird\n\u2022 Bushes\n\u2022 Grass\n\u2022 Leaves\n\u2022 Mud\n\u2022 Nest\n\u2022 Perches\n\u2022 Saplings\n\u2022 Shrubs\n\u2022 Stream\n\u2022 Trees",
+        "\u2022 wetlands\n\u2022 reeds\n\u2022 grasses\n\u2022 shrubs\n\u2022 trees\n\u2022 other birds"
+    ],
+    "Yellow headed Blackbird": [
+        "\u2022 Trees\n\u2022 Leaves\n\u2022 Branches\n\u2022 Nest\n\u2022 Eggs\n\u2022 Song\n\u2022 Bushes\n\u2022 Flowers",
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 seeds\n\u2022 berries\n\u2022 insects\n\u2022 worms\n\u2022 feathers"
+    ],
+    "Bobolink": [
+        "\u2022 grass\n\u2022 flowers\n\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 seeds\n\u2022 insects\n\u2022 worms",
+        "\u2022 bird\n\u2022 grass\n\u2022 leaves\n\u2022 branches\n\u2022 flowers\n\u2022 insects"
+    ],
+    "Indigo Bunting": [
+        "\u2022 a bird feeder\n\u2022 trees\n\u2022 flowers\n\u2022 leaves\n\u2022 twigs\n\u2022 insects\n\u2022 seeds\n\u2022 grass\n\u2022 branches",
+        "\u2022 a bird feeder\n\u2022 seeds\n\u2022 grass\n\u2022 leaves\n\u2022 branches\n\u2022 a tree\n\u2022 flowers\n\u2022 insects\n\u2022 song"
+    ],
+    "Lazuli Bunting": [
+        "\u2022 A garden\n\u2022 Flowers\n\u2022 Bushes\n\u2022 Branches\n\u2022 Leaves\n\u2022 Songbirds",
+        "\u2022 Nest\n\u2022 Branches\n\u2022 Leaves\n\u2022 Flowers\n\u2022 Berries\n\u2022 Thorns\n\u2022 Twigs\n\u2022 Birds"
+    ],
+    "Painted Bunting": [
+        "\u2022 birdhouse\n\u2022 shrubs\n\u2022 flowers\n\u2022 branches\n\u2022 leaves\n\u2022 twigs",
+        "\u2022 bird feeder\n\u2022 thistle\n\u2022 seed\n\u2022 branch\n\u2022 leaf\n\u2022 twig"
+    ],
+    "Cardinal": [
+        "\u2022 branches\n\u2022 leaves\n\u2022 berries\n\u2022 feathers\n\u2022 nest",
+        "\u2022 Feathers\n\u2022 Beak\n\u2022 Wings\n\u2022 Tail\n\u2022 Perch\n\u2022 Tree branches\n\u2022 Leaves\n\u2022 Berries"
+    ],
+    "Spotted Catbird": [
+        "\u2022 leaves\n\u2022 branches\n\u2022 berries\n\u2022 twigs\n\u2022 feathers\n\u2022 flowers",
+        "\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 insects\n\u2022 worms\n\u2022 fruit\n\u2022 flowers\n\u2022 nest"
+    ],
+    "Gray Catbird": [
+        "\u2022 a tree\n\u2022 leaves\n\u2022 twigs\n\u2022 branches\n\u2022 insects\n\u2022 worms\n\u2022 berries\n\u2022 nest",
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 worms\n\u2022 insects\n\u2022 berries\n\u2022 shrubs\n\u2022 trees\n\u2022 underbrush\n\u2022 forest"
+    ],
+    "Yellow breasted Chat": [
+        "\u2022 Leaves\n\u2022 Branches\n\u2022 Twigs\n\u2022 Berries\n\u2022 Flowers",
+        "\u2022 leaves\n\u2022 twigs\n\u2022 shrubs\n\u2022 branches\n\u2022 bushes\n\u2022 vines\n\u2022 flowers"
+    ],
+    "Eastern Towhee": [
+        "\u2022 a bird\n\u2022 leaves\n\u2022 twigs\n\u2022 berries\n\u2022 branches\n\u2022 underbrush\n\u2022 grass\n\u2022 flowers\n\u2022 insects",
+        "\u2022 bird\n\u2022 tree\n\u2022 leaves\n\u2022 branches\n\u2022 nest\n\u2022 twigs\n\u2022 berries\n\u2022 flowers"
+    ],
+    "Chuck will Widow": [
+        "\u2022 Flowers\n\u2022 Leaves\n\u2022 Tree\n\u2022 Branches\n\u2022 Berries\n\u2022 Seed pods\n\u2022 Vines",
+        "\u2022 a garden\n\u2022 flowers\n\u2022 trees\n\u2022 insects\n\u2022 birds\n\u2022 bees\n\u2022 butterflies"
+    ],
+    "Brandt Cormorant": [
+        "\u2022 water\n\u2022 rocks\n\u2022 trees\n\u2022 branches\n\u2022 fish\n\u2022 feathers",
+        "* water\n* rocks\n* trees\n* fish\n* twigs\n* sticks\n* vegetation\n* shore\n* feathers"
+    ],
+    "Red faced Cormorant": [
+        "\u2022 water\n\u2022 rocks\n\u2022 trees\n\u2022 fish\n\u2022 mud\n\u2022 feathers",
+        "\u2022 water\n\u2022 fish\n\u2022 mud\n\u2022 trees\n\u2022 branches\n\u2022 feathers"
+    ],
+    "Pelagic Cormorant": [
+        "\u2022 ocean\n\u2022 waves\n\u2022 seaweed\n\u2022 kelp\n\u2022 schools of fish\n\u2022 other birds",
+        "* Water\n* Rocks\n* Kelp\n* Seabirds\n* Fish bones\n* Ocean\n* Waves\n* Saltwater"
+    ],
+    "Bronzed Cowbird": [
+        "\u2022 tree\n\u2022 branch\n\u2022 leaf\n\u2022 twigs\n\u2022 berries\n\u2022 feathers\n\u2022 nest",
+        "\u2022 Bushes\n\u2022 Leaves\n\u2022 Berries\n\u2022 Twigs\n\u2022 Feathers\n\u2022 Nesting material\n\u2022 Other birds"
+    ],
+    "Shiny Cowbird": [
+        "List the things most commonly seen around a \"Shiny Cowbird\":\n\n\u2022 trees\n\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 insects\n\u2022 fruit\n\u2022 feathers\n\u2022 beak\n\u2022 eyes",
+        "\u2022 a tree\n\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 insects\n\u2022 worms\n\u2022 fruit"
+    ],
+    "Brown Creeper": [
+        "\u2022 Tree bark\n\u2022 Conifer needles\n\u2022 Moss\n\u2022 Lichen\n\u2022 Leaves\n\u2022 Twigs\n\u2022 Bird feeders",
+        "\u2022 Tree\n\u2022 Branches\n\u2022 Leaves\n\u2022 Moss\n\u2022 Lichen\n\u2022 Fungi\n\u2022 Pinecones\n\u2022 Berries\n\u2022 Feathers"
+    ],
+    "American Crow": [
+        "\u2022 tree\n\u2022 branch\n\u2022 leaf\n\u2022 berry\n\u2022 nest\n\u2022 feather\n\u2022 beak",
+        "\u2022 Branches\n\u2022 Leaves\n\u2022 Feathers\n\u2022 Beak\n\u2022 Eyes\n\u2022 Perches\n\u2022 Trees\n\u2022 Squirrels\n\u2022 Seeds"
+    ],
+    "Fish Crow": [
+        "\u2022 feathers\n\u2022 beak\n\u2022 claws\n\u2022 wings\n\u2022 talons\n\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 berries\n\u2022 insects",
+        "* Trees\n* Leaves\n* Branches\n* Feathers\n* Beak\n* Talons"
+    ],
+    "Black billed Cuckoo": [
+        "\u2022 trees\n\u2022 leaves\n\u2022 branches\n\u2022 flowers\n\u2022 berries\n\u2022 insects\n\u2022 twigs\n\u2022 limbs",
+        "\u2022 trees\n\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 berries\n\u2022 vines\n\u2022 birds"
+    ],
+    "Mangrove Cuckoo": [
+        "\u2022 Leaves\n\u2022 Twigs\n\u2022 Fruits\n\u2022 Branches\n\u2022 Flowers\n\u2022 Forest\n\u2022 Water",
+        "\u2022 Leafy branches\n\u2022 Foliage\n\u2022 Twigs\n\u2022 Roots\n\u2022 Flowers\n\u2022 Berries"
+    ],
+    "Yellow billed Cuckoo": [
+        "Here are the lists:\n\n\u2022 trees\n\u2022 leaves\n\u2022 twigs\n\u2022 insects\n\u2022 fruit\n\u2022 branches\n\u2022 flowers\n\u2022 grass",
+        "\u2022 Forest\n\u2022 Trees\n\u2022 Leaves\n\u2022 Branches\n\u2022 Flowers\n\u2022 Vines\n\u2022 Insects\n\u2022 Fruits"
+    ],
+    "Gray crowned Rosy Finch": [
+        "\u2022 mountain\n\u2022 rocky outcroppings\n\u2022 snow\n\u2022 grass\n\u2022 seeds\n\u2022 shrubs\n\u2022 trees",
+        "\u2022 mountain\n\u2022 snow\n\u2022 grass\n\u2022 pebbles\n\u2022 twigs\n\u2022 feathers\n\u2022 berries"
+    ],
+    "Purple Finch": [
+        "\u2022 tree\n\u2022 branch\n\u2022 leaf\n\u2022 nest\n\u2022 seed\n\u2022 bird feeder",
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 flowers\n\u2022 berries\n\u2022 nest\n\u2022 feathers"
+    ],
+    "Northern Flicker": [
+        "\u2022 Tree\n\u2022 Branch\n\u2022 Leaves\n\u2022 Bark\n\u2022 Feathers\n\u2022 Worms\n\u2022 Nesting material",
+        "\u2022 tree\n\u2022 branch\n\u2022 leaves\n\u2022 bark\n\u2022 acorns\n\u2022 feathers"
+    ],
+    "Acadian Flycatcher": [
+        "\u2022 a forest\n\u2022 trees\n\u2022 leaves\n\u2022 twigs\n\u2022 branches\n\u2022 nesting materials\n\u2022 insects\n\u2022 worms\n\u2022 spiders",
+        "\u2022 a forest\n\u2022 trees\n\u2022 leaves\n\u2022 twigs\n\u2022 insects\n\u2022 branches\n\u2022 nests"
+    ],
+    "Great Crested Flycatcher": [
+        "\u2022 Tree\n\u2022 Branch\n\u2022 Leaves\n\u2022 Twigs\n\u2022 Insects\n\u2022 Nesting material\n\u2022 Perch\n\u2022 Songbird",
+        "\u2022 Branch\n\u2022 Leaves\n\u2022 Twigs\n\u2022 Bark\n\u2022 Feathers\n\u2022 Beak\n\u2022 Worms\n\u2022 Insects"
+    ],
+    "Least Flycatcher": [
+        "* a tree\n* leaves\n* branches\n* twigs\n* insects\n* perch\n* nest\n* berries\n* flowers",
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 grass\n\u2022 flowers\n\u2022 insects\n\u2022 trees"
+    ],
+    "Olive sided Flycatcher": [
+        "\u2022 trees\n\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 insects\n\u2022 flowers\n\u2022 shrubs\n\u2022 perches\n\u2022 wires\n\u2022 power lines\n\u2022 rocks\n\u2022 gravel\n\u2022 moss\n\u2022 grass",
+        "\u2022 Bird\n\u2022 Leaves\n\u2022 Branches\n\u2022 Twigs\n\u2022 Berries\n\u2022 Flowers\n\u2022 Nests\n\u2022 Insects\n\u2022 Worms"
+    ],
+    "Scissor tailed Flycatcher": [
+        "\u2022 a bird feeder\n\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 flowers\n\u2022 trees",
+        "\u2022 cactus\n\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 feathers\n\u2022 perches\n\u2022 insects\n\u2022 flowers\n\u2022 grasses"
+    ],
+    "Vermilion Flycatcher": [
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 perch\n\u2022 feathers\n\u2022 beak\n\u2022 berry bush",
+        "\u2022 Desert\n\u2022 Cactus\n\u2022 Thorn tree\n\u2022 Twigs\n\u2022 Leaves\n\u2022 Branches\n\u2022 Sky\n\u2022 Rock\n\u2022 Sandy ground"
+    ],
+    "Yellow bellied Flycatcher": [
+        "\u2022 Tree\n\u2022 Branch\n\u2022 Leaves\n\u2022 Birds\n\u2022 Feathers\n\u2022 Insects",
+        "\u2022 trees\n\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 insects\n\u2022 wires\n\u2022 power lines\n\u2022 birds\n\u2022 nests\n\u2022 feathers"
+    ],
+    "Frigatebird": [
+        "\u2022 ocean\n\u2022 waves\n\u2022 seaweed\n\u2022 fish\n\u2022 feathers\n\u2022 beak\n\u2022 wings",
+        "\u2022 ocean\n\u2022 waves\n\u2022 sea\n\u2022 water\n\u2022 sun\n\u2022 sky\n\u2022 feathers\n\u2022 wings\n\u2022 beak\n\u2022 talons"
+    ],
+    "Northern Fulmar": [
+        "\u2022 Ocean\n\u2022 Waves\n\u2022 Seabirds\n\u2022 Gulls\n\u2022 Feathers\n\u2022 Beak\n\u2022 Eyes\n\u2022 Wings\n\u2022 Tail\n\u2022 Legs\n\u2022 Nesting material\n\u2022 Rocky shore",
+        "\u2022 Ocean\n\u2022 Sea cliffs\n\u2022 Rock crevices\n\u2022 Feathers\n\u2022 Eggs\n\u2022 Chickens\n\u2022 Predator birds"
+    ],
+    "Gadwall": [
+        "\u2022 Water\n\u2022 Reeds\n\u2022 Rushes\n\u2022 Vegetation\n\u2022 Birds\n\u2022 Feathers",
+        "\u2022 Grass\n\u2022 Water\n\u2022 Insects\n\u2022 Leaves\n\u2022 Twigs\n\u2022 Feathers\n\u2022 Birds"
+    ],
+    "American Goldfinch": [
+        "\u2022 branches\n\u2022 leaves\n\u2022 flowers\n\u2022 seeds\n\u2022 birdhouse\n\u2022 nest\n\u2022 feathers\n\u2022 beak",
+        "\u2022 seeds\n\u2022 branches\n\u2022 leaves\n\u2022 sunflower\n\u2022 bird feeder\n\u2022 nest"
+    ],
+    "European Goldfinch": [
+        "\u2022 trees\n\u2022 flowers\n\u2022 bushes\n\u2022 branches\n\u2022 seeds\n\u2022 sunflowers\n\u2022 thistles",
+        "\u2022 bird\n\u2022 feathers\n\u2022 wings\n\u2022 beak\n\u2022 perches\n\u2022 leaves\n\u2022 twigs\n\u2022 branches\n\u2022 flowers"
+    ],
+    "Boat tailed Grackle": [
+        "\u2022 bird\n\u2022 feathers\n\u2022 beak\n\u2022 wings\n\u2022 tail\n\u2022 perches\n\u2022 trees\n\u2022 grass\n\u2022 berries",
+        "\u2022 Yard\n\u2022 Lawn\n\u2022 Trees\n\u2022 Bushes\n\u2022 Flowers\n\u2022 Bird feeder\n\u2022 Suet\n\u2022 Water\n\u2022 Seeds"
+    ],
+    "Eared Grebe": [
+        "\u2022 water\n\u2022 plants\n\u2022 mud\n\u2022 feathers\n\u2022 eggs",
+        "\u2022 water\n\u2022 plants\n\u2022 mud\n\u2022 feathers\n\u2022 eyes\n\u2022 beak\n\u2022 wings"
+    ],
+    "Horned Grebe": [
+        "\u2022 water\n\u2022 plants\n\u2022 insects\n\u2022 small fish\n\u2022 mud\n\u2022 feathers\n\u2022 eyes",
+        "\u2022 Water\n\u2022 Plants\n\u2022 Insects\n\u2022 Fish\n\u2022 Marsh\n\u2022 Mud\n\u2022 Feathers\n\u2022 Beak"
+    ],
+    "Pied billed Grebe": [
+        "\u2022 Water\n\u2022 Vegetation\n\u2022 Insects\n\u2022 Fish\n\u2022 Twigs\n\u2022 Reeds\n\u2022 Mud\n\u2022 Feathers",
+        "Here are the lists:\n\n\u2022 Water\n\u2022 Aquatic plants\n\u2022 Fish\n\u2022 Twigs\n\u2022 Moss\n\u2022 Stones\n\u2022 Feathers\n\nNote: Pied-billed Grebe is a type of waterbird, and these features are commonly seen around it in its natural habitat."
+    ],
+    "Western Grebe": [
+        "\u2022 water\n\u2022 plants\n\u2022 rocks\n\u2022 sticks\n\u2022 insects\n\u2022 fish\n\u2022 feathers\n\u2022 beak",
+        "* Water\n* Plants\n* Fish\n* Insects\n* Other Western Grebes\n* Nesting material\n* Shoreline\n* Mudflat"
+    ],
+    "Blue Grosbeak": [
+        "\u2022 bushes\n\u2022 thorns\n\u2022 seeds\n\u2022 grasses\n\u2022 leaves\n\u2022 branches",
+        "\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 flowers\n\u2022 shrubs\n\u2022 insects"
+    ],
+    "Evening Grosbeak": [
+        "\u2022 Bird feeder\n\u2022 Seeds\n\u2022 Branches\n\u2022 Foliage\n\u2022 Trees\n\u2022 Sky\n\u2022 Twigs\n\u2022 Worms",
+        "\u2022 Bird feeder\n\u2022 Branches\n\u2022 Leaves\n\u2022 Seeds\n\u2022 Berries\n\u2022 Pinecone\n\u2022 Sunflowers\n\u2022 Thistle"
+    ],
+    "Pine Grosbeak": [
+        "\u2022 Tree\n\u2022 Branch\n\u2022 Leaves\n\u2022 Berries\n\u2022 Feathers",
+        "\u2022 branches\n\u2022 leaves\n\u2022 seeds\n\u2022 bark\n\u2022 twigs\n\u2022 berries\n\u2022 conifers"
+    ],
+    "Rose breasted Grosbeak": [
+        "\u2022 birds\n\u2022 trees\n\u2022 branches\n\u2022 leaves\n\u2022 flowers\n\u2022 seeds\n\u2022 insects",
+        "\u2022 bush\n\u2022 branch\n\u2022 leaves\n\u2022 flowers\n\u2022 seed\n\u2022 bird feeder\n\u2022 suet\n\u2022 peanut butter\n\u2022 seeds"
+    ],
+    "Pigeon Guillemot": [
+        "\u2022 Ocean\n\u2022 Water\n\u2022 Rocks\n\u2022 Kelp\n\u2022 Feathers\n\u2022 Beak\n\u2022 Eyes",
+        "\u2022 Ocean\n\u2022 Rocks\n\u2022 Trees\n\u2022 Soil\n\u2022 Feathers\n\u2022 Eggs\n\u2022 Nest"
+    ],
+    "California Gull": [
+        "\u2022 Sand\n\u2022 Rocks\n\u2022 Seashells\n\u2022 Feathers\n\u2022 Beak\n\u2022 Eyes\n\u2022 Wings\n\u2022 Tail\n\u2022 Food scraps\n\u2022 Trash cans",
+        "\u2022 beach\n\u2022 sand\n\u2022 rocks\n\u2022 shells\n\u2022 seaweed\n\u2022 waves\n\u2022 feathers\n\u2022 beak"
+    ],
+    "Glaucous winged Gull": [
+        "* Beach\n* Sand\n* Water\n* Seagulls\n* Trash\n* Rocks\n* Waves",
+        "\u2022 coastline\n\u2022 sand\n\u2022 seaweed\n\u2022 shells\n\u2022 rocks\n\u2022 water\n\u2022 other gulls"
+    ],
+    "Heermann Gull": [
+        "\u2022 coast\n\u2022 sand\n\u2022 rocks\n\u2022 shells\n\u2022 seaweed\n\u2022 ocean\n\u2022 fish\n\u2022 birds\n\u2022 other gulls",
+        "\u2022 beach\n\u2022 sand\n\u2022 water\n\u2022 food scraps\n\u2022 birds\n\u2022 feathers"
+    ],
+    "Herring Gull": [
+        "\u2022 beach\n\u2022 sand\n\u2022 seagulls\n\u2022 trash\n\u2022 shells\n\u2022 seaweed\n\u2022 rocks\n\u2022 waves",
+        "\u2022 Beach\n\u2022 Sand\n\u2022 Seaweed\n\u2022 Rocks\n\u2022 Crustaceans\n\u2022 Shellfish\n\u2022 Other birds"
+    ],
+    "Ivory Gull": [
+        "\u2022 Ocean\n\u2022 Beach\n\u2022 Seagulls\n\u2022 Rocks\n\u2022 Sand\n\u2022 Waves",
+        "\u2022 Ocean\n\u2022 Beach\n\u2022 Seaweed\n\u2022 Rocks\n\u2022 Feathers\n\u2022 Beak\n\u2022 Talons"
+    ],
+    "Ring billed Gull": [
+        "\u2022 Water\n\u2022 Feathers\n\u2022 Beak\n\u2022 Eyes\n\u2022 Wingtips\n\u2022 Nesting material",
+        "\u2022 Shore\n\u2022 Water\n\u2022 Feathers\n\u2022 Beak\n\u2022 Eyes\n\u2022 Head\n\u2022 Neck\n\u2022 Body\n\u2022 Wings\n\u2022 Tail\n\u2022 Legs\n\u2022 Feet\n\u2022 Rocks\n\u2022 Sand\n\u2022 Grass\n\u2022 Trees\n\u2022 Food scraps\n\u2022 Other gulls"
+    ],
+    "Slaty backed Gull": [
+        "\u2022 Beach\n\u2022 Seagulls\n\u2022 Trash\n\u2022 Food wrappers\n\u2022 Crumbs\n\u2022 Feet\n\u2022 Sand\n\u2022 Rocks",
+        "\u2022 Water\n\u2022 Rocks\n\u2022 Seaweed\n\u2022 Feathers\n\u2022 Beak\n\u2022 Eyes\n\u2022 Wings\n\u2022 Ocean/Sea/Shore"
+    ],
+    "Western Gull": [
+        "\u2022 shore\n\u2022 sand\n\u2022 rocks\n\u2022 seaweed\n\u2022 tide pools\n\u2022 seagulls",
+        "\u2022 Ocean\n\u2022 Seashells\n\u2022 Sand\n\u2022 Rocks\n\u2022 Kelp\n\u2022 Feces\n\u2022 Chickens\n\u2022 Campsites"
+    ],
+    "Anna Hummingbird": [
+        "\u2022 flowers\n\u2022 leaves\n\u2022 branches\n\u2022 feathers\n\u2022 beak\n\u2022 tail",
+        "\u2022 flowers\n\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 nectar\n\u2022 insects\n\u2022 feathers"
+    ],
+    "Ruby throated Hummingbird": [
+        "\u2022 flowers\n\u2022 leaves\n\u2022 branches\n\u2022 insects\n\u2022 nectar\n\u2022 feathers\n\u2022 beak",
+        "\u2022 flowers\n\u2022 leaves\n\u2022 branches\n\u2022 sun\n\u2022 sky\n\u2022 trees\n\u2022 garden\n\u2022 nectar\n\u2022 insects\n\u2022 feathers"
+    ],
+    "Rufous Hummingbird": [
+        "\u2022 flowers\n\u2022 leaves\n\u2022 branches\n\u2022 trees\n\u2022 nectar\n\u2022 insects\n\u2022 sun\n\u2022 clouds\n\u2022 rocks\n\u2022 soil",
+        "* a feeder\n* flowers\n* leaves\n* branches\n* sunlight\n* insects\n* birds"
+    ],
+    "Green Violetear": [
+        "\u2022 Flowers\n\u2022 Leaves\n\u2022 Stem\n\u2022 Beak\n\u2022 Feathers\n\u2022 Perch\n\u2022 Branch",
+        "\u2022 Tropical forest\n\u2022 Leaves\n\u2022 Flowers\n\u2022 Fruits\n\u2022 Twigs\n\u2022 Branches\n\u2022 Vines\n\u2022 Berries\n\u2022 Nectar\n\u2022 Hummingbirds"
+    ],
+    "Long tailed Jaeger": [
+        "\u2022 Tree\n\u2022 Leaves\n\u2022 Nest\n\u2022 Twigs\n\u2022 Berries\n\u2022 Branches",
+        "* a forest\n* trees\n* branches\n* leaves\n* moss\n* underbrush\n* berries\n* insects\n* small animals"
+    ],
+    "Pomarine Jaeger": [
+        "\u2022 ocean\n\u2022 waves\n\u2022 seabirds\n\u2022 wind\n\u2022 cloud formations\n\u2022 shore\n\u2022 rocks\n\u2022 foam\n\u2022 seaweed",
+        "\u2022 Ocean\n\u2022 Water\n\u2022 Seabirds\n\u2022 Feathers\n\u2022 Beak\n\u2022 Wingspan"
+    ],
+    "Blue Jay": [
+        "\u2022 branches\n\u2022 feathers\n\u2022 leaves\n\u2022 nest\n\u2022 seeds\n\u2022 twigs\n\u2022 wings",
+        "\u2022 tree\n\u2022 branch\n\u2022 leaves\n\u2022 feathers\n\u2022 beak\n\u2022 wings\n\u2022 nest"
+    ],
+    "Florida Jay": [
+        "\u2022 Evergreen tree\n\u2022 Berries\n\u2022 Leaves\n\u2022 Branches\n\u2022 Feathers\n\u2022 Beak\n\u2022 Talons\n\u2022 Songbird",
+        "\u2022 Evergreen tree\n\u2022 Berries\n\u2022 Foliage\n\u2022 Branches\n\u2022 Feathers\n\u2022 Beak\n\u2022 Tail feathers"
+    ],
+    "Green Jay": [
+        "\u2022 forest\n\u2022 trees\n\u2022 leaves\n\u2022 branches\n\u2022 flowers\n\u2022 berries\n\u2022 insects\n\u2022 twigs",
+        "\u2022 Leaves\n\u2022 Branches\n\u2022 Foliage\n\u2022 Nesting material\n\u2022 Feathers\n\u2022 Berries\n\u2022 Flowers"
+    ],
+    "Dark eyed Junco": [
+        "\u2022 branches\n\u2022 leaves\n\u2022 seeds\n\u2022 berries\n\u2022 twigs\n\u2022 grass\n\u2022 small insects\n\u2022 worms",
+        "\u2022 tree\n\u2022 branch\n\u2022 leaf\n\u2022 grass\n\u2022 seed\n\u2022 sparrow\n\u2022 worm\n\u2022 bug\n\u2022 birdhouse"
+    ],
+    "Tropical Kingbird": [
+        "\u2022 Tree\n\u2022 Leaves\n\u2022 Branches\n\u2022 Fruits\n\u2022 Flowers\n\u2022 Nest",
+        "\u2022 tree\n\u2022 branch\n\u2022 leaf\n\u2022 twig\n\u2022 flower\n\u2022 nest\n\u2022 insect\n\u2022 fruit"
+    ],
+    "Gray Kingbird": [
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 fruit\n\u2022 flowers\n\u2022 insects\n\u2022 perch\n\u2022 nest",
+        "\u2022 tree\n\u2022 branch\n\u2022 leaf\n\u2022 fruit\n\u2022 twig\n\u2022 nest\n\u2022 wirewrap"
+    ],
+    "Belted Kingfisher": [
+        "\u2022 Water\n\u2022 Trees\n\u2022 Rocks\n\u2022 Stumps\n\u2022 Twigs\n\u2022 Pinecones\n\u2022 Moss\n\u2022 Leaves",
+        "\u2022 Water\n\u2022 Riverbank\n\u2022 Trees\n\u2022 Bushes\n\u2022 Rocks\n\u2022 Fish"
+    ],
+    "Green Kingfisher": [
+        "\u2022 Water\n\u2022 Vegetation\n\u2022 Branches\n\u2022 Leaves\n\u2022 Insects",
+        "\u2022 Water\n\u2022 Reeds\n\u2022 Leaves\n\u2022 Twigs\n\u2022 Perches\n\u2022 Insects"
+    ],
+    "Pied Kingfisher": [
+        "\u2022 Water\n\u2022 Reeds\n\u2022 Trees\n\u2022 Stones\n\u2022 Insects\n\u2022 Small fish\n\u2022 Nesting material",
+        "\u2022 Water\n\u2022 Reed\n\u2022 Trees\n\u2022 Bushes\n\u2022 Insects\n\u2022 Small fish\n\u2022 Nest"
+    ],
+    "Ringed Kingfisher": [
+        "\u2022 Water\n\u2022 Vegetation\n\u2022 Rocks\n\u2022 Branches\n\u2022 Mud\n\u2022 Insects\n\u2022 Small fish\n\u2022 Leaves",
+        "\u2022 Water\n\u2022 Vegetation\n\u2022 Branches\n\u2022 Leaves\n\u2022 Insects\n\u2022 Fish\n\u2022 Rocks\n\u2022 Mud\n\u2022 Nesting material"
+    ],
+    "White breasted Kingfisher": [
+        "\u2022 water\n\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 insects\n\u2022 small fish\n\u2022 nest\n\u2022 eggs\n\u2022 feathers",
+        "\u2022 Trees\n\u2022 Bushes\n\u2022 Water\n\u2022 Insects\n\u2022 Small animals\n\u2022 Leaves\n\u2022 Twigs\n\u2022 Nesting materials\n\u2022 Feathers"
+    ],
+    "Red legged Kittiwake": [
+        "\u2022 Ocean\n\u2022 Waves\n\u2022 Seagulls\n\u2022 Feathers\n\u2022 Beak\n\u2022 Eyes\n\u2022 Legs\n\u2022 Tail\n\u2022 Fins",
+        "\u2022 rocky cliff\n\u2022 ocean\n\u2022 seaweed\n\u2022 feathers\n\u2022 beak\n\u2022 wings"
+    ],
+    "Horned Lark": [
+        "\u2022 grass\n\u2022 seeds\n\u2022 insects\n\u2022 eggs\n\u2022 nest\n\u2022 sparrow\n\u2022 prairie",
+        "\u2022 grass\n\u2022 seeds\n\u2022 insects\n\u2022 rocks\n\u2022 shrubs\n\u2022 trees\n\u2022 wind\n\u2022 sunshine"
+    ],
+    "Pacific Loon": [
+        "\u2022 water\n\u2022 shore\n\u2022 rocks\n\u2022 seaweed\n\u2022 fish\n\u2022 feathers\n\u2022 beak",
+        "\u2022 Water\n\u2022 Shore\n\u2022 Rocks\n\u2022 Kelp\n\u2022 Feathers\n\u2022 Beak\n\u2022 Eyes\n\u2022 Fins\n\u2022 Nesting material"
+    ],
+    "Mallard": [
+        "\u2022 Water\n\u2022 Grass\n\u2022 Mud\n\u2022 Feathers\n\u2022 Beak\n\u2022 Wings\n\u2022 Food\n\u2022 Puddle",
+        "\u2022 Water\n\u2022 Feathers\n\u2022 Beak\n\u2022 Webbed feet\n\u2022 Ducks\n\u2022 Pond/lake\n\u2022 Grass\n\u2022 Insects\n\u2022 Vegetation"
+    ],
+    "Western Meadowlark": [
+        "\u2022 Grass\n\u2022 Wildflowers\n\u2022 Rocks\n\u2022 Thistles\n\u2022 Trees\n\u2022 Bushes\n\u2022 Songpost\n\u2022 Perch",
+        "\u2022 Grass\n\u2022 Flowers\n\u2022 Bushes\n\u2022 Trees\n\u2022 Fences\n\u2022 Hills\n\u2022 Birds"
+    ],
+    "Hooded Merganser": [
+        "\u2022 Water\n\u2022 Trees\n\u2022 Branches\n\u2022 Leaves\n\u2022 Fish\n\u2022 Insects\n\u2022 Twigs\n\u2022 Moss",
+        "\u2022 Water\n\u2022 Trees\n\u2022 Underbrush\n\u2022 Leaves\n\u2022 Twigs\n\u2022 Berries\n\u2022 Fish\n\u2022 Insects\n\u2022 Rocks\n\u2022 Logs"
+    ],
+    "Red breasted Merganser": [
+        "\u2022 Water\n\u2022 Rocks\n\u2022 Vegetation\n\u2022 Birds\n\u2022 Fish\n\u2022 Insects\n\u2022 Logs\n\u2022 Twigs\n\u2022 Leaves",
+        "\u2022 Water\n\u2022 Fish\n\u2022 Rocks\n\u2022 Logs\n\u2022 Vegetation\n\u2022 River\n\u2022 Stream\n\u2022 Birds\n\u2022 Insects"
+    ],
+    "Mockingbird": [
+        "\u2022 tree\n\u2022 branch\n\u2022 leaf\n\u2022 nest\n\u2022 worm\n\u2022 insect\n\u2022 song",
+        "\u2022 feathers\n\u2022 wings\n\u2022 beak\n\u2022 tree\n\u2022 branch\n\u2022 nest\n\u2022 eggs\n\u2022 song"
+    ],
+    "Nighthawk": [
+        "\u2022 wings\n\u2022 feathers\n\u2022 beak\n\u2022 eyes\n\u2022 ears\n\u2022 perches\n\u2022 branches\n\u2022 leaves",
+        "Here are the lists of things commonly seen around a \"Nighthawk\":\n\n\u2022 Road\n\u2022 Highway\n\u2022 Lights\n\u2022 Cars\n\u2022 Trucks\n\u2022 Signs"
+    ],
+    "Clark Nutcracker": [
+        "* A stage\n* Props\n* Costumes\n* Lights\n* Backdrop\n* Script",
+        "\u2022 Christmas\n\u2022 Tree\n\u2022 Ornaments\n\u2022 Garland\n\u2022 Lights\n\u2022 Presents\n\u2022 Stockings"
+    ],
+    "White breasted Nuthatch": [
+        "\u2022 branches\n\u2022 bark\n\u2022 leaves\n\u2022 twigs\n\u2022 pinecones\n\u2022 berries\n\u2022 suet\n\u2022 seeds",
+        "\u2022 tree\n\u2022 branch\n\u2022 leaves\n\u2022 trunk\n\u2022 nest\n\u2022 pinecone\n\u2022 suet\n\u2022 seeds"
+    ],
+    "Baltimore Oriole": [
+        "\u2022 Bird feeder\n\u2022 Leaves\n\u2022 Branches\n\u2022 Nest\n\u2022 Eggs\n\u2022 Worms\n\u2022 Flowers",
+        "\u2022 tree\n\u2022 branch\n\u2022 leaves\n\u2022 flowers\n\u2022 worms\n\u2022 nest\n\u2022 eggs\n\u2022 twigs"
+    ],
+    "Hooded Oriole": [
+        "\u2022 Birds\n\u2022 Leaves\n\u2022 Branches\n\u2022 Nests\n\u2022 Fruits\n\u2022 Flowers\n\u2022 Trees\n\u2022 Forest\n\u2022 Sunlight\n\u2022 Clouds\n\u2022 Sky",
+        "\u2022 Tree\n\u2022 Branch\n\u2022 Leaf\n\u2022 Feather\n\u2022 Beak\n\u2022 Song"
+    ],
+    "Orchard Oriole": [
+        "\u2022 trees\n\u2022 branches\n\u2022 leaves\n\u2022 berries\n\u2022 twigs\n\u2022 insects\n\u2022 flowers\n\u2022 water\n\u2022 a feeder",
+        "\u2022 branches\n\u2022 leaves\n\u2022 flowers\n\u2022 insects\n\u2022 fruit\n\u2022 nest\n\u2022 twigs\n\u2022 berries"
+    ],
+    "Scott Oriole": [
+        "\u2022 Feathers\n\u2022 Beak\n\u2022 Legs\n\u2022 Talons\n\u2022 Song\n\u2022 Nest\n\u2022 Branch\n\u2022 Leaves",
+        "\u2022 Wings\n\u2022 Feathers\n\u2022 Tail\n\u2022 Legs\n\u2022 Beak\n\u2022 Perch\n\u2022 Leaves\n\u2022 Branches"
+    ],
+    "Ovenbird": [
+        "\u2022 forest\n\u2022 trees\n\u2022 leaves\n\u2022 branches\n\u2022 berries\n\u2022 twigs\n\u2022 canopy\n\u2022 underbrush\n\u2022 insects\n\u2022 worms\n\u2022 nests\n\u2022 eggs",
+        "\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 forest floor\n\u2022 trees\n\u2022 berries\n\u2022 insects"
+    ],
+    "Brown Pelican": [
+        "\u2022 Water\n\u2022 Beach\n\u2022 Rocks\n\u2022 Seaweed\n\u2022 Feather\n\u2022 Beak\n\u2022 Eyes\n\u2022 Bill",
+        "\u2022 Water\n\u2022 Seashells\n\u2022 Feathers\n\u2022 Beak\n\u2022 Talons\n\u2022 Fish bones"
+    ],
+    "White Pelican": [
+        "\u2022 water\n\u2022 fish\n\u2022 nesting material\n\u2022 eggs\n\u2022 feathers\n\u2022 beak\n\u2022 wings\n\u2022 grass\n\u2022 mud",
+        "* Water\n* Mud\n* Feathers\n* Beak\n* Eyes\n* Neck\n* Body\n* Wings\n* Legs\n* Fish\n* Riverbank\n* Rocks\n* Other pelicans"
+    ],
+    "Western Wood Pewee": [
+        "\u2022 Tree\n\u2022 Branch\n\u2022 Leaves\n\u2022 Twigs\n\u2022 Moss\n\u2022 Nesting material\n\u2022 Birds\n\u2022 Berries\n\u2022 Insects\n\u2022 Worms",
+        "\u2022 Tree\n\u2022 Branch\n\u2022 Nest\n\u2022 Eggs\n\u2022 Leaves\n\u2022 Twigs\n\u2022 Worms\n\u2022 Insects"
+    ],
+    "Sayornis": [
+        "\u2022 Nest\n\u2022 Branches\n\u2022 Leaves\n\u2022 Feathers\n\u2022 Insects",
+        "* birds\n- nest\n- branches\n- leaves\n- twigs\n- feathers\n- eggs"
+    ],
+    "American Pipit": [
+        "\u2022 grass\n\u2022 rocks\n\u2022 twigs\n\u2022 insects\n\u2022 seeds\n\u2022 feathers",
+        "\u2022 grass\n\u2022 soil\n\u2022 rocks\n\u2022 twigs\n\u2022 leaves\n\u2022 insects\n\u2022 worms\n\u2022 bushes\n\u2022 trees"
+    ],
+    "Whip poor Will": [
+        "\u2022 foliage\n\u2022 leaves\n\u2022 twigs\n\u2022 branches\n\u2022 flowers\n\u2022 insects\n\u2022 songbirds\n\u2022 sky",
+        "\u2022 Birdhouse\n\u2022 Nest\n\u2022 Leaves\n\u2022 Twigs\n\u2022 Branches\n\u2022 Perches\n\u2022 Foliage\n\u2022 Bark\n\u2022 Feathers"
+    ],
+    "Horned Puffin": [
+        "\u2022 Rock\n\u2022 Seabird\n\u2022 Ocean\n\u2022 Feathers\n\u2022 Nesting material\n\u2022 Fins\n\u2022 Eggs",
+        "Here are the lists:\n\n\u2022 rocky cliffs\n\u2022 sea\n\u2022 nest\n\u2022 eggs\n\u2022 fish bones\n\u2022 feathers"
+    ],
+    "Common Raven": [
+        "\u2022 Tree\n\u2022 Branch\n\u2022 Feather\n\u2022 Beak\n\u2022 Eye\n\u2022 Nest\n\u2022 Berry\n\u2022 Worm\n\u2022 Rock\n\u2022 Stick",
+        "\u2022 Tree\n\u2022 Branch\n\u2022 Feather\n\u2022 Beak\n\u2022 Eyes\n\u2022 Wings\n\u2022 Talons\n\u2022 Nest\n\u2022 Rock"
+    ],
+    "White necked Raven": [
+        "\u2022 Tree\n\u2022 Branch\n\u2022 Leaf\n\u2022 Feather\n\u2022 Beak\n\u2022 Eye\n\u2022 Claw",
+        "\u2022 Branch\n\u2022 Nest\n\u2022 Eggs\n\u2022 Feathers\n\u2022 Beak\n\u2022 Talons\n\u2022 Rocks\n\u2022 Trees\n\u2022 Field\n\u2022 Animal"
+    ],
+    "American Redstart": [
+        "\u2022 forest\n\u2022 trees\n\u2022 leaves\n\u2022 branches\n\u2022 berries\n\u2022 insects\n\u2022 twigs\n\u2022 flowers",
+        "\u2022 Leaves\n\u2022 Branches\n\u2022 Twigs\n\u2022 Flowers\n\u2022 Fruits\n\u2022 Insects\n\u2022 Nests\n\u2022 Eggs\n\u2022 Nesting materials\n\u2022 Other birds"
+    ],
+    "Geococcyx": [
+        "Here are the lists:\n\n\u2022 desert\n\u2022 sand\n\u2022 cactus\n\u2022 rock\n\u2022 sparrow\n\u2022 burrow",
+        "\u2022 desert\n\u2022 sand\n\u2022 cactus\n\u2022 rocks\n\u2022 bones\n\u2022 eyes"
+    ],
+    "Loggerhead Shrike": [
+        "\u2022 thorns\n\u2022 twigs\n\u2022 insects\n\u2022 leaves\n\u2022 branches\n\u2022 bushes",
+        "\u2022 a tree\n\u2022 leaves\n\u2022 twigs\n\u2022 insects\n\u2022 seeds\n\u2022 acorns\n\u2022 wires\n\u2022 power lines\n\u2022 branches"
+    ],
+    "Great Grey Shrike": [
+        "\u2022 tree\n\u2022 branch\n\u2022 twig\n\u2022 leaf\n\u2022 feather\n\u2022 berry\n\u2022 nest",
+        "\u2022 forest\n\u2022 trees\n\u2022 branches\n\u2022 twigs\n\u2022 insects\n\u2022 worms\n\u2022 small mammals\n\u2022 perches"
+    ],
+    "Baird Sparrow": [
+        "\u2022 tree\n\u2022 branch\n\u2022 leaf\n\u2022 twig\n\u2022 nest\n\u2022 field\n\u2022 grass",
+        "\u2022 Desert\n\u2022 Cactus\n\u2022 Thorn tree\n\u2022 Pine needles\n\u2022 Twigs\n\u2022 Seeds"
+    ],
+    "Black throated Sparrow": [
+        "\u2022 Desert\n\u2022 Cactus\n\u2022 Thorn tree\n\u2022 Sagebrush\n\u2022 Rock\n\u2022 Birdseed\n\u2022 Bush\n\u2022 Fencepost",
+        "\u2022 desert\n\u2022 cactus\n\u2022 grass\n\u2022 shrubs\n\u2022 rocks\n\u2022 seeds\n\u2022 insects\n\u2022 branches"
+    ],
+    "Brewer Sparrow": [
+        "\u2022 shrubs\n\u2022 trees\n\u2022 leaves\n\u2022 branches\n\u2022 flowers\n\u2022 twigs\n\u2022 berries\n\u2022 insects\n\u2022 seeds",
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 berries\n\u2022 seeds\n\u2022 grass\n\u2022 bushes\n\u2022 trees"
+    ],
+    "Chipping Sparrow": [
+        "\u2022 branch\n\u2022 leaves\n\u2022 seeds\n\u2022 twigs\n\u2022 feathers\n\u2022 beak\n\u2022 tail\n\u2022 nest\n\u2022 wire",
+        "* a tree\n* branches\n* leaves\n* twigs\n* seeds\n* nuts\n* berries\n* suet feeder\n* birdhouse\n* wire mesh\n* shrubs\n* bushes"
+    ],
+    "Clay colored Sparrow": [
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 feathers\n\u2022 grass\n\u2022 shrubs\n\u2022 pinecones",
+        "\u2022 bushes\n\u2022 leaves\n\u2022 twigs\n\u2022 perches\n\u2022 branches\n\u2022 nests\n\u2022 berries"
+    ],
+    "House Sparrow": [
+        "\u2022 a tree\n\u2022 twigs\n\u2022 seeds\n\u2022 leaves\n\u2022 grass\n\u2022 wire\n\u2022 nest\n\u2022 eggs",
+        "\u2022 Nest\n\u2022 Twigs\n\u2022 Leaves\n\u2022 Seeds\n\u2022 Feathers\n\u2022 Perches"
+    ],
+    "Field Sparrow": [
+        "\u2022 grass\n\u2022 plants\n\u2022 shrubs\n\u2022 trees\n\u2022 insects\n\u2022 seeds\n\u2022 twigs\n\u2022 leaves",
+        "\u2022 Grass\n\u2022 Leaves\n\u2022 Twigs\n\u2022 Berries\n\u2022 Bushes\n\u2022 Flowers\n\u2022 Nesting material\n\u2022 Other small birds"
+    ],
+    "Fox Sparrow": [
+        "\u2022 bushes\n\u2022 leaves\n\u2022 twigs\n\u2022 berries\n\u2022 grass\n\u2022 soil\n\u2022 trees\n\u2022 flowers\n\u2022 branches",
+        "\u2022 Leaves\n\u2022 Branches\n\u2022 Twigs\n\u2022 Berries\n\u2022 Grass\n\u2022 Rocks\n\u2022 Bark\n\u2022 Feathers"
+    ],
+    "Grasshopper Sparrow": [
+        "\u2022 grass\n\u2022 leaves\n\u2022 stems\n\u2022 flowers\n\u2022 insects\n\u2022 twigs\n\u2022 branches\n\u2022 birds",
+        "\u2022 grass\n\u2022 plants\n\u2022 leaves\n\u2022 stems\n\u2022 flowers\n\u2022 insects\n\u2022 twigs\n\u2022 shrubs\n\u2022 trees"
+    ],
+    "Harris Sparrow": [
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 seeds\n\u2022 insects\n\u2022 feathers\n\u2022 nest",
+        "\u2022 bird\n\u2022 branch\n\u2022 bush\n\u2022 leaves\n\u2022 twigs\n\u2022 insects\n\u2022 seeds\n\u2022 berries\n\u2022 nest"
+    ],
+    "Henslow Sparrow": [
+        "\u2022 grass\n\u2022 shrubs\n\u2022 leaves\n\u2022 twigs\n\u2022 insects\n\u2022 seeds\n\u2022 small trees",
+        "\u2022 grass\n\u2022 leaves\n\u2022 twigs\n\u2022 seeds\n\u2022 insects\n\u2022 shrubs\n\u2022 trees\n\u2022 bushes"
+    ],
+    "Le Conte Sparrow": [
+        "\u2022 shrubs\n\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 insects\n\u2022 seeds\n\u2022 grass\n\u2022 bushes\n\u2022 trees",
+        "\u2022 shrubs\n\u2022 leaves\n\u2022 stems\n\u2022 twigs\n\u2022 branches\n\u2022 grass\n\u2022 bushes\n\u2022 soil\n\u2022 rocks\n\u2022 insects\n\u2022 seeds"
+    ],
+    "Lincoln Sparrow": [
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 insects\n\u2022 flowers\n\u2022 bushes",
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 flowers\n\u2022 bushes\n\u2022 trees\n\u2022 songbirds"
+    ],
+    "Nelson Sharp tailed Sparrow": [
+        "\u2022 Grass\n\u2022 Leaves\n\u2022 Twigs\n\u2022 Pinecones\n\u2022 Berries\n\u2022 Branches\n\u2022 Worms\n\u2022 Insects",
+        "\u2022 grass\n\u2022 leaves\n\u2022 twigs\n\u2022 seeds\n\u2022 insects\n\u2022 branches\n\u2022 shrubs\n\u2022 flowers\n\u2022 soil"
+    ],
+    "Savannah Sparrow": [
+        "\u2022 grass\n\u2022 bushes\n\u2022 twigs\n\u2022 leaves\n\u2022 insects\n\u2022 seeds\n\u2022 feathers\n\u2022 nest",
+        "\u2022 grass\n\u2022 leaves\n\u2022 twigs\n\u2022 seeds\n\u2022 insects\n\u2022 bushes\n\u2022 shrubs\n\u2022 trees\n\u2022 ground\n\u2022 feathers"
+    ],
+    "Seaside Sparrow": [
+        "\u2022 beach\n\u2022 sand\n\u2022 shells\n\u2022 seaweed\n\u2022 driftwood\n\u2022 feathers",
+        "\u2022 grass\n\u2022 twigs\n\u2022 leaves\n\u2022 feathers\n\u2022 nest"
+    ],
+    "Song Sparrow": [
+        "\u2022 bushes\n\u2022 leaves\n\u2022 twigs\n\u2022 seeds\n\u2022 branches\n\u2022 perches\n\u2022 feathers",
+        "\u2022 leaves\n\u2022 twigs\n\u2022 branches\n\u2022 flowers\n\u2022 berries\n\u2022 insects\n\u2022 grass\n\u2022 shrubs"
+    ],
+    "Tree Sparrow": [
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 bark\n\u2022 seeds\n\u2022 feathers\n\u2022 nests\n\u2022 wires",
+        "\u2022 branch\n\u2022 leaves\n\u2022 feathers\n\u2022 song\n\u2022 nest\n\u2022 seeds\n\u2022 twigs"
+    ],
+    "Vesper Sparrow": [
+        "\u2022 grass\n\u2022 shrubs\n\u2022 trees\n\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 seeds\n\u2022 insects",
+        "\u2022 Grass\n\u2022 Bushes\n\u2022 Twigs\n\u2022 Leaves\n\u2022 Seeds\n\u2022 Thorny plants\n\u2022 Small insects"
+    ],
+    "White crowned Sparrow": [
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 berries\n\u2022 seeds\n\u2022 insects\n\u2022 feathers\n\u2022 beak\n\u2022 tail",
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 seeds\n\u2022 insects\n\u2022 flowers\n\u2022 grass\n\u2022 shrubs"
+    ],
+    "White throated Sparrow": [
+        "\u2022 tree\n\u2022 branch\n\u2022 leaf\n\u2022 twig\n\u2022 seed\n\u2022 grass\n\u2022 underbrush\n\u2022 shrub\n\u2022 bird feeder\n\u2022 birdbath",
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 forest floor\n\u2022 seeds\n\u2022 berries\n\u2022 pinecones\n\u2022 moss"
+    ],
+    "Cape Glossy Starling": [
+        "\u2022 branch\n\u2022 leaves\n\u2022 feathers\n\u2022 beak\n\u2022 claws\n\u2022 perches\n\u2022 twigs\n\u2022 fruit\n\u2022 insects",
+        "\u2022 Tree\n\u2022 Leafy branches\n\u2022 Feathers\n\u2022 Beak\n\u2022 Plumage\n\u2022 Flock\n\u2022 Ground"
+    ],
+    "Bank Swallow": [
+        "\u2022 Bank\n\u2022 Soil\n\u2022 Vegetation\n\u2022 Rocks\n\u2022 Water\n\u2022 Sand\n\u2022 Insects\n\u2022 Small animals",
+        "\u2022 nest\n\u2022 mud\n\u2022 grass\n\u2022 insects\n\u2022 soil\n\u2022 rocks"
+    ],
+    "Barn Swallow": [
+        "\u2022 Nest\n\u2022 Branch\n\u2022 Feathers\n\u2022 Wings\n\u2022 Beak\n\u2022 Eggs",
+        "\u2022 Nest\n\u2022 Branch\n\u2022 Leaves\n\u2022 Feathers\n\u2022 Insects\n\u2022 Flicker wings\n\u2022 Perch\n\u2022 Wire fence"
+    ],
+    "Cliff Swallow": [
+        "\u2022 a nest\n\u2022 mud\n\u2022 twigs\n\u2022 insects\n\u2022 vegetation",
+        "\u2022 a birdhouse\n\u2022 a pole\n\u2022 a perch\n\u2022 eggs\n\u2022 feathers\n\u2022 wings"
+    ],
+    "Tree Swallow": [
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 feathers\n\u2022 insects\n\u2022 worms\n\u2022 flowers\n\u2022 grasses",
+        "\u2022 twigs\n\u2022 leaves\n\u2022 branches\n\u2022 nests\n\u2022 insects\n\u2022 feathers"
+    ],
+    "Scarlet Tanager": [
+        "\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 berries\n\u2022 flowers\n\u2022 insects\n\u2022 feathers",
+        "\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 fruit\n\u2022 berries\n\u2022 flowers\n\u2022 trees\n\u2022 shrubs"
+    ],
+    "Summer Tanager": [
+        "\u2022 branches\n\u2022 leaves\n\u2022 flowers\n\u2022 berries\n\u2022 twigs\n\u2022 insects\n\u2022 feathers\n\u2022 nests",
+        "\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 flowers\n\u2022 insects\n\u2022 fruit\n\u2022 trees\n\u2022 vines\n\u2022 birds"
+    ],
+    "Artic Tern": [
+        "* Arctic Tern:\n    \u2022 Ocean\n    \u2022 Water\n    \u2022 Shore\n    \u2022 Rocks\n    \u2022 Grass\n    \u2022 Other birds\n    \u2022 Seagulls\n    \u2022 Fish\n    \u2022 Worms\n    \u2022 Insects\n    \u2022 Feathered predators",
+        "\u2022 Sea\n\u2022 Water\n\u2022 Fish\n\u2022 Feathers\n\u2022 Beak\n\u2022 Eyes\n\u2022 Wings\n\u2022 Nesting material"
+    ],
+    "Black Tern": [
+        "\u2022 Water\n\u2022 Wetland vegetation\n\u2022 Reed bed\n\u2022 Mire\n\u2022 Insects\n\u2022 Small fish\n\u2022 Twigs\n\u2022 Leaves\n\u2022 Moss",
+        "\u2022 wetland\n\u2022 reeds\n\u2022 grasses\n\u2022 mudflats\n\u2022 waterfowl\n\u2022 insects\n\u2022 small fish\n\u2022 aquatic plants"
+    ],
+    "Caspian Tern": [
+        "\u2022 Water\n\u2022 Shore\n\u2022 Rocks\n\u2022 Seaweed\n\u2022 Fishermen\n\u2022 Fishing nets\n\u2022 Birds",
+        "\u2022 beach\n\u2022 sand\n\u2022 water\n\u2022 shore\n\u2022 mudflat\n\u2022 feathers\n\u2022 beak\n\u2022 wings\n\u2022 legs\n\u2022 fish"
+    ],
+    "Common Tern": [
+        "\u2022 water\n\u2022 sand\n\u2022 rocks\n\u2022 shells\n\u2022 seaweed\n\u2022 other birds\n\u2022 fish\n\u2022 waves",
+        "\u2022 water\n\u2022 reeds\n\u2022 shore\n\u2022 birds\n\u2022 fish\n\u2022 nest\n\u2022 eggs\n\u2022 legs\n\u2022 beak"
+    ],
+    "Elegant Tern": [
+        "\u2022 Ocean\n\u2022 Water\n\u2022 Rocks\n\u2022 Sand\n\u2022 Other terns\n\u2022 Fish\n\u2022 Crabs\n\u2022 Seaweed",
+        "\u2022 Ocean\n\u2022 Waves\n\u2022 Sand\n\u2022 Seagulls\n\u2022 Fish\n\u2022 Feathers"
+    ],
+    "Forsters Tern": [
+        "\u2022 shore\n\u2022 sand\n\u2022 grass\n\u2022 rocks\n\u2022 water\n\u2022 seagulls\n\u2022 fishing boats\n\u2022 people\n\u2022 fish",
+        "\u2022 beach\n\u2022 sand\n\u2022 water\n\u2022 shore\n\u2022 birds\n\u2022 feathers\n\u2022 wings"
+    ],
+    "Least Tern": [
+        "\u2022 sand\n\u2022 water\n\u2022 rocks\n\u2022 shells\n\u2022 seaweed\n\u2022 fish\n\u2022 eggs\n\u2022 nest",
+        "\u2022 sand\n\u2022 rocks\n\u2022 shells\n\u2022 seaweed\n\u2022 water\n\u2022 fish\n\u2022 birds\n\u2022 nests"
+    ],
+    "Green tailed Towhee": [
+        "\u2022 A bird feeder\n\u2022 Leaves\n\u2022 Twigs\n\u2022 Berries\n\u2022 Grass\n\u2022 Branches\n\u2022 Perches\n\u2022 Nesting material",
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 berries\n\u2022 grass\n\u2022 bushes"
+    ],
+    "Brown Thrasher": [
+        "\u2022 Birds\n\u2022 Nest\n\u2022 Twigs\n\u2022 Leaves\n\u2022 Insects\n\u2022 Fruits\n\u2022 Berries",
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 berries\n\u2022 insects\n\u2022 worms\n\u2022 flowers\n\u2022 shrubs \n\u2022 trees"
+    ],
+    "Sage Thrasher": [
+        "\u2022 Desert\n\u2022 Cactus\n\u2022 Twigs\n\u2022 Leaves\n\u2022 Thorns\n\u2022 Feathers",
+        "\u2022 desert\n\u2022 cactus\n\u2022 shrubs\n\u2022 rocks\n\u2022 twigs\n\u2022 insects\n\u2022 seeds"
+    ],
+    "Black capped Vireo": [
+        "\u2022 prairie\n\u2022 grasslands\n\u2022 shrubs\n\u2022 trees\n\u2022 flowers\n\u2022 insects\n\u2022 leaves",
+        "\u2022 Song perches\n\u2022 Tall grasses\n\u2022 Thorny shrubs\n\u2022 Trees\n\u2022 Underbrush\n\u2022 Wildflowers"
+    ],
+    "Blue headed Vireo": [
+        "* a forest\n* trees\n* leaves\n* branches\n* underbrush\n* twigs\n* feathers\n* insects\n* flowers\n* berries",
+        "\u2022 leaves\n\u2022 twigs\n\u2022 branches\n\u2022 flowers\n\u2022 shrubs\n\u2022 trees\n\u2022 wire\n\u2022 nesting material\n\u2022 insects\n\u2022 spiders\n\u2022 feathers"
+    ],
+    "Philadelphia Vireo": [
+        "\u2022 a forest\n\u2022 trees\n\u2022 leaves\n\u2022 twigs\n\u2022 branches\n\u2022 flowers\n\u2022 shrubs\n\u2022 underbrush",
+        "\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 berries\n\u2022 flowers\n\u2022 insects\n\u2022 birdsong\n\u2022 trees\n\u2022 bushes"
+    ],
+    "Red eyed Vireo": [
+        "\u2022 Leaves\n\u2022 Branches\n\u2022 Twigs\n\u2022 Berries\n\u2022 Flowers\n\u2022 Sky\n\u2022 Trunks\n\u2022 Song",
+        "\u2022 Leaves\n\u2022 Branches\n\u2022 Twigs\n\u2022 Berries\n\u2022 Flowers\n\u2022 Feathers\n\u2022 Beak\n\u2022 Eyes"
+    ],
+    "Warbling Vireo": [
+        "\u2022 leaves\n\u2022 twigs\n\u2022 branches\n\u2022 foliage\n\u2022 flowers\n\u2022 insects\n\u2022 spiders\n\u2022 fruits\n\u2022 berries\n\u2022 perches",
+        "\u2022 Leaves\n\u2022 Twigs\n\u2022 Branches\n\u2022 Flowers\n\u2022 Berries\n\u2022 Feathers"
+    ],
+    "White eyed Vireo": [
+        "\u2022 leaves\n\u2022 twigs\n\u2022 branches\n\u2022 flowers\n\u2022 berries\n\u2022 insects\n\u2022 vines",
+        "* Leaves\n* Branches\n* Twigs\n* Foliage\n* Flowers\n* Berries\n* Songperches\n* Perchpiles"
+    ],
+    "Yellow throated Vireo": [
+        "* a forest\n* trees\n* leaves\n* branches\n* twigs\n* moss\n* ferns\n* underbrush\n* birds\n* insects\n* berries\n* worms\n* nests",
+        "\u2022 forest\n\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 flowers\n\u2022 insects\n\u2022 spiders\n\u2022 birds\n\u2022 nests"
+    ],
+    "Bay breasted Warbler": [
+        "\u2022 Leaves\n\u2022 Twigs\n\u2022 Branches\n\u2022 Flowers\n\u2022 Birdhouses\n\u2022 Feathers",
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 feathers\n\u2022 berries\n\u2022 flowers"
+    ],
+    "Black and white Warbler": [
+        "\u2022 Bird\n\u2022 Tree\n\u2022 Leaves\n\u2022 Branches\n\u2022 Song\n\u2022 Migration\n\u2022 Nest",
+        "\u2022 Tree\n\u2022 Leaf\n\u2022 Branch\n\u2022 Twig\n\u2022 Feather\n\u2022 Nest\n\u2022 Insect"
+    ],
+    "Black throated Blue Warbler": [
+        "\u2022 Leaves\n\u2022 Branches\n\u2022 Twigs\n\u2022 Foliage\n\u2022 Flowers\n\u2022 Nesting material\n\u2022 Insects\n\u2022 Worms\n\u2022 Berries\n\u2022 Suet",
+        "\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 flowers\n\u2022 insects\n\u2022 birdhouse\n\u2022 nest\n\u2022 berries\n\u2022 feathers"
+    ],
+    "Blue winged Warbler": [
+        "\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 berries\n\u2022 insects\n\u2022 flowers\n\u2022 trees\n\u2022 shrubs\n\u2022 grass",
+        "\u2022 leaves\n\u2022 twigs\n\u2022 branches\n\u2022 flowers\n\u2022 insects\n\u2022 trees\n\u2022 shrubs"
+    ],
+    "Canada Warbler": [
+        "\u2022 leaves\n\u2022 twigs\n\u2022 branches\n\u2022 flowers\n\u2022 insects\n\u2022 spiders\n\u2022 small birds\n\u2022 trees",
+        "\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 feathers\n\u2022 berries\n\u2022 flowers\n\u2022 forest\n\u2022 trees\n\u2022 underbrush\n\u2022 insects"
+    ],
+    "Cape May Warbler": [
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 flowers\n\u2022 insects\n\u2022 trees\n\u2022 shrubs\n\u2022 feathers\n\u2022 beak",
+        "\u2022 a bird feeder\n\u2022 leaves\n\u2022 twigs\n\u2022 perches\n\u2022 branches\n\u2022 flowers\n\u2022 insects\n\u2022 shrubs\n\u2022 trees"
+    ],
+    "Cerulean Warbler": [
+        "\u2022 Tree\n\u2022 Leaves\n\u2022 Branches\n\u2022 Flowers\n\u2022 Songbird\n\u2022 Nest\n\u2022 Insects\n\u2022 Worms",
+        "\u2022 trees\n\u2022 leaves\n\u2022 branches\n\u2022 flowers\n\u2022 grass\n\u2022 twigs\n\u2022 insects"
+    ],
+    "Chestnut sided Warbler": [
+        "\u2022 Leaves\n\u2022 Branches\n\u2022 Feathers\n\u2022 Beak\n\u2022 Songpost\n\u2022 Perches\n\u2022 Insects",
+        "\u2022 Tree\n\u2022 Leaf\n\u2022 Branch\n\u2022 Twig\n\u2022 Feather\n\u2022 Song\n\u2022 Perch"
+    ],
+    "Golden winged Warbler": [
+        "\u2022 Leaves\n\u2022 Branches\n\u2022 Twigs\n\u2022 Flowers\n\u2022 Berries\n\u2022 Feathers\n\u2022 Songpost\n\u2022 Perch\n\u2022 Nestbox\n\u2022 Insects\n\u2022 Worms",
+        "\u2022 branch\n\u2022 leaves\n\u2022 twigs\n\u2022 flowers\n\u2022 insects\n\u2022 feathers\n\u2022 beak\n\u2022 nest"
+    ],
+    "Hooded Warbler": [
+        "\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 flowers\n\u2022 insects\n\u2022 songs\n\u2022 trees\n\u2022 underbrush",
+        "* Leaves\n* Branches\n* Flowers\n* Nests\n* Insects\n* Berries\n* Vines\n* Trees"
+    ],
+    "Kentucky Warbler": [
+        "\u2022 Songbird\n\u2022 Leaves\n\u2022 Branches\n\u2022 Twigs\n\u2022 Foliage\n\u2022 Pine needles\n\u2022 Flowers",
+        "\u2022 treetop\n\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 flowers\n\u2022 insects\n\u2022 bird feeder\n\u2022 nest"
+    ],
+    "Magnolia Warbler": [
+        "\u2022 Leaves\n\u2022 Branches\n\u2022 Twigs\n\u2022 Berries\n\u2022 Vines\n\u2022 Songpost\n\u2022 Migration routes\n\u2022 Nests",
+        "\u2022 Leaves\n\u2022 Branches\n\u2022 Twigs\n\u2022 Berries\n\u2022 Flowers\n\u2022 Song\n\u2022 Migration routes\n\u2022 Nests\n\u2022 Insects\n\u2022 Worms\n\u2022 Spiders\n\u2022 Birds"
+    ],
+    "Mourning Warbler": [
+        "\u2022 leaves\n\u2022 branches\n\u2022 trees\n\u2022 twigs\n\u2022 grass\n\u2022 flowers\n\u2022 insects\n\u2022 berries",
+        "\u2022 a tree\n\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 foliage\n\u2022 flowers\n\u2022 insects\n\u2022 berries"
+    ],
+    "Myrtle Warbler": [
+        "* a tree\n* leaves\n* branches\n* twigs\n* flowers\n* insects\n* fruit",
+        "\u2022 leaves\n\u2022 branches\n\u2022 trees\n\u2022 flowers\n\u2022 berries\n\u2022 twigs\n\u2022 worms\n\u2022 insects\n\u2022 feathers\n\u2022 nest"
+    ],
+    "Nashville Warbler": [
+        "\u2022 trees\n\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 flowers\n\u2022 shrubs\n\u2022 underbrush\n\u2022 vines\n\u2022 berries",
+        "\u2022 leaf\n\u2022 branch\n\u2022 twig\n\u2022 thorn\n\u2022 flower\n\u2022 forest\n\u2022 tree\n\u2022 bark\n\u2022 feather\n\u2022 song"
+    ],
+    "Orange crowned Warbler": [
+        "\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 berries\n\u2022 flowers\n\u2022 shrubs\n\u2022 trees\n\u2022 grass\n\u2022 insects\n\u2022 feathers",
+        "\u2022 Trees\n\u2022 Branches\n\u2022 Leaves\n\u2022 Fruits\n\u2022 Nests\n\u2022 Eggs\n\u2022 Worms\n\u2022 Insects\n\u2022 Flowers"
+    ],
+    "Palm Warbler": [
+        "\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 insects\n\u2022 seeds\n\u2022 flowers\n\u2022 berries\n\u2022 shrubs",
+        "\u2022 leaves\n\u2022 twigs\n\u2022 branches\n\u2022 flowers\n\u2022 shrubs\n\u2022 insects\n\u2022 berries\n\u2022 feathers"
+    ],
+    "Pine Warbler": [
+        "\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 insects\n\u2022 flowers\n\u2022 shrubs\n\u2022 trees\n\u2022 forest\n\u2022 wire\n\u2022 nest\n\u2022 feathers",
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 flowers\n\u2022 insects\n\u2022 trees\n\u2022 shrubs\n\u2022 vines\n\u2022 forest\n\u2022 grass\n\u2022 feathers"
+    ],
+    "Prairie Warbler": [
+        "\u2022 grass\n\u2022 leaves\n\u2022 twigs\n\u2022 flowers\n\u2022 branches\n\u2022 insects\n\u2022 seeds\n\u2022 feathers\n\u2022 nest",
+        "\u2022 Grass\n\u2022 Leaves\n\u2022 Twigs\n\u2022 Branches\n\u2022 Flowers\n\u2022 Berries\n\u2022 Nesting material\n\u2022 A wire or wooden fence\n\u2022 Other birds"
+    ],
+    "Prothonotary Warbler": [
+        "\u2022 Songbird\n\u2022 Leafy branches\n\u2022 Twigs\n\u2022 Berries\n\u2022 Feathers\n\u2022 Beak\n\u2022 Nest\n\u2022 Tree\n\u2022 Underbrush",
+        "\u2022 leaves\n\u2022 twigs\n\u2022 branches\n\u2022 flowers\n\u2022 berries\n\u2022 insects\n\u2022 worms\n\u2022 water\n\u2022 song\n\u2022 nest\n\u2022 feathers"
+    ],
+    "Swainson Warbler": [
+        "\u2022 leaves\n\u2022 twigs\n\u2022 branches\n\u2022 vines\n\u2022 flowers\n\u2022 insects\n\u2022 trees",
+        "\u2022 Leaves\n\u2022 Branches\n\u2022 Flowers\n\u2022 Moss\n\u2022 Twigs\n\u2022 Berries\n\u2022 Thorns\n\u2022 Birds"
+    ],
+    "Tennessee Warbler": [
+        "\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 flowers\n\u2022 berries\n\u2022 insects\n\u2022 trees",
+        "\u2022 Bird\n\u2022 Leaves\n\u2022 Branches\n\u2022 Berries\n\u2022 Song\n\u2022 Nest"
+    ],
+    "Wilson Warbler": [
+        "\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 feathers\n\u2022 insects\n\u2022 flowers\n\u2022 tree\n\u2022 nest\n\u2022 eggs\n\u2022 perches",
+        "\u2022 Tree\n\u2022 Leaves\n\u2022 Branches\n\u2022 Nest\n\u2022 Twig\n\u2022 Feathers\n\u2022 Worms\n\u2022 Flowers\n\u2022 Soil\n\u2022 Water\n\u2022 Insects"
+    ],
+    "Worm eating Warbler": [
+        "\u2022 Birds\n\u2022 Tree branches\n\u2022 Leaves\n\u2022 Twigs\n\u2022 Moss\n\u2022 Flowers\n\u2022 Insects\n\u2022 Soil",
+        "\u2022 leaves\n\u2022 twigs\n\u2022 insects\n\u2022 branches\n\u2022 foliage\n\u2022 flowers\n\u2022 bushes"
+    ],
+    "Yellow Warbler": [
+        "\u2022 Leaves\n\u2022 Branches\n\u2022 Twigs\n\u2022 Flowers\n\u2022 Fruits\n\u2022 Berries\n\u2022 Birds\n\u2022 Worms\n\u2022 Insects",
+        "\u2022 Leaves\n\u2022 Branches\n\u2022 Feathers\n\u2022 Beak\n\u2022 Song\n\u2022 Nest\n\u2022 Worms\n\u2022 Insects"
+    ],
+    "Northern Waterthrush": [
+        "\u2022 Leaves\n\u2022 Branches\n\u2022 Bark\n\u2022 Twigs\n\u2022 Berries\n\u2022 Lichen\n\u2022 Moss\n\u2022 Pine needles\n\u2022 Soil\n\u2022 Rocks\n\u2022 Water\n\u2022 Insects\n\u2022 Worms\n\u2022 Spiders\n\u2022 Buds",
+        "\u2022 Bushes\n\u2022 Leaves\n\u2022 Twigs\n\u2022 Moss\n\u2022 Water\n\u2022 Rocks\n\u2022 Soil\n\u2022 Insects\n\u2022 Worms\n\u2022 Fungi"
+    ],
+    "Louisiana Waterthrush": [
+        "List of things most commonly seen around a \"Louisiana Waterthrush\":\n\n\u2022 Marsh\n\u2022 Vegetation\n\u2022 Trees\n\u2022 Underbrush\n\u2022 Stream\n\u2022 Rocks\n\u2022 Leaves\n\u2022 Feathers",
+        "\u2022 Stream\n\u2022 Water\n\u2022 Leaves\n\u2022 Branches\n\u2022 Moss\n\u2022 Rocks"
+    ],
+    "Bohemian Waxwing": [
+        "\u2022 tree\n\u2022 branch\n\u2022 berries\n\u2022 flock\n\u2022 feathers\n\u2022 beak",
+        "\u2022 branches\n\u2022 twigs\n\u2022 leaves\n\u2022 berries\n\u2022 trees\n\u2022 shrubs\n\u2022 insects\n\u2022 worms"
+    ],
+    "Cedar Waxwing": [
+        "\u2022 Tree\n\u2022 Berries\n\u2022 Leaves\n\u2022 Branches\n\u2022 Feathers",
+        "\u2022 branches\n\u2022 berries\n\u2022 eggs\n\u2022 feathers\n\u2022 insects\n\u2022 leaves\n\u2022 nest\n\u2022 twigs"
+    ],
+    "American Three toed Woodpecker": [
+        "\u2022 Tree\n\u2022 Bark\n\u2022 Leaves\n\u2022 Branches\n\u2022 Forest\n\u2022 Feathers",
+        "\u2022 Tree\n\u2022 Bark\n\u2022 Leaves\n\u2022 Branches\n\u2022 Feathers\n\u2022 Beak\n\u2022 Nest"
+    ],
+    "Pileated Woodpecker": [
+        "\u2022 tree\n\u2022 logs\n\u2022 sap\n\u2022 insects\n\u2022 forest\n\u2022 branches\n\u2022 feathers",
+        "\u2022 Tree\n\u2022 Branches\n\u2022 Leaves\n\u2022 Bark\n\u2022 Sap\n\u2022 Feathers\n\u2022 Beak\n\u2022 Tail feathers"
+    ],
+    "Red bellied Woodpecker": [
+        "\u2022 Trees\n\u2022 Branches\n\u2022 Leaves\n\u2022 Feathers\n\u2022 Beak\n\u2022 Bark\n\u2022 Nest",
+        "* a tree\n* branches\n* leaves\n* bark\n* feathers\n* beak\n* tail\n* wings"
+    ],
+    "Red cockaded Woodpecker": [
+        "\u2022 trees\n\u2022 branches\n\u2022 bark\n\u2022 feathers\n\u2022 acorns\n\u2022 pinecones",
+        "\u2022 branches\n\u2022 leaves\n\u2022 bark\n\u2022 sap\n\u2022 insects\n\u2022 twigs\n\u2022 hollow trees\n\u2022 forest floor"
+    ],
+    "Red headed Woodpecker": [
+        "\u2022 Tree\n\u2022 Bark\n\u2022 Feathers\n\u2022 Beak\n\u2022 Ants\n\u2022 Acorns\n\u2022 Branches\n\u2022 Nest",
+        "\u2022 tree\n\u2022 branch\n\u2022 trunk\n\u2022 leaves\n\u2022 feathers\n\u2022 beak\n\u2022 wings\n\u2022 nest"
+    ],
+    "Downy Woodpecker": [
+        "\u2022 Trees\n\u2022 Bark\n\u2022 Leaves\n\u2022 Nest\n\u2022 Eggs\n\u2022 Insects\n\u2022 Sap\n\u2022 Vines",
+        "\u2022 tree\n\u2022 trunk\n\u2022 bark\n\u2022 leaves\n\u2022 branch\n\u2022 nest\n\u2022 acorns\n\u2022 twigs"
+    ],
+    "Bewick Wren": [
+        "\u2022 Tree\n\u2022 Branch\n\u2022 Leaves\n\u2022 Twigs\n\u2022 Nuts\n\u2022 Seeds\n\u2022 Fruits\n\u2022 Worms\n\u2022 Insects",
+        "\u2022 Branch\n\u2022 Leaves\n\u2022 Twigs\n\u2022 Berries\n\u2022 Nest\n\u2022 Worms\n\u2022 Insects"
+    ],
+    "Cactus Wren": [
+        "\u2022 Desert\n\u2022 Thorny plants\n\u2022 Twigs\n\u2022 Seeds\n\u2022 Spines\n\u2022 Song\n\u2022 Nest\n\u2022 Tail feathers",
+        "\u2022 Desert\n\u2022 Thorns\n\u2022 Prickles\n\u2022 Spines\n\u2022 Birds\n\u2022 Seeds\n\u2022 Leaves\n\u2022 Branches"
+    ],
+    "Carolina Wren": [
+        "\u2022 branch\n\u2022 leaves\n\u2022 twigs\n\u2022 insects\n\u2022 worms\n\u2022 spiders\n\u2022 flowers\n\u2022 nest",
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 berries\n\u2022 insects\n\u2022 nest\n\u2022 eggs\n\u2022 feathers"
+    ],
+    "House Wren": [
+        "* a tree\n* branches\n* leaves\n* twigs\n* worms\n* insects\n* nest\n* eggs\n* perch",
+        "\u2022 nest\n\u2022 twigs\n\u2022 leaves\n\u2022 insects\n\u2022 worms\n\u2022 branches\n\u2022 shrubs\n\u2022 trees"
+    ],
+    "Marsh Wren": [
+        "\u2022 twigs\n\u2022 leaves\n\u2022 branches\n\u2022 thorns\n\u2022 flowers\n\u2022 insects\n\u2022 feathers",
+        "\u2022 thorny shrub\n\u2022 dense vegetation\n\u2022 twigs\n\u2022 leaves\n\u2022 insects\n\u2022 spiders\n\u2022 small birds"
+    ],
+    "Rock Wren": [
+        "\u2022 Tree\n\u2022 Branch\n\u2022 Leaves\n\u2022 Nest\n\u2022 Twigs\n\u2022 Feathers",
+        "\u2022 Rocks\n\u2022 Bushes\n\u2022 Twigs\n\u2022 Leaves\n\u2022 Fungi\n\u2022 Moss\n\u2022 Birds"
+    ],
+    "Winter Wren": [
+        "\u2022 branches\n\u2022 leaves\n\u2022 twigs\n\u2022 berries\n\u2022 insects\n\u2022 lichen\n\u2022 moss\n\u2022 bark\n\u2022 feathers",
+        "\u2022 Branch\n\u2022 Leaves\n\u2022 Twig\n\u2022 Berry\n\u2022 Song"
+    ],
+    "Common Yellowthroat": [
+        "\u2022 bushes\n\u2022 leaves\n\u2022 twigs\n\u2022 insects\n\u2022 flowers\n\u2022 branches\n\u2022 trees\n\u2022 grass",
+        "\u2022 leaves\n\u2022 twigs\n\u2022 flowers\n\u2022 branches\n\u2022 insects\n\u2022 shrubs\n\u2022 feathers"
+    ]
+}

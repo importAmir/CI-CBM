@@ -1,0 +1,797 @@
+{
+    "apple": [
+        "84% water",
+        "a beautiful golden green color",
+        "a core",
+        "a skin",
+        "apple tree",
+        "computer brand",
+        "edible fruit",
+        "green",
+        "many cooking uses",
+        "pome",
+        "red",
+        "seeds inside"
+    ],
+    "aquarium fish": [
+        "Some fish",
+        "a filter",
+        "an animal",
+        "animal container",
+        "bones",
+        "facility",
+        "fins",
+        "food",
+        "gills",
+        "lateral line",
+        "milt",
+        "person",
+        "striped",
+        "tail fin",
+        "tangible thing",
+        "vivarium",
+        "water"
+    ],
+    "baby": [
+        "a newborn human",
+        "a very young child",
+        "child",
+        "fetus",
+        "offspring",
+        "undertaking",
+        "young animal"
+    ],
+    "bear": [
+        "a carnivore",
+        "an animal"
+    ],
+    "beaver": [
+        "American",
+        "an animal",
+        "armor plate",
+        "beard",
+        "fur",
+        "fur hat",
+        "helmet",
+        "rodent"
+    ],
+    "bed": [
+        "a furniture item",
+        "a mattress ",
+        "a place",
+        "a surface",
+        "bedroom",
+        "flat",
+        "foundation",
+        "natural depression",
+        "press"
+    ],
+    "bee": [
+        "hive",
+        "hymenopterous insect",
+        "social gathering"
+    ],
+    "beetle": [
+        "insect"
+    ],
+    "bicycle": [
+        "a chain",
+        "a two-wheeled vehicle,",
+        "a wheel",
+        "bicycle seat",
+        "coaster brake",
+        "handlebar",
+        "kickstand",
+        "metal",
+        "mudguard",
+        "non powered device",
+        "pedal",
+        "sprocket",
+        "toy",
+        "transportation",
+        "two tires",
+        "two wheels"
+    ],
+    "bottle": [
+        "a bottle of wine",
+        "bottlecap",
+        "container",
+        "containerful",
+        "mouth",
+        "plastic",
+        "vessel"
+    ],
+    "bowl": [
+        "ball",
+        "concave shape",
+        "container",
+        "containerful",
+        "dish",
+        "lawn bowling",
+        "pipe",
+        "vessel"
+    ],
+    "boy": [
+        "young animal"
+    ],
+    "bridge": [
+        "arch",
+        "bid",
+        "circuit",
+        "connection",
+        "contract",
+        "nasal",
+        "nose",
+        "ruff",
+        "structure",
+        "support"
+    ],
+    "bus": [
+        "a form of mass transit",
+        "a roof",
+        "car",
+        "dysphemism",
+        "public transport",
+        "window"
+    ],
+    "butterfly": [
+        "dolphin kick",
+        "insect",
+        "lepidopterous insect",
+        "swimming stroke"
+    ],
+    "camel": [
+        "A hump",
+        "even-toed ungulate",
+        "mammal",
+        "pack animal"
+    ],
+    "can": [
+        "buoy",
+        "container",
+        "containerful"
+    ],
+    "castle": [
+        "chess move",
+        "chessman",
+        "fortification",
+        "keep",
+        "large building",
+        "turret"
+    ],
+    "caterpillar": [
+        "larva"
+    ],
+    "cattle": [
+        "beef",
+        "bovine"
+    ],
+    "chair": [
+        "A leg",
+        "back",
+        "four legs",
+        "funiture",
+        "non powered device"
+    ],
+    "chimpanzee": [
+        "an animal",
+        "an ape",
+        "hominid"
+    ],
+    "clock": [
+        "A face",
+        "The dial",
+        "a machine",
+        "analog or digital",
+        "fusee drive",
+        "movement",
+        "timepiece"
+    ],
+    "cloud": [
+        "atmospheric phenomenon",
+        "gloom",
+        "opaque thing",
+        "physical phenomenon",
+        "sky",
+        "suspicion",
+        "unreality"
+    ],
+    "cockroach": [
+        "dictyopterous insect",
+        "vermin"
+    ],
+    "couch": [
+        "a divan",
+        "flat coat",
+        "furnitire"
+    ],
+    "crab": [
+        "an animal",
+        "crab cocktail",
+        "decapod crustacean",
+        "grouch",
+        "person",
+        "rowing",
+        "shellfish"
+    ],
+    "crocodile": [
+        "crocodilian reptile"
+    ],
+    "cup": [
+        "United States liquid unit",
+        "a liquid",
+        "a unit of volumetric measure",
+        "concave shape",
+        "container",
+        "containerful",
+        "crockery",
+        "gill",
+        "hole",
+        "pint",
+        "plant organ",
+        "punch",
+        "trophy"
+    ],
+    "dinosaur": [
+        "archosaur",
+        "wild animal"
+    ],
+    "dolphin": [
+        "an animal",
+        "food fish"
+    ],
+    "elephant": [
+        "a pachiderm",
+        "a trunk",
+        "emblem",
+        "nose",
+        "pachyderm",
+        "pack animal",
+        "proboscidean",
+        "proboscis",
+        "tusk",
+        "tusks"
+    ],
+    "flatfish": [
+        "bottom feeder",
+        "spiny-finned fish"
+    ],
+    "forest": [
+        "a natural growth area",
+        "biome",
+        "group of trees",
+        "land",
+        "many trees",
+        "vegetation"
+    ],
+    "fox": [
+        "Algonquian",
+        "a long tail",
+        "an animal",
+        "canine",
+        "four legs",
+        "fur",
+        "meat-eating"
+    ],
+    "girl": [],
+    "hamster": [
+        "rodent"
+    ],
+    "house": [
+        "A garden",
+        "A living room",
+        "A nail",
+        "A wall",
+        "a basement",
+        "a bathroom",
+        "a door",
+        "a floor",
+        "a kitchen",
+        "a place",
+        "a roof",
+        "a shelter",
+        "a yard",
+        "an attic",
+        "community",
+        "doors",
+        "dwelling",
+        "legislature",
+        "rooms",
+        "study",
+        "windows"
+    ],
+    "kangaroo": [
+        "biped",
+        "marsupial"
+    ],
+    "keyboard": [
+        "a piano",
+        "action",
+        "an accordion",
+        "computer",
+        "device",
+        "holder",
+        "keys",
+        "organ",
+        "terminal",
+        "typesetting machine",
+        "typewriter"
+    ],
+    "lamp": [
+        "a furniture item",
+        "base",
+        "bright",
+        "diffuser",
+        "electric socket",
+        "electronic device",
+        "lampshade",
+        "source of illumination"
+    ],
+    "lawn mower": [
+        "a patch of grass",
+        "a piece of land",
+        "field",
+        "grass",
+        "green",
+        "lawn",
+        "place occupied by humans",
+        "solid ground",
+        "something to be mowed"
+    ],
+    "leopard": [
+        "an animal",
+        "big cat",
+        "cat",
+        "felid",
+        "fur",
+        "mammal",
+        "operating system",
+        "panther"
+    ],
+    "lion": [
+        "a carnivore",
+        "an animal",
+        "big cat",
+        "celebrity",
+        "feline",
+        "mane",
+        "person"
+    ],
+    "lizard": [
+        "saurian",
+        "squamate"
+    ],
+    "lobster": [
+        "coral",
+        "decapod crustacean",
+        "food",
+        "shellfish",
+        "swimmeret",
+        "tomalley"
+    ],
+    "man": [
+        "adult",
+        "adult male body",
+        "game equipment",
+        "male",
+        "subordinate"
+    ],
+    "maple tree": [
+        "A leaf",
+        "a plant",
+        "a trunk",
+        "alive",
+        "angiospermous tree",
+        "bark",
+        "crown",
+        "leaves on its branches",
+        "plane figure",
+        "stump",
+        "wood"
+    ],
+    "motorcycle": [
+        "a two-wheeled vehicle,",
+        "fatsret than a scooter",
+        "kick starter",
+        "kickstand",
+        "motor vehicle",
+        "mudguard",
+        "two wheels"
+    ],
+    "mountain": [
+        "natural elevation",
+        "very large"
+    ],
+    "mouse": [
+        "a short lifespan",
+        "computer",
+        "electronic device",
+        "mammal",
+        "person",
+        "rodent"
+    ],
+    "mushroom": [
+        "a fungus",
+        "agaric",
+        "basidiomycete",
+        "stuffed mushroom",
+        "vegetable"
+    ],
+    "oak tree": [
+        "A leaf",
+        "a plant",
+        "a species",
+        "a trunk",
+        "acorn",
+        "alive",
+        "bark",
+        "crown",
+        "leaves on its branches",
+        "plane figure",
+        "stump",
+        "wood"
+    ],
+    "orange": [
+        "Carrots",
+        "Cheddar cheese",
+        "Pumpkins",
+        "South Africa",
+        "a citrus fruit",
+        "a color",
+        "a colour and a fruit",
+        "a peel",
+        "chromatic color",
+        "citrus",
+        "orange peel",
+        "pigment",
+        "rind",
+        "sweet"
+    ],
+    "orchid": [
+        "a flower",
+        "mentum"
+    ],
+    "otter": [
+        "an animal",
+        "fur",
+        "musteline mammal"
+    ],
+    "palm tree": [
+        "A leaf",
+        "a hand",
+        "a plant",
+        "a trunk",
+        "alive",
+        "area",
+        "bark",
+        "crown",
+        "leaves on its branches",
+        "linear unit",
+        "plane figure",
+        "stump",
+        "thenar",
+        "wood"
+    ],
+    "pear": [
+        "edible fruit",
+        "fruit tree",
+        "pome",
+        "smoothness"
+    ],
+    "pickup truck": [
+        "a bigger type of car",
+        "a guitar",
+        "a roof",
+        "a vehicle",
+        "a vehicle with seats inside it",
+        "acceleration",
+        "acquaintance",
+        "acquiring",
+        "bench warrant",
+        "bigger than a car",
+        "bumper",
+        "car",
+        "collection",
+        "corrective",
+        "motor vehicle",
+        "pickup",
+        "stabilizer bar",
+        "tailgate",
+        "transportation"
+    ],
+    "pine tree": [
+        "A leaf",
+        "a plant",
+        "a soft wood",
+        "a trunk",
+        "alive",
+        "bark",
+        "conifer",
+        "crown",
+        "leaves on its branches",
+        "pinecone",
+        "plane figure",
+        "stump",
+        "wood"
+    ],
+    "plain": [
+        "land"
+    ],
+    "plate": [
+        "a dish",
+        "crust",
+        "cut of beef",
+        "entree",
+        "flatware",
+        "receptacle",
+        "sheet"
+    ],
+    "poppy": [
+        "a flower"
+    ],
+    "porcupine": [
+        "gnawer",
+        "quill",
+        "rodent"
+    ],
+    "possum": [],
+    "rabbit": [
+        "an animal",
+        "game",
+        "hare",
+        "leporid",
+        "scut",
+        "wood rabbit"
+    ],
+    "raccoon": [
+        "a mammal from North America",
+        "an animal",
+        "fur",
+        "mammal",
+        "procyon",
+        "procyonid"
+    ],
+    "ray": [
+        "elasmobranch",
+        "fin",
+        "pedicel",
+        "spine",
+        "vector"
+    ],
+    "road": [
+        "a surface",
+        "bend",
+        "crown",
+        "intersection",
+        "means",
+        "shoulder",
+        "traffic circle",
+        "turnaround",
+        "turnout",
+        "way"
+    ],
+    "rocket": [
+        "a machine",
+        "herb",
+        "jet engine",
+        "self-propelled vehicle",
+        "visual signal"
+    ],
+    "rose": [
+        "hip",
+        "pink",
+        "red",
+        "shrub",
+        "thorns"
+    ],
+    "sea": [
+        "a body of salt water",
+        "bay",
+        "body of water",
+        "full of water",
+        "gulf",
+        "hydrosphere",
+        "inlet",
+        "turbulent flow",
+        "wet"
+    ],
+    "seal": [
+        "bluejacket",
+        "coating",
+        "device",
+        "fastener",
+        "fur",
+        "pinniped mammal"
+    ],
+    "shark": [
+        "a fish that cant stop swimming",
+        "elasmobranch",
+        "expert",
+        "wrongdoer"
+    ],
+    "shrew": [
+        "insectivore",
+        "unpleasant person"
+    ],
+    "skunk": [
+        "crepuscular animal",
+        "musteline mammal"
+    ],
+    "skyscraper": [
+        "a steel frame",
+        "a type of",
+        "building",
+        "large building",
+        "multilevel building",
+        "office building",
+        "several stories",
+        "tall building",
+        "tower"
+    ],
+    "snail": [],
+    "snake": [
+        "Idaho",
+        "Oregon",
+        "Twin",
+        "Washington",
+        "Wyoming",
+        "bad person",
+        "diapsid",
+        "no legs"
+    ],
+    "spider": [
+        "an animal",
+        "frying pan",
+        "program"
+    ],
+    "squirrel": [
+        "fur",
+        "rodent",
+        "vermin"
+    ],
+    "streetcar": [
+        "a two-wheeled vehicle,",
+        "self-propelled vehicle",
+        "trolley line"
+    ],
+    "sunflower": [
+        "a flower",
+        "flowering plant"
+    ],
+    "sweet pepper": [
+        "Cake",
+        "Cookies",
+        "a spice",
+        "capsicum",
+        "dainty",
+        "flavorer",
+        "season",
+        "solanaceous vegetable",
+        "sweet",
+        "taste",
+        "true pepper"
+    ],
+    "table": [
+        "A leg",
+        "a row",
+        "array",
+        "gathering",
+        "tableware",
+        "wood"
+    ],
+    "tank": [
+        "a weapon",
+        "armored vehicle",
+        "cannon",
+        "containerful",
+        "gun enclosure",
+        "off-road vehicle",
+        "tracked vehicle",
+        "vessel"
+    ],
+    "telephone": [
+        "a communication device",
+        "electronic equipment",
+        "mouthpiece",
+        "telecommunication"
+    ],
+    "television": [
+        "a good way to spend time",
+        "a machine",
+        "a passive medium",
+        "an appliance",
+        "audio",
+        "broadcasting",
+        "cathode-ray tube",
+        "entertaining",
+        "monitor",
+        "telecommunication",
+        "television receiver",
+        "television transmitter",
+        "video"
+    ],
+    "tiger": [
+        "an animal",
+        "big cat",
+        "felid",
+        "feline",
+        "person"
+    ],
+    "tractor": [
+        "a two-wheeled vehicle,",
+        "a vehicle",
+        "agricultural vehicle",
+        "land vehicle",
+        "self-propelled vehicle",
+        "transport container"
+    ],
+    "train": [
+        "consequence",
+        "gown",
+        "piece of cloth",
+        "public transport"
+    ],
+    "trout": [
+        "a special kind of fish",
+        "a torpedo-shaped fish",
+        "food fish",
+        "salmonid"
+    ],
+    "tulip": [
+        "a cup-shaped flower",
+        "a flower",
+        "a flowr",
+        "liliaceous plant"
+    ],
+    "turtle": [
+        "a hard shell",
+        "a shell",
+        "carapace",
+        "chelonian",
+        "plastron"
+    ],
+    "wardrobe": [
+        "a container for clothes",
+        "a furniture item",
+        "collection",
+        "costume",
+        "shirt",
+        "your collection of clothing"
+    ],
+    "whale": [
+        "a marine mammal",
+        "cetacean",
+        "mammal"
+    ],
+    "willow tree": [
+        "A leaf",
+        "a plant",
+        "a trunk",
+        "alive",
+        "bark",
+        "crown",
+        "leaves on its branches",
+        "plane figure",
+        "stump",
+        "textile machine",
+        "willow",
+        "wood"
+    ],
+    "wolf": [
+        "canine",
+        "womanizer"
+    ],
+    "woman": [
+        "adult",
+        "adult male body",
+        "male"
+    ],
+    "worm": [
+        "an animal",
+        "invertebrate",
+        "malevolent program",
+        "screw",
+        "unpleasant person",
+        "worm gear"
+    ]
+}

@@ -1,0 +1,402 @@
+{
+    "apple": [
+        "\u2022 Fleshy texture\n\u2022 Typically round shape\n\u2022 Green skin\n\u2022 Stem at top\n\u2022 Seeds inside",
+        "\u2022 Sweet or tart taste\n\u2022 Typically round or oval shape\n\u2022 Fleshy texture\n\u2022 Stem at one end\n\u2022 Often has a skin that is red, green, yellow, or other colors"
+    ],
+    "aquarium fish": [
+        "\u2022 Scales\n\u2022 Fins\n\u2022 Gills\n\u2022 Eye spots\n\u2022 Body shape that is generally elongated or rounded",
+        "Here are the lists:\n\nGoldfish:\n\u2022 Bright orange color\n\u2022 Small, round body\n\u2022 Small mouth\n\u2022 Orange fins\n\nBeerglass:\n\u2022 Tall, cylindrical shape\n\u2022 Clear or translucent color\n\u2022 Opening at the top\n\u2022 Sturdy base\n\u2022 Handle\n\nAquarium Fish:\n\u2022 Scales\n\u2022 Fins\n\u2022 Gills\n\u2022 Aquatic environment\n\u2022 Oxygen supply"
+    ],
+    "baby": [
+        "\u2022 helplessness\n\u2022 dependence on others\n\u2022 small size\n\u2022 round face\n\u2022 soft features\n\u2022 vulnerability\n\u2022 innocence",
+        "\u2022 Helpless movements\n\u2022 Soft skin\n\u2022 Round face\n\u2022 Small size\n\u2022 Dependence on caregivers"
+    ],
+    "bear": [
+        "\u2022 furry texture\n\u2022 large size\n\u2022 four legs\n\u2022 sharp claws\n\u2022 omnivorous diet\n\u2022 ability to hibernate",
+        "\u2022 large size\n\u2022 shaggy fur\n\u2022 claws\n\u2022 omnivorous diet\n\u2022 hibernation ability\n\u2022 upright posture on hind legs"
+    ],
+    "beaver": [
+        "\u2022 rodent-like body\n\u2022 flat, paddle-like tail\n\u2022 prominent incisors\n\u2022 webbed hind feet\n\u2022 brown or reddish-brown color",
+        "\u2022 semi-aquatic nature\n\u2022 large incisors\n\u2022 flat, paddle-like tail\n\u2022 brownish-red fur\n\u2022 webbed hind feet\n\u2022 sharp claws"
+    ],
+    "bed": [
+        "\u2022 Soft texture\n\u2022 Cushioning material\n\u2022 Fabric or cloth material\n\u2022 Frame or box spring support\n\u2022 Pillows or mattress",
+        "\u2022 Soft fabric or material\n\u2022 Flat surface\n\u2022 Supportive structure (frame or foundation)\n\u2022 Cushioning or padding for comfort\n\u2022 Headboard and footboard options"
+    ],
+    "bee": [
+        "\u2022 six legs\n\u2022 two compound eyes\n\u2022 a long, thin body\n\u2022 wings\n\u2022 a stinger",
+        "\u2022 six legs\n\u2022 compound eyes\n\u2022 antennae\n\u2022 wings"
+    ],
+    "beetle": [
+        "\u2022 Hard exoskeleton\n\u2022 Three main body parts: head, thorax, and abdomen\n\u2022 Six legs\n\u2022 Usually has two antennae\n\u2022 Often has distinctive patterns or colors on its back\n\u2022 May have wings or elytra (modified wings)",
+        "\u2022 Hard outer shell\n\u2022 Three segments (head, thorax, abdomen)\n\u2022 Six legs\n\u2022 Compound eyes"
+    ],
+    "bicycle": [
+        "\u2022 Two wheels\n\u2022 Pedals\n\u2022 Handlebars\n\u2022 Frame\n\u2022 Gears",
+        "\u2022 two wheels\n\u2022 pedals\n\u2022 handlebars\n\u2022 chain\n\u2022 seat\n\u2022 frame"
+    ],
+    "bottle": [
+        "\u2022 Narrow waist\n\u2022 Necked shape\n\u2022 Opening at top\n\u2022 Sturdy base\n\u2022 Handle\n\u2022 Container for liquids or gases",
+        "\u2022 Glass-like material\n\u2022 Curved shape\n\u2022 Neck or opening at top\n\u2022 Sturdy base"
+    ],
+    "bowl": [
+        "\u2022 Curved shape\n\u2022 Typically made of ceramic or glass\n\u2022 Varied sizes and shapes\n\u2022 Often decorative or ornamental\n\u2022 Can be used for holding water or other liquids\n\u2022 May have a pedestal or stand",
+        "\u2022 Curved shape\n\u2022 Circular or oval base\n\u2022 Height varying from short to tall\n\u2022 Material: ceramic, glass, plastic"
+    ],
+    "boy": [
+        "\u2022 male sex\n\u2022 human species\n\u2022 infantile or childlike appearance\n\u2022 facial hair (in some cases)\n\u2022 clothing and accessories",
+        "\u2022 male sex\n\u2022 adult human\n\u2022 typically hairy on head and body\n\u2022 facial hair often present"
+    ],
+    "bridge": [
+        "\u2022 Spanning structure\n\u2022 Connecting two landmasses or bodies of water\n\u2022 Supports weight and traffic\n\u2022 Designed for crossing\n\u2022 Often has multiple lanes or paths\n\u2022 Typically made of durable materials like steel or concrete",
+        "\u2022 Spans a gap\n\u2022 Consists of multiple parts (e.g., abutments, piers)\n\u2022 Supports traffic (pedestrian, vehicular, etc.)\n\u2022 Typically has railings or barriers\n\u2022 May have arches or suspension cables"
+    ],
+    "bus": [
+        "\u2022 Large size\n\u2022 Wheels on bottom\n\u2022 Multiple doors\n\u2022 Engine compartment\n\u2022 Capacity for multiple passengers",
+        "* large size\n* wheels\n* multiple doors\n* seats\n* engine"
+    ],
+    "butterfly": [
+        "* Delicate wings\n* Light body\n* Long antennae\n* Compound eyes\n* Proboscis-like mouth",
+        "\u2022 Delicate wings\n\u2022 Thin, elongated body\n\u2022 Six legs\n\u2022 Compound eyes\n\u2022 Colorful patterns and stripes"
+    ],
+    "camel": [
+        "\u2022 Long neck\n\u2022 Humps on back\n\u2022 Thick lips\n\u2022 Large ears\n\u2022 Two humps",
+        "\u2022 Humps\n\u2022 Long neck\n\u2022 Large ears\n\u2022 Brown to tan color\n\u2022 Two-legged stance"
+    ],
+    "can": [
+        "\u2022 rectangular shape\n\u2022 metal body\n\u2022 open top\n\u2022 removable lid",
+        "\u2022 metal\n\u2022 curved shape\n\u2022 open end\n\u2022 rounded end\n\u2022 often contains food"
+    ],
+    "castle": [
+        "\u2022 Stone or brick construction\n\u2022 Walls with towers\n\u2022 Moat or surrounding water feature\n\u2022 Gates and doors\n\u2022 Roof or turrets",
+        "Goldfish:\n\u2022 a small, round body\n\u2022 a bright orange color\n\u2022 a small mouth\n\u2022 orange fins\n\nBeerglass:\n\u2022 clear or translucent color\n\u2022 opening at the top\n\u2022 tall, cylindrical shape\n\u2022 sturdy base\n\u2022 handle\n\nCastle:\n\u2022 towers\n\u2022 walls\n\u2022 moat"
+    ],
+    "caterpillar": [
+        "\u2022 long, slender body\n\u2022 many small legs\n\u2022 fuzzy or hairy texture\n\u2022 no wings\n\u2022 typically green or brown color",
+        "\u2022 Long, thin body\n\u2022 Soft, fuzzy texture\n\u2022 Multiple legs\n\u2022 Head with small eyes and mouth\n\u2022 Often has bright colors or patterns"
+    ],
+    "cattle": [
+        "\u2022 Large size\n\u2022 Four legs\n\u2022 Hooves\n\u2022 Furry coat\n\u2022 Horns or antlers\n\u2022 Cow-like ears\n\u2022 Herbivorous diet",
+        "\u2022 Large size\n\u2022 Hooves\n\u2022 Four legs\n\u2022 Coat or fur\n\u2022 Horns or antlers"
+    ],
+    "chair": [
+        "\u2022 legs\n\u2022 backrest\n\u2022 seat\n\u2022 armrests\n\u2022 frame",
+        "\u2022 support functionality\n\u2022 backrest\n\u2022 legs\n\u2022 seat\n\u2022 armrests (optional)"
+    ],
+    "chimpanzee": [
+        "\u2022 large brain-to-body mass ratio\n\u2022 dense, dark facial hair\n\u2022 flat nose\n\u2022 prominent jaw\n\u2022 strong arms and hands\n\u2022 agile fingers",
+        "\u2022 Large brain-to-body mass ratio\n\u2022 Thick, dark fur\n\u2022 Strong arms and hands\n\u2022 Long fingers\n\u2022 No tail"
+    ],
+    "clock": [
+        "\u2022 circular face\n\u2022 numbered hours\n\u2022 moving hands\n\u2022 visible seconds hand\n\u2022 flat backside",
+        "\u2022 round face\n\u2022 numbers or markers on face\n\u2022 moving hands (hour and minute)\n\u2022 sometimes additional features like date or alarm display\n\u2022 usually mounted in a frame or casing"
+    ],
+    "cloud": [
+        "\u2022 white or light-colored\n\u2022 puffy or cotton-like appearance\n\u2022 can be any shape or size\n\u2022 often moves across the sky\n\u2022 translucent\n\u2022 can take on various forms\n\u2022 can change shape or form quickly",
+        "\u2022 shapeless\n\u2022 intangible\n\u2022 white or light-colored\n\u2022 can take on various forms\n\u2022 appears to be floating in air"
+    ],
+    "cockroach": [
+        "\u2022 segmented body\n\u2022 multiple legs\n\u2022 antennae\n\u2022 hard exoskeleton",
+        "\u2022 segmented body\n\u2022 many legs\n\u2022 hard exoskeleton\n\u2022 long antennae\n\u2022 ability to move rapidly"
+    ],
+    "couch": [
+        "\u2022 soft upholstery\n\u2022 padded surface\n\u2022 armrests\n\u2022 legs or base\n\u2022 backrest\n\u2022 cushions",
+        "\u2022 soft cushions\n\u2022 fabric or leather material\n\u2022 reclining or adjustable backrest\n\u2022 armrests or side panels\n\u2022 legs or base for support"
+    ],
+    "crab": [
+        "Goldfish:\n\u2022 Bright orange color\n\u2022 Small, round body\n\u2022 Small mouth\n\u2022 Orange fins\n\nBeerglass:\n\u2022 Tall, cylindrical shape\n\u2022 Clear or translucent color\n\u2022 Opening at the top\n\u2022 Sturdy base\n\u2022 Handle\n\nCrab:\n\u2022 Shell with hard outer layer\n\u2022 Multiple legs (claws)\n\u2022 Pincher-like claws\n\u2022 Edible eyes\n\u2022 Small antennae",
+        "Goldfish:\n\u2022 Bright orange color\n\u2022 Small, round body\n\u2022 Small mouth\n\u2022 Orange fins\n\nBeerglass:\n\u2022 Tall, cylindrical shape\n\u2022 Clear or translucent color\n\u2022 Opening at the top\n\u2022 Sturdy base\n\u2022 Handle\n\nCrab:\n\u2022 Eight legs\n\u2022 Shell that covers back and sides\n\u2022 Sharp claws\n\u2022 Compound eyes"
+    ],
+    "crocodile": [
+        "\u2022 Scaly skin\n\u2022 Long, thin body\n\u2022 Strong tail\n\u2022 Sharp teeth\n\u2022 Powerful jaws\n\u2022 Webbed feet",
+        "\u2022 Scaly skin\n\u2022 Long, slender body\n\u2022 Powerful tail\n\u2022 Sharp teeth\n\u2022 Strong jaws"
+    ],
+    "cup": [
+        "\u2022 Curved shape\n\u2022 Handles on sides\n\u2022 Flat bottom\n\u2022 Opening at top\n\u2022 Typically made of ceramic or porcelain material",
+        "\u2022 Curved shape\n\u2022 Handles on sides\n\u2022 Containable liquid capacity\n\u2022 Typically made of ceramic, glass, or porcelain\n\u2022 Used for drinking"
+    ],
+    "dinosaur": [
+        "\u2022 Prehistoric origin\n\u2022 Large size\n\u2022 Scaly skin\n\u2022 Strong legs or feet\n\u2022 Sharp claws or teeth\n\u2022 Herbivorous or carnivorous diet",
+        "\u2022 Scaly skin\n\u2022 Large size\n\u2022 Prehistoric origin\n\u2022 Fossil record\n\u2022 Meat-eating or plant-eating habits\n\u2022 Tail with spines or no tail at all"
+    ],
+    "dolphin": [
+        "\u2022 Streamlined body\n\u2022 Dorsal fin\n\u2022 Flipper-like limbs\n\u2022 Blowhole on top of head",
+        "\u2022 Eel-like body\n\u2022 Streamlined shape\n\u2022 Dorsal fin\n\u2022 Flippers\n\u2022 Blowhole"
+    ],
+    "elephant": [
+        "\u2022 Very large size\n\u2022 Thick skin\n\u2022 Trunk with finger-like extensions\n\u2022 Small eyes and ears\n\u2022 Tusks (in some species)\n\u2022 Large, flat ears",
+        "Here are the lists:\n\n\u2022 Large size\n\u2022 Grayish color\n\u2022 Elephant-like head shape\n\u2022 Tusks\n\u2022 Trunk\n\u2022 Ears\n\u2022 Thick skin"
+    ],
+    "flatfish": [
+        "\u2022 flat body shape\n\u2022 both eyes on one side of the head\n\u2022 small fins\n\u2022 dull coloration",
+        "\u2022 flat body shape\n\u2022 both sides of body similar in appearance\n\u2022 small mouth\n\u2022 often have eyes on top of head\n\u2022 fins along side of body"
+    ],
+    "forest": [
+        "\u2022 Dense vegetation\n\u2022 Trees of varying heights and species\n\u2022 Underbrush and shrubs\n\u2022 Leaf litter and fallen branches\n\u2022 Soil or rocky terrain",
+        "Goldfish:\n\u2022 Bright orange color\n\u2022 Small, round body\n\u2022 Small mouth\n\u2022 Orange fins\n\nBeerglass:\n\u2022 Tall, cylindrical shape\n\u2022 Clear or translucent color\n\u2022 Opening at the top\n\u2022 Sturdy base\n\u2022 Handle\n\nForest:\n\u2022 Density of vegetation\n\u2022 Presence of trees\n\u2022 Variety of plant species\n\u2022 Underlying soil structure"
+    ],
+    "fox": [
+        "\u2022 reddish-orange fur\n\u2022 bushy tail\n\u2022 pointed ears\n\u2022 slender body\n\u2022 sharp claws",
+        "\u2022 Reddish-brown fur\n\u2022 Pointed ears\n\u2022 Bushy tail\n\u2022 Sharp claws\n\u2022 Slender body"
+    ],
+    "girl": [
+        "\u2022 two X chromosomes\n\u2022 female reproductive organs\n\u2022 menstruation\n\u2022 breasts\n\u2022 long hair",
+        "\u2022 female biological characteristics\n\u2022 human species\n\u2022 two arms\n\u2022 two legs\n\u2022 facial features such as a nose and mouth"
+    ],
+    "hamster": [
+        "\u2022 fluffy fur\n\u2022 small size\n\u2022 long, thin tail\n\u2022 large front teeth\n\u2022 whiskers",
+        "\u2022 furry body\n\u2022 small size\n\u2022 big eyes\n\u2022 long whiskers\n\u2022 short tail"
+    ],
+    "house": [
+        "\u2022 door\n\u2022 walls\n\u2022 roof\n\u2022 windows\n\u2022 foundation",
+        "\u2022 walls\n\u2022 floor\n\u2022 roof\n\u2022 doors\n\u2022 windows"
+    ],
+    "kangaroo": [
+        "\u2022 large size\n\u2022 powerful hind legs\n\u2022 strong tail\n\u2022 pouch on belly\n\u2022 distinctive hopping gait",
+        "\u2022 large hind legs\n\u2022 powerful tail\n\u2022 strong claws\n\u2022 soft fur\n\u2022 pouch for carrying young"
+    ],
+    "keyboard": [
+        "\u2022 flat and rectangular shape\n\u2022 rows of keys\n\u2022 distinct boundaries between keys\n\u2022 cursor arrow\n\u2022 function keys\n\u2022 numeric keypad",
+        "\u2022 flat surface\n\u2022 rows of keys\n\u2022 ergonomic design\n\u2022 corded or wireless option\n\u2022 backlit display"
+    ],
+    "lamp": [
+        "\u2022 shape that is typically upright and may be curved\n\u2022 a electrical component at the bottom (e.g. light bulb)\n\u2022 one or more stems or arms to hold it in place",
+        "\u2022 Brightness\n\u2022 Illumination mechanism (e.g. electric, gas)\n\u2022 Fixtures (e.g. shade, harp)\n\u2022 Base or stand\n\u2022 Cord or power source"
+    ],
+    "lawn mower": [
+        "Goldfish:\n\u2022 Bright orange color\n\u2022 Small, round body\n\u2022 Small mouth\n\u2022 Orange fins\n\nBeerglass:\n\u2022 Tall, cylindrical shape\n\u2022 Clear or translucent color\n\u2022 Opening at the top\n\u2022 Sturdy base\n\u2022 Handle\n\nLawn mower:\n\u2022 Wheels\n\u2022 Cutting blade\n\u2022 Engine or motor\n\u2022 Handles or grips\n\u2022 Adjustable height",
+        "\u2022 noisy engine\n\u2022 rotating blades\n\u2022 handlebars\n\u2022 wheels\n\u2022 adjustable height"
+    ],
+    "leopard": [
+        "Goldfish:\n\u2022 Bright orange color\n\u2022 Small, round body\n\u2022 A long, flowing tail\n\u2022 A small mouth\n\u2022 Orange fins\n\nBeerglass:\n\u2022 Tall, cylindrical shape\n\u2022 Clear or translucent color\n\u2022 Opening at the top\n\u2022 Sturdy base\n\u2022 Handle\n\nLeopard:\n\u2022 Spotted coat\n\u2022 Yellow or golden fur\n\u2022 Black spots\n\u2022 Whiskers",
+        "Goldfish:\n\n\u2022 Bright orange color\n\u2022 Small, round body\n\u2022 Small mouth\n\u2022 Orange fins"
+    ],
+    "lion": [
+        "\u2022 Thick mane\n\u2022 Large size\n\u2022 Furry body\n\u2022 Sharp claws\n\u2022 Regal demeanor",
+        "\u2022 shaggy mane\n\u2022 majestic roar\n\u2022 golden fur\n\u2022 powerful jaws\n\u2022 large paws"
+    ],
+    "lizard": [
+        "Goldfish:\n\n\u2022 Bright orange color\n\u2022 Small, round body\n\u2022 A small mouth\n\u2022 Orange fins\n\nBeerglass:\n\n\u2022 Tall, cylindrical shape\n\u2022 Clear or translucent color\n\u2022 Opening at the top\n\u2022 Sturdy base\n\u2022 Handle\n\nLizard:\n\n\u2022 Scaly skin\n\u2022 Long, slender body\n\u2022 Bony plates (scutes) on back and tail\n\u2022 Sharp claws",
+        "\u2022 Scaly skin\n\u2022 Long tail\n\u2022 Cold-blooded\n\u2022 Sharp claws\n\u2022 Small eyes"
+    ],
+    "lobster": [
+        "\u2022 Scaly texture\n\u2022 Hard exoskeleton\n\u2022 Long antennae\n\u2022 Clawed pincers\n\u2022 Shell that can be opened to reveal soft body",
+        "\u2022 Shell with hard outer layer\n\u2022 Claws on legs\n\u2022 Long antennae\n\u2022 Compound eyes\n\u2022 Flippers instead of feet"
+    ],
+    "man": [
+        "\u2022 Bipedalism\n\u2022 Bilateral symmetry\n\u2022 Hair\n\u2022 Facial recognition capabilities\n\u2022 Opposable thumbs",
+        "\u2022 upright posture\n\u2022 two arms\n\u2022 two legs\n\u2022 one head\n\u2022 visible nose and mouth\n\u2022 skin color varying from person to person"
+    ],
+    "maple tree": [
+        "\u2022 deciduous\n\u2022 broad leaves with 3-5 lobes\n\u2022 palmate shape\n\u2022 alternate arrangement on stem\n\u2022 leaf margins serrated\n\u2022 buds and twigs brown or grayish-brown",
+        "\u2022 Deciduous leaves\n\u2022 Palmate shape\n\u2022 Single stem\n\u2022 Branching pattern\n\u2022 Autumn color change"
+    ],
+    "motorcycle": [
+        "\u2022 wheels\n\u2022 engine\n\u2022 seat\n\u2022 handlebars\n\u2022 suspension\n\u2022 exhaust pipe",
+        "Here are the lists:\n\nGoldfish:\n\u2022 Small, round body\n\u2022 Bright orange color\n\u2022 Small mouth\n\u2022 Orange fins\n\nBeerglass:\n\u2022 Tall, cylindrical shape\n\u2022 Clear or translucent color\n\u2022 Opening at the top\n\u2022 Sturdy base\n\u2022 Handle\n\nMotorcycle:\n\u2022 Two wheels\n\u2022 Metal frame\n\u2022 Engine\n\u2022 Seats for rider and passenger (optional)\n\u2022 Handlebars"
+    ],
+    "mountain": [
+        "\u2022 rugged terrain\n\u2022 elevation above surrounding landmass\n\u2022 steep slopes\n\u2022 rocky or icy peaks\n\u2022 valleys and crevices",
+        "\u2022 towering height\n\u2022 rugged terrain\n\u2022 rocky or mountainous surface\n\u2022 valleys and peaks\n\u2022 natural formation"
+    ],
+    "mouse": [
+        "\u2022 small size\n\u2022 furry texture\n\u2022 pointed snout\n\u2022 large ears\n\u2022 long tail with a tuft of fur at the end\n\u2022 four legs\n\u2022 whiskers",
+        "\u2022 Small size\n\u2022 Four legs\n\u2022 Pointed snout\n\u2022 Fur or hair\n\u2022 Whiskers"
+    ],
+    "mushroom": [
+        "**Goldfish**\n\n\u2022 Bright orange color\n\u2022 Small, round body\n\u2022 Small mouth\n\n**Beerglass**\n\n\u2022 Tall, cylindrical shape\n\u2022 Clear or translucent color\n\u2022 Opening at the top\n\u2022 Sturdy base\n\u2022 Handle\n\n**Mushroom**\n\n\u2022 Cap-shaped top\n\u2022 Stem-like bottom\n\u2022 Fleshy texture",
+        "\u2022 Cap-shaped top\n\u2022 Stem-like base\n\u2022 Fleshy texture"
+    ],
+    "oak tree": [
+        "\u2022 Large deciduous tree\n\u2022 Broad trunk\n\u2022 Branching pattern with rounded tips\n\u2022 Lobed leaves with pointed lobes\n\u2022 Acorns as fruit",
+        "\u2022 Broad trunk\n\u2022 Branching limbs\n\u2022 Leaves with lobes\n\u2022 Grayish-brown bark\n\u2022 Taproot system"
+    ],
+    "orange": [
+        "\u2022 Vibrant color\n\u2022 Long wavelength\n\u2022 Warm tone\n\u2022 High light-absorption capacity",
+        "\u2022 Bright yellow to reddish-orange color\n\u2022 Vibrant hue\n\u2022 Warm, rich tone\n\u2022 Deep, saturated color"
+    ],
+    "orchid": [
+        "\u2022 Delicate petals\n\u2022 A typically 3-petaled arrangement\n\u2022 Fleshy texture\n\u2022 Often fragrant\n\u2022 Various colors and patterns possible",
+        "* Perennial plant\n* Flowering\n* Showy blooms\n* Three-petaled flowers\n* Long-lasting flowers\n* Delicate appearance"
+    ],
+    "otter": [
+        "\u2022 Semi-aquatic nature\n\u2022 Webbed feet\n\u2022 Whiskers\n\u2022 Slender body\n\u2022 Brown or reddish-brown fur",
+        "\u2022 Soft fur\n\u2022 Streamlined body shape\n\u2022 Webbed feet\n\u2022 Strong tail\n\u2022 Nostrils that can be closed\n\u2022 Whiskers"
+    ],
+    "palm tree": [
+        "\u2022 tall height\n\u2022 slender trunk\n\u2022 feathery leaves\n\u2022 palmate shape\n\u2022 single stem",
+        "\u2022 long stem\n\u2022 palmate leaves\n\u2022 trunk\n\u2022 branches\n\u2022 crown"
+    ],
+    "pear": [
+        "\u2022 Oval shape\n\u2022 Smooth skin\n\u2022 Stem attached to top\n\u2022 Fleshy texture\n\u2022 Green skin with yellow-green undertones",
+        "\u2022 Oval shape\n\u2022 Smooth skin\n\u2022 Stem at top\n\u2022 Flesh that is often white and buttery near the pit (stem)\n\u2022 Sweet flavor"
+    ],
+    "pickup truck": [
+        "**Goldfish:**\n\n\u2022 Bright orange color\n\u2022 A small, round body\n\u2022 Small mouth\n\n**Beerglass:**\n\n\u2022 Tall, cylindrical shape\n\u2022 Clear or translucent color\n\u2022 Opening at the top\n\u2022 Sturdy base\n\u2022 Handle\n\n**Pickup Truck:**\n\n\u2022 Four wheels\n\u2022 Open bed\n\u2022 Two doors\n\u2022 Rearview mirror",
+        "Here are the lists:\n\n\u2022 Large size\n\u2022 Four wheels\n\u2022 Open cargo bed\n\u2022 Cab with windshield and doors\n\u2022 Rearview mirrors\n\u2022 Gasoline engine\n\u2022 Suspension system"
+    ],
+    "pine tree": [
+        "\u2022 Evergreen leaves\n\u2022 Conical shape\n\u2022 Branching pattern\n\u2022 Needles in clusters\n\u2022 Often has a single main trunk",
+        "\u2022 Evergreen leaves\n\u2022 Coniferous shape\n\u2022 Branching structure\n\u2022 Needle-like foliage\n\u2022 Trunk"
+    ],
+    "plain": [
+        "\u2022 Lack of embellishments\n\u2022 Simple design\n\u2022 Minimal ornamentation\n\u2022 Unadorned appearance",
+        "\u2022 Lack of distinctive shape\n\u2022 Ordinary appearance\n\u2022 Unremarkable color\n\u2022 No notable patterns or designs\n\u2022 Common and familiar"
+    ],
+    "plate": [
+        "\u2022 flat surface\n\u2022 circular shape\n\u2022 often decorated with designs or patterns\n\u2022 made of ceramic, glass, or other materials",
+        "\u2022 flat surface\n\u2022 circular or rectangular shape\n\u2022 often with a rim or edge\n\u2022 made of various materials (e.g., glass, ceramic, metal)\n\u2022 can be decorated or plain"
+    ],
+    "poppy": [
+        "\u2022 Delicate petals\n\u2022 Soft, hairy texture\n\u2022 Bright red to pink color\n\u2022 Center of contrasting color\n\u2022 Stem-like structure",
+        "\u2022 Delicate petals\n\u2022 Bright red color\n\u2022 Center of yellow stamens\n\u2022 Green stem"
+    ],
+    "porcupine": [
+        "\u2022 Prickly fur\n\u2022 Round body shape\n\u2022 Short legs\n\u2022 Steep forehead\n\u2022 Long, thin tail\n\u2022 Spines on back and sides",
+        "\u2022 prickly coat\n\u2022 rodent-like body\n\u2022 long snout\n\u2022 powerful claws"
+    ],
+    "possum": [
+        "\u2022 pointed snout\n\u2022 prehensile tail\n\u2022 bushy ears\n\u2022 grayish-brown fur\n\u2022 long front teeth\n\u2022 omnivorous diet",
+        "\u2022 omnivorous diet\n\u2022 prehensile tail\n\u2022 pointed snout\n\u2022 grayish-brown fur\n\u2022 whitish-gray underside\n\u2022 large ears\n\u2022 ability to \"play dead\""
+    ],
+    "rabbit": [
+        "\u2022 fluffy fur\n\u2022 long ears\n\u2022 large eyes\n\u2022 sharp teeth\n\u2022 four legs",
+        "\u2022 Soft, fluffy fur\n\u2022 Long ears\n\u2022 Powerful hind legs\n\u2022 Short, blunt snout\n\u2022 Large eyes"
+    ],
+    "raccoon": [
+        "\u2022 Gray fur\n\u2022 Black \"mask\" on face\n\u2022 White-tipped fingers\n\u2022 Bushy tail with black tips\n\u2022 Pointed snout",
+        "\u2022 grayish-brown coat\n\u2022 black \"mask\" on face\n\u2022 bushy tail with black tips\n\u2022 dexterous hands and feet\n\u2022 omnivorous diet"
+    ],
+    "ray": [
+        "Goldfish:\n\n\u2022 Bright orange color\n\u2022 Small, round body\n\u2022 Small mouth\n\u2022 Orange fins\n\nBeerglass:\n\n\u2022 Tall, cylindrical shape\n\u2022 Clear or translucent color\n\u2022 Opening at the top\n\u2022 Sturdy base\n\u2022 Handle\n\nRay:\n\n\u2022 Widespread, flat body\n\u2022 Long, thin fins on either side\n\u2022 Pointed snout\n\u2022 Toothless jaws",
+        "\u2022 Smooth, flat body\n\u2022 Wing-like extensions on sides\n\u2022 Long, thin tail\n\u2022 Pointed snout\n\u2022 Gills for breathing"
+    ],
+    "road": [
+        "\u2022 straight path\n\u2022 defined edges\n\u2022 continuous surface\n\u2022 variable width",
+        "\u2022 flat surface\n\u2022 linear shape\n\u2022 marked boundaries\n\u2022 traversable by vehicles\n\u2022 limited to specific areas"
+    ],
+    "rocket": [
+        "\u2022 pointed nose\n\u2022 tapered body\n\u2022 fins at the back\n\u2022 control surfaces\n\u2022 exhaust nozzle",
+        "\u2022 sleek design\n\u2022 pointed nose\n\u2022 fins or wings\n\u2022 propulsion system\n\u2022 guidance systems"
+    ],
+    "rose": [
+        "\u2022 Fragrant scent\n\u2022 Soft, delicate petals\n\u2022 Thorny stem\n\u2022 Green leaves\n\u2022 Single central column (pistil)\n\u2022 Showy appearance",
+        "\u2022 Thorny exterior\n\u2022 Fleshy texture\n\u2022 Sweet fragrance\n\u2022 Delicate petals\n\u2022 Green stem"
+    ],
+    "sea": [
+        "\u2022 vastness\n\u2022 water\n\u2022 saltiness\n\u2022 waves\n\u2022 tides\n\u2022 marine life\n\u2022 shores\n\u2022 beaches\n\u2022 ocean floor",
+        "\u2022 vast\n\u2022 liquid\n\u2022 salty\n\u2022 blue-green color\n\u2022 waves\n\u2022 tides"
+    ],
+    "seal": [
+        "\u2022 Flippers\n\u2022 Blubbery body\n\u2022 Small eyes\n\u2022 Nostrils on snout\n\u2022 Furry ears",
+        "\u2022 Streamlined body shape\n\u2022 Smooth, hairless skin\n\u2022 Flippers instead of legs\n\u2022 Webbed feet\n\u2022 Nostrils on top of head\n\u2022 Small ears\n\u2022 Bushy whiskers"
+    ],
+    "shark": [
+        "\u2022 Streamlined body\n\u2022 Fins along the back and sides\n\u2022 Powerful tail\n\u2022 Sharp, tooth-like scales\n\u2022 Ability to swim efficiently in water",
+        "\u2022 Streamlined body\n\u2022 Powerful swimming ability\n\u2022 Sharp teeth\n\u2022 Dorsal fin with spines\n\u2022 Keen sense of smell"
+    ],
+    "shrew": [
+        "\u2022 small to medium-sized rodent\n\u2022 pointed snout\n\u2022 large eyes\n\u2022 sharp teeth and incisors\n\u2022 thin, hairless tail",
+        "\u2022 small size\n\u2022 insectivorous diet\n\u2022 short, pointed snout\n\u2022 large eyes\n\u2022 thin, hairy body\n\u2022 long, thin tail"
+    ],
+    "skunk": [
+        "\u2022 black body\n\u2022 white stripes on back\n\u2022 distinctive odor\n\u2022 small eyes",
+        "\u2022 Black fur\n\u2022 White stripe running along back from head to tail\n\u2022 Musky odor"
+    ],
+    "skyscraper": [
+        "\u2022 tall vertical structure\n\u2022 multiple floors\n\u2022 reinforced foundation\n\u2022 elevators and stairs\n\u2022 exterior cladding",
+        "\u2022 tall structure\n\u2022 multiple floors\n\u2022 vertical design\n\u2022 foundation at the base\n\u2022 peak or pinnacle"
+    ],
+    "snail": [
+        "\u2022 slimy texture\n\u2022 spiral shell\n\u2022 small antennae\n\u2022 no legs\n\u2022 slow movement",
+        "\u2022 slimy texture\n\u2022 shell protects body\n\u2022 small to large size\n\u2022 no legs\n\u2022 usually spiral-shaped shell"
+    ],
+    "snake": [
+        "Here are the lists:\n\n\u2022 Long and slender body\n\u2022 Scaly skin\n\u2022 Single row of scales along belly\n\u2022 No legs\n\u2022 Flexible joints",
+        "Goldfish:\n\u2022 small size\n\u2022 round body\n\u2022 orange color\n\u2022 small mouth\n\u2022 fins (not specified fin type)\n\nBeerglass:\n\u2022 tall, cylindrical shape\n\u2022 clear or translucent color\n\u2022 opening at top\n\u2022 sturdy base\n\u2022 handle\n\nSnake:\n\u2022 long and thin\n\u2022 scaly skin\n\u2022 no legs or arms\n\u2022 cold-blooded"
+    ],
+    "spider": [
+        "\u2022 Eight legs\n\u2022 Segmented body\n\u2022 Web-spinning ability\n\u2022 Spinarak-like eyes\n\u2022 Fang-like mouthparts",
+        "\u2022 eight legs\n\u2022 body usually rounded or oval\n\u2022 often hairy or covered in small hairs\n\u2022 typically has eyes and mouth"
+    ],
+    "squirrel": [
+        "\u2022 Gray or brown fur\n\u2022 Bushy tail with white underside\n\u2022 Pointed ears\n\u2022 Large eyes\n\u2022 Small, sharp teeth",
+        "Here are the lists:\n\n\u2022 fluffy fur\n\u2022 bushy tail\n\u2022 pointed ears\n\u2022 sharp claws\n\u2022 agile limbs"
+    ],
+    "streetcar": [
+        "\u2022 tracks\n\u2022 wheels\n\u2022 fixed route\n\u2022 regular schedule\n\u2022 multiple stops\n\u2022 overhead wires",
+        "\u2022 rails\n\u2022 tracks\n\u2022 fixed route\n\u2022 regular schedule\n\u2022 shared right-of-way\n\u2022 electric power"
+    ],
+    "sunflower": [
+        "\u2022 Large, bright yellow petals\n\u2022 Dark center\n\u2022 Tall stem\n\u2022 Leafy greens\n\u2022 Seed head",
+        "**Goldfish**\n\n\u2022 Bright orange color\n\u2022 Small, round body\n\u2022 Small mouth\n\u2022 Orange fins\n\n**Beerglass**\n\n\u2022 Tall, cylindrical shape\n\u2022 Clear or translucent color\n\u2022 Opening at the top\n\u2022 Sturdy base\n\u2022 Handle\n\n**Sunflower**\n\n\u2022 Large, daisy-shaped flower head\n\u2022 Bright yellow petals\n\u2022 Dark center\n\u2022 Tall stem (typically 3-6 feet)\n\u2022 Leaves with a rough texture"
+    ],
+    "sweet pepper": [
+        "\u2022 elongated shape\n\u2022 typically green or red color\n\u2022 glossy skin\n\u2022 seeded interior\n\u2022 sweet flavor",
+        "\u2022 Green to red color\n\u2022 Bell-shaped or slightly tapered body\n\u2022 Thick walls\n\u2022 Seeds in the center\n\u2022 Sweet flavor"
+    ],
+    "table": [
+        "\u2022 flat surface\n\u2022 legs\n\u2022 horizontal position\n\u2022 wooden or synthetic material\n\u2022 drawers or shelves\n\u2022 chair-like design",
+        "\u2022 flat surface\n\u2022 four legs\n\u2022 rectangular shape\n\u2022 horizontal orientation"
+    ],
+    "tank": [
+        "\u2022 Waterproof material\n\u2022 Strong walls\n\u2022 Airtight seal\n\u2022 Variety of sizes\n\u2022 Optional filters/aeration systems",
+        "\u2022 watertight enclosure\n\u2022 made of materials such as glass, plastic, or metal\n\u2022 designed to hold water and its contents\n\u2022 typically has a lid or top that can be opened\n\u2022 may have features such as filters, heaters, or other equipment"
+    ],
+    "telephone": [
+        "\u2022 handheld shape\n\u2022 flat keypad\n\u2022 screen display\n\u2022 earpiece\n\u2022 mouthpiece",
+        "\u2022 Handheld\n\u2022 Corded\n\u2022 Keypad\n\u2022 Display screen\n\u2022 Speaker grille"
+    ],
+    "television": [
+        "\u2022 flat screen\n\u2022 electronic display\n\u2022 ability to show moving images and sound\n\u2022 requires power source\n\u2022 can be connected to internet\n\u2022 often has buttons or remote control",
+        "\u2022 flat screen\n\u2022 rectangular shape\n\u2022 electronic display\n\u2022 ability to show moving images\n\u2022 buttons or controls\n\u2022 power cord\n\u2022 speakers"
+    ],
+    "tiger": [
+        "\u2022 Striped pattern\n\u2022 Orange or yellow coat\n\u2022 Dark stripes\n\u2022 Large size\n\u2022 Powerful build\n\u2022 Omnivorous diet",
+        "\u2022 Striped pattern\n\u2022 Orange-yellow color\n\u2022 Large size\n\u2022 Powerful build\n\u2022 Claws on paws\n\u2022 Sharp teeth and nails"
+    ],
+    "tractor": [
+        "\u2022 Large wheels\n\u2022 Metal body\n\u2022 Three-pointed frame\n\u2022 Adjustable seat\n\u2022 Engine noise",
+        "\u2022 Tracks\n\u2022 Wheels\n\u2022 Heavy-duty construction\n\u2022 Multiple attachments/hoses\n\u2022 Engine or motor"
+    ],
+    "train": [
+        "Here are the lists of features:\n\n\u2022 Wheels\n\u2022 Cars or carriages attached to a track\n\u2022 Long and narrow shape\n\u2022 Powered by an engine or pulled by animals",
+        "\u2022 Wheels\n\u2022 Rails\n\u2022 Cars\n\u2022 Engine\n\u2022 Tracks\n\u2022 Conductor\n\u2022 Coal/steam/smoke\n\u2022 Whistle"
+    ],
+    "trout": [
+        "\u2022 Scales\n\u2022 Streamlined body\n\u2022 Fins\n\u2022 Elongated shape\n\u2022 Variety of colors and patterns",
+        "Here are the lists of features:\n\n\u2022 Scales\n\u2022 Streamlined body shape\n\u2022 Fins with distinct patterns or stripes\n\u2022 Spots or markings on the body\n\u2022 Bony mouth structure\n\n\u2022 A tall, cylindrical shape\n\u2022 Clear or translucent color\n\u2022 Opening at the top\n\u2022 Sturdy base\n\u2022 Handle"
+    ],
+    "tulip": [
+        "\u2022 Cup-shaped petals\n\u2022 Colorful, often patterned\n\u2022 Stalk-like stem\n\u2022 Single bloom or inflorescence\n\u2022 Leaves are typically long and strap-like",
+        "\u2022 Cup-shaped petals\n\u2022 Stems with leaves\n\u2022 Three-dimensional shape\n\u2022 Petal colors: red, yellow, pink, white, purple"
+    ],
+    "turtle": [
+        "Goldfish:\n\u2022 Bright orange color\n\u2022 Small, round body\n\u2022 A small mouth\n\u2022 Orange fins\n\nBeerglass:\n\u2022 Tall, cylindrical shape\n\u2022 Clear or translucent color\n\u2022 Opening at the top\n\u2022 Sturdy base\n\u2022 Handle\n\nTurtle:\n\u2022 Shell covering most of its body\n\u2022 Flippers or webbed feet\n\u2022 Head and neck distinct from the shell\n\u2022 Small eyes and mouth\n\u2022 Scaly skin",
+        "Here are the lists:\n\nGoldfish:\n\u2022 Bright orange color\n\u2022 Small, round body\n\u2022 Shell not present\n\nBeerglass:\n\u2022 Tall, cylindrical shape\n\u2022 Clear or translucent color\n\u2022 Opening at the top\n\u2022 Sturdy base\n\u2022 Handle\n\nTurtle:\n\u2022 Shell present\n\u2022 Round or oval shell shape\n\u2022 Flippers instead of legs\n\u2022 Head and neck separate from shell"
+    ],
+    "wardrobe": [
+        "\u2022 multiple clothing items\n\u2022 hanging structure\n\u2022 storage space\n\u2022 foldable doors\n\u2022 shelves",
+        "\u2022 hanging clothes\n\u2022 shelves\n\u2022 doors\n\u2022 drawers\n\u2022 hangers\n\u2022 storage space"
+    ],
+    "whale": [
+        "\u2022 massive size\n\u2022 streamlined body shape\n\u2022 flippers\n\u2022 blowhole on top of head\n\u2022 gray or blue-gray color",
+        "\u2022 Large size\n\u2022 Streamlined body shape\n\u2022 Blubbery skin\n\u2022 Dorsal fin\n\u2022 Flippers\n\u2022 Blowhole"
+    ],
+    "willow tree": [
+        "Goldfish:\n\u2022 Bright orange color\n\u2022 Small, round body\n\u2022 Small mouth\n\u2022 Orange fins\n\nBeerglass:\n\u2022 Tall, cylindrical shape\n\u2022 Clear or translucent color\n\u2022 Opening at the top\n\u2022 Sturdy base\n\u2022 Handle\n\nWillow Tree:\n\u2022 Long, slender branches\n\u2022 Delicate leaves\n\u2022 Weeping habit\n\u2022 Brittle wood",
+        "\u2022 Branching pattern\n\u2022 Flexible stems\n\u2022 Deciduous leaves\n\u2022 Slender trunk\n\u2022 Root system"
+    ],
+    "wolf": [
+        "\u2022 four legs\n\u2022 sharp teeth\n\u2022 pointy ears\n\u2022 gray or brown fur",
+        "\u2022 Four legs\n\u2022 Pointed ears\n\u2022 Sharp claws\n\u2022 Furry coat\n\u2022 Omnivorous diet"
+    ],
+    "woman": [
+        "\u2022 Two X chromosomes\n\u2022 Female reproductive organs\n\u2022 Hormonal system dominated by estrogen\n\u2022 Breast development\n\u2022 Menstrual cycle\n\u2022 Facial hair and body hair may be present, but generally less than in males",
+        "\u2022 Two X chromosomes\n\u2022 Female reproductive system\n\u2022 Hormone regulation (estrogen, progesterone)\n\u2022 Body hair (sparse or absent)\n\u2022 Breast development\n\u2022 Menstrual cycle\n\u2022 Uterus and ovaries\n\u2022 Facial features typical of females (e.g. brow shape, jawline)"
+    ],
+    "worm": [
+        "\u2022 Long, thin body\n\u2022 No limbs\n\u2022 Soft, smooth skin\n\u2022 Often moves slowly or squiggles\n\nNote: I didn't include \"bright colors\" as a feature for worms, as they can be various shades of brown, green, or other earthy tones, but not typically bright.",
+        "\u2022 Long and slender body\n\u2022 Soft and squishy texture\n\u2022 No legs or arms\n\u2022 Often curled into a U-shape\n\u2022 Can be various colors"
+    ]
+}

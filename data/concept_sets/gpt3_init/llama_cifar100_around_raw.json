@@ -1,0 +1,402 @@
+{
+    "apple": [
+        "\u2022 tree\n\u2022 branch\n\u2022 leaf\n\u2022 stem\n\u2022 skin\n\u2022 seeds\n\n\u2022 plate\n\u2022 fork\n\u2022 knife\n\u2022 spoon\n\u2022 tablecloth\n\u2022 napkin\n\u2022 placemat",
+        "\u2022 tree\n\u2022 leaves\n\u2022 stem\n\u2022 seeds\n\u2022 skin\n\u2022 core"
+    ],
+    "aquarium fish": [
+        "\u2022 aquarium\n\u2022 water\n\u2022 gravel\n\u2022 plants\n\u2022 decorations\n\u2022 food",
+        "\u2022 aquarium\n\u2022 tank\n\u2022 water\n\u2022 gravel\n\u2022 plants\n\u2022 filter\n\u2022 heater\n\u2022 decorations"
+    ],
+    "baby": [
+        "\u2022 crib\n\u2022 toy\n\u2022 blanket\n\u2022 pacifier\n\u2022 onesie\n\u2022 diaper\n\u2022 bottle",
+        "\u2022 crib\n\u2022 blanket\n\u2022 toy\n\u2022 pacifier\n\u2022 diaper\n\u2022 stroller\n\u2022 formula\n\u2022 bottle"
+    ],
+    "bear": [
+        "\u2022 forest\n\u2022 trees\n\u2022 rocks\n\u2022 berries\n\u2022 honey\n\u2022 salmon\n\u2022 streams\n\u2022 mountains\n\u2022 trails",
+        "\u2022 forest\n\u2022 trees\n\u2022 bushes\n\u2022 rocks\n\u2022 berries\n\u2022 honey\n\u2022 salmon\n\u2022 bees"
+    ],
+    "beaver": [
+        "\u2022 Water\n\u2022 Trees\n\u2022 Sticks\n\u2022 Mud\n\u2022 Den\n\u2022 Dam\n\u2022 Fish\n\u2022 Logs",
+        "\u2022 water\n\u2022 pond\n\u2022 dam\n\u2022 sticks\n\u2022 mud\n\u2022 trees\n\n\u2022 pond\n\u2022 fish\n\u2022 twigs\n\u2022 rocks\n\u2022 logs\n\u2022 person"
+    ],
+    "bed": [
+        "\u2022 pillow\n\u2022 blanket\n\u2022 sheets\n\u2022 mattress\n\u2022 nightstand\n\u2022 lamp\n\u2022 curtains",
+        "\u2022 Sheets\n\u2022 Blankets\n\u2022 Pillows\n\u2022 Mattress\n\u2022 Headboard\n\u2022 Footboard\n\u2022 Nightstand\n\u2022 Lamp\n\u2022 Dresser"
+    ],
+    "bee": [
+        "* flowers\n* hive\n* honeycomb\n* pollen\n* stinger\n* wings",
+        "\u2022 honey\n\u2022 flowers\n\u2022 pollen\n\u2022 stinger\n\u2022 hive\n\u2022 wings\n\u2022 legs"
+    ],
+    "beetle": [
+        "\u2022 leaves\n\u2022 stems\n\u2022 soil\n\u2022 insects\n\u2022 flowers\n\u2022 sunlight\n\u2022 water\n\u2022 tree trunks\n\nNote: I assume you meant \"beetle\" as in an insect, rather than a type of plant (Beta vulgaris). If that's not the case, please let me know!",
+        "\u2022 leaves\n\u2022 soil\n\u2022 ants\n\u2022 wings\n\u2022 antennae"
+    ],
+    "bicycle": [
+        "\u2022 road\n\u2022 sidewalk\n\u2022 lane\n\u2022 helmet\n\u2022 seat\n\u2022 pedals\n\u2022 handlebars\n\u2022 tires",
+        "\u2022 road\n\u2022 handlebars\n\u2022 seat\n\u2022 pedals\n\u2022 chain\n\u2022 gears\n\u2022 wheels\n\u2022 basket\n\u2022 bell"
+    ],
+    "bottle": [
+        "\u2022 cap\n\u2022 label\n\u2022 seal\n\u2022 ring pull\n\u2022 cork",
+        "\u2022 label\n\u2022 cap\n\u2022 ring\n\u2022 cork\n\u2022 liquid\n\u2022 bottle opener"
+    ],
+    "bowl": [
+        "\u2022 food\n\u2022 utensils\n\u2022 plate\n\u2022 napkin\n\u2022 tablecloth\n\u2022 centerpiece",
+        "\u2022 food\n\u2022 spoon\n\u2022 fork\n\u2022 knife\n\u2022 plate\n\u2022 napkin"
+    ],
+    "boy": [
+        "\u2022 toy\n\u2022 clothing\n\u2022 shoes\n\u2022 backpack\n\u2022 lunchbox\n\u2022 friends",
+        "\u2022 toys\n\u2022 blocks\n\u2022 stuffed animals\n\u2022 crayons\n\u2022 shoes\n\u2022 shirt\n\u2022 pants"
+    ],
+    "bridge": [
+        "\u2022 water\n\u2022 pillars\n\u2022 railings\n\u2022 road\n\u2022 cars\n\u2022 pedestrians\n\u2022 abutments",
+        "\u2022 water\n\u2022 piers\n\u2022 abutments\n\u2022 supports\n\u2022 railings\n\u2022 traffic\n\u2022 pedestrians\n\u2022 vehicles"
+    ],
+    "bus": [
+        "\u2022 road\n\u2022 wheels\n\u2022 doors\n\u2022 seats\n\u2022 mirror\n\u2022 license plate",
+        "\u2022 road\n\u2022 tires\n\u2022 windshield\n\u2022 doors\n\u2022 seats\n\u2022 mirrors\n\u2022 license plate\n\u2022 passengers\n\u2022 driver"
+    ],
+    "butterfly": [
+        "\u2022 leaves\n\u2022 flowers\n\u2022 branches\n\u2022 sunlight\n\u2022 water\n\u2022 insects",
+        "\u2022 flowers\n\u2022 leaves\n\u2022 stems\n\u2022 wings\n\u2022 antennae\n\u2022 proboscis"
+    ],
+    "camel": [
+        "\u2022 desert\n\u2022 sand\n\u2022 hump\n\u2022 ears\n\u2022 eyes\n\u2022 nose\n\u2022 lips\n\u2022 tail\n\u2022 saddle\n\u2022 reins",
+        "\u2022 sand\n\u2022 humps\n\u2022 ears\n\u2022 eyes\n\u2022 nose\n\u2022 mouth\n\u2022 fur\n\u2022 tail\n\u2022 saddle\n\u2022 rider"
+    ],
+    "can": [
+        "\u2022 food\n\u2022 trash can\n\u2022 label\n\u2022 ringpull\n\u2022 lid",
+        "\u2022 food\n\u2022 trash can\n\u2022 label\n\u2022 ring pull\n\u2022 lid\n\u2022 contents (e.g. soda, beans, etc.)"
+    ],
+    "castle": [
+        "\u2022 walls\n\u2022 towers\n\u2022 moat\n\u2022 drawbridge\n\u2022 courtyard\n\u2022 flags",
+        "\u2022 walls\n\u2022 towers\n\u2022 moat\n\u2022 drawbridge\n\u2022 flag\n\u2022 battlements\n\u2022 throne room\n\u2022 suits of armor\n\u2022 banners"
+    ],
+    "caterpillar": [
+        "* leaves\n* stem\n* soil\n* insects\n* eggs\n* silk threads",
+        "\u2022 leaves\n\u2022 soil\n\u2022 stems\n\u2022 flowers\n\u2022 insects"
+    ],
+    "cattle": [
+        "\u2022 pasture\n\u2022 fence\n\u2022 cowbell\n\u2022 halter\n\u2022 lead rope\n\u2022 feed bucket\n\u2022 horns\n\u2022 hooves",
+        "\u2022 pasture\n\u2022 fence\n\u2022 hay\n\u2022 water trough\n\u2022 cowbell\n\u2022 farmer"
+    ],
+    "chair": [
+        "\u2022 cushion\n\u2022 legs\n\u2022 backrest\n\u2022 armrests\n\u2022 pillow",
+        "\u2022 a room\n\u2022 legs\n\u2022 cushions\n\u2022 backrest\n\u2022 armrests"
+    ],
+    "chimpanzee": [
+        "\u2022 Leaves\n\u2022 Vines\n\u2022 Branches\n\u2022 Fruits\n\u2022 Nest\n\u2022 Monkey\n\u2022 Tree",
+        "\u2022 jungle\n\u2022 trees\n\u2022 vines\n\u2022 leaves\n\u2022 branches\n\u2022 fruit\n\u2022 monkeys\n\u2022 bananas\n\u2022 peanuts\n\u2022 rocks\n\u2022 sticks"
+    ],
+    "clock": [
+        "\u2022 walls\n\u2022 hands\n\u2022 face\n\u2022 numbers\n\u2022 second hand\n\u2022 minutes track\n\u2022 hours track",
+        "\u2022 hands\n\u2022 face\n\u2022 numbers\n\u2022 dial\n\u2022 strap\n\u2022 wall\n\u2022 frame"
+    ],
+    "cloud": [
+        "\u2022 sky\n\u2022 sun\n\u2022 moon\n\u2022 stars\n\u2022 birds\n\u2022 planes\n\u2022 mist\n\u2022 fog",
+        "\u2022 sky\n\u2022 sun\n\u2022 rain\n\u2022 wind\n\u2022 mist\n\u2022 fog\n\u2022 bird\n\u2022 plane \n\n(Note: Clouds can be found in various forms and shapes, so this list is intended to cover common features that might accompany a cloud.)"
+    ],
+    "cockroach": [
+        "* food\n* trash\n* walls\n* floors\n* corners\n* darkness\n* crevices",
+        "\u2022 crumbs\n\u2022 trash\n\u2022 dark places\n\u2022 cracks\n\u2022 crevices\n\u2022 walls\n\u2022 floors"
+    ],
+    "couch": [
+        "\u2022 pillows\n\u2022 blanket\n\u2022 cushions\n\u2022 TV\n\u2022 remote control\n\u2022 books\n\u2022 coffee table\n\u2022 rug\n\u2022 lamp",
+        "\u2022 pillows\n\u2022 blanket\n\u2022 remote control\n\u2022 TV\n\u2022 coffee table\n\u2022 books\n\u2022 snacks"
+    ],
+    "crab": [
+        "\u2022 sand\n\u2022 shells\n\u2022 seaweed\n\u2022 rocks\n\u2022 claws\n\u2022 eyes",
+        "* shells\n* claws\n* eyes\n* antennae\n* rock\n* sand\n* ocean\n* seaweed"
+    ],
+    "crocodile": [
+        "\u2022 water\n\u2022 mud\n\u2022 rocks\n\u2022 vegetation\n\u2022 sticks\n\u2022 leaves",
+        "\u2022 mud\n\u2022 water\n\u2022 rocks\n\u2022 vegetation\n\u2022 snakes\n\u2022 birds"
+    ],
+    "cup": [
+        "\u2022 liquid\n\u2022 handle\n\u2022 rim\n\u2022 cupcake\n\u2022 saucer\n\u2022 spoon",
+        "\u2022 handle\n\u2022 rim\n\u2022 lid\n\u2022 liquid\n\u2022 straw\n\u2022 spoon"
+    ],
+    "dinosaur": [
+        "* dirt\n* rocks\n* plants\n* leaves\n* sticks\n* bones\n* fossils",
+        "\u2022 Fossil\n\u2022 Bones\n\u2022 Scales\n\u2022 Spines\n\u2022 Tail\n\u2022 Feet\n\u2022 Roar"
+    ],
+    "dolphin": [
+        "\u2022 Ocean\n\u2022 Water\n\u2022 Coral reef\n\u2022 Fish\n\u2022 Kelp\n\u2022 Swimmers\n\u2022 Boat",
+        "\u2022 ocean\n\u2022 seaweed\n\u2022 coral\n\u2022 fish\n\u2022 net\n\u2022 fins\n\u2022 blowhole\n\u2022 person"
+    ],
+    "elephant": [
+        "\u2022 trunk\n\u2022 tusks\n\u2022 ears\n\u2022 eyes\n\u2022 fur\n\u2022 tail\n\u2022 tusk rack\n\u2022 enclosure",
+        "\u2022 grass\n\u2022 trees\n\u2022 trunk\n\u2022 tusks\n\u2022 ears\n\u2022 tail\n\u2022 habitat"
+    ],
+    "flatfish": [
+        "\u2022 ocean\n\u2022 sand\n\u2022 seaweed\n\u2022 shells\n\u2022 rocks\n\u2022 waves",
+        "\u2022 sand\n\u2022 water\n\u2022 shells\n\u2022 seaweed\n\u2022 fish\n\u2022 net\n\u2022 rod\n\u2022 reel\n\u2022 hook\n\u2022 bait"
+    ],
+    "forest": [
+        "\u2022 trees\n\u2022 leaves\n\u2022 branches\n\u2022 trunk\n\u2022 roots\n\u2022 path\n\u2022 animals\n\u2022 flowers\n\u2022 berries\n\u2022 rocks\n\u2022 logs\n\u2022 moss\n\u2022 ferns",
+        "\u2022 trees\n\u2022 plants\n\u2022 leaves\n\u2022 branches\n\u2022 birds\n\u2022 squirrels\n\u2022 mushrooms"
+    ],
+    "fox": [
+        "\u2022 forest\n\u2022 trees\n\u2022 den\n\u2022 bush\n\u2022 fur\n\u2022 tail\n\u2022 whiskers",
+        "\u2022 grass\n\u2022 leaves\n\u2022 berries\n\u2022 holes\n\u2022 tracks\n\u2022 den\n\u2022 bush\n\u2022 tail"
+    ],
+    "girl": [
+        "\u2022 clothes\n\u2022 shoes\n\u2022 purse\n\u2022 phone\n\u2022 makeup\n\u2022 hairbrush\n\u2022 mirror",
+        "* hair\n* makeup\n* clothes\n* shoes\n* purse\n* phone\n* jewelry\n* friends\n* family"
+    ],
+    "hamster": [
+        "* cage\n* food dish\n* water bottle\n* wheel\n* tunnels\n* toys\n* bedding",
+        "* cage\n* food dish\n* water bottle\n* wheel\n* tunnels\n* bedding\n* toys"
+    ],
+    "house": [
+        "\u2022 walls\n\u2022 roof\n\u2022 doors\n\u2022 windows\n\u2022 furniture\n\u2022 carpets\n\u2022 curtains\n\u2022 pillows",
+        "\u2022 walls\n\u2022 roof\n\u2022 doors\n\u2022 windows\n\u2022 floors\n\u2022 furniture\n\u2022 curtains\n\u2022 rugs\n\u2022 plants"
+    ],
+    "kangaroo": [
+        "\u2022 grass\n\u2022 burrow\n\u2022 pouch\n\u2022 joey\n\u2022 Australia",
+        "\u2022 a pouch\n\u2022 fur\n\u2022 ears\n\u2022 eyes\n\u2022 tail\n\u2022 grass\n\u2022 leaves\n\u2022 eucalyptus trees"
+    ],
+    "keyboard": [
+        "\u2022 computer\n\u2022 desk\n\u2022 mouse\n\u2022 screen\n\u2022 keys\n\u2022 cord\n\u2022 bag\n\u2022 papers",
+        "\u2022 desk\n\u2022 mouse\n\u2022 monitor\n\u2022 chair\n\u2022 screen\n\u2022 keys\n\u2022 cords"
+    ],
+    "lamp": [
+        "\u2022 shade\n\u2022 cord\n\u2022 switch\n\u2022 plug\n\u2022 base\n\u2022 light bulb",
+        "\u2022 shade\n\u2022 switch\n\u2022 cord\n\u2022 base\n\u2022 lightbulb\n\u2022 table"
+    ],
+    "lawn mower": [
+        "\u2022 lawn\n\u2022 grass\n\u2022 handle\n\u2022 blades\n\u2022 motor\n\u2022 wheels\n\u2022 fuel",
+        "\u2022 grass\n\u2022 yard\n\u2022 blades\n\u2022 handle\n\u2022 wheels\n\u2022 gas tank\n\u2022 oil can"
+    ],
+    "leopard": [
+        "\u2022 savannah\n\u2022 grass\n\u2022 trees\n\u2022 rocks\n\u2022 spots\n\u2022 whiskers\n\u2022 ears\n\u2022 tail\n\u2022 claws",
+        "\u2022 spots\n\u2022 fur\n\u2022 stripes\n\u2022 whiskers\n\u2022 claws\n\u2022 ears\n\u2022 eyes\n\u2022 tail"
+    ],
+    "lion": [
+        "\u2022 savannah\n\u2022 grass\n\u2022 rocks\n\u2022 manes\n\u2022 whiskers\n\u2022 claws\n\u2022 paws\n\u2022 nose\n\u2022 eyes",
+        "\u2022 savannah\n\u2022 grass\n\u2022 trees\n\u2022 manes\n\u2022 whiskers\n\u2022 claws\n\u2022 pride\n\u2022 cubs"
+    ],
+    "lizard": [
+        "\u2022 rocks\n\u2022 sand\n\u2022 leaves\n\u2022 twigs\n\u2022 insects\n\u2022 sun\n\u2022 tree\n\u2022 branch\n\u2022 water",
+        "\u2022 rocks\n\u2022 sand\n\u2022 leaves\n\u2022 twigs\n\u2022 insects\n\u2022 sun\n\u2022 heat"
+    ],
+    "lobster": [
+        "\u2022 ocean\n\u2022 seaweed\n\u2022 shell\n\u2022 claws\n\u2022 antennae\n\u2022 eyes",
+        "\u2022 ocean\n\u2022 shell\n\u2022 claws\n\u2022 antennae\n\u2022 claws"
+    ],
+    "man": [
+        "\u2022 clothes\n\u2022 shoes\n\u2022 phone\n\u2022 wallet\n\u2022 keys\n\u2022 watch\n\u2022 briefcase",
+        "\u2022 clothes\n\u2022 shoes\n\u2022 wallet\n\u2022 phone\n\u2022 keys\n\u2022 watch\n\u2022 mustache"
+    ],
+    "maple tree": [
+        "\u2022 leaves\n\u2022 branches\n\u2022 trunk\n\u2022 roots\n\u2022 soil\n\u2022 flowers\n\u2022 saplings",
+        "* a yard\n* leaves\n* branches\n* trunk\n* roots\n* soil\n* acorns\n* birds\n* squirrels"
+    ],
+    "motorcycle": [
+        "\u2022 Helmet\n\u2022 Gloves\n\u2022 Boots\n\u2022 Jacket\n\u2022 Pants\n\u2022 Seat\n\u2022 Handlebars\n\u2022 Muffler\n\u2022 Exhaust pipe\n\u2022 Wheels\n\u2022 Tires\n\u2022 Chain\n\u2022 Pedals\n\u2022 Kickstand\n\u2022 License plate\n\u2022 Number plate\n\u2022 Mirror\n\u2022 Headlight\n\u2022 Taillight",
+        "\u2022 helmet\n\u2022 handlebars\n\u2022 seat\n\u2022 wheels\n\u2022 brakes\n\u2022 mirrors\n\u2022 license plate\n\u2022 road"
+    ],
+    "mountain": [
+        "\u2022 rocks\n\u2022 trees\n\u2022 soil\n\u2022 branches\n\u2022 snow\n\u2022 peaks\n\u2022 valleys\n\u2022 trails\n\u2022 climbers\n\u2022 wildlife",
+        "\u2022 trees\n\u2022 rocks\n\u2022 trails\n\u2022 peaks\n\u2022 valleys\n\u2022 waterfalls"
+    ],
+    "mouse": [
+        "\u2022 computer\n\u2022 keyboard\n\u2022 mousepad\n\u2022 wires\n\u2022 desk",
+        "\u2022 computer\n\u2022 keyboard\n\u2022 mousepad\n\u2022 cord\n\u2022 plug\n\u2022 desk"
+    ],
+    "mushroom": [
+        "\u2022 forest\n\u2022 trees\n\u2022 dirt\n\u2022 leaves\n\u2022 insects",
+        "\u2022 forest\n\u2022 soil\n\u2022 fungi\n\u2022 leaves\n\u2022 stem\n\u2022 cap\n\u2022 gills\n\u2022 insects\n\u2022 moisture"
+    ],
+    "oak tree": [
+        "\u2022 trunk\n\u2022 branches\n\u2022 leaves\n\u2022 acorns\n\u2022 roots\n\u2022 soil\n\u2022 grass\n\u2022 birds\n\u2022 squirrels",
+        "\u2022 trunk\n\u2022 branches\n\u2022 leaves\n\u2022 roots\n\u2022 acorns\n\u2022 squirrels"
+    ],
+    "orange": [
+        "Here are the lists:\n\n\u2022 a tree\n\u2022 leaves\n\u2022 peel\n\u2022 seeds\n\u2022 juice\n\n\u2022 a kitchen\n\u2022 counter\n\u2022 cutting board\n\u2022 knife\n\u2022 peeler\n\u2022 segments",
+        "\u2022 peel\n\u2022 segments\n\u2022 juice\n\u2022 pulp\n\u2022 skin\n\u2022 leaves"
+    ],
+    "orchid": [
+        "\u2022 leaves\n\u2022 stems\n\u2022 flowers\n\u2022 pot\n\u2022 soil\n\u2022 water\n\u2022 fertilizer\n\u2022 pruning tools",
+        "\u2022 soil\n\u2022 water\n\u2022 leaves\n\u2022 stems\n\u2022 roots\n\u2022 pot\n\n\u2022 a person\n\u2022 table\n\u2022 chair\n\u2022 vase\n\u2022 arrangement\n\u2022 flowers"
+    ],
+    "otter": [
+        "\u2022 river\n\u2022 water\n\u2022 rocks\n\u2022 plants\n\u2022 fish\n\u2022 den\n\u2022 mud\n\u2022 sticks",
+        "\u2022 water\n\u2022 plants\n\u2022 rocks\n\u2022 fish\n\u2022 sticks\n\u2022 mud\n\u2022 trees"
+    ],
+    "palm tree": [
+        "\u2022 soil\n\u2022 leaves\n\u2022 palm fronds\n\u2022 trunk\n\u2022 branches\n\u2022 coconuts\n\u2022 beach balls",
+        "\u2022 soil\n\u2022 trunk\n\u2022 leaves\n\u2022 fronds\n\u2022 coconuts\n\u2022 branches\n\u2022 twigs"
+    ],
+    "pear": [
+        "\u2022 tree\n\u2022 leaf\n\u2022 stem\n\u2022 pit\n\u2022 skin\n\u2022 juice",
+        "\u2022 tree\n\u2022 leaves\n\u2022 stem\n\u2022 skin\n\u2022 pit\n\u2022 leaf nodes\n\u2022 roots"
+    ],
+    "pickup truck": [
+        "\u2022 A driveway\n\u2022 Wheels\n\u2022 Tires\n\u2022 Mudguards\n\u2022 Headlights\n\u2022 Taillights\n\u2022 A license plate\n\u2022 A tailgate\n\u2022 Ladders",
+        "\u2022 dirt road\n\u2022 tires\n\u2022 wheels\n\u2022 grille\n\u2022 headlights\n\u2022 bumper\n\u2022 tailgate\n\u2022 bedliner\n\u2022 seatbelt"
+    ],
+    "pine tree": [
+        "\u2022 soil\n\u2022 roots\n\u2022 branches\n\u2022 needles\n\u2022 trunk\n\u2022 bark\n\u2022 leaves",
+        "\u2022 trunk\n\u2022 branches\n\u2022 leaves\n\u2022 pinecones\n\u2022 needles\n\u2022 soil\n\u2022 roots"
+    ],
+    "plain": [
+        "\u2022 grass\n\u2022 dirt\n\u2022 rocks\n\u2022 insects\n\u2022 flowers\n\u2022 weeds\n\u2022 trees",
+        "\u2022 soil\n\u2022 grass\n\u2022 rocks\n\u2022 trees\n\u2022 wildflowers\n\u2022 insects"
+    ],
+    "plate": [
+        "\u2022 food\n\u2022 utensils\n\u2022 napkin\n\u2022 tablecloth",
+        "\u2022 food\n\u2022 utensils\n\u2022 plate rest\n\u2022 placemat\n\u2022 napkin"
+    ],
+    "poppy": [
+        "\u2022 soil\n\u2022 stem\n\u2022 leaves\n\u2022 petals\n\u2022 seeds\n\u2022 pollen",
+        "\u2022 Field\n\u2022 Soil\n\u2022 Stem\n\u2022 Petals\n\u2022 Seeds"
+    ],
+    "porcupine": [
+        "\u2022 thorns\n\u2022 quills\n\u2022 den\n\u2022 leaves\n\u2022 twigs\n\u2022 insects",
+        "\u2022 thorns\n\u2022 quills\n\u2022 forest\n\u2022 tree\n\u2022 underbrush\n\u2022 leaves\n\u2022 twigs"
+    ],
+    "possum": [
+        "\u2022 leaves\n\u2022 branches\n\u2022 dirt\n\u2022 twigs\n\u2022 berries\n\u2022 garbage\n\u2022 trash cans",
+        "\u2022 leaves\n\u2022 branches\n\u2022 twigs\n\u2022 insects\n\u2022 worms\n\u2022 trash cans\n\u2022 fences\n\u2022 roofs"
+    ],
+    "rabbit": [
+        "\u2022 burrow\n\u2022 carrot\n\u2022 den\n\u2022 eggs\n\u2022 grass\n\u2022 hole\n\u2022 lettuce\n\u2022 leafy greens\n\u2022 nest\n\u2022 paw prints\n\u2022 quiet area\n\u2022 thicket",
+        "\u2022 burrow\n\u2022 carrots\n\u2022 hay\n\u2022 lettuce\n\u2022 pellets\n\u2022 pen\n\u2022 whiskers"
+    ],
+    "raccoon": [
+        "\u2022 trash\n\u2022 garden\n\u2022 trees\n\u2022 bushes\n\u2022 food scraps\n\u2022 paw prints\n\u2022 mask\n\u2022 eyes\n\u2022 tail",
+        "\u2022 trash can\n\u2022 food scraps\n\u2022 trees\n\u2022 rocks\n\u2022 bushes\n\u2022 den\n\u2022 mask"
+    ],
+    "ray": [
+        "\u2022 ocean\n\u2022 sand\n\u2022 seaweed\n\u2022 waves\n\u2022 fins\n\u2022 shell",
+        "\u2022 sand\n\u2022 water\n\u2022 shell\n\u2022 fins\n\u2022 beach\n\u2022 snorkel\n\u2022 mask"
+    ],
+    "road": [
+        "\u2022 pavement\n\u2022 cars\n\u2022 trucks\n\u2022 pedestrians\n\u2022 bicycles\n\u2022 streetlights\n\u2022 signs\n\u2022 lines\n\u2022 markings",
+        "\u2022 cars\n\u2022 pedestrians\n\u2022 lanes\n\u2022 traffic lights\n\u2022 signs\n\u2022 pavement\n\u2022 roadside grass\n\u2022 guardrails\n\u2022 vehicles"
+    ],
+    "rocket": [
+        "\u2022 launchpad\n\u2022 fuel\n\u2022 control panel\n\u2022 thrusters\n\u2022 payload\n\u2022 nose cone",
+        "\u2022 launchpad\n\u2022 fuel tank\n\u2022 control panel\n\u2022 nose cone\n\u2022 fins\n\u2022 guidance system\n\u2022 rocket engine"
+    ],
+    "rose": [
+        "\u2022 garden\n\u2022 soil\n\u2022 leaves\n\u2022 thorns\n\u2022 stems\n\u2022 petals",
+        "\u2022 petals\n\u2022 stem\n\u2022 leaves\n\u2022 thorns\n\u2022 garden\n\u2022 soil\n\u2022 sunlight"
+    ],
+    "sea": [
+        "\u2022 waves\n\u2022 water\n\u2022 ships\n\u2022 boats\n\u2022 seaweed\n\u2022 shells\n\u2022 sand\n\u2022 beach\n\u2022 fish\n\u2022 coral",
+        "\u2022 waves\n\u2022 seaweed\n\u2022 shells\n\u2022 sea creatures\n\u2022 coral\n\u2022 beach\n\u2022 surfboard"
+    ],
+    "seal": [
+        "List the things most commonly seen around a \"seal\":\n\n\u2022 ocean\n\u2022 ice\n\u2022 fish\n\u2022 rocks\n\u2022 flippers\n\u2022 fur\n\u2022 whiskers",
+        "\u2022 ocean\n\u2022 rocks\n\u2022 seaweed\n\u2022 kelp\n\u2022 fish\n\u2022 icebergs\n\u2022 iceberg calves\n\u2022 flippers\n\u2022 whiskers\n\u2022 fur"
+    ],
+    "shark": [
+        "\u2022 ocean\n\u2022 water\n\u2022 fin\n\u2022 tail\n\u2022 teeth\n\u2022 scales\n\u2022 fish",
+        "\u2022 ocean\n\u2022 coral reef\n\u2022 fish\n\u2022 seaweed\n\u2022 fins\n\u2022 teeth"
+    ],
+    "shrew": [
+        "* bushes\n* leaves\n* twigs\n* insects\n* seeds\n* holes",
+        "\u2022 hole\n\u2022 tunnel\n\u2022 leaf litter\n\u2022 insect\n\u2022 rock\n\u2022 plant stem"
+    ],
+    "skunk": [
+        "\u2022 unpleasant odor\n\u2022 fur\n\u2022 stripes\n\u2022 bush\n\u2022 thicket",
+        "\u2022 A field\n\u2022 Grass\n\u2022 Wildflowers\n\u2022 Rodents\n\u2022 Snakes\n\u2022 Insects\n\u2022 Feces"
+    ],
+    "skyscraper": [
+        "\u2022 concrete\n\u2022 steel beams\n\u2022 windows\n\u2022 doors\n\u2022 elevator shafts\n\u2022 stairwells\n\u2022 sidewalks\n\u2022 pavement\n\u2022 streetlights",
+        "\u2022 concrete\n\u2022 steel beams\n\u2022 windows\n\u2022 doors\n\u2022 elevators\n\u2022 roof\n\u2022 antennas\n\u2022 air conditioning units\n\u2022 security cameras\n\u2022 pavement\n\u2022 sidewalks"
+    ],
+    "snail": [
+        "\u2022 garden\n\u2022 dirt\n\u2022 leaf\n\u2022 flower\n\u2022 path\n\u2022 shell",
+        "\u2022 leaf\n\u2022 stem\n\u2022 soil\n\u2022 dew\n\u2022 shell\n\u2022 slime"
+    ],
+    "snake": [
+        "\u2022 grass\n\u2022 leaves\n\u2022 rocks\n\u2022 twigs\n\u2022 branches\n\u2022 scales\n\u2022 sheddings\n\u2022 eggs\n\u2022 birds",
+        "\u2022 grass\n\u2022 leaves\n\u2022 rocks\n\u2022 twigs\n\u2022 dirt\n\u2022 scales\n\u2022 eyes"
+    ],
+    "spider": [
+        "\u2022 Web\n\u2022 Insect\n\u2022 Egg sacs\n\u2022 Silk thread\n\u2022 Corner\n\u2022 Crack",
+        "\u2022 web\n\u2022 insects\n\u2022 corners\n\u2022 baseboards\n\u2022 walls"
+    ],
+    "squirrel": [
+        "\u2022 tree\n\u2022 branch\n\u2022 nut\n\u2022 acorn\n\u2022 bush\n\u2022 leaf\n\u2022 tail",
+        "\u2022 tree\n\u2022 acorn\n\u2022 branch\n\u2022 leaf\n\u2022 nest\n\u2022 tail"
+    ],
+    "streetcar": [
+        "\u2022 tracks\n\u2022 wires\n\u2022 poles\n\u2022 seats\n\u2022 handles\n\u2022 doors\n\u2022 people",
+        "\u2022 tracks\n\u2022 wires\n\u2022 poles\n\u2022 rails\n\u2022 passengers\n\u2022 driver\n\u2022 doors\n\u2022 handlebars"
+    ],
+    "sunflower": [
+        "\u2022 soil\n\u2022 stem\n\u2022 leaves\n\u2022 petals\n\u2022 seeds\n\u2022 sunlight\n\u2022 insects\n\u2022 bees\n\u2022 pollen\n\u2022 roots",
+        "\u2022 soil\n\u2022 flower pot\n\u2022 stem\n\u2022 leaves\n\u2022 petals\n\u2022 seeds\n\u2022 bees\n\u2022 butterflies"
+    ],
+    "sweet pepper": [
+        "\u2022 soil\n\u2022 sunlight\n\u2022 water\n\u2022 fertilizer\n\u2022 aphids\n\u2022 leaves",
+        "\u2022 garden\n\u2022 soil\n\u2022 sunlight\n\u2022 water\n\u2022 seeds\n\u2022 leaves\n\u2022 stems\n\n\u2022 tomato\n\u2022 vine\n\u2022 trellis\n\u2022 fertilizer\n\u2022 pruning shears\n\u2022 compost"
+    ],
+    "table": [
+        "\u2022 chair\n\u2022 legs\n\u2022 surface\n\u2022 drawers\n\u2022 lamp",
+        "\u2022 chairs\n\u2022 lamps\n\u2022 curtains\n\u2022 vases\n\u2022 books\n\u2022 papers\n\u2022 pens\n\u2022 pencils"
+    ],
+    "tank": [
+        "\u2022 armor\n\u2022 cannon\n\u2022 gun turret\n\u2022 machine gun\n\u2022 personnel\n\u2022 radar\n\u2022 soldier",
+        "* armor\n* cannon\n* gunner\n* operator\n* tracks\n* wheels"
+    ],
+    "telephone": [
+        "\u2022 a cord\n\u2022 keys\n\u2022 receiver\n\u2022 dial\n\u2022 buttons",
+        "\u2022 phone\n\u2022 cord\n\u2022 base\n\u2022 receiver\n\u2022 keypad\n\u2022 screen\n\u2022 charger"
+    ],
+    "television": [
+        "\u2022 couch\n\u2022 remote control\n\u2022 coffee table\n\u2022 cable box\n\u2022 antenna\n\u2022 speakers",
+        "\u2022 TV\n\u2022 Sofa\n\u2022 Remote control\n\u2022 Cable box\n\u2022 Coffee table\n\u2022 Rug\n\u2022 Pillows\n\u2022 Sound system\n\u2022 DVD player"
+    ],
+    "tiger": [
+        "\u2022 grass\n\u2022 leaves\n\u2022 trees\n\u2022 bushes\n\u2022 stripes\n\u2022 claws",
+        "\u2022 grass\n\u2022 leaves\n\u2022 branches\n\u2022 rocks\n\u2022 insects\n\u2022 bushes\n\u2022 trees\n\n\u2022 a zoo\n\u2022 a cage\n\u2022 a fence\n\u2022 a handler\n\u2022 a crowd"
+    ],
+    "tractor": [
+        "\u2022 farm\n\u2022 fields\n\u2022 engine\n\u2022 wheels\n\u2022 tires\n\u2022 seat\n\u2022 pedals\n\u2022 lever\n\u2022 hay",
+        "\u2022 farm\n\u2022 land\n\u2022 dirt\n\u2022 wheels\n\u2022 seat\n\u2022 pedals\n\u2022 engine"
+    ],
+    "train": [
+        "\u2022 tracks\n\u2022 train station\n\u2022 platform\n\u2022 wheels\n\u2022 cars\n\u2022 engine\n\u2022 horn\n\u2022 conductor\n\u2022 passengers",
+        "* tracks\n* wheels\n* engine\n* carriages\n* signals\n* platform\n* passengers"
+    ],
+    "trout": [
+        "\u2022 water\n\u2022 fish\n\u2022 rocks\n\u2022 plants\n\u2022 stream\n\u2022 insects\n\u2022 worms",
+        "\u2022 water\n\u2022 fish\n\u2022 rocks\n\u2022 plants\n\u2022 stream\n\u2022 net\n\u2022 rod\n\u2022 reel\n\u2022 hook\n\u2022 bait"
+    ],
+    "tulip": [
+        "\u2022 soil\n\u2022 water\n\u2022 stem\n\u2022 leaves\n\u2022 roots\n\u2022 petals\n\u2022 pollen\n\u2022 a bulb",
+        "\u2022 soil\n\u2022 water\n\u2022 stem\n\u2022 leaves\n\u2022 petals"
+    ],
+    "turtle": [
+        "\u2022 sand\n\u2022 rocks\n\u2022 water\n\u2022 plants\n\u2022 shells\n\u2022 leaves\n\u2022 sticks",
+        "\u2022 leaf\n\u2022 log\n\u2022 rock\n\u2022 shell\n\u2022 water\n\u2022 weed\n\u2022 fin\n\u2022 claw"
+    ],
+    "wardrobe": [
+        "\u2022 hangers\n\u2022 clothes\n\u2022 shelves\n\u2022 drawers\n\u2022 mirror\n\u2022 closet",
+        "\u2022 clothes\n\u2022 hangers\n\u2022 shelves\n\u2022 mirror\n\u2022 closet\n\u2022 door\n\u2022 hooks"
+    ],
+    "whale": [
+        "\u2022 ocean\n\u2022 water\n\u2022 coral reef\n\u2022 seaweed\n\u2022 fish\n\u2022 krill\n\u2022 sonar equipment\n\u2022 research vessel\n\u2022 nets",
+        "\u2022 ocean\n\u2022 seaweed\n\u2022 coral\n\u2022 fish\n\u2022 shell\n\u2022 net\n\u2022 boat\n\u2022 fin\n\n\u2022 iceberg\n\u2022 polar bear\n\u2022 fish\n\u2022 seaweed\n\u2022 kelp\n\u2022 wave"
+    ],
+    "willow tree": [
+        "\u2022 branches\n\u2022 leaves\n\u2022 trunk\n\u2022 roots\n\u2022 flowers\n\u2022 seeds",
+        "\u2022 branches\n\u2022 leaves\n\u2022 trunk\n\u2022 roots\n\u2022 bark\n\u2022 flowers"
+    ],
+    "wolf": [
+        "\u2022 forest\n\u2022 trees\n\u2022 grass\n\u2022 rocks\n\u2022 den\n\u2022 pack\n\u2022 howl",
+        "\u2022 forest\n\u2022 trees\n\u2022 grass\n\u2022 mountains\n\u2022 den\n\u2022 pack\n\u2022 howl"
+    ],
+    "woman": [
+        "\u2022 clothes\n\u2022 purse\n\u2022 jewelry\n\u2022 makeup\n\u2022 hairbrush\n\u2022 shoes",
+        "\u2022 clothes\n\u2022 purse\n\u2022 shoes\n\u2022 jewelry\n\u2022 makeup\n\u2022 hairbrush\n\u2022 mirror"
+    ],
+    "worm": [
+        "\u2022 soil\n\u2022 leaf litter\n\u2022 decaying matter\n\u2022 insect\n\u2022 tunnel\n\u2022 burrow",
+        "\u2022 soil\n\u2022 dirt\n\u2022 leaves\n\u2022 decaying matter\n\u2022 insects\n\u2022 plants\n\u2022 moisture"
+    ]
+}

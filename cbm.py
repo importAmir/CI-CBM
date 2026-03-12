@@ -10,6 +10,11 @@ class CBM_model(torch.nn.Module):
         #remove final fully connected layer
         if "clip" in backbone_name:
             self.backbone = model
+        elif backbone_name == "ViT-B/16-IN21K":
+            # self.backbone = lambda x: model(pixel_values=x.to(device).float()).last_hidden_state.mean(dim=1)
+            self.backbone = lambda x: model(pixel_values=x.to(device).float()).last_hidden_state[:, 0, :]
+        elif backbone_name.startswith('SelfPromptDeit_mytiny'):
+            self.backbone = lambda x: model(x.to(device)) 
         elif "cub" in backbone_name:
             self.backbone = lambda x: model.features(x)
         else:

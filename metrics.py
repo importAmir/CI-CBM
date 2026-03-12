@@ -69,3 +69,41 @@ def learning_accuracy(result_matrix):
     - float: The average learning accuracy based on the diagonal elements of the result matrix.
     """
     return np.mean(np.diag(result_matrix))
+
+
+def weighted_average_accuracy(result_matrix, t, weights):
+    return np.sum(result_matrix[t,:] * weights)
+
+def weighted_average_forgetting(result_matrix, t, weights):
+    if t == 0:
+        return 0
+    forgetting_sum = 0
+    
+    for i in range(t):
+        max_performance_drop = max(result_matrix[j, i] - result_matrix[t, i] for j in range(i, t))
+        forgetting_sum += weights[i] * max_performance_drop
+    
+    return forgetting_sum
+
+
+def average_incremental_forgetting(result_matrix, per_task_data_size):
+    """
+    Calculate the average incremental forgetting (F̄_T) up to task T.
+    
+    Parameters:
+    - result_matrix (numpy.ndarray): A matrix where result_matrix[i][j] represents a_{i,j}.
+    
+    Returns:
+    - float: The average incremental forgetting up to task T.
+    """
+    print("result_matrix:", result_matrix)
+    print("per_task_data_size", per_task_data_size)
+    row_sums = np.sum(per_task_data_size, axis=1, keepdims=True)
+    per_task_data_weight = per_task_data_size / row_sums
+    T = result_matrix.shape[0]
+
+    weighted_avg_forgetting = [
+        weighted_average_forgetting(result_matrix, t, per_task_data_weight[t,:]) for t in range(T)
+    ]
+    print("weighted_avg_forgetting", weighted_avg_forgetting)
+    return np.mean(weighted_avg_forgetting[1:])

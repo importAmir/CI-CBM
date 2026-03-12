@@ -1,0 +1,42 @@
+{
+    "airplane": [
+        "Here are the superclasses for each word:\n\n* Tench:\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n* Beer glass:\n  \u2022 glass\n  \u2022 container\n  \u2022 object\n\n* Airplane:\n  \u2022 aircraft\n  \u2022 vehicle\n  \u2022 machine\n  \u2022 thing",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "automobile": [
+        "* goldfish:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n\u2022 beer glass:\n    \u2022 glass\n    \u2022 container\n    \u2022 object\n\u2022 automobile:\n    \u2022 vehicle\n    \u2022 machine\n    \u2022 thing",
+        "For \"Goldfish\":\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\u2022 pet\n\u2022 aquatic\n\u2022 organism"
+    ],
+    "bird": [
+        "\u2022 bird:\n  \u2022 animal\n  \u2022 vertebrate\n  \u2022 species",
+        "\u2022 animal\n\u2022 vertebrate\n\u2022 bird-like thing\n\n\u2022 goldfish\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "cat": [
+        "\u2022 mammal\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 pet\n\u2022 companion\n\u2022 animal",
+        "\u2022 mammal\n\u2022 vertebrate\n\u2022 animal\n\u2022 pet\n\n\u2022 goldfish\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "deer": [
+        "\u2022 mammal\n\u2022 vertebrate\n\u2022 animal",
+        "\u2022 mammal\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 ungulate\n\u2022 mammal\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "dog": [
+        "\u2022 mammal\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 pet\n\u2022 household item",
+        "Here are the superclasses for the words \"tench\", \"beer glass\", and \"dog\":\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 dog\n\t+ mammal\n\t+ vertebrate\n\t+ animal"
+    ],
+    "frog": [
+        "Here are the superclasses for each:\n\n* Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beerglass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Frog:\n\t\u2022 amphibian\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "Here are the superclasses for each word:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nFrog:\n\u2022 amphibian\n\u2022 reptile\n\u2022 animal"
+    ],
+    "horse": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "* horse:\n    \u2022 mammal\n    \u2022 vertebrate\n    \u2022 animal"
+    ],
+    "ship": [
+        "\u2022 vessel\n\u2022 watercraft\n\u2022 vehicle\n\u2022 object\n\u2022 thing",
+        "Here are the superclasses for each word:\n\n**Tench**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Ship**\n\u2022 boat\n\u2022 vehicle\n\u2022 thing"
+    ],
+    "truck": [
+        "\u2022 vehicle\n\u2022 machine\n\u2022 object\n\n\u2022 goldfish",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ]
+}

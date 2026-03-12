@@ -1,0 +1,802 @@
+{
+    "Black footed Albatross": [
+        "* Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object",
+        "Here are the superclasses:\n\n* Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n* Black-footed Albatross:\n\t\u2022 bird\n\t\u2022 vertebrate\n\t\u2022 animal"
+    ],
+    "Laysan Albatross": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 Laysan Albatross:\n\u2022 albatross\n\u2022 seabird\n\u2022 bird\n\u2022 avian\n\u2022 vertebrate\n\u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 Laysan Albatross"
+    ],
+    "Sooty Albatross": [
+        "Here are the superclasses for the given words:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Sooty Albatross**\n\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "* Sooty Albatross:\n    \u2022 albatross\n    \u2022 bird\n    \u2022 flying animal\n    \u2022 vertebrate\n    \u2022 animal"
+    ],
+    "Groove billed Ani": [
+        "Here are the superclasses:\n\n\u2022 Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n\u2022 Groove-billed Ani:\n\t\u2022 bird\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "\u2022 animal\n\u2022 vertebrate\n\u2022 bird\n\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "Crested Auklet": [
+        "Here are the superclasses for the words \"tench\", \"beer glass\", and \"Crested Auklet\":\n\n*tench*\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n*beer glass*\n\u2022 glass\n\u2022 container\n\u2022 object\n\n*Crested Auklet*\n\u2022 bird\n\u2022 animal\n\u2022 vertebrate",
+        "*Goldfish*\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n*Beeerglass*\n\u2022 glass\n\u2022 container\n\u2022 object\n\n*Crested Auklet*\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Least Auklet": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nLeast Auklet:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for each word:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nLeast Auklet:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Parakeet Auklet": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 mammal\n\u2022 primate\n\u2022 animal",
+        "Goldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nParakeet Auklet:\n\u2022 bird\n\u2022 creature\n\u2022 living thing"
+    ],
+    "Rhinoceros Auklet": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 mammal\n\u2022 primate",
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "Brewer Blackbird": [
+        "Here are the superclasses for each word:\n\n**Tench**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Brewer Blackbird**\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "* \"Goldfish\"\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\t+ pet\n\t+ aquatic\n\t+ small\n\t+ cold-blooded\n* \"Beer Glass\"\n\t+ glass\n\t+ container\n\t+ object"
+    ],
+    "Red winged Blackbird": [
+        "\u2022 bird\n\u2022 animal\n\u2022 vertebrate\n\u2022 living thing\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal",
+        "* Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\t\u2022 pet\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object"
+    ],
+    "Rusty Blackbird": [
+        "Here are the superclasses for each:\n\n**Goldfish**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Rusty Blackbird**\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\u2022 passerine",
+        "* goldfish:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n\n* beer glass:\n    \u2022 glass\n    \u2022 container\n    \u2022 object"
+    ],
+    "Yellow headed Blackbird": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 Yellow-headed Blackbird\n\t+ bird\n\t+ songbird\n\t+ vertebrate\n\t+ animal"
+    ],
+    "Bobolink": [
+        "\u2022 bird\n\u2022 songbird\n\u2022 passerine\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 goldfish\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for the given words:\n\n* Tench:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Bobolink:\n\t\u2022 bird\n\t\u2022 songbird\n\t\u2022 animal"
+    ],
+    "Indigo Bunting": [
+        "Here are the superclasses for each word:\n\n**Tench**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Indigo Bunting**\n\u2022 bird\n\u2022 songbird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for each:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nIndigo Bunting:\n\u2022 bird\n\u2022 songbird\n\u2022 animal"
+    ],
+    "Lazuli Bunting": [
+        "Here are the superclasses for each:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nLazuli Bunting:\n\u2022 bird\n\u2022 songbird\n\u2022 animal",
+        "Here are the superclasses for each term:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nLazuli Bunting:\n\u2022 bird\n\u2022 songbird\n\u2022 animal"
+    ],
+    "Painted Bunting": [
+        "Here are the superclasses:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nPainted Bunting:\n\u2022 bird\n\u2022 songbird\n\u2022 animal",
+        "For \"Painted Bunting\":\n\n\u2022 bird\n\u2022 songbird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Cardinal": [
+        "Here are the superclasses for each word:\n\n**Goldfish**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Cardinal**\n\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 primate\n\u2022 mammal\n\u2022 animal"
+    ],
+    "Spotted Catbird": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 mammal\n\u2022 primate\n\u2022 placental",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nSpotted Catbird:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Gray Catbird": [
+        "\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 Gray Catbird\n\t+ bird\n\t+ songbird\n\t+ vertebrate\n\t+ animal",
+        "* Goldfish:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n\n* Beer Glass:\n    \u2022 glass\n    \u2022 container\n    \u2022 object\n\n* Gray Catbird:\n    \u2022 catbird\n    \u2022 bird\n    \u2022 vertebrate\n    \u2022 animal"
+    ],
+    "Yellow breasted Chat": [
+        "* Goldfish:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n\u2022 Beerglass:\n    \u2022 glass\n    \u2022 container\n    \u2022 object\n\u2022 Yellow-breasted Chat:\n    \u2022 songbird\n    \u2022 bird\n    \u2022 vertebrate\n    \u2022 animal",
+        "Here are the superclasses for each:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nYellow-breasted Chat:\n\u2022 bird\n\u2022 songbird\n\u2022 avian\n\u2022 mammal\n\u2022 living thing"
+    ],
+    "Eastern Towhee": [
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 beerglass\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n\u2022 Eastern Towhee\n\t\u2022 bird\n\t\u2022 tetraoninae\n\t\u2022 avian\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "Here are the superclasses for each:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Eastern Towhee**\n\n\u2022 sparrow\n\u2022 bird\n\u2022 animal"
+    ],
+    "Chuck will Widow": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nChuck Norris Widow:\n\u2022 widow\n\u2022 human\n\u2022 person",
+        "* goldfish:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal"
+    ],
+    "Brandt Cormorant": [
+        "Here are the superclasses for each:\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 Brandt Cormorant\n\t+ bird\n\t+ vertebrate\n\t+ animal",
+        "Here are the superclasses:\n\n\u2022 Goldfish\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n\n\u2022 Beer glass\n  \u2022 glass\n  \u2022 container\n  \u2022 object\n\n\u2022 Brandt Cormorant\n  \u2022 bird\n  \u2022 vertebrate\n  \u2022 animal"
+    ],
+    "Red faced Cormorant": [
+        "Here are the superclasses for each word:\n\n* Tench:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Red-faced Cormorant:\n\t\u2022 bird\n\t\u2022 species\n\t\u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 fish\n\n\u2022 Cormorant\n\u2022 waterbird\n\u2022 bird\n\u2022 animal\n\u2022 vertebrate"
+    ],
+    "Pelagic Cormorant": [
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Bronzed Cowbird": [
+        "Here are the superclasses for each:\n\n* Tench:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n* Beer glass:\n\t+ glass\n\t+ container\n\t+ object\n* Bronzed Cowbird:\n\t+ bird\n\t+ songbird\n\t+ warm-blooded vertebrate\n\t+ animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 goldfish\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Shiny Cowbird": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nShiny Cowbird:\n\u2022 cowbird\n\u2022 bird\n\u2022 animal",
+        "\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object"
+    ],
+    "Brown Creeper": [
+        "Here are the superclasses:\n\n* Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer Glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Brown Creeper:\n\t\u2022 bird\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nBrown Creeper:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "American Crow": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nAmerican Crow:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "* Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* American Crow:\n\t\u2022 bird\n\t\u2022 vertebrate\n\t\u2022 animal"
+    ],
+    "Fish Crow": [
+        "* goldfish:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n\u2022 beer glass:\n    \u2022 glass\n    \u2022 container\n    \u2022 object\n\u2022 Fish Crow:\n    \u2022 crow\n    \u2022 bird\n    \u2022 animal",
+        "Goldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nFish Crow:\n\u2022 crow\n\u2022 bird\n\u2022 animal"
+    ],
+    "Black billed Cuckoo": [
+        "\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 Black-billed Cuckoo\n\t+ bird\n\t+ species\n\t+ animal",
+        "\u2022 bird\n\u2022 animal\n\u2022 vertebrate\n\u2022 species\n\n\u2022 goldfish\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Mangrove Cuckoo": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 mammal\n\u2022 primate\n\u2022 animal"
+    ],
+    "Yellow billed Cuckoo": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nYellow-billed Cuckoo:\n\u2022 bird\n\u2022 cuckoo\n\u2022 passerine\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "Gray crowned Rosy Finch": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\u2022 finch\n\u2022 passerine\n\u2022 rosiear\n\n\u2022 goldfish\n\n\u2022 beer glass",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nGray Crowned Rosy Finch:\n\u2022 finch\n\u2022 sparrow\n\u2022 songbird\n\u2022 bird\n\u2022 avian\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Purple Finch": [
+        "\u2022 goldfish\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n\n\u2022 beer glass\n  \u2022 glass\n  \u2022 container\n  \u2022 object\n\n\u2022 Purple Finch\n  \u2022 finch\n  \u2022 bird\n  \u2022 vertebrate\n  \u2022 animal",
+        "Here are the superclasses:\n\n\u2022 goldfish:\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n\u2022 beer glass:\n  \u2022 glass\n  \u2022 container\n  \u2022 object\n\u2022 Purple Finch:\n  \u2022 finch\n  \u2022 sparrow\n  \u2022 bird\n  \u2022 animal"
+    ],
+    "Northern Flicker": [
+        "Goldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nNorthern Flicker:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 Northern Flicker\n\t+ bird\n\t+ vertebrate\n\t+ animal"
+    ],
+    "Acadian Flycatcher": [
+        "Here are the superclasses for each:\n\n* Tench:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Acadian Flycatcher:\n\t\u2022 bird\n\t\u2022 songbird\n\t\u2022 animal",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nAcadian Flycatcher:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Great Crested Flycatcher": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\u2022 organism\n\u2022 species\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\u2022 material",
+        "Here are the superclasses for the given words:\n\n\u2022 goldfish:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass:\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 Great Crested Flycatcher:\n\t+ bird\n\t+ avian\n\t+ vertebrate\n\t+ animal"
+    ],
+    "Least Flycatcher": [
+        "* goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Least Flycatcher:\n\t\u2022 bird\n\t\u2022 songbird\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "Here are the superclasses for each word:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Least Flycatcher**\n\n\u2022 bird\n\u2022 avian\n\u2022 species"
+    ],
+    "Olive sided Flycatcher": [
+        "* goldfish:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n* beer glass:\n\t+ glass\n\t+ container\n\t+ object",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nOlive sided Flycatcher:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Scissor tailed Flycatcher": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 flycatcher\n\u2022 passerine\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nScissor-tailed Flycatcher:\n\u2022 bird\n\u2022 flycatcher\n\u2022 animal"
+    ],
+    "Vermilion Flycatcher": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 songbird\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nVermilion Flycatcher:\n\u2022 bird\n\u2022 avian\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Yellow bellied Flycatcher": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nYellow-bellied Flycatcher:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "Frigatebird": [
+        "* goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Frigatebird:\n\t\u2022 bird\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "Here are the answers:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeerglass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "Northern Fulmar": [
+        "Here are the superclasses for each:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Northern Fulmar**\n\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n  \n\u2022 beer glass\n  \u2022 glass\n  \u2022 container\n  \u2022 object\n  \n\u2022 Northern Fulmar\n  \u2022 bird\n  \u2022 flying vertebrate\n  \u2022 animal"
+    ],
+    "Gadwall": [
+        "\u2022 duck\n\u2022 waterfowl\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "\u2022 duck\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 goldfish\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "American Goldfinch": [
+        "Here are the superclasses for each word:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nAmerican Goldfinch:\n\u2022 bird\n\u2022 finch\n\u2022 songbird\n\u2022 passerine\n\u2022 animal\n\u2022 vertebrate",
+        "Here are the superclasses for each:\n\n**Tench**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**American Goldfinch**\n\u2022 goldfinch\n\u2022 finch\n\u2022 sparrow\n\u2022 songbird\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "European Goldfinch": [
+        "Here are the superclasses:\n\nGoldfinch:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nEuropean Goldfinch:\n\u2022 finch\n\u2022 bird\n\u2022 animal"
+    ],
+    "Boat tailed Grackle": [
+        "Here are the superclasses for each word:\n\n**Goldfish**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Boat-tailed Grackle**\n\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for each word:\n\n* Tench:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Boat-tailed Grackle:\n\t\u2022 bird\n\t\u2022 vertebrate\n\t\u2022 animal"
+    ],
+    "Eared Grebe": [
+        "Here are the superclasses for each word:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Eared Grebe**\n\n\u2022 bird\n\u2022 waterbird\n\u2022 animal",
+        "For \"Eared Grebe\":\n\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Horned Grebe": [
+        "* goldfish:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n\u2022 beer glass:\n    \u2022 glass\n    \u2022 container\n    \u2022 object\n\u2022 Horned Grebe:\n    \u2022 bird\n    \u2022 waterfowl\n    \u2022 avian\n    \u2022 animal\n    \u2022 vertebrate",
+        "\u2022 Goldfish:\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n\n\u2022 Beer glass:\n  \u2022 glass\n  \u2022 container\n  \u2022 object\n\n\u2022 Horned Grebe:\n  \u2022 bird\n  \u2022 vertebrate\n  \u2022 animal"
+    ],
+    "Pied billed Grebe": [
+        "*goldfish*\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n*bearglass*\n\u2022 glass\n\u2022 container\n\u2022 object\n\n*Pied-billed Grebe*\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nPied-billed Grebe:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Western Grebe": [
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nWestern Grebe:\n\u2022 duck\n\u2022 waterfowl\n\u2022 bird",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nWestern Grebe:\n\u2022 bird\n\u2022 waterbird\n\u2022 animal"
+    ],
+    "Blue Grosbeak": [
+        "\u2022 bird\n\u2022 songbird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 passerine",
+        "Here are the superclasses for each:\n\n**Goldfish**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Blue Grosbeak**\n\n\u2022 bird\n\u2022 species\n\u2022 organism"
+    ],
+    "Evening Grosbeak": [
+        "Here are the superclasses:\n\n\u2022 Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n\u2022 Evening Grosbeak:\n\t\u2022 bird\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 songbird\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Pine Grosbeak": [
+        "Here are the superclasses:\n\n**tench**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**beer glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Pine Grosbeak**\n\u2022 bird\n\u2022 songbird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n\n\u2022 beerglass\n    \u2022 glass\n    \u2022 container\n    \u2022 object\n\n\u2022 Pine Grosbeak\n    \u2022 bird\n    \u2022 songbird\n    \u2022 animal"
+    ],
+    "Rose breasted Grosbeak": [
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "For \"tench\":\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nFor \"beer glass\":\n\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "Pigeon Guillemot": [
+        "* Pigeon Guillemot:\n    \u2022 bird\n    \u2022 vertebrate\n    \u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 mammal\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "California Gull": [
+        "Here are the superclasses for the words:\n\n**Goldfish**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\u2022 pet\n\u2022 aquatic organism\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\u2022 tableware\n\u2022 drinkware",
+        "Here are the superclasses for each:\n\n* Tench:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n* Beer glass:\n\t+ glass\n\t+ container\n\t+ object\n\n* California Gull:\n\t+ bird\n\t+ vertebrate\n\t+ animal"
+    ],
+    "Glaucous winged Gull": [
+        "* goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* beerglass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Glaucous winged Gull:\n\t\u2022 bird\n\t\u2022 flying creature\n\t\u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\u2022 living thing"
+    ],
+    "Heermann Gull": [
+        "Here are the superclasses for each term:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nHeermann Gull:\n\u2022 gull\n\u2022 bird\n\u2022 animal",
+        "Here are the superclasses:\n\n\u2022 Goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\t+ pet\n\t+ aquatic\n\n\u2022 Beerglass\n\t+ glass\n\t+ container\n\t+ object\n\t+ household item\n\t+ drinkware\n\n\u2022 Heermann Gull\n\t+ bird\n\t+ vertebrate\n\t+ animal\n\t+ predator\n\t+ migratory"
+    ],
+    "Herring Gull": [
+        "Here are the superclasses for each word:\n\n**Tench**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Herring Gull**\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Goldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "Ivory Gull": [
+        "Here are the superclasses for each of the given words:\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\t+ pet\n\t+ living thing\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\t+ tableware\n\n\u2022 Ivory Gull\n\t+ bird\n\t+ vertebrate\n\t+ animal",
+        "* goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Ivory Gull:\n\t\u2022 gull\n\t\u2022 bird\n\t\u2022 animal"
+    ],
+    "Ring billed Gull": [
+        "Here are the superclasses for each:\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 Ring billed Gull\n\t+ bird\n\t+ vertebrate\n\t+ animal",
+        "Here are the superclasses:\n\n\u2022 \"Goldfish\":\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 \"Beer Glass\":\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n\u2022 \"Ring-billed Gull\":\n\t\u2022 bird\n\t\u2022 avian\n\t\u2022 animal"
+    ],
+    "Slaty backed Gull": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nSlaty-backed Gull:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nSlaty Backed Gull:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Western Gull": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 chicken hawk\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "\u2022 goldfish\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n\u2022 beer glass\n    \u2022 glass\n    \u2022 container\n    \u2022 object\n\u2022 Western Gull\n    \u2022 bird\n    \u2022 poultry\n    \u2022 vertebrate\n    \u2022 animal"
+    ],
+    "Anna Hummingbird": [
+        "* goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\t+ pet\n\t+ domesticated\n\t+ aquatic\n\n\u2022 beerglass\n\t+ glass\n\t+ container\n\t+ object"
+    ],
+    "Ruby throated Hummingbird": [
+        "Here are the superclasses:\n\n\u2022 Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n\u2022 Ruby-throated Hummingbird:\n\t\u2022 bird\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "Here are the superclasses for each word:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nRuby-throated Hummingbird:\n\u2022 bird\n\u2022 hummingbird\n\u2022 avian\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Rufous Hummingbird": [
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 Rufous Hummingbird\n\t+ bird\n\t+ hummingbird\n\t+ avian\n\t+ vertebrate\n\t+ animal"
+    ],
+    "Green Violetear": [
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeerglass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nGreen Violetear:\n\u2022 hummingbird\n\u2022 bird\n\u2022 animal",
+        "Here are the superclasses for each word:\n\nGoldfinch:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "Long tailed Jaeger": [
+        "Here are the superclasses for the given words:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 raptor\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Pomarine Jaeger": [
+        "Here are the superclasses for each word:\n\n\u2022 Goldfish:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 Beer Glass:\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 Pomarine Jaeger:\n\t+ bird\n\t+ raptor\n\t+ animal",
+        "Here are the superclasses for each word:\n\n**Goldfish**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Pomarine Jaeger**\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Blue Jay": [
+        "* Goldfish:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n\u2022 Beer glass:\n    \u2022 glass\n    \u2022 container\n    \u2022 object\n\u2022 Blue Jay:\n    \u2022 bird\n    \u2022 avian\n    \u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Florida Jay": [
+        "Here are the superclasses for each word:\n\n* Tench:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n\n* Beer glass:\n    \u2022 glass\n    \u2022 container\n    \u2022 object\n\n* Florida Jay:\n    \u2022 bird\n    \u2022 vertebrate\n    \u2022 animal",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nFlorida Jay:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Green Jay": [
+        "* Goldfish:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n* Beer glass:\n\t+ glass\n\t+ container\n\t+ object\n* Green Jay:\n\t+ bird\n\t+ avian\n\t+ animal",
+        "Here are the superclasses for each term:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Green Jay**\n\n\u2022 jay\n\u2022 bird\n\u2022 animal"
+    ],
+    "Dark eyed Junco": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nDark-eyed Junco:\n\u2022 bird\n\u2022 songbird\n\u2022 junco",
+        "Here are the superclasses for each word:\n\n\u2022 goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\u2022 beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\u2022 Dark-eyed Junco:\n\t\u2022 bird\n\t\u2022 animal\n\t\u2022 vertebrate"
+    ],
+    "Tropical Kingbird": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 Tyrannidae\n\u2022 passerine\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "* goldfish: \n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal"
+    ],
+    "Gray Kingbird": [
+        "Here are the superclasses for the given words:\n\n* Tench:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n* Beer glass:\n\t+ glass\n\t+ container\n\t+ object\n* Gray Kingbird:\n\t+ bird\n\t+ avian\n\t+ vertebrate\n\t+ animal",
+        "\u2022 bird\n\u2022 animal\n\u2022 vertebrate\n\n\u2022 kingbird\n\u2022 passerine\n\u2022 avian\n\u2022 bird\n\u2022 animal\n\u2022 vertebrate"
+    ],
+    "Belted Kingfisher": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nBelted Kingfisher:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Green Kingfisher": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 kingfisher\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for each word:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nGreen Kingfisher:\n\u2022 kingfisher\n\u2022 bird\n\u2022 animal"
+    ],
+    "Pied Kingfisher": [
+        "Here are the superclasses:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Pied Kingfisher**\n\n\u2022 bird\n\u2022 kingfisher\n\u2022 animal\n\u2022 vertebrate",
+        "Here are the superclasses for each word:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Pied Kingfisher**\n\n\u2022 kingfisher\n\u2022 bird\n\u2022 animal\n\u2022 vertebrate\n\u2022 living thing"
+    ],
+    "Ringed Kingfisher": [
+        "Here are the superclasses:\n\n* Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Ringed Kingfisher:\n\t\u2022 bird\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "White breasted Kingfisher": [
+        "Here are the superclasses for each:\n\n**Goldfish**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**White Breast Kingfisher**\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 goldfish\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Red legged Kittiwake": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for each:\n\n\u2022 Goldfish:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 Beer glass:\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 Red-legged Kittiwake:\n\t+ bird\n\t+ vertebrate\n\t+ animal"
+    ],
+    "Horned Lark": [
+        "Here are the superclasses for each of the words:\n\n**Tench**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Horned Lark**\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses:\n\n**Goldfish**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "Pacific Loon": [
+        "Here are the superclasses:\n\n\u2022 Goldfish:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 Beer glass:\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 Pacific Loon:\n\t+ bird\n\t+ vertebrate\n\t+ animal",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nPacific Loon:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Mallard": [
+        "\u2022 bird\n\u2022 duck\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 goldfish\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal",
+        "\u2022 duck\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Western Meadowlark": [
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\t+ pet\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 Western Meadowlark\n\t+ bird\n\t+ songbird\n\t+ vertebrate\n\t+ animal",
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nWestern Meadowlark:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Hooded Merganser": [
+        "Here are the superclasses for the given words:\n\n* Tench:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n* Beer glass:\n\t+ glass\n\t+ container\n\t+ object\n* Hooded Merganser:\n\t+ duck\n\t+ waterfowl\n\t+ bird\n\t+ vertebrate\n\t+ animal",
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nHooded Merganser:\n\u2022 duck\n\u2022 waterfowl\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Red breasted Merganser": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nRed-breasted Merganser:\n\u2022 duck\n\u2022 waterfowl\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nRed-breasted Merganser:\n\u2022 duck\n\u2022 waterfowl\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Mockingbird": [
+        "* Mockingbird:\n    \u2022 bird\n    \u2022 vertebrate\n    \u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 songbird\n\u2022 bird\n\u2022 animal"
+    ],
+    "Nighthawk": [
+        "\u2022 bird\n\u2022 animal\n\u2022 vertebrate\n\n\u2022 hawk\n\u2022 raptor\n\u2022 bird\n\u2022 animal\n\u2022 vertebrate",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nNighthawk:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Clark Nutcracker": [
+        "Here are the superclasses for each word:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nClark Nutcracker:\n\u2022 nutcracker\n\u2022 dancing performance\n\u2022 stage show",
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n\n\u2022 beer glass\n  \u2022 glass\n  \u2022 container\n  \u2022 object"
+    ],
+    "White breasted Nuthatch": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for each of the given words:\n\n* Tench:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* White-breasted Nuthatch:\n\t\u2022 bird\n\t\u2022 vertebrate\n\t\u2022 animal"
+    ],
+    "Baltimore Oriole": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeerglass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nBaltimore Oriole:\n\u2022 bird\n\u2022 songbird\n\u2022 animal",
+        "Goldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nBaltimore Oriole:\n\u2022 bird\n\u2022 songbird\n\u2022 animal"
+    ],
+    "Hooded Oriole": [
+        "Here are the superclasses:\n\n**Goldfish**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Hooded Oriole**\n\u2022 bird\n\u2022 songbird\n\u2022 animal",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nHooded Oriole:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Orchard Oriole": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nOrchard Oriole:\n\u2022 bird\n\u2022 songbird\n\u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\u2022 organism\n\n\u2022 songbird\n\u2022 passerine\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\u2022 organism"
+    ],
+    "Scott Oriole": [
+        "Here are the superclasses for each word:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nScott Oriole:\n\u2022 bird\n\u2022 species\n\u2022 living thing",
+        "**Goldfish**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer glass**\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "Ovenbird": [
+        "Here are the superclasses for each:\n\n* \"Tench\":\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* \"Beer Glass\":\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* \"Ovenbird\":\n\t\u2022 bird\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "Here are the superclasses for each word:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nOvenbird:\n\u2022 bird\n\u2022 species\n\u2022 organism"
+    ],
+    "Brown Pelican": [
+        "Here are the superclasses:\n\n**Goldfish**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses:\n\n**Goldfish**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Brown Pelican**\n\u2022 bird\n\u2022 pelican\n\u2022 avian\n\u2022 animal"
+    ],
+    "White Pelican": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nWhite Pelican:\n\u2022 pelican\n\u2022 bird\n\u2022 animal",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\u2022 pet\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nWhite Pelican:\n\u2022 bird\n\u2022 waterbird\n\u2022 animal\n\u2022 vertebrate"
+    ],
+    "Western Wood Pewee": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 songbird\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "* goldfish:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\t+ pet"
+    ],
+    "Sayornis": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeerglass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses:\n\n* goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Sayornis:\n\t\u2022 sparrow\n\t\u2022 bird\n\t\u2022 animal"
+    ],
+    "American Pipit": [
+        "Here are the superclasses for each:\n\n\u2022 goldfish\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 beer glass\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n\u2022 American Pipit\n\t\u2022 pipit\n\t\u2022 sparrow\n\t\u2022 bird\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "Whip poor Will": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nWhip Poor Will:\n\u2022 bird\n\u2022 animal"
+    ],
+    "Horned Puffin": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for the given words:\n\n\u2022 goldfish\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n\n\u2022 beer glass\n  \u2022 glass\n  \u2022 container\n  \u2022 object\n\n\u2022 Horned Puffin\n  \u2022 puffin\n  \u2022 bird\n  \u2022 vertebrate\n  \u2022 animal"
+    ],
+    "Common Raven": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nCommon Raven:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 raven\n\u2022 crow\n\u2022 passerine\n\u2022 aves"
+    ],
+    "White necked Raven": [
+        "Here are the superclasses for each word:\n\n* Tench:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* White-necked Raven:\n\t\u2022 raven\n\t\u2022 bird\n\t\u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 raven\n\u2022 corvid\n\u2022 passserine\n\u2022 avian\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "American Redstart": [
+        "Here are the superclasses:\n\n* Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 songbird\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Geococcyx": [
+        "Goldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses:\n\n\u2022 Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\t\u2022 pet\n\n\u2022 Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n\u2022 Geococcyx:\n\t\u2022 bird\n\t\u2022 vertebrate\n\t\u2022 animal"
+    ],
+    "Loggerhead Shrike": [
+        "Goldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\u2022 pet\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "Great Grey Shrike": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 songbird\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for the given words:\n\n\u2022 goldfish\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n\n\u2022 beer glass\n  \u2022 glass\n  \u2022 container\n  \u2022 object\n\n\u2022 Great Grey Shrike\n  \u2022 bird\n  \u2022 species\n  \u2022 animal"
+    ],
+    "Baird Sparrow": [
+        "*Goldfish*\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n*Beer Glass*\n\u2022 glass\n\u2022 container\n\u2022 object\n\n*Baird Sparrow*\n\u2022 sparrow\n\u2022 bird\n\u2022 animal",
+        "\u2022 goldfish:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n\n\u2022 beer glass:\n    \u2022 glass\n    \u2022 container\n    \u2022 object"
+    ],
+    "Black throated Sparrow": [
+        "Here are the superclasses for each:\n\n* Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer Glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Black-throated Sparrow:\n\t\u2022 sparrow\n\t\u2022 bird\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "Goldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Brewer Sparrow": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nBrewer Sparrow:\n\u2022 sparrow\n\u2022 bird\n\u2022 animal",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nBrewer Sparrow:\n\u2022 sparrow\n\u2022 bird\n\u2022 animal"
+    ],
+    "Chipping Sparrow": [
+        "Here are the superclasses for each word:\n\n\u2022 Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\t\u2022 pet\n\t\u2022 mammal\n\n\u2022 Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n\u2022 Chipping Sparrow:\n\t\u2022 sparrow\n\t\u2022 bird\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nChipping Sparrow:\n\u2022 sparrow\n\u2022 bird\n\u2022 animal"
+    ],
+    "Clay colored Sparrow": [
+        "Here are the superclasses:\n\n* Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer Glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Clay-colored Sparrow:\n\t\u2022 sparrow\n\t\u2022 bird\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nClay-colored Sparrow:\n\u2022 sparrow\n\u2022 bird\n\u2022 animal"
+    ],
+    "House Sparrow": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nHouse Sparrow:\n\u2022 sparrow\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nHouse Sparrow:\n\u2022 sparrow\n\u2022 bird\n\u2022 animal"
+    ],
+    "Field Sparrow": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nField Sparrow:\n\u2022 sparrow\n\u2022 bird\n\u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 songbird\n\u2022 bird\n\u2022 animal"
+    ],
+    "Fox Sparrow": [
+        "Here are the superclasses:\n\n* \"tench\":\n\t+ fish\n\t+ vertebrate\n\t+ animal\n* \"beer glass\":\n\t+ glass\n\t+ container\n\t+ object\n* \"Fox Sparrow\":\n\t+ sparrow\n\t+ bird\n\t+ animal",
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "Grasshopper Sparrow": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nGrasshopper Sparrow:\n\u2022 sparrow\n\u2022 bird\n\u2022 animal",
+        "Here are the superclasses:\n\n* Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer Glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Grasshopper Sparrow:\n\t\u2022 bird\n\t\u2022 sparrow\n\t\u2022 songbird\n\t\u2022 passerine"
+    ],
+    "Harris Sparrow": [
+        "Here are the superclasses for the given words:\n\n* Tench:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Harris Sparrow:\n\t\u2022 sparrow\n\t\u2022 bird\n\t\u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\u2022 sparrow\n\u2022 passerine\n\n\u2022 Harris Sparrow"
+    ],
+    "Henslow Sparrow": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for each word:\n\n\u2022 Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object"
+    ],
+    "Le Conte Sparrow": [
+        "Here are the superclasses for each word:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nLe Conte Sparrow:\n\u2022 sparrow\n\u2022 bird\n\u2022 animal",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "Lincoln Sparrow": [
+        "Here are the superclasses:\n\n* Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\t\u2022 pet\n\t\u2022 aquatic organism\n\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n* Lincoln Sparrow:\n\t\u2022 sparrow\n\t\u2022 bird\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "Here are the superclasses for each:\n\n* Tench:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n* Beer glass:\n\t+ glass\n\t+ container\n\t+ object\n* Lincoln Sparrow:\n\t+ sparrow\n\t+ bird\n\t+ animal"
+    ],
+    "Nelson Sharp tailed Sparrow": [
+        "Here are the superclasses for the words:\n\n* goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Nelson Sharp tailed Sparrow:\n\t\u2022 sparrow\n\t\u2022 bird\n\t\u2022 animal",
+        "Here are the superclasses for each term:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "Savannah Sparrow": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 mammal\n\u2022 primate",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nSavannah Sparrow:\n\u2022 bird\n\u2022 songbird\n\u2022 sparrow\n\u2022 animal\n\u2022 vertebrate"
+    ],
+    "Seaside Sparrow": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 sparrow"
+    ],
+    "Song Sparrow": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nSong Sparrow:\n\u2022 sparrow\n\u2022 bird\n\u2022 animal",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nSong Sparrow:\n\u2022 sparrow\n\u2022 bird\n\u2022 animal"
+    ],
+    "Tree Sparrow": [
+        "Here are the superclasses for each:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nTree Sparrow:\n\u2022 sparrow\n\u2022 bird\n\u2022 animal",
+        "Here are the superclasses for each:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Tree Sparrow**\n\n\u2022 sparrow\n\u2022 bird\n\u2022 animal"
+    ],
+    "Vesper Sparrow": [
+        "Here are the superclasses for each:\n\n**Tench**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Vesper Sparrow**\n\u2022 sparrow\n\u2022 bird\n\u2022 animal",
+        "Goldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\u2022 pet\n\u2022 aquatic\n\nBeerglass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "White crowned Sparrow": [
+        "Here are the superclasses for each:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**White-crowned Sparrow**\n\n\u2022 sparrow\n\u2022 bird\n\u2022 avian\n\u2022 vertebrate\n\u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\u2022 sparrow\n\n\u2022 goldfish\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "White throated Sparrow": [
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nWhite-throated Sparrow:\n\u2022 sparrow\n\u2022 bird\n\u2022 animal",
+        "Here are the superclasses:\n\n**Goldfish**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**White-throated Sparrow**\n\n\u2022 sparrow\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Cape Glossy Starling": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\u2022 starling\n\u2022 glossy\n\u2022 cape\n\u2022 starling",
+        "Here are the superclasses for each term:\n\n\u2022 goldfish:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass:\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 Cape Glossy Starling:\n\t+ bird\n\t+ starling\n\t+ avian\n\t+ vertebrate\n\t+ animal"
+    ],
+    "Bank Swallow": [
+        "Here are the answers:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nBank Swallow:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nBank Swallow:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Barn Swallow": [
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nBarn Swallow:\n\u2022 bird\n\u2022 avian\n\u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 wild swallow\n\u2022 migratory bird\n\u2022 bird of prey\n\u2022 animal\n\u2022 vertebrate"
+    ],
+    "Cliff Swallow": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 mammal\n\u2022 primate\n\u2022 human",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\u2022 flying creature\n\nNote: I assume you meant to ask for superclasses of \"Cliff Swallow\" (a type of bird). Let me know if that's correct!"
+    ],
+    "Tree Swallow": [
+        "Here are the superclasses for each:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nTree Swallow:\n\u2022 bird\n\u2022 animal\n\u2022 living thing",
+        "Here are the superclasses for the given words:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nTree Swallow:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Scarlet Tanager": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 mammal\n\u2022 primate",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nScarlet Tanager:\n\u2022 bird\n\u2022 tetraonid\n\u2022 avian\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Summer Tanager": [
+        "\u2022 bird\n\u2022 songbird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 insect\n\u2022 arthropod\n\u2022 animal",
+        "Here are the superclasses for each word:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nSummer Tanager:\n\u2022 bird\n\u2022 species\n\u2022 organism"
+    ],
+    "Artic Tern": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeerglass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nArtic Tern:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Black Tern": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 tern\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "Caspian Tern": [
+        "Here are the superclasses for each of the given words:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses:\n\n**Goldfish**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Caspian Tern**\n\u2022 tern\n\u2022 bird\n\u2022 animal"
+    ],
+    "Common Tern": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nCommon Tern:\n\u2022 bird\n\u2022 animal\n\u2022 vertebrate",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "Elegant Tern": [
+        "* \"Tench\":\n\t+ fish\n\t+ vertebrate\n\t+ animal\n* \"Beer glass\":\n\t+ glass\n\t+ container\n\t+ object\n* \"Elegant Tern\":\n\t+ bird\n\t+ vertebrate\n\t+ animal",
+        "* Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n* Elegant Tern:\n\t\u2022 bird\n\t\u2022 flying creature\n\t\u2022 animal"
+    ],
+    "Forsters Tern": [
+        "* \"tench\":\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n* \"beer glass\":\n\t+ glass\n\t+ container\n\t+ object\n\n* \"Forster's Tern\" :\n\t+ bird\n\t+ avian\n\t+ vertebrate\n\t+ animal",
+        "Here are the superclasses for each:\n\n\u2022 goldfish\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n\n\u2022 beer glass\n    \u2022 glass\n    \u2022 container\n    \u2022 object\n\n\u2022 Forster's Tern\n    \u2022 bird\n    \u2022 vertebrate\n    \u2022 animal"
+    ],
+    "Least Tern": [
+        "Here are the superclasses for each:\n\n\u2022 goldfish:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass:\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 Least Tern:\n\t+ bird\n\t+ vertebrate\n\t+ animal",
+        "Goldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeerglass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "Green tailed Towhee": [
+        "Here are the superclasses:\n\n* Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer Glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n* Green Tailed Towhee:\n\t\u2022 bird\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 Green tailed Towhee\n\t+ bird\n\t+ songbird\n\t+ animal"
+    ],
+    "Brown Thrasher": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\u2022 pet\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for each:\n\n\u2022 Goldfish:\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n\n\u2022 Beer glass:\n  \u2022 glass\n  \u2022 container\n  \u2022 object\n\n\u2022 Brown Thrasher:\n  \u2022 bird\n  \u2022 vertebrate\n  \u2022 animal"
+    ],
+    "Sage Thrasher": [
+        "Here are the superclasses for each word:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nSage Thrasher:\n\u2022 bird\n\u2022 songbird\n\u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Black capped Vireo": [
+        "\u2022 bird\n\u2022 songbird\n\u2022 mammal-like\n\u2022 vertebrate\n\u2022 animal\n\u2022 living thing\n\n\u2022 species\n\u2022 vireo\n\u2022 passerine\n\u2022 avian\n\u2022 animal\n\u2022 living thing",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\u2022 songbird\n\u2022 passerine\n\nNote: The Black-capped Vireo (Vireo olivaceus) is a species of songbird."
+    ],
+    "Blue headed Vireo": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 songbird\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nBlue Headed Vireo:\n\u2022 bird\n\u2022 songbird\n\u2022 animal"
+    ],
+    "Philadelphia Vireo": [
+        "* goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\t\u2022 pet\n\n* beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object",
+        "Here are the superclasses:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Philadelphia Vireo**\n\n\u2022 bird\n\u2022 passerine\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Red eyed Vireo": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nRed-eyed Vireo:\n\u2022 bird\n\u2022 songbird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nRed-Eyed Vireo:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Warbling Vireo": [
+        "Here are the superclasses:\n\nFor \"Tench\":\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nFor \"Beer Glass\":\n\u2022 glass\n\u2022 container\n\u2022 object\n\nFor \"Warbling Vireo\":\n\u2022 bird\n\u2022 songbird\n\u2022 animal",
+        "Here are the superclasses for \"tench\", \"beer glass\", and \"Warbling Vireo\":\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeerglass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "White eyed Vireo": [
+        "Here are the superclasses for each of the words:\n\n**Tench**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**White Eyed Vireo**\n\u2022 bird\n\u2022 songbird\n\u2022 passerine\n\u2022 animal",
+        "* goldfish:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n* beerglass:\n\t+ glass\n\t+ container\n\t+ object"
+    ],
+    "Yellow throated Vireo": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nYellow-throated Vireo:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeerglass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nYellow throated Vireo:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Bay breasted Warbler": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nBay-breasted Warbler:\n\u2022 bird\n\u2022 avian\n\u2022 animal",
+        "* goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\t\u2022 pet\n* beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object"
+    ],
+    "Black and white Warbler": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nBlack and White Warbler:\n\u2022 warbler\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for each term:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nBlack and white Warbler:\n\u2022 bird\n\u2022 songbird\n\u2022 animal"
+    ],
+    "Black throated Blue Warbler": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "Blue winged Warbler": [
+        "* Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\t\u2022 pet\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object",
+        "Here are the superclasses for each word:\n\n* Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Blue-winged Warbler:\n\t\u2022 bird\n\t\u2022 vertebrate\n\t\u2022 animal"
+    ],
+    "Canada Warbler": [
+        "Here are the superclasses:\n\n\u2022 Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\t\u2022 pet\n\t\u2022 aquatic organism\n\n\u2022 Beer Glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n\u2022 Canada Warbler:\n\t\u2022 bird\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\u2022 species\n\n\u2022 songbird\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Cape May Warbler": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nCape May Warbler:\n\u2022 warbler\n\u2022 sparrow\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for the words:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "Cerulean Warbler": [
+        "* Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Cerulean Warbler:\n\t\u2022 bird\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nCerulean Warbler:\n\u2022 warbler\n\u2022 bird\n\u2022 animal"
+    ],
+    "Chestnut sided Warbler": [
+        "Here are the superclasses:\n\n**Tench:**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass:**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Chestnut-sided Warbler:**\n\u2022 warbler\n\u2022 songbird\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses:\n\n**Goldfish**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Chestnut-sided Warbler**\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Golden winged Warbler": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 songbird\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Hooded Warbler": [
+        "Here are the superclasses for each word:\n\n\u2022 goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n\u2022 Hooded Warbler:\n\t\u2022 bird\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nHooded Warbler:\n\u2022 bird\n\u2022 tetrapod\n\u2022 chordate\n\u2022 animal"
+    ],
+    "Kentucky Warbler": [
+        "Here are the superclasses for each word:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nKentucky Warbler:\n\u2022 bird\n\u2022 songbird\n\u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 songbird\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Magnolia Warbler": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for each term:\n\n* Tench:\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n* Beer glass:\n  \u2022 glass\n  \u2022 container\n  \u2022 object\n* Magnolia Warbler:\n  \u2022 bird\n  \u2022 songbird\n  \u2022 vertebrate\n  \u2022 animal"
+    ],
+    "Mourning Warbler": [
+        "Goldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeerglass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "\u2022 bird\n\u2022 songbird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 Mourning Warbler"
+    ],
+    "Myrtle Warbler": [
+        "Here are the superclasses:\n\n**Goldfish**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Myrtle Warbler**\n\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses:\n\n**Tench**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Myrtle Warbler**\n\u2022 bird\n\u2022 songbird\n\u2022 animal"
+    ],
+    "Nashville Warbler": [
+        "Goldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 songbird\n\u2022 bird\n\u2022 animal\n\u2022 vertebrate"
+    ],
+    "Orange crowned Warbler": [
+        "* goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\t\u2022 pet\n\t\u2022 aquatic\n* beerglass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object",
+        "Here are the superclasses for each word:\n\n**Tench**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Orange-crowned Warbler**\n\u2022 bird\n\u2022 songbird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Palm Warbler": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nPalm Warbler:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nPalm Warbler:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Pine Warbler": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 songbird\n\u2022 bird\n\u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 songbird\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Prairie Warbler": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses:\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 Prairie Warbler\n\t+ bird\n\t+ vertebrate\n\t+ animal"
+    ],
+    "Prothonotary Warbler": [
+        "Here are the superclasses for each:\n\n\u2022 Goldfish:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 Beer glass:\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 Prothonotary Warbler:\n\t+ bird\n\t+ songbird\n\t+ animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 songbird\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Swainson Warbler": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nSwainson Warbler:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nSwainson Warbler:\n\u2022 bird\n\u2022 avian\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Tennessee Warbler": [
+        "* Goldfish:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n* Beer Glass:\n\t+ glass\n\t+ container\n\t+ object\n* Tennessee Warbler:\n\t+ warbler\n\t+ songbird\n\t+ bird\n\t+ animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\u2022 species\n\n\u2022 goldfish\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Wilson Warbler": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nWilson Warbler:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nWilson Warbler:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Worm eating Warbler": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nWorm Eating Warbler:\n\u2022 bird\n\u2022 songbird\n\u2022 animal",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nWorm eating Warbler:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Yellow Warbler": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeerglass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nYellow Warbler:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for each:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Yellow Warbler**\n\n\u2022 bird\n\u2022 songbird\n\u2022 animal"
+    ],
+    "Northern Waterthrush": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nNorthern Waterthrush:\n\u2022 bird\n\u2022 singing\n\u2022 species",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nNorthern Waterthrush:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Louisiana Waterthrush": [
+        "* goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\t\u2022 pet\n\t\u2022 freshwater\n* beerglass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object",
+        "Here are the superclasses:\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 Louisiana Waterthrush\n\t+ waterthrush\n\t+ warbler\n\t+ songbird\n\t+ bird\n\t+ avian\n\t+ tetrapod\n\t+ reptile\n\t+ vertebrate\n\t+ animal"
+    ],
+    "Bohemian Waxwing": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nBohemian Waxwing:\n\u2022 bird\n\u2022 warm-blooded animal\n\u2022 animal",
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n\n\u2022 beer glass\n    \u2022 glass\n    \u2022 container\n    \u2022 object\n\n\u2022 Bohemian Waxwing\n    \u2022 bird\n    \u2022 avian\n    \u2022 vertebrate\n    \u2022 animal"
+    ],
+    "Cedar Waxwing": [
+        "Goldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeerglass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for the given words:\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 Cedar Waxwing\n\t+ bird\n\t+ vertebrate\n\t+ animal"
+    ],
+    "American Three toed Woodpecker": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Goldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "Pileated Woodpecker": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Goldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "Red bellied Woodpecker": [
+        "Here are the superclasses for each:\n\n**Goldfish**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Red Bellied Woodpecker**\n\u2022 woodpecker\n\u2022 bird\n\u2022 animal",
+        "\u2022 Bird\n\u2022 Aves\n\u2022 Vertebrate\n\u2022 Animal\n\n\u2022 goldfish\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Red cockaded Woodpecker": [
+        "Here are the superclasses for each word:\n\n\u2022 Goldfish:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 Beer glass:\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 Red-cockaded Woodpecker:\n\t+ bird\n\t+ vertebrate\n\t+ animal",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nRed Cockaded Woodpecker:\n\u2022 woodpecker\n\u2022 bird\n\u2022 animal"
+    ],
+    "Red headed Woodpecker": [
+        "Here are the superclasses for each:\n\n**Tench:**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass:**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Red Headed Woodpecker:**\n\u2022 woodpecker\n\u2022 bird\n\u2022 animal",
+        "Here are the superclasses for each:\n\n* Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n* Red-headed Woodpecker:\n\t\u2022 bird\n\t\u2022 vertebrate\n\t\u2022 animal"
+    ],
+    "Downy Woodpecker": [
+        "*goldfish*\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n*beer glass*\n\u2022 glass\n\u2022 container\n\u2022 object\n\n*Downy Woodpecker*\n\u2022 woodpecker\n\u2022 bird\n\u2022 animal",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nDowny Woodpecker:\n\u2022 woodpecker\n\u2022 bird\n\u2022 animal"
+    ],
+    "Bewick Wren": [
+        "Here are the superclasses for \"tench\", \"beer glass\", and \"Bewick Wren\":\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nBewick Wren:\n\u2022 wren\n\u2022 bird\n\u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 mammal\n\u2022 primate\n\u2022 animal"
+    ],
+    "Cactus Wren": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\u2022 living thing\n\n\u2022 songbird\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\u2022 living thing"
+    ],
+    "Carolina Wren": [
+        "Goldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nCarolina Wren:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 songbird\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "House Wren": [
+        "Here are the superclasses for each word:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**House Wren**\n\n\u2022 bird\n\u2022 animal\n\u2022 organism",
+        "Here are the superclasses for each:\n\n* Tench:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n* Beer glass:\n\t+ glass\n\t+ container\n\t+ object\n* House Wren:\n\t+ bird\n\t+ vertebrate\n\t+ animal"
+    ],
+    "Marsh Wren": [
+        "Here are the superclasses for each word:\n\n**Tench**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Marsh Wren**\n\u2022 bird\n\u2022 songbird\n\u2022 animal",
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nMarsh Wren:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Rock Wren": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 songbird\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for the given words:\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 Rock Wren\n\t+ bird\n\t+ vertebrate\n\t+ animal"
+    ],
+    "Winter Wren": [
+        "For \"tench\":\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nFor \"beer glass\":\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\nFor \"Winter Wren\":\n\n\u2022 bird\n\u2022 animal\n\u2022 living thing",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nWinter Wren:\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Common Yellowthroat": [
+        "Here are the superclasses for each:\n\n**Goldfish**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for each:\n\n* Tench:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n* Beer glass:\n\t+ glass\n\t+ container\n\t+ object\n* Common Yellowthroat:\n\t+ bird\n\t+ songbird\n\t+ passerine\n\t+ vertebrate\n\t+ animal"
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "airplane": [
+        "\u2022 fixed wings\n\u2022 fuselage\n\u2022 tail section\n\u2022 engines\n\u2022 landing gear\n\u2022 cockpit",
+        "Here are the lists:\n\n\u2022 wings\n\u2022 fixed landing gear\n\u2022 fuselage\n\u2022 tail section\n\u2022 cockpit\n\u2022 control surfaces"
+    ],
+    "automobile": [
+        "\u2022 four wheels\n\u2022 motorized propulsion system\n\u2022 body made of metal, plastic, or other materials\n\u2022 doors for entry/exit\n\u2022 seats for passengers\n\u2022 steering mechanism",
+        "\u2022 Four wheels\n\u2022 Motorized\n\u2022 Doors\n\u2022 Windshield\n\u2022 Steering wheel"
+    ],
+    "bird": [
+        "\u2022 feathers\n\u2022 beak\n\u2022 wings\n\u2022 two legs\n\u2022 lightweight body",
+        "\u2022 Feathers\n\u2022 Light skeleton\n\u2022 Two legs\n\u2022 Wings\n\u2022 Beak\n\u2022 Gills (in some species)"
+    ],
+    "cat": [
+        "\u2022 whiskers\n\u2022 pointy ears\n\u2022 retractable claws\n\u2022 flexible spine\n\u2022 furry body\n\u2022 small eyes\n\u2022 rounded head",
+        "\u2022 furry body\n\u2022 four legs\n\u2022 sharp claws\n\u2022 whiskers\n\u2022 pointed ears"
+    ],
+    "deer": [
+        "Goldfish:\n\u2022 Bright orange color\n\u2022 Small, round body\n\u2022 Small mouth\n\u2022 Orange fins\n\nBeerglass:\n\u2022 Tall, cylindrical shape\n\u2022 Clear or translucent color\n\u2022 Opening at the top\n\u2022 Sturdy base\n\u2022 Handle\n\nDeer:\n\u2022 Large size\n\u2022 Four legs\n\u2022 Hooves\n\u2022 Antlers",
+        "\u2022 Hooves\n\u2022 Furry coat\n\u2022 Long ears\n\u2022 Antlers (in males)\n\u2022 Tail with white underside"
+    ],
+    "dog": [
+        "\u2022 four-legged\n\u2022 furry\n\u2022 tail wagging\n\u2022 ears perked up\n\u2022 barking or whining sounds",
+        "\u2022 four legs\n\u2022 furry body\n\u2022 pointy ears\n\u2022 wagging tail\n\u2022 barking sound"
+    ],
+    "frog": [
+        "\u2022 Green or brown color\n\u2022 Slimy skin\n\u2022 Long legs\n\u2022 Webbed feet\n\u2022 Large eyes",
+        "\u2022 Long body\n\u2022 Slim shape\n\u2022 Webbed feet\n\u2022 Sticky tongue\n\u2022 Bright green or brown color"
+    ],
+    "horse": [
+        "\u2022 Large size\n\u2022 Four legs\n\u2022 Hooves\n\u2022 Mane or tail\n\u2022 Ears\n\u2022 Eyes",
+        "\u2022 Large size\n\u2022 Four legs\n\u2022 A long neck\n\u2022 Ears on the head\n\u2022 Mane or tail of fur\n\u2022 Hooves"
+    ],
+    "ship": [
+        "\u2022 long and narrow shape\n\u2022 made of metal or other materials\n\u2022 propulsive mechanism (e.g. sails, engines)\n\u2022 designed for water travel\n\u2022 deck or surface area\n\u2022 compartments or rooms inside",
+        "\u2022 multiple decks\n\u2022 propulsion system\n\u2022 hull shape\n\u2022 mast(s)\n\u2022 rudder\n\u2022 anchor\n\u2022 propellers"
+    ],
+    "truck": [
+        "Here are the lists of features:\n\n\u2022 four wheels\n\u2022 large size\n\u2022 flat bed or cargo area\n\u2022 separate cabin or driver's compartment\n\u2022 doors on each side\n\u2022 headlights and taillights",
+        "\u2022 Large size\n\u2022 Four wheels\n\u2022 Cab or driver's compartment\n\u2022 Open bed or cargo area\n\u2022 Headlights\n\u2022 Tailgate"
+    ]
+}

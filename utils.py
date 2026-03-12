@@ -12,6 +12,12 @@ import open_clip
 # Constants
 PM_SUFFIX = {"max":"_max", "avg":""}
 
+# Supported CLIP and SigLIP model names (CLIP from openai/CLIP, SigLIP from open_clip)
+CLIP_MODEL_NAMES = [
+    "ViT-B/32", "ViT-B/16", "ViT-L/14",
+    "ViT-L-16-SigLIP-384", "ViT-B-16-SigLIP-384", "ViT-SO400M-14-SigLIP-384",
+]
+
 
 def set_seed(seed):
     """
@@ -22,10 +28,10 @@ def set_seed(seed):
     """
     random.seed(seed)
     np.random.seed(seed)
-    # torch.manual_seed(seed)
-    # torch.cuda.manual_seed_all(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
     os.environ['PYTHONHASHSEED'] = str(seed)
-    # torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.deterministic = True
     print(f"Seed set to {seed}")
     return 
 
@@ -50,6 +56,10 @@ def get_save_names(clip_name, target_name, target_layer, d_probe, concept_set, p
            - str: Save name for text features.
     """
     if target_name.startswith("clip_"):
+        target_save_name = "{}/{}_{}.pt".format(save_dir, d_probe, target_name.replace('/', ''))
+    elif target_name == "ViT-B/16-IN21K":
+        target_save_name = "{}/{}_{}.pt".format(save_dir, d_probe, target_name.replace('/', ''))
+    elif target_name.startswith('SelfPromptDeit_mytiny'):
         target_save_name = "{}/{}_{}.pt".format(save_dir, d_probe, target_name.replace('/', ''))
     else:
         target_save_name = "{}/{}_{}_{}{}.pt".format(save_dir, d_probe, target_name, target_layer, PM_SUFFIX[pool_mode])
@@ -121,6 +131,47 @@ def save_clip_text_features(model, text, save_name, batch_size=1000):
     torch.cuda.empty_cache()
     return
 
+def save_SelfPromptDeit_mytiny_image_features(model, dataset, save_name, batch_size=1000 , device = "cuda"):
+    if os.path.exists(save_name):
+        print(f"SelfPromptDeit_mytiny image features loaded from {save_name}")
+        return
+    
+    _make_save_dir(save_name)
+    all_features = []
+
+    with torch.no_grad():
+        for images, labels in tqdm(DataLoader(dataset, batch_size, num_workers=8, pin_memory=True)):
+            outputs = model(images.to(device))
+            all_features.append(outputs.cpu())
+    
+    torch.save(torch.cat(all_features), save_name)
+    del all_features
+    torch.cuda.empty_cache()
+    return 
+
+def save_vit_image_features(model, dataset, save_name, batch_size=1000 , device = "cuda"):
+    if os.path.exists(save_name):
+        print(f"VIT image features loaded from {save_name}")
+        return
+    
+    _make_save_dir(save_name)
+    all_features = []
+
+    with torch.no_grad():
+        for images, labels in tqdm(DataLoader(dataset, batch_size, num_workers=8, pin_memory=True)):
+            # print(images.shape)
+            # print(images.shape)
+            outputs = model(pixel_values=images.to(device).float())
+            # print(images.shape)
+            # features = outputs.last_hidden_state.mean(dim=1)
+            features = outputs.last_hidden_state[:, 0, :]
+            all_features.append(features.cpu())
+
+    torch.save(torch.cat(all_features), save_name)
+    #free memory
+    del all_features
+    torch.cuda.empty_cache()
+    return
 
 def save_clip_image_features(model, dataset, save_name, batch_size=1000 , device = "cuda"):
     """
@@ -242,6 +293,7 @@ def save_activations(clip_name, target_name, target_layers, d_probe,
     if _all_saved(save_names):
         print('All activations previously saved - using existing activations.')
         return
+    
     if "SigLIP" in clip_name:
         clip_model, _, clip_preprocess = open_clip.create_model_and_transforms(clip_name.split("_")[-1],
                                                                         pretrained="webli",
@@ -255,7 +307,8 @@ def save_activations(clip_name, target_name, target_layers, d_probe,
         target_model, target_preprocess = data_utils.get_target_model(target_name, device)
 
     data_c = data_utils.get_data(d_probe, clip_preprocess)
-    data_t = data_utils.get_data(d_probe, target_preprocess)
+    data_t = data_utils.get_data(d_probe, target_preprocess)    
+
 
     with open(concept_set, 'r') as f: 
         words = (f.read()).split('\n')
@@ -274,6 +327,10 @@ def save_activations(clip_name, target_name, target_layers, d_probe,
     print("Saving and calculating target model's activations")
     if target_name.startswith("clip_"):
         save_clip_image_features(target_model, data_t, target_save_name, batch_size, device)
+    elif target_name == "ViT-B/16-IN21K":
+        save_vit_image_features(target_model, data_t, target_save_name, batch_size, device)
+    elif target_name.startswith('SelfPromptDeit_mytiny'):
+        save_SelfPromptDeit_mytiny_image_features(target_model, data_t, target_save_name, batch_size, device)
     else:
         save_target_activations(target_model, data_t, target_save_name, target_layers, batch_size, device, pool_mode)
     

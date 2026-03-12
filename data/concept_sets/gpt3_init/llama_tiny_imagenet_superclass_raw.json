@@ -1,0 +1,802 @@
+{
+    "goldfish, Carassius auratus": [
+        "Here are the superclasses for each:\n\n**Goldfish (Carassius auratus)**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses:\n\nGoldfish (Carassius auratus)\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "European fire salamander, Salamandra salamandra": [
+        "\u2022 animal\n\u2022 vertebrate\n\u2022 reptile\n\u2022 amphibian\n\u2022 cold-blooded\n\u2022 salamander\n\n\u2022 beer glass\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "* goldfish:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n    \u2022 pet\n    \u2022 aquatic animal"
+    ],
+    "bullfrog, Rana catesbeiana": [
+        "\u2022 amphibian\n\u2022 vertebrate\n\u2022 animal",
+        "\u2022 animal\n\u2022 vertebrate\n\u2022 amphibian\n\n\u2022 fish\n\n\u2022 beer glass:\n  \u2022 glass\n  \u2022 container\n  \u2022 object"
+    ],
+    "tailed frog, bell toad, ribbed toad, tailed toad, Ascaphus trui": [
+        "* \"Tailed frog, bell toad, ribbed toad, tailed toad, Ascaphus trui\"\n\t\u2022 amphibian\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "* amphibian\n* vertebrate\n* animal"
+    ],
+    "American alligator, Alligator mississipiensis": [
+        "*reptile\n-amphibian\n-vertebrate\n-animal",
+        "\u2022 reptile\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 reptile\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 Alligator mississipiensis\n\u2022 reptile\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "boa constrictor, Constrictor constrictor": [
+        "\u2022 snake\n\u2022 reptile\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for each:\n\n\u2022 \"tench\"\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n\n\u2022 \"beer glass\"\n    \u2022 glass\n    \u2022 container\n    \u2022 object\n\n\u2022 \"boa constrictor, Constrictor constrictor\"\n    \u2022 snake\n    \u2022 reptile\n    \u2022 vertebrate\n    \u2022 animal"
+    ],
+    "trilobite": [
+        "\u2022 animal\n\u2022 invertebrate\n\u2022 arthropod\n\u2022 fossil\n\n\u2022 goldfish\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal \n\n\u2022 beerglass \n\u2022 glass \n\u2022 container\n\u2022 object",
+        "Here are the superclasses:\n\n**Goldfish:**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass:**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Trilobite:**\n\u2022 arthropod\n\u2022 animal\n\u2022 extinct"
+    ],
+    "scorpion": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "\u2022 arachnid\n\u2022 arthropod\n\u2022 animal"
+    ],
+    "black widow, Latrodectus mactans": [
+        "*Goldfish*\n-spineless fish\n-fish\n-vertebrate\n-animal\n\n*Beer glass*\n-glass\n-container\n-object",
+        "\u2022 spider\n\u2022 arachnid\n\u2022 animal\n\u2022 insect\n\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "tarantula": [
+        "\u2022 arachnid\n\u2022 spider\n\u2022 animal",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeerglass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "centipede": [
+        "\u2022 arthropod\n\u2022 invertebrate\n\u2022 animal\n\n\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "\u2022 animal\n\u2022 arthropod\n\u2022 invertebrate\n\n\u2022 goldfish\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\u2022 pet"
+    ],
+    "goose": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 mammal\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for each:\n\n\u2022 goldfish\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n\n\u2022 beerglass\n  \u2022 glass\n  \u2022 container\n  \u2022 object\n\n\u2022 goose\n  \u2022 bird\n  \u2022 vertebrate\n  \u2022 animal"
+    ],
+    "koala, koala bear, kangaroo bear, native bear, Phascolarctos cinereus": [
+        "* marsupial\n* mammal\n* animal",
+        "Here are the superclasses:\n\n**Tench**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Koala, Koala Bear, Kangaroo Bear, Native Bear, Phascolarctos cinereus**\n\u2022 mammal\n\u2022 marsupial\n\u2022 animal"
+    ],
+    "jellyfish": [
+        "* goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* jellyfish:\n\t\u2022 marine animal\n\t\u2022 invertebrate\n\t\u2022 animal",
+        "Here are the superclasses for each word:\n\n**Tench:**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass:**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Jellyfish:**\n\u2022 medusa\n\u2022 cnidarian\n\u2022 animal"
+    ],
+    "brain coral": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beerglass\n\t+ glass\n\t+ container\n\t+ object"
+    ],
+    "snail": [
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 beer glass\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n\u2022 snail\n\t\u2022 mollusk\n\t\u2022 gastropod\n\t\u2022 animal",
+        "\u2022 mollusk\n\u2022 gastropod\n\u2022 invertebrate\n\u2022 animal\n\n\u2022 goldfish\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "slug": [
+        "\u2022 mollusk\n\u2022 animal",
+        "\u2022 mollusk\n\u2022 gastropod\n\u2022 animal"
+    ],
+    "sea slug, nudibranch": [
+        "Here are the superclasses for each:\n\n\u2022 goldfish:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass:\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 sea slug, nudibranch:\n\t+ mollusk\n\t+ gastropod\n\t+ animal",
+        "\u2022 mollusk\n\u2022 gastropod\n\u2022 animal"
+    ],
+    "American lobster, Northern lobster, Maine lobster, Homarus americanus": [
+        "* crustacean\n* shellback\n* decapod\n* arthropod\n* animal",
+        "Here are the superclasses:\n\n\u2022 fish\n\u2022 crustacean\n\u2022 arthropod\n\u2022 animal\n\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "spiny lobster, langouste, rock lobster, crawfish, crayfish, sea crawfish": [
+        "Here are the superclasses:\n\n* \"tench\":\n\t+ fish\n\t+ vertebrate\n\t+ animal\n* \"beer glass\":\n\t+ glass\n\t+ container\n\t+ object\n* \"spiny lobster, langouste, rock lobster, crawfish, crayfish, sea crawfish\":\n\t+ crustacean\n\t+ arthropod\n\t+ animal",
+        "Here are the superclasses:\n\n**Goldfish:**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass:**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Spiny Lobster, Langouste, Rock Lobster, Crawfish, Crayfish, Sea Crawfish:**\n\u2022 crustacean\n\u2022 arthropod\n\u2022 animal"
+    ],
+    "black stork, Ciconia nigra": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for each:\n\n\u2022 goldfish\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n\n\u2022 beer glass\n  \u2022 glass\n  \u2022 container\n  \u2022 object\n\n\u2022 black stork, Ciconia nigra\n  \u2022 bird\n  \u2022 avian\n  \u2022 vertebrate\n  \u2022 animal"
+    ],
+    "king penguin, Aptenodytes patagonica": [
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 penguin\n\u2022 flightless bird\n\u2022 bird\n\u2022 vertebrate\n\u2022 animal",
+        "\u2022 animal\n\u2022 vertebrate\n\u2022 bird\n\n\u2022 fish"
+    ],
+    "albatross, mollymawk": [
+        "* goldfish:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n* beer glass:\n    \u2022 glass\n    \u2022 container\n    \u2022 object",
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\t+ pet\n\t+ aquatic organism\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 albatross, mollymawk\n\t+ bird\n\t+ vertebrate\n\t+ animal"
+    ],
+    "dugong, Dugong dugon": [
+        "Goldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nDugong, Dugong dugon:\n\u2022 mammal\n\u2022 marine mammal\n\u2022 aquatic mammal",
+        "* goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* dugong, Dugong dugon:\n\t\u2022 mammal\n\t\u2022 marine mammal\n\t\u2022 reptile-like mammal"
+    ],
+    "Chihuahua": [
+        "Here are the superclasses:\n\n\u2022 Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 Beer Glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n\u2022 Chihuahua:\n\t\u2022 dog\n\t\u2022 mammal\n\t\u2022 animal",
+        "Here are the superclasses for each:\n\n\u2022 goldfish:\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n  \u2022 pet\n\n\u2022 beer glass:\n  \u2022 glass\n  \u2022 container\n  \u2022 object"
+    ],
+    "Yorkshire terrier": [
+        "\u2022 mammal\n\u2022 dog\n\u2022 animal",
+        "\u2022 mammal\n\u2022 dog\n\u2022 animal\n\n\u2022 goldfish\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "golden retriever": [
+        "\u2022 mammal\n\u2022 dog\n\u2022 animal",
+        "\u2022 dog\n\u2022 mammal\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 pet\n\u2022 mammal\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "Labrador retriever": [
+        "\u2022 mammal\n\u2022 vertebrate\n\u2022 animal\n\u2022 dog\n\n\u2022 mammal\n\u2022 vertebrate\n\u2022 animal\n\u2022 dog",
+        "\u2022 mammal\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 canine\n\u2022 dog\n\u2022 mammal\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "German shepherd, German shepherd dog, German police dog, alsatian": [
+        "* \"German shepherd, German shepherd dog, German police dog, alsatian\"\n\t+ mammal\n\t+ vertebrate\n\t+ animal",
+        "* Goldfish:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n* Beer glass:\n    \u2022 glass\n    \u2022 container\n    \u2022 object\n* German Shepherd, German Shepherd dog, German police dog, Alsatian:\n    \u2022 dog\n    \u2022 mammal\n    \u2022 animal"
+    ],
+    "standard poodle": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\n\nStandard Poodle:\n\u2022 poodle\n\u2022 dog\n\u2022 mammal\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses:\n\n\u2022 Goldfish:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n\n\u2022 Beer Glass:\n    \u2022 glass\n    \u2022 container\n    \u2022 object\n\n\u2022 Standard Poodle:\n    \u2022 dog\n    \u2022 mammal\n    \u2022 animal"
+    ],
+    "tabby, tabby cat": [
+        "For \"tabby\":\n\u2022 cat\n\u2022 mammal\n\u2022 animal",
+        "\u2022 feline\n\u2022 mammal\n\u2022 animal\n\n\u2022 cat\n\u2022 pet\n\u2022 companion"
+    ],
+    "Persian cat": [
+        "Here are the superclasses:\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 Persian cat\n\t+ cat\n\t+ feline\n\t+ mammal\n\t+ vertebrate\n\t+ animal",
+        "Here are the superclasses for each:\n\n\u2022 goldfish:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n\n\u2022 beer glass:\n    \u2022 glass\n    \u2022 container\n    \u2022 object\n\n\u2022 Persian cat:\n    \u2022 cat\n    \u2022 mammal\n    \u2022 animal"
+    ],
+    "Egyptian cat": [
+        "Here are the superclasses:\n\n**Goldfish**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for the given words:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "cougar, puma, catamount, mountain lion, painter, panther, Felis concolor": [
+        "\u2022 mammal\n\u2022 vertebrate\n\u2022 animal\n\u2022 Felidae\n\u2022 feline\n\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "\u2022 mammal\n\u2022 vertebrate\n\u2022 animal\n\u2022 felid\n\u2022 predator\n\u2022 terrestrial\n\nNote: Felis concolor is a scientific name for the species, but I assume you're referring to the animals commonly known as cougars, pumas, etc."
+    ],
+    "lion, king of beasts, Panthera leo": [
+        "* \"Lion, king of beasts, Panthera leo\"\n    \u2022 mammal\n    \u2022 vertebrate\n    \u2022 animal",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "brown bear, bruin, Ursus arctos": [
+        "* mammal\n* vertebrate\n* animal",
+        "Here are the superclasses for each word:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nBrown Bear, Bruin, Ursus arctos:\n\u2022 bear\n\u2022 mammal\n\u2022 animal"
+    ],
+    "ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle": [
+        "Here are the superclasses for each:\n\n\u2022 Goldfish:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 Beer glass:\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 Ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle:\n\t+ insect\n\t+ arthropod\n\t+ animal",
+        "Here are the superclasses for each word:\n\n* Trench:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle:\n\t\u2022 insect\n\t\u2022 arthropod\n\t\u2022 animal"
+    ],
+    "fly": [
+        "For \"fly\":\n\n\u2022 insect\n\u2022 arthropod\n\u2022 animal",
+        "Here are the superclasses for each word:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Fly**\n\n\u2022 insect\n\u2022 arthropod\n\u2022 living thing"
+    ],
+    "bee": [
+        "\u2022 insect\n\u2022 arthropod\n\u2022 animal\n\n\u2022 insect",
+        "\u2022 insect\n\u2022 arthropod\n\u2022 animal\n\n\u2022 animal"
+    ],
+    "grasshopper, hopper": [
+        "\u2022 insect\n\u2022 arthropod\n\u2022 animal\n\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for each word:\n\n\u2022 goldfish:\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n  \u2022 pet\n\n\u2022 beer glass:\n  \u2022 glass\n  \u2022 container\n  \u2022 object\n\n\u2022 grasshopper, hopper:\n  \u2022 insect\n  \u2022 arthropod\n  \u2022 animal"
+    ],
+    "walking stick, walkingstick, stick insect": [
+        "\u2022 plant\n\u2022 animal\n\u2022 insect\n\n\u2022 living thing\n\u2022 object",
+        "Here are the superclasses for each:\n\n* Tench:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Walking stick, walkingstick, stick insect:\n\t\u2022 insect\n\t\u2022 arthropod\n\t\u2022 animal"
+    ],
+    "cockroach, roach": [
+        "\u2022 insect\n\u2022 arthropod\n\u2022 animal\n\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "\u2022 insect\n\u2022 arthropod\n\u2022 animal\n\n\u2022 crustacean"
+    ],
+    "mantis, mantid": [
+        "* goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* mantis, mantid:\n\t\u2022 insect\n\t\u2022 arthropod\n\t\u2022 animal",
+        "Here are the superclasses for each word:\n\n**Tench**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Mantis, mantid**\n\u2022 insect\n\u2022 arthropod\n\u2022 animal"
+    ],
+    "dragonfly, darning needle, devil's darning needle, sewing needle, snake feeder, snake doctor, mosquito hawk, skeeter hawk": [
+        "Here are the superclasses for each:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Dragonfly, Darning Needle, Devil's Darning Needle, Sewing Needle, Snake Feeder, Snake Doctor, Mosquito Hawk, Skeeter Hawk**\n\n\u2022 insect\n\u2022 arthropod\n\u2022 animal",
+        "* Goldfish:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n- Beer glass:\n    \u2022 glass\n    \u2022 container\n    \u2022 object"
+    ],
+    "monarch, monarch butterfly, milkweed butterfly, Danaus plexippus": [
+        "* insect\n\t+ arthropod\n\t+ animal",
+        "Here are the superclasses for each word:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nMonarch, Monarch Butterfly, Milkweed Butterfly, Danaus Plexippus:\n\u2022 insect\n\u2022 butterfly\n\u2022 winged\n\u2022 invertebrate\n\u2022 animal"
+    ],
+    "sulphur butterfly, sulfur butterfly": [
+        "Here are the superclasses for each:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Sulphur Butterfly, Sulfur Butterfly**\n\n\u2022 butterfly\n\u2022 insect\n\u2022 animal",
+        "\u2022 insect\n\u2022 butterfly\n\u2022 organism\n\u2022 living thing\n\u2022 animal\n\n\u2022 mammal"
+    ],
+    "sea cucumber, holothurian": [
+        "* goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* sea cucumber, holothurian:\n\t\u2022 echinoderm\n\t\u2022 invertebrate\n\t\u2022 animal",
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nSea Cucumber (Holothurian):\n\u2022 echinoderm\n\u2022 invertebrate\n\u2022 animal"
+    ],
+    "guinea pig, Cavia cobaya": [
+        "Here are the superclasses:\n\n\u2022 \"Goldfish\" (Carassius auratus):\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 \"Beer Glass\":\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n\u2022 \"Guinea Pig, Cavia cobaya\":\n\t\u2022 mammal\n\t\u2022 rodent\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "* goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* guinea pig, Cavia cobaya:\n\t\u2022 mammal\n\t\u2022 rodent\n\t\u2022 animal"
+    ],
+    "hog, pig, grunter, squealer, Sus scrofa": [
+        "**Goldfish**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Sus scrofa (Hog, Pig, Grunter, Squealer)**\n\n\u2022 mammal\n\u2022 quadruped\n\u2022 terrestrial animal",
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 hog, pig, grunter, squealer, Sus scrofa\n\t+ mammal\n\t+ vertebrate\n\t+ animal"
+    ],
+    "ox": [
+        "Here are the superclasses for each:\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 ox\n\t+ mammal\n\t+ vertebrate\n\t+ animal",
+        "Here are the superclasses for each word:\n\n\u2022 Goldfish\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n\n\u2022 Beer glass\n  \u2022 glass\n  \u2022 container\n  \u2022 object\n\n\u2022 Ox\n  \u2022 cattle\n  \u2022 mammal\n  \u2022 animal"
+    ],
+    "bison": [
+        "\u2022 mammal\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 ungulate\n\u2022 mammal\n\u2022 vertebrate\n\u2022 animal",
+        "* goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* bison:\n\t\u2022 mammal\n\t\u2022 herbivore\n\t\u2022 terrestrial animal"
+    ],
+    "bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis": [
+        "* fish\n* vertebrate\n* animal\n\n* glass\n* container\n* object\n\n\u2022 mammal\n\u2022 ungulate\n\u2022 herbivore\n\u2022 terrestrial animal\n\u2022 ruminant\n\u2022 artiodactyl\n\u2022 placental\n\u2022 warm-blooded\n\u2022 animal",
+        "**Goldfish**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Bighorn Sheep**\n\n\u2022 mammal\n\u2022 ungulate\n\u2022 terrestrial animal\n\u2022 ruminant\n\u2022 herbivore\n\u2022 mammalian species"
+    ],
+    "gazelle": [
+        "Here are the superclasses for each:\n\nGazelle:\n\u2022 mammal\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "Arabian camel, dromedary, Camelus dromedarius": [
+        "Here are the superclasses:\n\n* Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n* Arabian camel, dromedary, Camelus dromedarius:\n\t\u2022 mammal\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "* mammal\n* vertebrate\n* animal"
+    ],
+    "orangutan, orang, orangutang, Pongo pygmaeus": [
+        "Here are the superclasses for each:\n\n\u2022 \"tench\":\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n\n\u2022 \"beer glass\":\n  \u2022 glass\n  \u2022 container\n  \u2022 object\n\n\u2022 \"orangutan, orang, orangutang, Pongo pygmaeus\":\n  \u2022 primate\n  \u2022 mammal\n  \u2022 vertebrate\n  \u2022 animal",
+        "* mammal\n* primate\n* animal"
+    ],
+    "chimpanzee, chimp, Pan troglodytes": [
+        "* goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\t\u2022 pet\n* beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object",
+        "*chimp*\n\u2022 primate\n\u2022 mammal\n\u2022 animal"
+    ],
+    "baboon": [
+        "Goldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nBaboon:\n\u2022 primate\n\u2022 mammal\n\u2022 animal",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "African elephant, Loxodonta africana": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "* goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* African elephant, Loxodonta africana:\n\t\u2022 mammal\n\t\u2022 terrestrial animal\n\t\u2022 chordate\n\t\u2022 animal"
+    ],
+    "lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens": [
+        "Here are the superclasses:\n\n* Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n* Red panda, panda, bear cat, cat bear, Ailurus fulgens:\n\t\u2022 mammal\n\t\u2022 carnivore\n\t\u2022 terrestrial animal",
+        "* mammal\n* bear\n* animal"
+    ],
+    "abacus": [
+        "Here are the superclasses for each:\n\n\u2022 goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object",
+        "\u2022 object\n\u2022 tool\n\n\u2022 goldfish:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal"
+    ],
+    "academic gown, academic robe, judge's robe": [
+        "Here are the superclasses for each word:\n\n* tench:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n* beer glass:\n    \u2022 glass\n    \u2022 container\n    \u2022 object\n* academic gown, academic robe, judge's robe:\n    \u2022 garment\n    \u2022 clothing\n    \u2022 article",
+        "Here are the superclasses:\n\n**Goldfish**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "altar": [
+        "\u2022 furniture\n\u2022 object\n\u2022 structure\n\n\u2022 goldfish",
+        "\u2022 structure\n\u2022 man-made object\n\u2022 thing\n\n\u2022 furniture\n\u2022 piece of architecture\n\u2022 construct"
+    ],
+    "apron": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeerglass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for the word \"apron\":\n\n\u2022 garment\n\u2022 textile\n\u2022 object"
+    ],
+    "backpack, back pack, knapsack, packsack, rucksack, haversack": [
+        "Here are the superclasses for each word:\n\n\u2022 goldfish:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass:\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 backpack, back pack, knapsack, packsack, rucksack, haversack:\n\t+ bag\n\t+ sack\n\t+ package\n\t+ container",
+        "Here are the superclasses:\n\n**Tench**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Backpack, back pack, knapsack, packsack, rucksack, haversack**\n\u2022 bag\n\u2022 pack\n\u2022 sack\n\u2022 article of clothing"
+    ],
+    "bannister, banister, balustrade, balusters, handrail": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nBanister, Banister, Balustrade, Balusters, Handrail:\n\u2022 rail\n\u2022 structure\n\u2022 thing",
+        "Here are the superclasses for each:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Bannister/Balustrade/Handrail**\n\n\u2022 railing\n\u2022 architectural feature\n\u2022 furniture"
+    ],
+    "barbershop": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\t+ pet\n\t+ aquatic organism\n\t+ living thing\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\t+ drinkware"
+    ],
+    "barn": [
+        "\u2022 building\n\u2022 structure\n\u2022 edifice\n\n\u2022 house\n\u2022 farmbuilding\n\u2022 agriculturalstructure",
+        "\u2022 building\n\u2022 structure\n\u2022 thing"
+    ],
+    "barrel, cask": [
+        "\u2022 wooden container\n\u2022 storage unit\n\u2022 object\n\u2022 vessel",
+        "\u2022 wooden vessel\n\u2022 container\n\u2022 object\n\u2022 storage unit"
+    ],
+    "basketball": [
+        "\u2022 sport\n\u2022 game\n\u2022 activity\n\u2022 object",
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeerglass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "bathtub, bathing tub, bath, tub": [
+        "\u2022 plumbing fixture\n\u2022 bathtub\n\u2022 container\n\u2022 object\n\u2022 household item\n\u2022 furniture",
+        "* bathtub, bathing tub, bath, tub:\n\t\u2022 fixture\n\t\u2022 furniture\n\t\u2022 object"
+    ],
+    "beach wagon, station wagon, wagon, estate car, beach waggon, station waggon, waggon": [
+        "\u2022 vehicle\n\u2022 car\n\u2022 land transport\n\u2022 automobile",
+        "* car\n* vehicle\n* object"
+    ],
+    "beacon, lighthouse, beacon light, pharos": [
+        "* beacon, lighthouse, beacon light, pharos:\n\t\u2022 structure\n\t\u2022 building\n\t\u2022 man-made object",
+        "For \"lighthouse\", \"beacon\", \"light\", and \"pharos\":\n\n\u2022 structure\n\u2022 monument\n\u2022 building\n\u2022 object"
+    ],
+    "beaker": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "* goldfish:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n* beer glass:\n\t+ glass\n\t+ container\n\t+ object"
+    ],
+    "beer bottle": [
+        "\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n\u2022 bottle\n\u2022 vessel\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for the words:\n\n**Goldfish**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "bikini, two-piece": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "\u2022 swimwear\n\u2022 clothing\n\u2022 article\n\u2022 thing\n\u2022 object"
+    ],
+    "binoculars, field glasses, opera glasses": [
+        "* optics\n\u2022 magnifying device\n\u2022 portable\n\u2022 handheld\n\u2022 eyepiece-containing",
+        "Here are the superclasses for each word:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nBinoculars, field glasses, opera glasses:\n\u2022 optical instrument\n\u2022 device\n\u2022 object"
+    ],
+    "birdhouse": [
+        "\u2022 house\n\u2022 structure\n\u2022 object\n\n\u2022 goldfish",
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 beer glass\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n\u2022 birdhouse\n\t\u2022 structure\n\t\u2022 building\n\t\u2022 object"
+    ],
+    "bow tie, bow-tie, bowtie": [
+        "bow tie:\n\u2022 necktie\n\u2022 accessory\n\u2022 fashion item\n\u2022 textile product\n\u2022 object",
+        "* goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n* beerglass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object"
+    ],
+    "brass, memorial tablet, plaque": [
+        "\u2022 medal\n\u2022 monument\n\u2022 object",
+        "Here are the superclasses:\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 brass, memorial tablet, plaque\n\t+ metal\n\t+ artifact\n\t+ object"
+    ],
+    "broom": [
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 broom\n\t+ tool\n\t+ object\n\t+ utensil",
+        "\u2022 broom\n\t- cleaning tool\n\t- object"
+    ],
+    "bucket, pail": [
+        "\u2022 container\n\u2022 vessel\n\u2022 object",
+        "\u2022 container\n\u2022 vessel\n\u2022 object"
+    ],
+    "bullet train, bullet": [
+        "Here are the superclasses for each word:\n\n\u2022 Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\t\u2022 pet\n\n\u2022 Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object",
+        "* \"bullet train\"\n\t+ vehicle\n\t+ mode of transportation\n\t+ machine\n\t+ object\n\t+ train\n* \"bullet\"\n\t+ projectile\n\t+ missile\n\t+ solid\n\t+ object"
+    ],
+    "butcher shop, meat market": [
+        "\u2022 business\n\u2022 store\n\u2022 establishment\n\u2022 commerce",
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeerglass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "candle, taper, wax light": [
+        "Here are the superclasses for each word:\n\n\u2022 goldfish:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass:\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 candle, taper, wax light:\n\t+ object\n\t+ material (related to)\n\t+ thing",
+        "Here are the superclasses for each:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "cannon": [
+        "\u2022 weapon\n\u2022 artillery\n\u2022 military equipment\n\u2022 object",
+        "Here are the superclasses for the given words:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "cardigan": [
+        "Goldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nCardigan:\n\u2022 garment\n\u2022 clothing\n\u2022 textile",
+        "Here are the superclasses for each:\n\n* tench:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n\n* beer glass:\n    \u2022 glass\n    \u2022 container\n    \u2022 object\n\n* cardigan:\n    \u2022 sweater\n    \u2022 garment\n    \u2022 article of clothing"
+    ],
+    "cash machine, cash dispenser, automated teller machine, automatic teller machine, automated teller, automatic teller, ATM": [
+        "Here are the superclasses for each word:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nCash machine, etc.:\n\u2022 machine\n\u2022 electronic device\n\u2022 object",
+        "Here are the superclasses for each word:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nCash Machine, etc.:\n\u2022 machine\n\u2022 electronic device\n\u2022 appliance"
+    ],
+    "CD player": [
+        "* CD player:\n\u2022 electronic device\n\u2022 device\n\u2022 equipment",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "chain": [
+        "\u2022 metal\n\u2022 object\n\u2022 linkable thing",
+        "* metal\n* link\n* object"
+    ],
+    "chest": [
+        "\u2022 furniture\n\u2022 piece\n\u2022 object",
+        "Here are the superclasses for each:\n\n\u2022 goldfish\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n    \n\u2022 beer glass\n    \u2022 glass\n    \u2022 container\n    \u2022 object\n    \n\u2022 chest\n    \u2022 box\n    \u2022 enclosure\n    \u2022 object"
+    ],
+    "Christmas stocking": [
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 beer glass\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n\u2022 Christmas stocking\n\t\u2022 stocking\n\t\u2022 garment\n\t\u2022 textile",
+        "\u2022 stocking\n\u2022 textile\n\u2022 clothing\n\u2022 article\n\u2022 object\n\n\u2022 festive\n\u2022 holiday-related\n\u2022 decoration\n\u2022 gift-giving"
+    ],
+    "cliff dwelling": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nCliff dwelling:\n\u2022 structure\n\u2022 building\n\u2022 architecture",
+        "Here are the superclasses for each word:\n\n\u2022 Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\t\u2022 pet\n\t\u2022 aquatic organism\n\t\u2022 living thing\n\n\u2022 Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\t\u2022 tableware\n\t\u2022 household item\n\t\u2022 material product\n\n\u2022 Cliff dwelling:\n\t\u2022 structure\n\t\u2022 building\n\t\u2022 architecture\n\t\u2022 human settlement\n\t\u2022 dwelling\n\t\u2022 artificial feature"
+    ],
+    "computer keyboard, keypad": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nComputer Keyboard/Keypad:\n\u2022 keyboard\n\u2022 input device\n\u2022 electronic device\n\u2022 hardware component\n\u2022 computer peripheral\n\u2022 object",
+        "\u2022 device\n\u2022 input\n\u2022 electronic\n\u2022 machine\n\u2022 tool\n\u2022 product"
+    ],
+    "confectionery, confectionary, candy store": [
+        "Here are the superclasses for the given words:\n\n\u2022 goldfish:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\u2022 beer glass:\n\t+ glass\n\t+ container\n\t+ object",
+        "Here are the superclasses for each word:\n\n\u2022 \"Tench\":\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 \"Beer glass\":\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 \"Confectionery, confectionary, candy store\":\n\t+ store\n\t+ business\n\t+ establishment"
+    ],
+    "convertible": [
+        "Here are the superclasses for each word:\n\n* Tench:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n    \n* Beer glass:\n    \u2022 glass\n    \u2022 container\n    \u2022 object\n    \n* Convertible:\n    \u2022 car\n    \u2022 vehicle\n    \u2022 thing",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nConvertible:\n\u2022 car\n\u2022 vehicle\n\u2022 thing"
+    ],
+    "crane": [
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object",
+        "\u2022 bird\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "dam, dike, dyke": [
+        "Here are the superclasses for each term:\n\n* \"tench\":\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* \"beer glass\":\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* \"dam, dike, dyke\":\n\t\u2022 barrier\n\t\u2022 structure\n\t\u2022 obstacle",
+        "Here are the superclasses for each word:\n\n**Tench**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Dam, Dike, Dyke**\n\u2022 barrier\n\u2022 structure\n\u2022 engineering feature"
+    ],
+    "desk": [
+        "Here are the superclasses for \"desk\":\n\n\u2022 furniture\n\u2022 object\n\u2022 piece of equipment",
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "dining table, board": [
+        "\u2022 furniture\n\u2022 piece of furniture\n\u2022 object\n\u2022 table\n\u2022 piece of household goods",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "drumstick": [
+        "Here are the superclasses for \"drumstick\":\n\n\u2022 bone\n\u2022 limb\n\u2022 body part",
+        "Here are the superclasses for the word \"drumstick\":\n\n\u2022 food\n\u2022 part\n\u2022 object"
+    ],
+    "dumbbell": [
+        "\u2022 metal\n\u2022 object\n\u2022 weight\n\u2022 tool\n\n\u2022 dumbbell",
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "flagpole, flagstaff": [
+        "Here are the superclasses for each word:\n\n\u2022 fish: animal, vertebrate\n\u2022 beer glass: object, container, glass\n\n\u2022 flagpole, flagstaff:\n    \u2022 structure\n    \u2022 pole\n    \u2022 staff\n    \u2022 stick\n    \u2022 post\n    \u2022 rod\n    \u2022 monument",
+        "\u2022 pole\n\u2022 structure\n\u2022 object"
+    ],
+    "fountain": [
+        "Goldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "\u2022 water feature\n\u2022 structure\n\u2022 artificial feature\n\u2022 human-made object\n\u2022 object\n\n\u2022 liquid container\n\u2022 receptacle\n\u2022 storage device\n\u2022 container\n\u2022 object"
+    ],
+    "freight car": [
+        "\u2022 railcar\n\u2022 vehicle\n\u2022 object",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "frying pan, frypan, skillet": [
+        "Here are the superclasses:\n\n\u2022 goldfish:\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n\n\u2022 beer glass:\n  \u2022 glass\n  \u2022 container\n  \u2022 object",
+        "\u2022 cookware\n\u2022 household item\n\u2022 object\n\u2022 consumer good"
+    ],
+    "fur coat": [
+        "* fur coat:\n    \u2022 garment\n    \u2022 textile\n    \u2022 product\n    \u2022 object",
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 beer glass\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n\u2022 fur coat\n\t\u2022 garment\n\t\u2022 textile product\n\t\u2022 consumer good"
+    ],
+    "gasmask, respirator, gas helmet": [
+        "\u2022 mask\n\u2022 equipment\n\u2022 device\n\u2022 object\n\n\u2022 helmet\n\u2022 headgear\n\u2022 protective gear",
+        "* \"gasmask, respirator, gas helmet\"\n\t+ device\n\t+ equipment\n\t+ object"
+    ],
+    "go-kart": [
+        "\u2022 vehicle\n\u2022 machine\n\u2022 object",
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeerGlass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "gondola": [
+        "*goldfish*\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\u2022 pet\n\n*gondola*\n\u2022 boat\n\u2022 vessel\n\u2022 watercraft",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nGondola:\n\u2022 boat\n\u2022 vessel\n\u2022 structure"
+    ],
+    "hourglass": [
+        "\u2022 glass\n\u2022 container\n\u2022 object\n\n\u2022 mechanical device\n\u2022 timekeeping device\n\u2022 object",
+        "Here are the superclasses for each:\n\n\u2022 goldfish\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n\n\u2022 beerglass\n  \u2022 glass\n  \u2022 container\n  \u2022 object\n\n\u2022 hourglass\n  \u2022 glass\n  \u2022 object"
+    ],
+    "iPod": [
+        "\u2022 electronic device\n\u2022 personal accessory\n\u2022 consumer good\n\u2022 product\n\n\u2022 digital media player\n\u2022 portable media player\n\u2022 computer peripheral\n\u2022 handheld electronic device",
+        "\u2022 computer\n\u2022 device\n\u2022 electronic"
+    ],
+    "jinrikisha, ricksha, rickshaw": [
+        "Here are the superclasses for each:\n\n\u2022 goldfish\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n\n\u2022 beer glass\n    \u2022 glass\n    \u2022 container\n    \u2022 object\n\n\u2022 jinrikisha, ricksha, rickshaw\n    \u2022 vehicle\n    \u2022 thing",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nJinrikisha, Ricksha, Rickshaw:\n\u2022 vehicle\n\u2022 transportation\n\u2022 thing"
+    ],
+    "kimono": [
+        "Here are the superclasses for each word:\n\n**Goldfish**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\u2022 living thing\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for the given words:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\u2022 living thing\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "lampshade, lamp shade": [
+        "\u2022 fabric\n\u2022 decoration\n\u2022 shade\n\u2022 lighting-accessory",
+        "Here are the superclasses:\n\n\u2022 goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object"
+    ],
+    "lawn mower, mower": [
+        "\u2022 machine\n\u2022 tool\n\u2022 device\n\n\u2022 vehicle\n\u2022 equipment",
+        "* lawn mower, mower:\n\t\u2022 machine\n\t\u2022 device\n\t\u2022 object"
+    ],
+    "lifeboat": [
+        "For the word \"lifeboat\":\n\n\u2022 vessel\n\u2022 transport\n\u2022 object",
+        "Here are the superclasses for each:\n\n**Goldfish**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "limousine, limo": [
+        "Here are the superclasses for the words \"tench\", \"beer glass\", and \"limousine\":\n\n\u2022 Goldfish:\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal",
+        "Here are the superclasses for each term:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "magnetic compass": [
+        "Here are the superclasses for each word:\n\n**Goldfish**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Magnetic Compass**\n\n\u2022 compass\n\u2022 navigational instrument\n\u2022 tool\n\u2022 device\n\u2022 object",
+        "Here are the superclasses for each word:\n\nGolf fish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "maypole": [
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 beer glass\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n\u2022 maypole\n\t\u2022 plant\n\t\u2022 greenery\n\t\u2022 structure"
+    ],
+    "military uniform": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nMilitary Uniform:\n\u2022 uniform\n\u2022 garment\n\u2022 clothing"
+    ],
+    "miniskirt, mini": [
+        "\u2022 skirt\n\u2022 garment\n\u2022 article of clothing\n\u2022 fabric\n\n\u2022 goldfish\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal",
+        "\u2022 clothing\n\u2022 garment\n\u2022 article of clothing\n\u2022 fashion item\n\u2022 skirt\n\u2022 textile\n\n\u2022"
+    ],
+    "moving van": [
+        "\u2022 vehicle\n\u2022 object",
+        "\u2022 vehicle\n\u2022 transportation\n\u2022 object\n\n\u2022 goldfish\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "nail": [
+        "Here are the superclasses for each word:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Nail**\n\n\u2022 metal\n\u2022 fastener\n\u2022 object",
+        "Here are the superclasses for each:\n\n* Tench:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Nail:\n\t\u2022 metal\n\t\u2022 fastener\n\t\u2022 object"
+    ],
+    "neck brace": [
+        "Here are the superclasses for each word:\n\n**Goldfish**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for each:\n\n\u2022 goldfish\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n\n\u2022 beer glass\n  \u2022 glass\n  \u2022 container\n  \u2022 object\n\n\u2022 neck brace\n  \u2022 device\n  \u2022 product\n  \u2022 object"
+    ],
+    "obelisk": [
+        "Here are the superclasses for each word:\n\n* Tench:\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n* Beer glass:\n  \u2022 glass\n  \u2022 container\n  \u2022 object\n* Obelisk:\n  \u2022 monument\n  \u2022 structure\n  \u2022 object",
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "oboe, hautboy, hautbois": [
+        "Here are the superclasses for each word:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nOboe, Hautboy, Hautbois:\n\u2022 woodwind\n\u2022 double reed instrument\n\u2022 musical instrument\n\u2022 wind instrument",
+        "Here are the superclasses:\n\n* Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Oboe, hautboy, hautbois:\n\t\u2022 double-reed instrument\n\t\u2022 woodwind instrument\n\t\u2022 instrument"
+    ],
+    "organ, pipe organ": [
+        "Here are the superclasses for each:\n\n\u2022 goldfish\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 beer glass\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n\u2022 organ, pipe organ\n\t\u2022 instrument\n\t\u2022 musical equipment\n\t\u2022 device\n\t\u2022 object",
+        "* piano\n* musical instrument\n* object"
+    ],
+    "parking meter": [
+        "\u2022 machine\n\u2022 device\n\u2022 object",
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n\n\u2022 beer glass\n  \u2022 glass\n  \u2022 container\n  \u2022 object\n\n\u2022 parking meter\n  \u2022 machine\n  \u2022 device\n  \u2022 thing"
+    ],
+    "pay-phone, pay-station": [
+        "Here are the superclasses:\n\n\u2022 Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\t\u2022 pet\n\n\u2022 Beer Glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object",
+        "\u2022 device\n\u2022 telephone\nmachine\n\n\u2022 station"
+    ],
+    "picket fence, paling": [
+        "\u2022 fence\n\u2022 structure\n\u2022 object\n\n\u2022 paling\n\u2022 material\n\u2022 substance",
+        "\u2022 fence\n\u2022 barrier\n\u2022 structure"
+    ],
+    "pill bottle": [
+        "For the word \"pill bottle\":\n\n\u2022 container\n\u2022 object\n\u2022 vessel\n\u2022 packaging",
+        "\u2022 container\n\u2022 object\n\u2022 plastic/packaging material\n\u2022 medicine-related equipment"
+    ],
+    "plunger, plumber's helper": [
+        "\u2022 tool\n\u2022 object\n\u2022 device\n\n\u2022 metalworking\n\u2022 fabrication\n\u2022 manufacturing\n\nNote: I've listed the superclasses for \"plunger, plumber's helper\" as a combination of categories that relate to its nature and function.",
+        "\u2022 tool\n\u2022 device\n\u2022 object\n\n\u2022 utensil"
+    ],
+    "pole": [
+        "\u2022 stick\n\u2022 object",
+        "\u2022 stick\n\u2022 object\n\u2022 plant part\n\n\u2022 tree branch\n\u2022 twig\n\u2022 wooden object\n\n\u2022 golf club\n\u2022 ski pole\n\u2022 fishing rod"
+    ],
+    "police van, police wagon, paddy wagon, patrol wagon, wagon, black Maria": [
+        "* goldfish:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n* beer glass:\n\t+ glass\n\t+ container\n\t+ object",
+        "Here are the superclasses for each word:\n\n\u2022 goldfish:\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n\n\u2022 beer glass:\n  \u2022 glass\n  \u2022 container\n  \u2022 object\n\n\u2022 police van, police wagon, paddy wagon, patrol wagon, wagon, black Maria:\n  \u2022 vehicle\n  \u2022 transportation\n  \u2022 equipment"
+    ],
+    "poncho": [
+        "\u2022 garment\n\u2022 textile\n\u2022 object\n\n\u2022 fabric\n\u2022 cloth\n\u2022 material",
+        "\u2022 garment\n\u2022 textile\n\u2022 article of clothing\n\u2022 accessory\n\u2022 object\n\nNote: Poncho is a type of garment, so its superclasses would be broader categories that include garments and textiles."
+    ],
+    "pop bottle, soda bottle": [
+        "\u2022 container\n\u2022 object\n\u2022 plasticware",
+        "* \"pop bottle, soda bottle\"\n    \u2022 bottle\n    \u2022 container\n    \u2022 object"
+    ],
+    "potter's wheel": [
+        "\u2022 machine\n\u2022 device\n\u2022 tool\n\n\u2022 ceramic\n\u2022 pottery\n\u2022 craft supply",
+        "Here are the superclasses for each word:\n\n**Goldfish**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal"
+    ],
+    "projectile, missile": [
+        "* \"projectile, missile\"\n    \u2022 object\n    \u2022 projectile\n    \u2022 weapon",
+        "* projectile, missile:\n\t\u2022 weapon\n\t\u2022 object\n\t\u2022 physical entity"
+    ],
+    "punching bag, punch bag, punching ball, punchball": [
+        "Here are the superclasses:\n\n**Tench:**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass:**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Punching Bag:**\n\u2022 bag\n\u2022 ball\n\u2022 object",
+        "\u2022 toy\n\u2022 object\n\u2022 bag\n\u2022 ball"
+    ],
+    "reel": [
+        "Here are the superclasses for each word:\n\n* tench:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* reel:\n\t\u2022 fishing tool\n\t\u2022 device\n\t\u2022 thing",
+        "Here are the superclasses for the words:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "refrigerator, icebox": [
+        "\u2022 appliance\n\u2022 household item\n\u2022 device\n\u2022 object",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "remote control, remote": [
+        "\u2022 object\n\u2022 device\n\u2022 control\n\n\u2022 vehicle\n\u2022 means of transportation",
+        "Here are the superclasses:\n\n**Goldfish**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "rocking chair, rocker": [
+        "\u2022 chair\n\u2022 furniture\n\u2022 object",
+        "\u2022 furniture\n\u2022 piece of equipment\n\u2022 object\n\n\u2022 chair\n\u2022 seating\n\u2022 piece of furniture"
+    ],
+    "rugby ball": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "* goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* beerglass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object"
+    ],
+    "sandal": [
+        "\u2022 shoe\n\u2022 accessory\n\u2022 article of clothing",
+        "\u2022 shoe\n\u2022 footwear\n\u2022 accessory"
+    ],
+    "school bus": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for each word:\n\n**Goldfish**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**School Bus**\n\u2022 bus\n\u2022 vehicle\n\u2022 machine\n\u2022 transportation"
+    ],
+    "scoreboard": [
+        "\u2022 display\n\u2022 electronic device\n\u2022 object\n\u2022 scoreboard\n\n\u2022 game-related\n\u2022 physical structure\n\u2022 object",
+        "Here are the superclasses for each:\n\n**Goldfish**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "sewing machine": [
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nSewing machine:\n\u2022 machine\n\u2022 device\n\u2022 thing",
+        "For the word \"sewing machine\":\n\n\u2022 machine\n\u2022 industrial tool\n\u2022 device"
+    ],
+    "snorkel": [
+        "\u2022 machine\n\u2022 device\n\u2022 object\n\n\u2022 tool\n\n\u2022 marine equipment",
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "sock": [
+        "Here are the superclasses for the word \"sock\":\n\n\u2022 article of clothing\n\u2022 textile\n\u2022 product",
+        "\u2022 clothing\n\u2022 fabric\n\u2022 article of clothing"
+    ],
+    "sombrero": [
+        "Here are the superclasses for each:\n\n\u2022 Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 Beer Glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n\u2022 Sombrero:\n\t\u2022 hat\n\t\u2022 headgear\n\t\u2022 article of clothing",
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "space heater": [
+        "Here are the superclasses for \"space heater\":\n\n\u2022 appliance\n\u2022 electrical device\n\u2022 object",
+        "Here are the superclasses for each word:\n\n\u2022 goldfish:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n\n\u2022 beer glass:\n    \u2022 glass\n    \u2022 container\n    \u2022 object\n\n\u2022 space heater:\n    \u2022 appliance\n    \u2022 electronic device\n    \u2022 product"
+    ],
+    "spider web, spider's web": [
+        "\u2022 thread\n\u2022 fiber\n\u2022 material\n\u2022 structure\n\n\u2022 web\n\u2022 fabric\n\u2022 network\n\u2022 organism part",
+        "Here are the superclasses:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Spider Web, Spider's Web**\n\n\u2022 web\n\u2022 fabric\n\u2022 structure\n\u2022 natural phenomenon"
+    ],
+    "sports car, sport car": [
+        "\u2022 vehicle\n\u2022 motorized vehicle\n\u2022 machine\n\u2022 object\n\n\u2022 car",
+        "Here are the superclasses for the words \"tench\", \"beer glass\", and \"sports car\":\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nSports Car:\n\u2022 car\n\u2022 vehicle\n\u2022 object"
+    ],
+    "steel arch bridge": [
+        "Here are the superclasses:\n\n* Tench:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n* Beer glass:\n\t+ glass\n\t+ container\n\t+ object\n* Steel arch bridge:\n\t+ bridge\n\t+ structure\n\t+ engineering feat\n\t+ construction",
+        "\u2022 structure\n\u2022 bridge\n\u2022 infrastructure\n\u2022 construction\n\u2022 man-made\n\u2022 object\n\n\u2022 steel\n\u2022 metal\n\u2022 alloy\n\u2022 material\n\u2022 substance"
+    ],
+    "stopwatch, stop watch": [
+        "\u2022 device\n\u2022 timekeeping device\n\u2022 mechanical device\n\u2022 tool\n\u2022 object\n\u2022 physical object\n\nNote: A stopwatch is a type of device used to measure time, hence the inclusion of \"timekeeping device\" and \"mechanical device\". It's also a tool used for various purposes, making it a \"tool\", and a physical object that can be held in one's hand.",
+        "Here are the superclasses for each term:\n\n\u2022 stopwatch\n\t+ timepiece\n\t+ device\n\t+ object\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal"
+    ],
+    "sunglasses, dark glasses, shades": [
+        "Here are the superclasses for each:\n\n\u2022 goldfish\n- fish\n- vertebrate\n- animal\n\n\u2022 beer glass\n- glass\n- container\n- object\n\n\u2022 sunglasses, dark glasses, shades\n- glasses\n- eyewear\n- accessory\n- product\n- object",
+        "Here are the superclasses for each word:\n\n* Tench:\n\t\u2022 Fish\n\t\u2022 Vertebrate\n\t\u2022 Animal\n* Beer Glass:\n\t\u2022 Glass\n\t\u2022 Container\n\t\u2022 Object\n* Sunglasses, Dark Glasses, Shades:\n\t\u2022 Eyewear\n\t\u2022 Accessory\n\t\u2022 Object"
+    ],
+    "suspension bridge": [
+        "Here are the superclasses for each word:\n\n* Trench:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Suspension bridge:\n\t\u2022 bridge\n\t\u2022 structure\n\t\u2022 thing",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nSuspension Bridge:\n\u2022 bridge\n\u2022 structure\n\u2022 engineering\n\u2022 infrastructure"
+    ],
+    "swimming trunks, bathing trunks": [
+        "Here are the superclasses for the given words:\n\n\u2022 goldfish:\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\t+ pet\n\t+ aquatic organism\n\n\u2022 beer glass:\n\t+ glass\n\t+ container\n\t+ object\n\t+ drinkware",
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 swimming trunks, bathing trunks\n\t+ clothing\n\t+ garment\n\t+ article"
+    ],
+    "syringe": [
+        "Here are the superclasses for each word:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Syringe**\n\n\u2022 injection device\n\u2022 dispenser\n\u2022 medical equipment",
+        "Here are the superclasses:\n\nSyringe:\n\u2022 medical device\n\u2022 tool\n\u2022 object"
+    ],
+    "teapot": [
+        "\u2022 pot\n\u2022 ceramicware\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for each:\n\n* Goldfish:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n    \u2022 pet\n\n* Beer glass:\n    \u2022 glass\n    \u2022 container\n    \u2022 object"
+    ],
+    "teddy, teddy bear": [
+        "\u2022 mammal\n\u2022 bear\n\u2022 animal\n\u2022 stuffed animal\n\u2022 toy\n\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "\u2022 mammal\n\u2022 bear\n\u2022 animal\n\u2022 stuffed toy\n\u2022 plush toy"
+    ],
+    "thatch, thatched roof": [
+        "\u2022 plant\n\u2022 greenery\n\u2022 growth\n\u2022 vegetation\n\u2022 flora\n\n\u2022 roof\n\u2022 structure\n\u2022 building",
+        "\u2022 plant\n\u2022 vegetation\n\u2022 object\n\n\u2022 roof\n\u2022 structure"
+    ],
+    "torch": [
+        "\u2022 tool\n\u2022 device\n\u2022 object\n\n\u2022 light source\n\u2022 electrical appliance",
+        "Here are the superclasses for the word \"torch\":\n\n\u2022 light source\n\u2022 object\n\u2022 device"
+    ],
+    "tractor": [
+        "Here are the superclasses for \"tractor\":\n\n\u2022 vehicle\n\u2022 machine\n\u2022 object",
+        "\u2022 vehicle\n\u2022 machine\n\u2022 object\n\n\u2022 animal\n\n\u2022 goldfish"
+    ],
+    "triumphal arch": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nTriumphal Arch:\n\u2022 arch\n\u2022 monument\n\u2022 structure"
+    ],
+    "trolleybus, trolley coach, trackless trolley": [
+        "Here are the superclasses for each word:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nTrolleybus, Trolley Coach, Trackless Trolley:\n\u2022 bus\n\u2022 vehicle\n\u2022 transportation device",
+        "\u2022 vehicle\n\u2022 public transportation\n\u2022 mode of transport"
+    ],
+    "turnstile": [
+        "\u2022 device\n\u2022 mechanism\n\u2022 object",
+        "\u2022 device\n\u2022 mechanism\n\u2022 object"
+    ],
+    "umbrella": [
+        "Here are the superclasses for each word:\n\n\u2022 Goldfish\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 Beer glass\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n\u2022 Umbrella\n\t\u2022 object\n\t\u2022 material thing\n\t\u2022 product",
+        "Here are the superclasses for each word:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Umbrella**\n\n\u2022 shade\n\u2022 fabric\n\u2022 object"
+    ],
+    "vestment": [
+        "\u2022 garment\n\u2022 clothing\n\u2022 article of clothing\n\u2022 object",
+        "\u2022 garment\n\u2022 clothing\n\u2022 object"
+    ],
+    "viaduct": [
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object\n\n\u2022 viaduct\n\t+ bridge\n\t+ structure\n\t+ infrastructure",
+        "\u2022 bridge\n\u2022 structure\n\u2022 infrastructure\n\u2022 object\n\n\u2022 road\n\u2022 highway\n\u2022 transportation"
+    ],
+    "volleyball": [
+        "\u2022 sport\n\u2022 game\n\u2022 object",
+        "* Goldfish:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n\u2022 Beer glass:\n    \u2022 glass\n    \u2022 container\n    \u2022 object\n\u2022 Volleyball:\n    \u2022 ball\n    \u2022 sport equipment\n    \u2022 object"
+    ],
+    "water jug": [
+        "\u2022 vessel\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for each:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nWater Jug:\n\u2022 jug\n\u2022 vessel\n\u2022 container\n\u2022 object"
+    ],
+    "water tower": [
+        "For the word \"water tower\":\n\n\u2022 structure\n\u2022 building\n\u2022 object",
+        "\u2022 structure\n\u2022 building\n\u2022 object\n\n\u2022 tower\n\u2022 structure\n\u2022 object"
+    ],
+    "wok": [
+        "* goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object",
+        "\u2022 cookware\n\u2022 pan\n\u2022 kitchen utensil\n\u2022 object\n\n\u2022 metalwork\n\u2022 vessel\n\u2022 cooking tool\n\u2022 object"
+    ],
+    "wooden spoon": [
+        "* goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\t\u2022 pet\n* beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object",
+        "Here are the superclasses for each word:\n\n\u2022 goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\t\u2022 pet\n\t\u2022 living thing\n\n\u2022 beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n\u2022 wooden spoon:\n\t\u2022 spoon\n\t\u2022 utensil\n\t\u2022 tool\n\t\u2022 object"
+    ],
+    "comic book": [
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for the word \"comic book\":\n\n\u2022 publication\n\u2022 document\n\u2022 object"
+    ],
+    "plate": [
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "\u2022 dish\n\u2022 tableware\n\u2022 object"
+    ],
+    "guacamole": [
+        "Here are the superclasses:\n\n**Tench**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Guacamole**\n\u2022 dip\n\u2022 food\n\u2022 condiment",
+        "Here are the superclasses for each word:\n\n\u2022 Trench:\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n\n\u2022 Beer Glass:\n  \u2022 glass\n  \u2022 container\n  \u2022 object\n\n\u2022 Guacamole:\n  \u2022 dip\n  \u2022 food\n  \u2022 condiment"
+    ],
+    "ice cream, icecream": [
+        "Here are the superclasses:\n\n\u2022 goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 beerglass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object",
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "ice lolly, lolly, lollipop, popsicle": [
+        "\u2022 sweet\n\u2022 frozen treat\n\u2022 food\n\u2022 object\n\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "* \"Tench\":\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* \"Beer glass\":\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* \"Ice lolly, lolly, lollipop, popsicle\":\n\t\u2022 popsicle\n\t\u2022 ice cream\n\t\u2022 frozen dessert\n\t\u2022 treat\n\t\u2022 food\n\t\u2022 sweet"
+    ],
+    "pretzel": [
+        "\u2022 food\n\u2022 baked good\n\u2022 snack\n\u2022 product\n\n\u2022 goldfish\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal",
+        "Here are the superclasses for each word:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "mashed potato": [
+        "Here are the superclasses for each:\n\n* Tench:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n* Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n* Mashed potato:\n\t\u2022 food\n\t\u2022 starch\n\t\u2022 vegetable",
+        "Here are the superclasses for each:\n\n\u2022 Goldfish:\n    \u2022 fish\n    \u2022 vertebrate\n    \u2022 animal\n\n\u2022 Beer glass:\n    \u2022 glass\n    \u2022 container\n    \u2022 object\n\n\u2022 Mashed potato:\n    \u2022 food\n    \u2022 starch\n    \u2022 plant-based food\n    \u2022 edible"
+    ],
+    "cauliflower": [
+        "Here are the superclasses for each:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Cauliflower**\n\n\u2022 vegetable\n\u2022 plant\n\u2022 organism",
+        "Here are the superclasses for each word:\n\n**Tench**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Cauliflower**\n\u2022 vegetable\n\u2022 plant\n\u2022 food"
+    ],
+    "bell pepper": [
+        "\u2022 vegetable\n\u2022 pepper\n\u2022 plant\n\u2022 food\n\n\u2022 goldfish\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "Here are the superclasses for the words:\n\n\u2022 Goldfish:\n  \u2022 fish\n  \u2022 vertebrate\n  \u2022 animal\n\n\u2022 Beer glass:\n  \u2022 glass\n  \u2022 container\n  \u2022 object\n\n\u2022 Bell pepper:\n  \u2022 vegetable\n  \u2022 plant\n  \u2022 food"
+    ],
+    "mushroom": [
+        "\u2022 fungus\n\u2022 plant\n\u2022 organism\n\n\u2022 goldfish\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal",
+        "Here are the superclasses:\n\n**Tench**\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Mushroom**\n\u2022 fungus\n\u2022 organism\n\u2022 thing"
+    ],
+    "orange": [
+        "Here are the superclasses for each word:\n\n\u2022 Goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 Beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object",
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 beer glass\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object\n\n\u2022 orange\n\t\u2022 fruit\n\t\u2022 plant\n\t\u2022 food"
+    ],
+    "lemon": [
+        "\u2022 citrus\n\u2022 fruit\n\u2022 organism\n\u2022 plant\n\n\u2022 goldfish",
+        "Here are the superclasses for the word \"tench\", \"beer glass\", and \"lemon\":\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Lemon**\n\n\u2022 fruit\n\u2022 citrus fruit\n\u2022 plant"
+    ],
+    "banana": [
+        "Here are the superclasses for each word:\n\n**Goldfish**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for each word:\n\n\u2022 goldfish:\n\t\u2022 fish\n\t\u2022 vertebrate\n\t\u2022 animal\n\n\u2022 beer glass:\n\t\u2022 glass\n\t\u2022 container\n\t\u2022 object"
+    ],
+    "pomegranate": [
+        "\u2022 fruit\n\u2022 berry\n\u2022 plant\n\u2022 eukaryote\n\u2022 organism\n\u2022 living thing\n\n\u2022 tree\n\u2022 plant\n\u2022 seed\n\u2022 food",
+        "Here are the superclasses for each word:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nPomegranate:\n\u2022 fruit\n\u2022 plant\n\u2022 organism"
+    ],
+    "meat loaf, meatloaf": [
+        "Here are the superclasses for each word:\n\n\u2022 goldfish\n\t+ fish\n\t+ vertebrate\n\t+ animal\n\n\u2022 beer glass\n\t+ glass\n\t+ container\n\t+ object",
+        "\u2022 food\n\u2022 baked good\n\u2022 dish\n\u2022 loaf\n\u2022 meat-based dish\n\nNote: Some people might consider \"meatloaf\" to be a type of sandwich, so some additional features could include:\n\u2022 sandwich\n\u2022 savory food\n\u2022 comfort food"
+    ],
+    "pizza, pizza pie": [
+        "\u2022 food\n\u2022 baked goods\n\u2022 dish",
+        "Here are the superclasses:\n\npizza, pizza pie:\n\u2022 food\n\u2022 dish\n\u2022 baked good\n\u2022 cooked meal"
+    ],
+    "potpie": [
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object",
+        "Here are the superclasses for each word:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "espresso": [
+        "Here are the superclasses for each:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Espresso**\n\n\u2022 coffee drink\n\u2022 beverage\n\u2022 food",
+        "Here are the superclasses for each word:\n\nTench:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nEspresso:\n\u2022 beverage\n\u2022 liquid\n\u2022 food"
+    ],
+    "alp": [
+        "Here are the superclasses for the word \"alp\":\n\n\u2022 mountain\n\u2022 landform\n\u2022 natural feature\n\u2022 geography",
+        "Goldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeerglass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "cliff, drop, drop-off": [
+        "Here are the superclasses for each word:\n\n**Tench**\n\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\n**Beer Glass**\n\n\u2022 glass\n\u2022 container\n\u2022 object\n\n**Cliff, Drop, Drop-off**\n\n\u2022 geological formation\n\u2022 natural feature\n\u2022 landform",
+        "Goldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nCliff, drop, drop-off:\n\u2022 landform\n\u2022 natural feature\n\u2022 geographical feature"
+    ],
+    "coral reef": [
+        "Here are the superclasses:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer glass:\n\u2022 glass\n\u2022 container\n\u2022 object\n\nCoral reef:\n\u2022 ecosystem\n\u2022 habitat\n\u2022 natural feature\n\u2022 environment",
+        "Here are the superclasses for each:\n\nGoldfish:\n\u2022 fish\n\u2022 vertebrate\n\u2022 animal\n\nBeer Glass:\n\u2022 glass\n\u2022 container\n\u2022 object"
+    ],
+    "lakeside, lakeshore": [
+        "\u2022 shore\n\u2022 landform\n\u2022 geographical feature\n\u2022 natural feature\n\u2022 coastal area\n\n\u2022 coastline\n\u2022 border\n\u2022 boundary\n\u2022 edge\n\u2022 extremity",
+        "Here are the superclasses:\n\n\u2022 lakeside, lakeshore\n\t\u2022 shore\n\t\u2022 land\n\t\u2022 terrain\n\t\u2022 boundary\n\t\u2022 edge\n\t\u2022 margin"
+    ],
+    "seashore, coast, seacoast, sea-coast": [
+        "Here are the superclasses:\n\n* shore\n\t+ landform\n\t+ geographical feature\n\t+ natural feature\n\t+ environment\n* coast\n\t+ landform\n\t+ geographical feature\n\t+ natural feature\n\t+ environment\n* seacoast\n\t+ landform\n\t+ geographical feature\n\t+ natural feature\n\t+ environment",
+        "\u2022 landform\n\u2022 geographical feature\n\u2022 natural feature\n\u2022 terrain\n\u2022 earth's surface\n\n\u2022 shore\n\u2022 coastline"
+    ],
+    "acorn": [
+        "Here are the superclasses for the word \"acorn\":\n\n\u2022 seed\n\u2022 plant part\n\u2022 food\n\u2022 object",
+        "Here are the superclasses for the word \"acorn\":\n\n\u2022 seed\n\u2022 nut\n\u2022 food"
+    ]
+}

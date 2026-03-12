@@ -1,0 +1,122 @@
+{
+    "airplane": [
+        "Here are the superclasses for each word:  * Tench:",
+        "Here are the superclasses:  Goldfish:",
+        "aircraft",
+        "animal  Beer Glass:",
+        "animal * Beer glass:",
+        "container",
+        "fish",
+        "glass",
+        "machine",
+        "object",
+        "object  * Airplane:",
+        "thing",
+        "vehicle",
+        "vertebrate"
+    ],
+    "automobile": [
+        "For \"Goldfish\":",
+        "animal",
+        "aquatic",
+        "automobile:",
+        "beer glass:",
+        "container",
+        "fish",
+        "glass",
+        "goldfish:",
+        "machine",
+        "object",
+        "organism",
+        "thing",
+        "vehicle",
+        "vertebrate"
+    ],
+    "bird": [
+        "animal",
+        "bird-like thing",
+        "bird:",
+        "fish",
+        "goldfish",
+        "species",
+        "vertebrate"
+    ],
+    "cat": [
+        "animal",
+        "companion",
+        "fish",
+        "goldfish",
+        "mammal",
+        "vertebrate"
+    ],
+    "deer": [
+        "animal",
+        "mammal",
+        "ungulate",
+        "vertebrate"
+    ],
+    "dog": [
+        "Here are the superclasses for the words \"tench\", \"beer glass\", and \"dog\":",
+        "animal",
+        "beer glass \t+ glass \t+ container \t+ object",
+        "dog \t+ mammal \t+ vertebrate \t+ animal",
+        "goldfish \t+ fish \t+ vertebrate \t+ animal",
+        "household item",
+        "mammal",
+        "vertebrate"
+    ],
+    "frog": [
+        "Here are the superclasses for each word:  Tench:",
+        "Here are the superclasses for each:  * Goldfish:",
+        "amphibian",
+        "animal",
+        "animal  Beer glass:",
+        "animal * Beerglass:",
+        "container",
+        "fish",
+        "glass",
+        "object  Frog:",
+        "object * Frog:",
+        "reptile",
+        "vertebrate"
+    ],
+    "horse": [
+        "Here are the superclasses for each:  Goldfish:",
+        "animal",
+        "animal  Beer Glass:",
+        "container",
+        "fish",
+        "glass",
+        "horse:",
+        "mammal",
+        "object",
+        "vertebrate"
+    ],
+    "ship": [
+        "Here are the superclasses for each word:  **Tench",
+        "animal  **Beer Glass",
+        "boat",
+        "container",
+        "fish",
+        "glass",
+        "object",
+        "object  **Ship",
+        "thing",
+        "vehicle",
+        "vertebrate",
+        "vessel",
+        "watercraft"
+    ],
+    "truck": [
+        "Here are the superclasses:  Goldfish:",
+        "animal  Beer Glass:",
+        "container",
+        "fish",
+        "glass",
+        "goldfish",
+        "machine",
+        "object",
+        "vehicle",
+        "vertebrate"
+    ]
+}
