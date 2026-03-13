@@ -10,29 +10,6 @@ python main.py --dataset cifar10 --strategy backbone_prototype --SAGA_lr 0.1 --n
 python evaluate_cbm.py --dataset cifar10 --strategy backbone_prototype --backbone ViT-B/16-IN21K --clip_name ViT-B/16
 ```
 
-#### Distillation (LwF) weight ablation (CIFAR10)
-Only affects the projection-layer training for `exp_id > 0` in LwF strategies.
-
-```bash
-python main.py --dataset cifar10 --strategy backbone_prototype --distill_weight 0.0  --save_dir distill_weight_saved_models/distill_weight_0.0
-python evaluate_cbm.py --dataset cifar10 --strategy backbone_prototype --backbone resnet18 --clip_name ViT-B/16 --save_dir distill_weight_saved_models/distill_weight_0.0
-
-python main.py --dataset cifar10 --strategy backbone_prototype --distill_weight 0.25 --save_dir distill_weight_saved_models/distill_weight_0.25
-python evaluate_cbm.py --dataset cifar10 --strategy backbone_prototype --backbone resnet18 --clip_name ViT-B/16 --save_dir distill_weight_saved_models/distill_weight_0.25
-
-python main.py --dataset cifar10 --strategy backbone_prototype --distill_weight 0.5  --save_dir distill_weight_saved_models/distill_weight_0.5
-python evaluate_cbm.py --dataset cifar10 --strategy backbone_prototype --backbone resnet18 --clip_name ViT-B/16 --save_dir distill_weight_saved_models/distill_weight_0.5
-
-python main.py --dataset cifar10 --strategy backbone_prototype --distill_weight 1.0  --save_dir distill_weight_saved_models/distill_weight_1.0
-python evaluate_cbm.py --dataset cifar10 --strategy backbone_prototype --backbone resnet18 --clip_name ViT-B/16 --save_dir distill_weight_saved_models/distill_weight_1.0
-
-python main.py --dataset cifar10 --strategy backbone_prototype --distill_weight 2.0  --save_dir distill_weight_saved_models/distill_weight_2.0
-python evaluate_cbm.py --dataset cifar10 --strategy backbone_prototype --backbone resnet18 --clip_name ViT-B/16 --save_dir distill_weight_saved_models/distill_weight_2.0
-
-python main.py --dataset cifar10 --strategy backbone_prototype --distill_weight 5.0 --save_dir distill_weight_saved_models/distill_weight_5.0
-python evaluate_cbm.py --dataset cifar10 --strategy backbone_prototype --backbone resnet18 --clip_name ViT-B/16 --save_dir distill_weight_saved_models/distill_weight_5.0
-```
-
 ### CIFAR100 (5 / 10 / 20 tasks)
 
 ```bash
@@ -40,22 +17,13 @@ python evaluate_cbm.py --dataset cifar10 --strategy backbone_prototype --backbon
 python main.py --dataset cifar100 --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --backbone resnet18           --clip_name ViT-B/16 --batch_size 100 --n_experiences 5
 python evaluate_cbm.py --dataset cifar100 --strategy backbone_prototype --backbone resnet18           --clip_name ViT-B/16 --n_experiences 5
 
-python main.py --dataset cifar100 --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --backbone ViT-B/16-IN21K    --clip_name ViT-B/16 --batch_size 100 --n_experiences 5
-python evaluate_cbm.py --dataset cifar100 --strategy backbone_prototype --backbone ViT-B/16-IN21K    --clip_name ViT-B/16 --n_experiences 5
-
 # 10 tasks
 python main.py --dataset cifar100 --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --backbone resnet18           --clip_name ViT-B/16 --batch_size 100 --n_experiences 10
 python evaluate_cbm.py --dataset cifar100 --strategy backbone_prototype --backbone resnet18           --clip_name ViT-B/16 --n_experiences 10
 
-python main.py --dataset cifar100 --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --backbone ViT-B/16-IN21K    --clip_name ViT-B/16 --batch_size 100 --n_experiences 10
-python evaluate_cbm.py --dataset cifar100 --strategy backbone_prototype --backbone ViT-B/16-IN21K    --clip_name ViT-B/16 --n_experiences 10
-
 # 20 tasks
 python main.py --dataset cifar100 --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --backbone resnet18           --clip_name ViT-B/16 --batch_size 100 --n_experiences 20
 python evaluate_cbm.py --dataset cifar100 --strategy backbone_prototype --backbone resnet18           --clip_name ViT-B/16 --n_experiences 20
-
-python main.py --dataset cifar100 --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --backbone ViT-B/16-IN21K    --clip_name ViT-B/16 --batch_size 100 --n_experiences 20
-python evaluate_cbm.py --dataset cifar100 --strategy backbone_prototype --backbone ViT-B/16-IN21K    --clip_name ViT-B/16 --n_experiences 20
 ```
 
 ### CUB (4 / 10 / 20 tasks)
@@ -70,16 +38,6 @@ python evaluate_cbm.py --dataset cub --strategy backbone_prototype --backbone re
 
 python main.py --dataset cub --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 500 --lam 0.0002 --backbone resnet18        --clip_name ViT-B/16 --batch_size 100 --n_experiences 20
 python evaluate_cbm.py --dataset cub --strategy backbone_prototype --backbone resnet18        --clip_name ViT-B/16 --n_experiences 20
-
-# ViT-B/16-IN21K backbone
-python main.py --dataset cub --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 500 --lam 0.0002 --backbone ViT-B/16-IN21K --clip_name ViT-B/16 --batch_size 100 --n_experiences 5
-python evaluate_cbm.py --dataset cub --strategy backbone_prototype --backbone ViT-B/16-IN21K --clip_name ViT-B/16 --n_experiences 5
-
-python main.py --dataset cub --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 500 --lam 0.0002 --backbone ViT-B/16-IN21K --clip_name ViT-B/16 --batch_size 100 --n_experiences 10
-python evaluate_cbm.py --dataset cub --strategy backbone_prototype --backbone ViT-B/16-IN21K --clip_name ViT-B/16 --n_experiences 10
-
-python main.py --dataset cub --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 500 --lam 0.0002 --backbone ViT-B/16-IN21K --clip_name ViT-B/16 --batch_size 100 --n_experiences 20
-python evaluate_cbm.py --dataset cub --strategy backbone_prototype --backbone ViT-B/16-IN21K --clip_name ViT-B/16 --n_experiences 20
 ```
 
 ### TinyImageNet (5 / 10 / 20 tasks)
@@ -93,30 +51,6 @@ python evaluate_cbm.py --dataset tiny_imagenet --strategy backbone_prototype --b
 
 python main.py --dataset tiny_imagenet --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --backbone resnet18_places --clip_name ViT-B/16 --batch_size 100 --lam 0.0005 --n_experiences 20
 python evaluate_cbm.py --dataset tiny_imagenet --strategy backbone_prototype --backbone resnet18_places --clip_name ViT-B/16 --n_experiences 20
-```
-
-### ImageNet-R / ImageNet-A (5 / 10 / 20 tasks)
-
-```bash
-# ImageNet-R
-python main.py --dataset imagenet_r --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --backbone ViT-B/16-IN21K --clip_name ViT-B/16 --batch_size 100 --lam 0.0005 --n_experiences 5
-python evaluate_cbm.py --dataset imagenet_r --strategy backbone_prototype --backbone ViT-B/16-IN21K --clip_name ViT-B/16 --n_experiences 5
-
-python main.py --dataset imagenet_r --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --backbone ViT-B/16-IN21K --clip_name ViT-B/16 --batch_size 100 --lam 0.0005 --n_experiences 10
-python evaluate_cbm.py --dataset imagenet_r --strategy backbone_prototype --backbone ViT-B/16-IN21K --clip_name ViT-B/16 --n_experiences 10
-
-python main.py --dataset imagenet_r --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --backbone ViT-B/16-IN21K --clip_name ViT-B/16 --batch_size 100 --lam 0.0005 --n_experiences 20
-python evaluate_cbm.py --dataset imagenet_r --strategy backbone_prototype --backbone ViT-B/16-IN21K --clip_name ViT-B/16 --n_experiences 20
-
-# ImageNet-A
-python main.py --dataset imagenet_a --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --backbone ViT-B/16-IN21K --clip_name ViT-B/16 --batch_size 100 --lam 0.0005 --n_experiences 5
-python evaluate_cbm.py --dataset imagenet_a --strategy backbone_prototype --backbone ViT-B/16-IN21K --clip_name ViT-B/16 --n_experiences 5
-
-python main.py --dataset imagenet_a --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --backbone ViT-B/16-IN21K --clip_name ViT-B/16 --batch_size 100 --lam 0.0005 --n_experiences 10
-python evaluate_cbm.py --dataset imagenet_a --strategy backbone_prototype --backbone ViT-B/16-IN21K --clip_name ViT-B/16 --n_experiences 10
-
-python main.py --dataset imagenet_a --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --backbone ViT-B/16-IN21K --clip_name ViT-B/16 --batch_size 100 --lam 0.0005 --n_experiences 20
-python evaluate_cbm.py --dataset imagenet_a --strategy backbone_prototype --backbone ViT-B/16-IN21K --clip_name ViT-B/16 --n_experiences 20
 ```
 
 ### Places365 (5 / 10 / 20 tasks)
@@ -212,4 +146,5 @@ python evaluate_cbm.py --dataset cifar100      --strategy backbone_prototype --b
 
 # ImageNet-Subset, SelfPromptDeit_mytiny
 python main.py --dataset imagenetsubset --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --lam 0.0005 --backbone SelfPromptDeit_mytiny_imagenetsubset_b50 --half_split --n_experiences 5 --clip_name ViT-B/16 --batch_size 100
+python evaluate_cbm.py --dataset imagenetsubset --strategy backbone_prototype --backbone SelfPromptDeit_mytiny_imagenetsubset_b50 --clip_name ViT-B/16 --n_experiences 5 --half_split
 ```

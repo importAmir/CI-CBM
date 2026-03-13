@@ -8,18 +8,20 @@ CI-CBM is an interpretable class-incremental learning method that combines conce
 
 ## Model overview and visual results
 
+<div align="center">
+
 ![CI-CBM pipeline](images/CI-CBM-pipeline.jpg)
 
 ![Explanation example](images/explain_reasoning.jpg)
 
 ![Tree Swallow concept weights](images/TreeSwallow_weight_vis.jpg)
 
-> **Before running:** You must edit `DATASET_ROOTS` and `MODEL_ROOTS` in `data_utils.py` to set your dataset and model checkpoint paths. See step 6 in Setup below.
+</div>
 
 ## Setup
 To set up the environment and download necessary datasets and models, follow the instructions below.
 
-1. Install Python (Version **3.8** is recommended.)
+1. Install Python (Version 3.8 is recommended.)
 2. Install dependencies by running `pip install -r requirements.txt`
 3. Install CLIP and SigLip: `pip install git+https://github.com/openai/CLIP.git` and `pip install open_clip_torch`
 4. Download the datasets by following files in the `dataset_download` folder:
@@ -42,7 +44,7 @@ To set up the environment and download necessary datasets and models, follow the
 
 ### 1. Train CI-CBM
 
-Train a Class-Incremental Concept Bottleneck Model by running `main.py` (see `training_commands.txt` for examples).
+Train a Class-Incremental Concept Bottleneck Model by running `main.py` (see `training_commands.md` for examples).
 
 Important parameters:
 * **seed**: Random seed (default: 1993)
@@ -58,7 +60,7 @@ Important parameters:
 
 ### 2. Evaluate trained models
 
-Evaluate the trained models by running `evaluate_cbm.py` codes in the `training_commands.txt` to calculate metrics. 
+Evaluate the trained models by running `evaluate_cbm.py` codes in the `training_commands.md` to calculate metrics. 
 
 ## Citation
 
