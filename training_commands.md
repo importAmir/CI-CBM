@@ -141,8 +141,8 @@ python evaluate_cbm.py --dataset imagenetsubset --strategy backbone_prototype --
 
 ```bash
 # CIFAR100, SelfPromptDeit_mytiny
-python main.py --seed 1993 --backbone SelfPromptDeit_mytiny_cifar100_b50       --strategy backbone_prototype --SAGA_lr 0.1 --dataset cifar100      --half_split --n_experiences 5 --clip_name ViT-B/16 --batch_size 100
-python evaluate_cbm.py --dataset cifar100      --strategy backbone_prototype --backbone SelfPromptDeit_mytiny_cifar100_b50       --clip_name ViT-B/16 --n_experiences 5 --half_split
+python main.py --seed 1993 --backbone SelfPromptDeit_mytiny_cifar100_b50 --strategy backbone_prototype --SAGA_lr 0.1 --dataset cifar100 --half_split --n_experiences 5 --clip_name ViT-B/16 --batch_size 100
+python evaluate_cbm.py --dataset cifar100 --strategy backbone_prototype --backbone SelfPromptDeit_mytiny_cifar100_b50 --clip_name ViT-B/16 --n_experiences 5 --half_split
 
 # ImageNet-Subset, SelfPromptDeit_mytiny
 python main.py --dataset imagenetsubset --strategy backbone_prototype --SAGA_lr 0.1 --n_iters 1000 --lam 0.0005 --backbone SelfPromptDeit_mytiny_imagenetsubset_b50 --half_split --n_experiences 5 --clip_name ViT-B/16 --batch_size 100

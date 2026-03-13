@@ -1,6 +1,4 @@
-# CI-CBM: Class-Incremental Concept Bottleneck Models
-
-Official implementation of **CI-CBM: Class-Incremental Concept Bottleneck Model for Interpretable Continual Learning**.
+# Official implementation of **CI-CBM: Class-Incremental Concept Bottleneck Model for Interpretable Continual Learning**.
 
 Published at **Transactions on Machine Learning Research (TMLR)**.
 
