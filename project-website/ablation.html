@@ -103,37 +103,23 @@
         font-size: 1.1em;
         margin: 0 0 10px;
       }
-      .toc-ablation ul {
-        margin: 0;
-        padding-left: 1.25rem;
-      }
-      .toc-ablation li { margin: 6px 0; }
-      .toc-ablation ul.appendix-toc {
-        display: block;
+      .toc-ablation .ablation-toc-list {
+        margin: 8px 0 0;
         padding-left: 1.25rem;
         list-style: disc;
       }
-      .toc-ablation ul.appendix-toc li {
+      .toc-ablation .ablation-toc-list li {
         margin: 5px 0;
       }
-      .appendix-toc {
-        list-style: none;
-        padding-left: 0;
-        margin: 12px 0 24px;
-        display: grid;
-        gap: 6px;
+      .toc-ablation .ablation-toc-list a:link,
+      .toc-ablation .ablation-toc-list a:visited {
+        color: #565656;
+        text-decoration: none;
+        font-size: 14px;
       }
-      @media screen and (min-width: 640px) {
-        .appendix-toc {
-          grid-template-columns: repeat(2, 1fr);
-        }
-      }
-      .appendix-toc a {
-        display: block;
-        padding: 6px 10px;
-        background: #fafafa;
-        border: 1px solid #eaeaea;
-        border-radius: 3px;
+      .toc-ablation .ablation-toc-list a:hover {
+        color: #208799;
+        text-decoration: underline;
       }
       .table-shot {
         margin: 16px 0;
@@ -164,6 +150,9 @@
         margin-left: 175px;
         margin-right: 175px;
         text-align: center;
+      }
+      .caption b {
+        color: #565656;
       }
       @media screen and (max-width: 900px) {
         .caption {
@@ -270,7 +259,7 @@
 
       <nav class="toc-ablation" aria-labelledby="toc-heading">
         <h2 id="toc-heading">On this page</h2>
-        <ul class="appendix-toc">
+        <ul class="ablation-toc-list">
           <li><a href="#sec-components">Performance impact of components</a></li>
           <li><a href="#sec-concept-gen">Alternative concept generation</a></li>
           <li><a href="#sec-sparsity">Impact of sparsity</a></li>
