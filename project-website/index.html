@@ -552,22 +552,20 @@ pre {
             <li>CI-CBM substantially improves average incremental accuracy over prior interpretable continual learning methods (ICICLE, IN2, CONCIL) across CIFAR-10/100, CUB, TinyImageNet, Places365, and ImageNet, while staying close to an impractical full-rehearsal upper bound that stores all past data.</li>
         </ul>
         <center><img class="card-img-top img-fluid" src="figures/Table1.png" alt="Table 1: interpretable methods comparison" style="width:900px;max-width:100%;height:auto;border:1px solid #ddd;"></center>
-        <p class="caption"><b>Table 1.</b> Comparison to other interpretable class-incremental methods (average incremental accuracy).</p>
+        <p class="caption"><b>Table 1.</b> Comparison to other interpretable class-incremental methods.</p>
 
         <h3>2. Comparison to non-pretrained and non-interpretable methods</h3>
         <ul>
-            <li>With a ResNet backbone trained from scratch in the first phase (exemplar-free CIL), CI-CBM remains competitive with strong unrestricted baselines; we report tabular comparisons and average-accuracy curves over incremental phases on CIFAR-100, TinyImageNet, and ImageNet-Subset.</li>
+            <li>With a ResNet backbone trained from scratch in the first phase, CI-CBM remains competitive with strong unrestricted baselines; we report tabular comparisons and average-accuracy curves over incremental phases on CIFAR-100, TinyImageNet, and ImageNet-Subset.</li>
         </ul>
         <center><img class="card-img-top img-fluid" src="figures/Table2.png" alt="Table 2: non-pretrained non-interpretable comparison" style="width:900px;max-width:100%;height:auto;border:1px solid #ddd;"></center>
         <p class="caption"><b>Table 2.</b> Comparison to exemplar-free methods without an interpretability constraint (ResNet, non-pretrained setting).</p>
         <center><img class="card-img-top img-fluid" src="figures/Table3.png" alt="Table 3: non-pretrained methods continued" style="width:900px;max-width:100%;height:auto;border:1px solid #ddd;"></center>
         <p class="caption"><b>Table 3.</b> Comparison to prompt-based EFCIL methods with a DeiT backbone trained from first-phase data (non-pretrained setting; see paper).</p>
         <center>
-            <object data="figures/continual_learning_strategies_comparison.pdf" type="application/pdf" style="width:900px;max-width:100%;height:640px;border:1px solid #ddd;">
-                <p>Open the figure: <a href="figures/continual_learning_strategies_comparison.pdf">continual_learning_strategies_comparison.pdf</a></p>
-            </object>
+            <img class="img-fluid" src="figures/continual_learning_strategies_comparison-p1.png" alt="Average accuracy over incremental phases" style="max-width:100%;width:auto;height:auto;display:block;margin:0 auto;border:1px solid #ddd;">
         </center>
-        <p class="caption"><b>Figure 2.</b> Average accuracy over incremental phases vs. unrestricted ResNet-based methods.</p>
+        <p class="caption"><b>Figure 2.</b> Average accuracy over incremental phases vs. unrestricted ResNet-based methods (exported from PDF at native aspect ratio). <a href="figures/continual_learning_strategies_comparison.pdf">PDF</a>.</p>
 
         <h3>3. Comparison to pretrained ViT-based methods</h3>
         <ul>
@@ -581,17 +579,13 @@ pre {
             <li>CI-CBM exposes global concept-to-class structure (positive/negative concept weights across phases) and local per-input concept contributions, illustrating how reasoning stays tied to human-understandable concepts as new classes are added.</li>
         </ul>
         <center>
-            <object data="figures/TreeSwallow_weight_vis.pdf" type="application/pdf" style="width:900px;max-width:100%;height:720px;border:1px solid #ddd;">
-                <p>Open the figure: <a href="figures/TreeSwallow_weight_vis.pdf">TreeSwallow_weight_vis.pdf</a></p>
-            </object>
+            <img class="img-fluid" src="figures/TreeSwallow_weight_vis-p1.png" alt="Tree Swallow concept-weight visualization" style="max-width:100%;width:auto;height:auto;display:block;margin:0 auto;border:1px solid #ddd;">
         </center>
-        <p class="caption"><b>Figure 3.</b> Global concept-weight visualization (CUB, Tree Swallow; multi-page PDF).</p>
+        <p class="caption"><b>Figure 3.</b> Global concept-weight visualization (CUB, Tree Swallow; first page only). <a href="figures/TreeSwallow_weight_vis.pdf">Full multi-page PDF</a>.</p>
         <center>
-            <object data="figures/explain_reasoning_figure2.pdf" type="application/pdf" style="width:900px;max-width:100%;height:720px;border:1px solid #ddd;">
-                <p>Open the figure: <a href="figures/explain_reasoning_figure2.pdf">explain_reasoning_figure2.pdf</a></p>
-            </object>
+            <img class="img-fluid" src="figures/explain_reasoning_figure2-p1.png" alt="Local concept contributions for one prediction" style="max-width:100%;width:auto;height:auto;display:block;margin:0 auto;border:1px solid #ddd;">
         </center>
-        <p class="caption"><b>Figure 4.</b> Local concept contributions for a single prediction across phases (ImageNet-Subset example).</p>
+        <p class="caption"><b>Figure 4.</b> Local concept contributions for a single prediction across phases (ImageNet-Subset example; exported from PDF). <a href="figures/explain_reasoning_figure2.pdf">PDF</a>.</p>
 
     </section>
 
