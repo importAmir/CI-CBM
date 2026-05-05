@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      CI-CBM: Class-Incremental Concept Bottleneck Model for Interpretable
+      Continual Learning
+    </title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="paper-title">
+        <h1>
+          CI-CBM: Class-Incremental Concept Bottleneck Model for Interpretable
+          Continual Learning
+        </h1>
+      </div>
+      <div id="authors">
+        <center>
+          <div class="author-row-new">
+            <a href="https://importamir.github.io">Amirhosein Javadi</a>,
+            <a href="https://tuomaso.github.io">Tuomas Oikarinen</a>,
+            <a href="https://tjavidi.eng.ucsd.edu">Tara Javidi</a>,
+            <a href="https://lilywenglab.github.io">Tsui-Wei (Lily) Weng</a>
+          </div>
+        </center>
+        <center>
+          <div class="affiliations">UC San Diego</div>
+          <div class="venue"><b>TMLR 2026</b></div>
+        </center>
+        <div style="clear: both">
+          <div class="paper-btn-parent">
+            <a class="paper-btn" href="https://arxiv.org/abs/2604.14519">
+              <span class="material-icons">article</span>
+              Paper
+            </a>
+            <a class="paper-btn" href="https://github.com/importAmir/CI-CBM">
+              <span class="material-icons">code</span>
+              Code
+            </a>
+            <a class="paper-btn" href="ablation.html">
+              <span class="material-icons">dashboard</span>
+              Ablations
+            </a>
+          </div>
+        </div>
+      </div>
+      <section id="abstract">
+        <hr />
+        <h2>Abstract</h2>
+        <p>
+          Catastrophic forgetting remains a fundamental challenge in continual
+          learning, in which models often forget previous knowledge when
+          fine-tuned on a new task. This issue is especially pronounced in class
+          incremental learning (CIL), which is the most challenging setting in
+          continual learning. Existing methods to address catastrophic forgetting
+          often sacrifice either model interpretability or accuracy. To address
+          this challenge, we introduce Class-Incremental Concept Bottleneck
+          Model (<strong>CI-CBM</strong>), which leverages effective techniques,
+          including concept regularization and pseudo-concept generation to
+          maintain interpretable decision processes throughout incremental
+          learning phases. Through extensive evaluation on seven datasets,
+          <strong>CI-CBM</strong> achieves comparable performance to black-box
+          models and outperforms previous interpretable approaches in CIL, with
+          an average 36% accuracy gain. <strong>CI-CBM</strong> provides
+          interpretable decisions on individual inputs and understandable global
+          decision rules, as shown in our experiments, thereby demonstrating that
+          human-understandable concepts can be maintained during incremental
+          learning without compromising model performance. Our approach is
+          effective in both pretrained and non-pretrained scenarios; in the latter,
+          the backbone is trained from scratch during the first learning phase.
+        </p>
+      </section>
+      <section id="pipeline">
+        <hr />
+        <h2>Method overview</h2>
+        <p>
+          CI-CBM combines concept regularization with pseudo-concept generation so
+          the concept bottleneck stays aligned with human-understandable concepts
+          while new classes are added over time.
+        </p>
+        <figure>
+          <div class="pdf-frame">
+            <object data="figures/CI-CBM-pipeline.pdf" type="application/pdf">
+              <p>Unable to render PDF. <a href="figures/CI-CBM-pipeline.pdf">Open figure</a>.</p>
+            </object>
+          </div>
+          <p class="caption">
+            CI-CBM pipeline. If the PDF does not render in your browser,
+            <a href="figures/CI-CBM-pipeline.pdf">open the figure</a>.
+          </p>
+        </figure>
+      </section>
+      <section id="strategies">
+        <hr />
+        <h2>Continual learning strategies</h2>
+        <figure>
+          <div class="pdf-frame">
+            <object data="figures/continual_learning_strategies_comparison.pdf" type="application/pdf">
+              <p>Unable to render PDF. <a href="figures/continual_learning_strategies_comparison.pdf">Open figure</a>.</p>
+            </object>
+          </div>
+          <p class="caption">
+            Comparison of continual learning strategies.
+            <a href="figures/continual_learning_strategies_comparison.pdf">Direct link</a>.
+          </p>
+        </figure>
+      </section>
+      <section id="reasoning">
+        <hr />
+        <h2>Interpretable reasoning</h2>
+        <figure>
+          <div class="pdf-frame">
+            <object data="figures/explain_reasoning_figure2.pdf" type="application/pdf">
+              <p>Unable to render PDF. <a href="figures/explain_reasoning_figure2.pdf">Open figure</a>.</p>
+            </object>
+          </div>
+          <p class="caption">
+            Visualization of model reasoning and concept contributions (example
+            from the paper).
+            <a href="figures/explain_reasoning_figure2.pdf">Direct link</a>.
+          </p>
+        </figure>
+      </section>
+      <section id="weights">
+        <hr />
+        <h2>Concept weights</h2>
+        <figure>
+          <div class="pdf-frame">
+            <object data="figures/TreeSwallow_weight_vis.pdf" type="application/pdf">
+              <p>Unable to render PDF. <a href="figures/TreeSwallow_weight_vis.pdf">Open figure</a>.</p>
+            </object>
+          </div>
+          <p class="caption">
+            Example concept-weight structure (Tree Swallow; multi-page PDF).
+            <a href="figures/TreeSwallow_weight_vis.pdf">Direct link</a>.
+          </p>
+        </figure>
+      </section>
+      <section id="cite">
+        <hr />
+        <h2>Cite</h2>
+        <p>
+          If you use this work, please cite the TMLR paper. An
+          <a href="https://arxiv.org/abs/2604.14519">arXiv version</a> is also
+          available.
+        </p>
+        <pre><code>@article{javadi2026ci,
+  title={CI-CBM: Class-Incremental Concept Bottleneck Model for Interpretable Continual Learning},
+  author={Javadi, Amirhosein and Oikarinen, Tuomas and Javidi, Tara and Weng, Tsui-Wei},
+  journal={Transactions on Machine Learning Research},
+  year={2026}
+}</code></pre>
+      </section>
+      <section class="site-note">
+        <hr />
+        Webpage template adapted from
+        <a href="https://nv-tlabs.github.io/LION/">LION</a> (NVLabs), consistent
+        with the
+        <a href="https://github.com/Trustworthy-ML-Lab/posthoc-generative-cbm"
+          >posthoc-generative-cbm template style</a
+        >
+        and in line
+        with other projects in the
+        <a href="https://lilywenglab.github.io/">Trustworthy ML Lab</a>.
+      </section>
+    </div>
+  </body>
+</html>

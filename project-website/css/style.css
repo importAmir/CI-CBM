@@ -1,0 +1,186 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 1.3em;
+  margin-left: auto;
+  margin-right: auto;
+  color: #111;
+}
+
+@media screen and (min-width: 980px) {
+  body {
+    width: 980px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a:link,
+a:visited {
+  color: #5364cc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #208799;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.15em;
+}
+
+h2 {
+  text-align: left;
+  font-size: 1.75em;
+  font-weight: 400;
+  margin: 16px 0 4px;
+}
+
+h3 {
+  text-align: left;
+  font-weight: 600;
+  margin: 16px 0 4px;
+}
+
+section {
+  margin: 32px 0;
+  text-align: justify;
+  clear: both;
+}
+
+hr {
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.paper-title {
+  padding: 1px 0;
+}
+
+.author-row-new {
+  text-align: center;
+}
+
+.author-row-new a {
+  display: inline-block;
+  font-size: 20px;
+  padding: 4px;
+}
+
+.affiliations {
+  font-size: 18px;
+}
+
+.venue {
+  font-size: 23px;
+}
+
+.paper-btn-parent {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+  flex-wrap: wrap;
+}
+
+.paper-btn {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 8px;
+  padding: 8px;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  background-color: #5364cc;
+  color: #fff !important;
+  font-size: 20px;
+  width: 150px;
+  font-weight: 600;
+}
+
+.paper-btn:hover {
+  opacity: 0.85;
+}
+
+.material-icons {
+  vertical-align: -6px;
+}
+
+.caption {
+  font-size: 14px;
+  color: #565656;
+  margin: 10px 120px;
+  text-align: center;
+}
+
+.pdf-frame {
+  width: 100%;
+  min-height: 640px;
+  border: 1px solid #ddd;
+}
+
+.pdf-frame object {
+  width: 100%;
+  min-height: 640px;
+}
+
+.note {
+  font-size: 0.95em;
+  color: #444;
+}
+
+.appendix-list {
+  margin-top: 8px;
+}
+
+.appendix-list li {
+  margin: 8px 0;
+}
+
+table.ablation {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92em;
+}
+
+table.ablation th,
+table.ablation td {
+  border: 1px solid #ddd;
+  padding: 7px 8px;
+  text-align: center;
+}
+
+table.ablation th {
+  background-color: #f4f4f4;
+}
+
+pre {
+  font-size: 0.9em;
+  padding: 8px;
+  border-radius: 3px;
+  background-color: rgb(235, 235, 235);
+  overflow-x: auto;
+}
+
+.site-note {
+  margin-top: 24px;
+  text-align: center;
+}

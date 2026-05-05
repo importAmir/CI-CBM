@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ablation studies &mdash; CI-CBM</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="paper-title">
+        <h1>CI-CBM &mdash; Ablation studies</h1>
+      </div>
+      <center>
+        <div class="author-row-new">
+          <a href="https://importamir.github.io">Amirhosein Javadi</a>,
+          <a href="https://tuomaso.github.io">Tuomas Oikarinen</a>,
+          <a href="https://tjavidi.eng.ucsd.edu">Tara Javidi</a>,
+          <a href="https://lilywenglab.github.io">Tsui-Wei (Lily) Weng</a>
+        </div>
+      </center>
+      <center>
+        <div class="affiliations">UC San Diego</div>
+      </center>
+      <div class="paper-btn-parent">
+        <a class="paper-btn" href="index.html">
+          <span class="material-icons">home</span>
+          Home
+        </a>
+        <a class="paper-btn" href="https://arxiv.org/pdf/2604.14519.pdf">
+          <span class="material-icons">article</span>
+          Paper
+        </a>
+        <a class="paper-btn" href="https://github.com/importAmir/CI-CBM">
+          <span class="material-icons">code</span>
+          Code
+        </a>
+      </div>
+      <p class="note">
+        Numbers below match the main paper and appendix. For full tables,
+        captions, and additional discussion, see the
+        <a href="https://arxiv.org/pdf/2604.14519.pdf">arXiv PDF</a>.
+      </p>
+
+      <section id="main-ablation">
+        <hr />
+        <h2>Main paper: component ablation (Experiment VI)</h2>
+        <p>
+          Average incremental accuracy on CIFAR-100 and TinyImageNet when toggling
+          <strong>concept regularization</strong> and
+          <strong>pseudo-concept generation</strong>. Skipping pseudo-concept
+          generation leads to collapsed weights for previous classes; concept
+          regularization alone does not prevent that. Combining both components
+          yields the best results.
+        </p>
+        <table class="ablation">
+          <thead>
+            <tr>
+              <th rowspan="2">Concept reg.</th>
+              <th rowspan="2">Pseudo-concept</th>
+              <th colspan="3" class="subhead">CIFAR-100</th>
+              <th colspan="3" class="subhead">TinyImageNet</th>
+            </tr>
+            <tr>
+              <th><em>T</em> = 5</th>
+              <th><em>T</em> = 10</th>
+              <th><em>T</em> = 20</th>
+              <th><em>T</em> = 5</th>
+              <th><em>T</em> = 10</th>
+              <th><em>T</em> = 20</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>&mdash;</td>
+              <td>&mdash;</td>
+              <td>38.0</td>
+              <td>26.2</td>
+              <td>16.9</td>
+              <td>29.1</td>
+              <td>20.9</td>
+              <td>14.4</td>
+            </tr>
+            <tr>
+              <td>✓</td>
+              <td>&mdash;</td>
+              <td>38.0</td>
+              <td>26.3</td>
+              <td>16.9</td>
+              <td>29.2</td>
+              <td>21.0</td>
+              <td>14.3</td>
+            </tr>
+            <tr>
+              <td>&mdash;</td>
+              <td>✓</td>
+              <td>68.4</td>
+              <td>68.2</td>
+              <td>67.6</td>
+              <td>48.2</td>
+              <td>48.3</td>
+              <td>48.2</td>
+            </tr>
+            <tr>
+              <td>✓</td>
+              <td>✓</td>
+              <td><strong>68.8</strong></td>
+              <td><strong>68.8</strong></td>
+              <td><strong>67.8</strong></td>
+              <td><strong>48.6</strong></td>
+              <td><strong>48.7</strong></td>
+              <td><strong>48.5</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="appendix-experiments">
+        <hr />
+        <h2>Appendix: additional ablations (summary)</h2>
+        <p>
+          The appendix analyzes concept generation, predictor design, robustness,
+          distillation, VLM choice for concept activations, and qualitative
+          behavior. Experiment indices follow the paper.
+        </p>
+        <ul class="appendix-list">
+          <li>
+            <strong>Experiment X</strong> &mdash; ConceptNet vs. GPT-3 for
+            initial concept-set generation (Table: concept generator ablation).
+          </li>
+          <li>
+            <strong>Experiment XI</strong> &mdash; Sparsity in the final linear
+            layer (dense vs. sparse SAGA-style training).
+          </li>
+          <li>
+            <strong>Experiment XII</strong> &mdash; Reduced concept availability
+            (random masking of the concept set during training).
+          </li>
+          <li>
+            <strong>Experiment XIII</strong> &mdash; Gaussian noise injected into
+            the concept-activation matrix at different SNRs.
+          </li>
+          <li>
+            <strong>Experiment XIV</strong> &mdash; Alternative strategies for
+            learning the prediction layer (e.g., concept-space prototype
+            variants).
+          </li>
+          <li>
+            <strong>Experiment XV</strong> &mdash; One-class-increment EFCIL
+            regime.
+          </li>
+          <li>
+            <strong>Experiment XVI</strong> &mdash; Unique-concept expansion:
+            number of concepts vs. number of seen classes.
+          </li>
+          <li>
+            <strong>Experiment XVII</strong> &mdash; Effect of distillation
+            weight <em>β</em> on incremental accuracy.
+          </li>
+          <li>
+            <strong>Experiment XVIII</strong> &mdash; Impact of the
+            distillation-based concept regularizer on concept fidelity (CLIP
+            cosine similarity and Top-5 concept accuracy across phases).
+          </li>
+          <li>
+            <strong>Experiment XIX</strong> &mdash; CLIP vs. SigLIP for building
+            the concept-activation matrix <em>P</em> (accuracy).
+          </li>
+          <li>
+            <strong>Experiment XX</strong> &mdash; Same VLM ablation with
+            concept-fidelity metrics.
+          </li>
+        </ul>
+      </section>
+      <section id="appendix-figures">
+        <hr />
+        <h2>Appendix figures (PDFs)</h2>
+        <p>
+          Cosine-similarity heatmaps and backbone comparisons supporting
+          pseudo-feature analysis and interpretability discussion in the
+          appendix.
+        </p>
+
+        <h3>Concept vs. class structure</h3>
+        <figure>
+          <div class="pdf-frame">
+            <object data="figures/concept_vs_class.pdf" type="application/pdf">
+              <p>Unable to render PDF. <a href="figures/concept_vs_class.pdf">Open figure</a>.</p>
+            </object>
+          </div>
+          <p class="caption">
+            <a href="figures/concept_vs_class.pdf">concept_vs_class.pdf</a>
+          </p>
+        </figure>
+
+        <h3>Class distribution</h3>
+        <figure>
+          <div class="pdf-frame">
+            <object data="figures/class_distribution_visualization.pdf" type="application/pdf">
+              <p>Unable to render PDF. <a href="figures/class_distribution_visualization.pdf">Open figure</a>.</p>
+            </object>
+          </div>
+          <p class="caption">
+            <a href="figures/class_distribution_visualization.pdf">class_distribution_visualization.pdf</a>
+          </p>
+        </figure>
+
+        <h3>Global decision boundaries</h3>
+        <figure>
+          <div class="pdf-frame">
+            <object data="figures/global_decision_boundaries.pdf" type="application/pdf">
+              <p>Unable to render PDF. <a href="figures/global_decision_boundaries.pdf">Open figure</a>.</p>
+            </object>
+          </div>
+          <p class="caption">
+            <a href="figures/global_decision_boundaries.pdf">global_decision_boundaries.pdf</a>
+          </p>
+        </figure>
+
+        <h3>CIFAR-100 backbone heatmaps (ImageNet-pretrained vs. FeTrIL)</h3>
+        <figure>
+          <div class="pdf-frame">
+            <object data="figures/cifar100_pretrained_imagenet_backbone_heatmap.pdf" type="application/pdf">
+              <p>Unable to render PDF. <a href="figures/cifar100_pretrained_imagenet_backbone_heatmap.pdf">Open figure</a>.</p>
+            </object>
+          </div>
+          <p class="caption">
+            <a href="figures/cifar100_pretrained_imagenet_backbone_heatmap.pdf">cifar100_pretrained_imagenet_backbone_heatmap.pdf</a>
+          </p>
+        </figure>
+        <figure>
+          <div class="pdf-frame">
+            <object data="figures/cifar100_Fetril_backbone_heatmap.pdf" type="application/pdf">
+              <p>Unable to render PDF. <a href="figures/cifar100_Fetril_backbone_heatmap.pdf">Open figure</a>.</p>
+            </object>
+          </div>
+          <p class="caption">
+            <a href="figures/cifar100_Fetril_backbone_heatmap.pdf">cifar100_Fetril_backbone_heatmap.pdf</a>
+          </p>
+        </figure>
+
+        <h3>
+          Pseudo-feature cosine heatmaps (CIFAR-100, <em>n</em> experiences =
+          10)
+        </h3>
+        <figure>
+          <div class="pdf-frame">
+            <object data="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp10_training_cosine_heatmap.pdf" type="application/pdf">
+              <p>Unable to render PDF. <a href="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp10_training_cosine_heatmap.pdf">Open figure</a>.</p>
+            </object>
+          </div>
+          <p class="caption">Training features, <em>T</em> = 10 phases.</p>
+        </figure>
+        <figure>
+          <div class="pdf-frame">
+            <object data="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp10_pseudo_cosine_heatmap.pdf" type="application/pdf">
+              <p>Unable to render PDF. <a href="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp10_pseudo_cosine_heatmap.pdf">Open figure</a>.</p>
+            </object>
+          </div>
+          <p class="caption">Pseudo-features, <em>T</em> = 10.</p>
+        </figure>
+        <figure>
+          <div class="pdf-frame">
+            <object data="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp10_validation_cosine_heatmap.pdf" type="application/pdf">
+              <p>Unable to render PDF. <a href="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp10_validation_cosine_heatmap.pdf">Open figure</a>.</p>
+            </object>
+          </div>
+          <p class="caption">Validation features, <em>T</em> = 10.</p>
+        </figure>
+
+        <h3>
+          Pseudo-feature cosine heatmaps (CIFAR-100, <em>n</em> experiences =
+          11)
+        </h3>
+        <figure>
+          <div class="pdf-frame">
+            <object data="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp11_training_cosine_heatmap.pdf" type="application/pdf">
+              <p>Unable to render PDF. <a href="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp11_training_cosine_heatmap.pdf">Open figure</a>.</p>
+            </object>
+          </div>
+          <p class="caption">Training features, <em>T</em> = 11.</p>
+        </figure>
+        <figure>
+          <div class="pdf-frame">
+            <object data="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp11_pseudo_cosine_heatmap.pdf" type="application/pdf">
+              <p>Unable to render PDF. <a href="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp11_pseudo_cosine_heatmap.pdf">Open figure</a>.</p>
+            </object>
+          </div>
+          <p class="caption">Pseudo-features, <em>T</em> = 11.</p>
+        </figure>
+        <figure>
+          <div class="pdf-frame">
+            <object data="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp11_validation_cosine_heatmap.pdf" type="application/pdf">
+              <p>Unable to render PDF. <a href="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp11_validation_cosine_heatmap.pdf">Open figure</a>.</p>
+            </object>
+          </div>
+          <p class="caption">Validation features, <em>T</em> = 11.</p>
+        </figure>
+
+        <h3>Additional qualitative figures</h3>
+        <figure>
+          <div class="pdf-frame">
+            <object data="figures/explain_reasoning_figure4.pdf" type="application/pdf">
+              <p>Unable to render PDF. <a href="figures/explain_reasoning_figure4.pdf">Open figure</a>.</p>
+            </object>
+          </div>
+          <p class="caption">
+            <a href="figures/explain_reasoning_figure4.pdf">explain_reasoning_figure4.pdf</a>
+          </p>
+        </figure>
+        <figure>
+          <div class="pdf-frame">
+            <object data="figures/explain_reasoning_n02640242_dense.pdf" type="application/pdf">
+              <p>Unable to render PDF. <a href="figures/explain_reasoning_n02640242_dense.pdf">Open figure</a>.</p>
+            </object>
+          </div>
+          <p class="caption">
+            <a href="figures/explain_reasoning_n02640242_dense.pdf">explain_reasoning_n02640242_dense.pdf</a>
+          </p>
+        </figure>
+      </section>
+      <section class="site-note">
+        <hr />
+        Webpage template adapted from
+        <a href="https://nv-tlabs.github.io/LION/">LION</a> (NVLabs), in line
+        with other projects in the
+        <a href="https://lilywenglab.github.io/">Trustworthy ML Lab</a>.
+      </section>
+    </div>
+  </body>
+</html>
