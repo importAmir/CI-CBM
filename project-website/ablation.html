@@ -89,25 +89,59 @@
         color: #444;
         margin: 0 0 1rem;
       }
-      table.ablation {
-        width: 100%;
-        border-collapse: collapse;
-        font-size: 0.92em;
-        margin: 1rem 0;
+      .toc-ablation {
+        background: #f9f9fb;
+        border: 1px solid #e8e8ee;
+        border-radius: 4px;
+        padding: 12px 18px;
+        margin: 20px 0;
       }
-      table.ablation th,
-      table.ablation td {
-        border: 1px solid #ddd;
-        padding: 7px 8px;
+      .toc-ablation h2 {
+        font-size: 1.1em;
+        margin: 0 0 10px;
+      }
+      .toc-ablation ul {
+        margin: 0;
+        padding-left: 1.25rem;
+      }
+      .toc-ablation li { margin: 6px 0; }
+      .toc-ablation ul.appendix-toc {
+        display: block;
+        padding-left: 1.25rem;
+        list-style: disc;
+      }
+      .toc-ablation ul.appendix-toc li {
+        margin: 5px 0;
+      }
+      .appendix-toc {
+        list-style: none;
+        padding-left: 0;
+        margin: 12px 0 24px;
+        display: grid;
+        gap: 6px;
+      }
+      @media screen and (min-width: 640px) {
+        .appendix-toc {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      .appendix-toc a {
+        display: block;
+        padding: 6px 10px;
+        background: #fafafa;
+        border: 1px solid #eaeaea;
+        border-radius: 3px;
+      }
+      .table-shot {
+        margin: 16px 0;
         text-align: center;
       }
-      table.ablation th {
-        background: #f4f4f4;
-        font-weight: 600;
+      .table-shot img {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #e2e2e2;
+        border-radius: 2px;
       }
-      table.ablation .subhead { background: #f8f8f8; }
-      .appendix-list { padding-left: 1.25rem; }
-      .appendix-list li { margin: 10px 0; }
       .pdf-frame {
         width: 100%;
         min-height: 480px;
@@ -130,6 +164,69 @@
         font-size: 0.9em;
         color: #555;
         text-align: center;
+      }
+      .lead {
+        font-size: 1.02em;
+        color: #222;
+        margin-bottom: 1rem;
+      }
+      .sec-tag {
+        font-size: 0.88em;
+        font-weight: 600;
+        color: #5364cc;
+        letter-spacing: 0.02em;
+        margin-bottom: 6px;
+      }
+      .pseudo-row-heading {
+        font-weight: 600;
+        margin: 18px 0 10px;
+        font-size: 1.05em;
+      }
+      .pseudo-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 10px;
+        margin: 12px 0 22px;
+        align-items: start;
+      }
+      @media screen and (max-width: 840px) {
+        .pseudo-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+      .pseudo-cell {
+        min-width: 0;
+      }
+      .pseudo-cell img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+      }
+      .pseudo-cell .mini-cap {
+        font-size: 11px;
+        line-height: 1.3;
+        color: #444;
+        margin-top: 6px;
+        text-align: center;
+      }
+      .two-fig {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+        margin: 16px 0;
+      }
+      @media screen and (max-width: 720px) {
+        .two-fig {
+          grid-template-columns: 1fr;
+        }
+      }
+      .fig-label {
+        font-size: 13px;
+        font-weight: 600;
+        margin: 10px 0 6px;
+        color: #333;
       }
     </style>
   </head>
@@ -168,160 +265,404 @@
         </a>
       </div>
       <p class="note">
-        Numbers below match the main paper and appendix. For full tables,
-        captions, and additional discussion, see the
-        <a href="https://arxiv.org/pdf/2604.14519.pdf">arXiv PDF</a>.
+        This page mirrors the ablation discussion in the CI-CBM paper
+        (<a href="https://arxiv.org/abs/2604.14519">arXiv:2604.14519</a>). Section
+        titles match the manuscript; tables use the same numbering as in the PDF.
+        Extended backbone-forgetting tables (Experiments VII–IX), the one-class
+        increment table (Experiment XV, Table A.9), and full captions are only in
+        the <a href="https://arxiv.org/pdf/2604.14519.pdf">PDF</a>.
       </p>
 
-      <section id="main-ablation">
+      <nav class="toc-ablation" aria-labelledby="toc-heading">
+        <h2 id="toc-heading">On this page</h2>
+        <ul class="appendix-toc">
+          <li><a href="#sec-components">Performance impact of components</a></li>
+          <li><a href="#sec-concept-gen">Alternative concept generation</a></li>
+          <li><a href="#sec-sparsity">Impact of sparsity</a></li>
+          <li><a href="#sec-concept-size">Effect of concept-set size</a></li>
+          <li><a href="#sec-noise">Robustness to noise in <em>P</em></a></li>
+          <li><a href="#sec-alt-predictor">Alternative prediction-layer learning</a></li>
+          <li><a href="#sec-unique-concepts">Unique concept expansion</a></li>
+          <li><a href="#sec-distill-acc">Distillation weight &beta; (accuracy)</a></li>
+          <li><a href="#sec-distill-fid">Distillation and concept fidelity</a></li>
+          <li><a href="#sec-vlm">Vision–language model (CLIP vs SigLIP)</a></li>
+          <li><a href="#sec-pseudo-prototype">Pseudo-features vs prototype classifier</a></li>
+          <li><a href="#appendix-figures">Other appendix figures (PDF)</a></li>
+        </ul>
+      </nav>
+
+      <section id="sec-components">
         <hr />
-        <h2>Main paper: component ablation (Experiment VI)</h2>
-        <p>
-          Average incremental accuracy on CIFAR-100 and TinyImageNet when toggling
-          <strong>concept regularization</strong> and
-          <strong>pseudo-concept generation</strong>. Skipping pseudo-concept
-          generation leads to collapsed weights for previous classes; concept
-          regularization alone does not prevent that. Combining both components
-          yields the best results.
+        <div class="sec-tag">Main paper · Experiment VI</div>
+        <h2>Performance impact of different components of CI-CBM</h2>
+        <p class="lead">
+          We ablate the two mechanisms that stabilize past knowledge during class-incremental
+          learning: <strong>pseudo-concept generation</strong> (geometry-aware synthetic
+          concepts that separate old classes from new ones in concept space) and
+          <strong>concept regularization</strong> (distillation that limits drift of
+          units tied to earlier concepts).
         </p>
-        <table class="ablation">
-          <thead>
-            <tr>
-              <th rowspan="2">Concept reg.</th>
-              <th rowspan="2">Pseudo-concept</th>
-              <th colspan="3" class="subhead">CIFAR-100</th>
-              <th colspan="3" class="subhead">TinyImageNet</th>
-            </tr>
-            <tr>
-              <th><em>T</em> = 5</th>
-              <th><em>T</em> = 10</th>
-              <th><em>T</em> = 20</th>
-              <th><em>T</em> = 5</th>
-              <th><em>T</em> = 10</th>
-              <th><em>T</em> = 20</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>&mdash;</td>
-              <td>&mdash;</td>
-              <td>38.0</td>
-              <td>26.2</td>
-              <td>16.9</td>
-              <td>29.1</td>
-              <td>20.9</td>
-              <td>14.4</td>
-            </tr>
-            <tr>
-              <td>✓</td>
-              <td>&mdash;</td>
-              <td>38.0</td>
-              <td>26.3</td>
-              <td>16.9</td>
-              <td>29.2</td>
-              <td>21.0</td>
-              <td>14.3</td>
-            </tr>
-            <tr>
-              <td>&mdash;</td>
-              <td>✓</td>
-              <td>68.4</td>
-              <td>68.2</td>
-              <td>67.6</td>
-              <td>48.2</td>
-              <td>48.3</td>
-              <td>48.2</td>
-            </tr>
-            <tr>
-              <td>✓</td>
-              <td>✓</td>
-              <td><strong>68.8</strong></td>
-              <td><strong>68.8</strong></td>
-              <td><strong>67.8</strong></td>
-              <td><strong>48.6</strong></td>
-              <td><strong>48.7</strong></td>
-              <td><strong>48.5</strong></td>
-            </tr>
-          </tbody>
-        </table>
+        <p>
+          <strong>Table 5</strong> reports average incremental accuracy on CIFAR-100 and
+          TinyImageNet for all four on/off combinations. Removing pseudo-concepts causes
+          weights for previous classes to collapse toward zero, which wipes their accuracy
+          and dominates the aggregate metric. Turning on concept regularization alone does
+          not fix that collapse: regularization preserves bottleneck semantics but does not
+          stop the classifier from ignoring old classes. Pseudo-concepts restore separation
+          between old and new phases; adding regularization on top yields the best numbers,
+          matching the full CI-CBM model used elsewhere in the paper.
+        </p>
+        <figure class="table-shot">
+          <img
+            src="figures/Table5.png"
+            loading="lazy"
+            alt="Table 5: component ablation — concept regularization and pseudo-concept generation on CIFAR-100 and TinyImageNet."
+          />
+        </figure>
       </section>
-      <section id="appendix-experiments">
+
+      <section id="sec-concept-gen">
         <hr />
-        <h2>Appendix: additional ablations (summary)</h2>
+        <div class="sec-tag">Appendix · Experiment X · Table A.4</div>
+        <h2>Alternative concept generation methods</h2>
         <p>
-          The appendix analyzes concept generation, predictor design, robustness,
-          distillation, VLM choice for concept activations, and qualitative
-          behavior. Experiment indices follow the paper.
+          CI-CBM builds each phase’s concept vocabulary from language: we compare using
+          <strong>GPT-3</strong> prompts (default) against harvesting concepts from
+          <strong>ConceptNet</strong>, a lexical knowledge graph rather than an LM.
+          ConceptNet is cheaper and works reasonably on CIFAR-100 and TinyImageNet but lags
+          GPT-3 by about two accuracy points. On <strong>CUB</strong>, ConceptNet-derived
+          concepts fail almost entirely, whereas GPT-3 produces attributes that track
+          fine-grained bird parts. This supports using a language model when concepts must
+          capture subtle visual semantics.
         </p>
-        <ul class="appendix-list">
+        <figure class="table-shot">
+          <img
+            src="figures/TableA4.png"
+            loading="lazy"
+            alt="Table A.4: ConceptNet vs GPT-3 concept generation."
+          />
+        </figure>
+      </section>
+
+      <section id="sec-sparsity">
+        <hr />
+        <div class="sec-tag">Appendix · Experiment XI · Table A.5 · Figure A.1</div>
+        <h2>Impact of sparsity on model performance</h2>
+        <p>
+          Following sparse linear bottleneck ideas (e.g., SAGA-style sparse predictors),
+          CI-CBM encourages each class to activate only a small subset of concepts. Setting
+          the sparsity coefficient <em>&lambda;</em> to zero yields a <strong>dense</strong>
+          final layer. As <strong>Table A.5</strong> shows, dense training is slightly weaker
+          than the sparse default on both benchmarks: a dense layer can overweight many
+          pseudo-concept dimensions at once, whereas sparsity forces each class to commit to
+          a compact concept signature and improves robustness across phases. Reported
+          sparsity percentages confirm only a few percent of weights are active per configuration.
+        </p>
+        <figure class="table-shot">
+          <img
+            src="figures/TableA5.png"
+            loading="lazy"
+            alt="Table A.5: dense vs sparse predictor."
+          />
+        </figure>
+        <p class="fig-label">Figure A.1 — Interpretability without sparsity</p>
+        <p>
+          Beyond accuracy, we repeat the Sturgeon concept-attribution visualization from the
+          main paper while training the predictor <strong>without</strong> sparsity. The
+          model still classifies correctly, but contributions spread across many concepts:
+          no small set dominates, so explanations become long-winded and harder to audit.
+        </p>
+        <figure class="table-shot">
+          <img
+            src="figures/appendix_FigureA1_dense_reasoning.png"
+            loading="lazy"
+            alt="Figure A.1: concept contributions for Sturgeon with dense (non-sparse) predictor."
+          />
+        </figure>
+      </section>
+
+      <section id="sec-concept-size">
+        <hr />
+        <div class="sec-tag">Appendix · Experiment XII · Table A.6 · Figures A.2–A.3</div>
+        <h2>Effect of concept set size on performance</h2>
+        <p>
+          Real supervision may omit concepts. We randomly mask fractions of the vocabulary
+          during training and record average incremental accuracy at 100%, 75%, 50%, and 25%
+          concept availability (<strong>Table A.6</strong>). Accuracy drops slowly—under 3.5
+          points on CIFAR-100 and about two points on TinyImageNet even at 25%—showing that
+          CI-CBM tolerates incomplete concept lists.
+        </p>
+        <figure class="table-shot">
+          <img
+            src="figures/TableA6.png"
+            loading="lazy"
+            alt="Table A.6: accuracy vs fraction of concepts available."
+          />
+        </figure>
+        <p>
+          Qualitatively, we revisit Tree Swallow weights on CUB and Sturgeon attributions on
+          ImageNet-Subset under <strong>50% masking</strong>. When iconic attributes disappear
+          from the pool, the network substitutes visually related concepts yet preserves coherent
+          positive/negative structure across phases (Figures A.2–A.3).
+        </p>
+        <div class="two-fig">
+          <div>
+            <p class="fig-label">Figure A.2 — Tree Swallow weights with 50% concepts</p>
+            <figure class="table-shot" style="margin:0;">
+              <img
+                src="figures/appendix_FigureA2_TreeSwallow_masked.png"
+                loading="lazy"
+                alt="Figure A.2: Tree Swallow final-layer weights with half of concepts masked."
+              />
+            </figure>
+          </div>
+          <div>
+            <p class="fig-label">Figure A.3 — Sturgeon reasoning with 50% concepts</p>
+            <figure class="table-shot" style="margin:0;">
+              <img
+                src="figures/appendix_FigureA3_Sturgeon_masked_reasoning.png"
+                loading="lazy"
+                alt="Figure A.3: concept contributions for Sturgeon under 50% concept masking."
+              />
+            </figure>
+          </div>
+        </div>
+        <p class="note">
+          If your checklist referred to “Figure A.1” for this subsection as well, note that
+          <strong>Figure A.1</strong> above belongs to the sparsity study; masking analyses are
+          Figures <strong>A.2</strong> and <strong>A.3</strong>, matching their order in the appendix PDF.
+        </p>
+      </section>
+
+      <section id="sec-noise">
+        <hr />
+        <div class="sec-tag">Appendix · Experiment XIII · Table A.7</div>
+        <h2>Robustness to noise in image–concept alignment</h2>
+        <p>
+          The supervision matrix <strong><em>P</em></strong> aligns images with text concepts via a
+          vision–language model; misalignment or estimator noise is unavoidable. We inject
+          Gaussian noise into <em>P</em> at several SNRs during training. <strong>Table A.7</strong>
+          shows accuracy barely moves between clean activations and strongly corrupted ones,
+          signalling that optimization does not hinge on perfectly crisp concept targets.
+        </p>
+        <figure class="table-shot">
+          <img
+            src="figures/TableA7.png"
+            loading="lazy"
+            alt="Table A.7: accuracy vs SNR noise in concept activations."
+          />
+        </figure>
+      </section>
+
+      <section id="sec-alt-predictor">
+        <hr />
+        <div class="sec-tag">Appendix · Experiment XIV · Table A.8</div>
+        <h2>Alternative approach for learning the prediction layer</h2>
+        <p>
+          CI-CBM learns a shared linear predictor with pseudo-features mimicking old-class
+          statistics in backbone space. We compare against two variants:
+          <strong>local class discrimination</strong>, which expands the predictor but freezes
+          weights for earlier classes (good when each phase introduces many classes, brittle when
+          <em>T</em> is large because phases overlap); and <strong>concept-space prototype
+          generation</strong>, which translates class centroids directly in concept coordinates.
+          Prototype translation fails once the bottleneck expands and drifts—old centroids no
+          longer live in the updated basis. Table A.8 shows both baselines decay sharply as
+          <em>T</em> grows, whereas CI-CBM stays near its default accuracy.
+        </p>
+        <figure class="table-shot">
+          <img
+            src="figures/TableA8.png"
+            loading="lazy"
+            alt="Table A.8: alternative strategies for learning the prediction layer."
+          />
+        </figure>
+      </section>
+
+      <section id="sec-unique-concepts">
+        <hr />
+        <div class="sec-tag">Appendix · Experiment XVI · Figure A.4</div>
+        <h2>Unique concept expansion</h2>
+        <p>
+          Each phase could append every GPT-generated string, but duplicates inflate the
+          bottleneck and fragment attributions across synonymous units. CI-CBM filters so only
+          genuinely new concepts enter the vocabulary. Compared with naïvely cumulative expansion,
+          unique expansion roughly halves the number of active concepts by the final phase for
+          <em>T</em> = 20, shrinking both matrices and making explanations shorter and more stable.
+        </p>
+        <p class="fig-label">Figure A.4 — Concepts per seen class (unique vs cumulative)</p>
+        <figure class="table-shot">
+          <img
+            src="figures/appendix_FigureA4_concept_vs_class.png"
+            loading="lazy"
+            alt="Figure A.4: concepts per number of seen classes for unique vs cumulative expansion."
+          />
+        </figure>
+      </section>
+
+      <section id="sec-distill-acc">
+        <hr />
+        <div class="sec-tag">Appendix · Experiment XVII · Table A.10</div>
+        <h2>Impact of distillation regularizer weight on accuracy</h2>
+        <p>
+          Distillation weight <strong>&beta;</strong> trades off fidelity to previous concept
+          activations versus fitting new data (same protocols as Experiments I–II depending on
+          dataset). Removing distillation (&beta; = 0) clearly hurts; large &beta; overdamps
+          adaptation. Performance peaks near <strong>&beta; = 1</strong>, which is why all main
+          experiments adopt that default (<strong>Table A.10</strong>).
+        </p>
+        <figure class="table-shot">
+          <img
+            src="figures/TableA10.png"
+            loading="lazy"
+            alt="Table A.10: accuracy vs distillation weight beta."
+          />
+        </figure>
+      </section>
+
+      <section id="sec-distill-fid">
+        <hr />
+        <div class="sec-tag">Appendix · Experiment XVIII · Table A.11</div>
+        <h2>Impact of the distillation regularizer on concept fidelity</h2>
+        <p>
+          Accuracy alone does not guarantee interpretable units. We therefore score how well each
+          bottleneck neuron tracks its assigned concept text after continual training.
+        </p>
+        <ul>
           <li>
-            <strong>Experiment X</strong> &mdash; ConceptNet vs. GPT-3 for
-            initial concept-set generation (Table: concept generator ablation).
+            <strong>CLIP cosine similarity.</strong> For every neuron we collect activations on the
+            test split and compare that vector to each concept’s column of the CLIP-derived matrix
+            <em>P</em>. We assign the best-matching concept and measure cosine similarity between the
+            neuron’s activation profile and that concept’s profile in CLIP text–embedding space.
+            Higher values mean the neuron fires like its semantic label predicts.
           </li>
           <li>
-            <strong>Experiment XI</strong> &mdash; Sparsity in the final linear
-            layer (dense vs. sparse SAGA-style training).
-          </li>
-          <li>
-            <strong>Experiment XII</strong> &mdash; Reduced concept availability
-            (random masking of the concept set during training).
-          </li>
-          <li>
-            <strong>Experiment XIII</strong> &mdash; Gaussian noise injected into
-            the concept-activation matrix at different SNRs.
-          </li>
-          <li>
-            <strong>Experiment XIV</strong> &mdash; Alternative strategies for
-            learning the prediction layer (e.g., concept-space prototype
-            variants).
-          </li>
-          <li>
-            <strong>Experiment XV</strong> &mdash; One-class-increment EFCIL
-            regime.
-          </li>
-          <li>
-            <strong>Experiment XVI</strong> &mdash; Unique-concept expansion:
-            number of concepts vs. number of seen classes.
-          </li>
-          <li>
-            <strong>Experiment XVII</strong> &mdash; Effect of distillation
-            weight <em>β</em> on incremental accuracy.
-          </li>
-          <li>
-            <strong>Experiment XVIII</strong> &mdash; Impact of the
-            distillation-based concept regularizer on concept fidelity (CLIP
-            cosine similarity and Top-5 concept accuracy across phases).
-          </li>
-          <li>
-            <strong>Experiment XIX</strong> &mdash; CLIP vs. SigLIP for building
-            the concept-activation matrix <em>P</em> (accuracy).
-          </li>
-          <li>
-            <strong>Experiment XX</strong> &mdash; Same VLM ablation with
-            concept-fidelity metrics.
+            <strong>Top-5 concept accuracy.</strong> Using the same ranking, we check whether the
+            ground-truth concept text appears among the five nearest concepts by cosine similarity.
+            This captures partial aliasing when synonyms appear in the vocabulary (concept counts
+            <em>M</em> are listed in the paper).
           </li>
         </ul>
-      </section>
-      <section id="appendix-figures">
-        <hr />
-        <h2>Appendix figures (PDFs)</h2>
         <p>
-          Cosine-similarity heatmaps and backbone comparisons supporting
-          pseudo-feature analysis and interpretability discussion in the
-          appendix.
+          Enabling distillation-based concept regularization consistently raises both metrics across
+          datasets and phase granularities (<strong>Table A.11</strong>), indicating that the
+          regularizer fights representation drift without sacrificing the semantics attached to each
+          bottleneck dimension.
+        </p>
+        <figure class="table-shot">
+          <img
+            src="figures/TableA11.png"
+            loading="lazy"
+            alt="Table A.11: concept fidelity with vs without concept regularization."
+          />
+        </figure>
+      </section>
+
+      <section id="sec-vlm">
+        <hr />
+        <div class="sec-tag">Appendix · Experiments XIX–XX · Tables A.12–A.13</div>
+        <h2>Impact of vision–language model (SigLIP vs CLIP)</h2>
+        <p>
+          Matrix <strong><em>P</em></strong> can be built with any aligned VLM. Keeping training
+          identical to Experiment I, we swap <strong>CLIP</strong> for <strong>SigLIP</strong>.
+          <strong>Table A.12</strong> shows SigLIP yields higher average incremental accuracy on
+          CIFAR-100, CUB, and TinyImageNet, suggesting sharper image–text alignment propagates into
+          better pseudo-supervision.
+        </p>
+        <figure class="table-shot">
+          <img
+            src="figures/TableA12.png"
+            loading="lazy"
+            alt="Table A.12: CLIP vs SigLIP for computing P — classification accuracy."
+          />
+        </figure>
+        <p>
+          <strong>Table A.13</strong> repeats the fidelity evaluation from the previous section:
+          SigLIP-tuned models achieve higher CLIP cosine similarity and top-5 concept accuracy,
+          so bottleneck units stay better anchored to language even after many incremental phases.
+        </p>
+        <figure class="table-shot">
+          <img
+            src="figures/TableA13.png"
+            loading="lazy"
+            alt="Table A.13: CLIP vs SigLIP — concept fidelity metrics."
+          />
+        </figure>
+      </section>
+
+      <section id="sec-pseudo-prototype">
+        <hr />
+        <div class="sec-tag">Appendix · Experiment XXI · Figure / heatmaps</div>
+        <h2>Pseudo-features track real feature geometry under a prototype classifier</h2>
+        <p>
+          Pseudo-features are meant to mimic true backbone embeddings of forgotten classes. To test
+          whether they behave like real data under a simple decision rule, we freeze features,
+          build cosine prototypes per class from training samples, and compare four phase-by-phase
+          matrices with entries (<em>i</em>, <em>j</em>): accuracy on classes introduced in phase
+          <em>j</em> after training through phase <em>i</em>. The panels are (1) real training
+          features under cosine prototypes, (2) pseudo-features under the same prototypes, (3) held-out
+          real validation features, and (4) test accuracy of the full CI-CBM model (not the prototype
+          classifier). We repeat for <strong>ImageNet-pretrained ResNet-18</strong> (top row,
+          <em>T</em> = 10 phases) and for a backbone trained only on first-phase data (bottom row,
+          <em>T</em> = 11 phases), with the fourth column contrasting ImageNet-pretrained vs FeTrIL-style
+          backbone heatmaps as in the manuscript.
+        </p>
+        <p>
+          Pseudo-feature matrices closely track their training and validation counterparts: nearest-centroid
+          confusion patterns stay aligned, which supports using pseudo samples as surrogates. Gaps still
+          appear for classes introduced late when the backbone never saw them during pretraining—those
+          limits show up for real embeddings too, so they reflect representation quality rather than a flaw
+          exclusive to pseudo-features. Overall CI-CBM improves end-to-end test accuracy beyond what raw
+          cosine prototypes achieve, especially when the backbone is weak.
         </p>
 
-        <h3>Concept vs. class structure</h3>
-        <figure>
-          <div class="pdf-frame">
-            <object data="figures/concept_vs_class.pdf" type="application/pdf">
-              <p>Unable to render PDF. <a href="figures/concept_vs_class.pdf">Open figure</a>.</p>
-            </object>
+        <p class="pseudo-row-heading">Row 1 — ImageNet-pretrained ResNet-18 (<em>T</em> = 10)</p>
+        <div class="pseudo-grid">
+          <div class="pseudo-cell">
+            <img src="figures/pseudo_grid_r1c1_n10_training.png" loading="lazy" alt="Training cosine prototype matrix T=10 pretrained" />
+            <div class="mini-cap">Training features<br />(cosine prototype)</div>
           </div>
-          <p class="caption">
-            <a href="figures/concept_vs_class.pdf">concept_vs_class.pdf</a>
-          </p>
-        </figure>
+          <div class="pseudo-cell">
+            <img src="figures/pseudo_grid_r1c2_n10_pseudo.png" loading="lazy" alt="Pseudo-feature cosine prototype matrix T=10" />
+            <div class="mini-cap">Pseudo-features<br />(cosine prototype)</div>
+          </div>
+          <div class="pseudo-cell">
+            <img src="figures/pseudo_grid_r1c3_n10_validation.png" loading="lazy" alt="Validation cosine prototype matrix T=10" />
+            <div class="mini-cap">Validation / test features<br />(cosine prototype)</div>
+          </div>
+          <div class="pseudo-cell">
+            <img src="figures/pseudo_grid_r1c4_pretrained_heatmap.png" loading="lazy" alt="CI-CBM test accuracy heatmap pretrained backbone T=10" />
+            <div class="mini-cap">CI-CBM<br />(test accuracy)</div>
+          </div>
+        </div>
+
+        <p class="pseudo-row-heading">Row 2 — ResNet-18 trained on first-phase data only (<em>T</em> = 11)</p>
+        <div class="pseudo-grid">
+          <div class="pseudo-cell">
+            <img src="figures/pseudo_grid_r2c1_n11_training.png" loading="lazy" alt="Training cosine prototype T=11 first-phase backbone" />
+            <div class="mini-cap">Training features<br />(cosine prototype)</div>
+          </div>
+          <div class="pseudo-cell">
+            <img src="figures/pseudo_grid_r2c2_n11_pseudo.png" loading="lazy" alt="Pseudo-features cosine prototype T=11" />
+            <div class="mini-cap">Pseudo-features<br />(cosine prototype)</div>
+          </div>
+          <div class="pseudo-cell">
+            <img src="figures/pseudo_grid_r2c3_n11_validation.png" loading="lazy" alt="Validation cosine prototype T=11" />
+            <div class="mini-cap">Validation / test features<br />(cosine prototype)</div>
+          </div>
+          <div class="pseudo-cell">
+            <img src="figures/pseudo_grid_r2c4_fetril_heatmap.png" loading="lazy" alt="CI-CBM test accuracy FeTrIL-style backbone T=11" />
+            <div class="mini-cap">CI-CBM<br />(test accuracy)</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="appendix-figures">
+        <hr />
+        <h2>Other appendix figures (PDF)</h2>
+        <p>
+          Additional PDFs in <code>figures/</code> that are not inlined above (distribution plots,
+          boundary sketches, extra qualitative panels).
+        </p>
 
         <h3>Class distribution</h3>
         <figure>
@@ -347,87 +688,7 @@
           </p>
         </figure>
 
-        <h3>CIFAR-100 backbone heatmaps (ImageNet-pretrained vs. FeTrIL)</h3>
-        <figure>
-          <div class="pdf-frame">
-            <object data="figures/cifar100_pretrained_imagenet_backbone_heatmap.pdf" type="application/pdf">
-              <p>Unable to render PDF. <a href="figures/cifar100_pretrained_imagenet_backbone_heatmap.pdf">Open figure</a>.</p>
-            </object>
-          </div>
-          <p class="caption">
-            <a href="figures/cifar100_pretrained_imagenet_backbone_heatmap.pdf">cifar100_pretrained_imagenet_backbone_heatmap.pdf</a>
-          </p>
-        </figure>
-        <figure>
-          <div class="pdf-frame">
-            <object data="figures/cifar100_Fetril_backbone_heatmap.pdf" type="application/pdf">
-              <p>Unable to render PDF. <a href="figures/cifar100_Fetril_backbone_heatmap.pdf">Open figure</a>.</p>
-            </object>
-          </div>
-          <p class="caption">
-            <a href="figures/cifar100_Fetril_backbone_heatmap.pdf">cifar100_Fetril_backbone_heatmap.pdf</a>
-          </p>
-        </figure>
-
-        <h3>
-          Pseudo-feature cosine heatmaps (CIFAR-100, <em>n</em> experiences =
-          10)
-        </h3>
-        <figure>
-          <div class="pdf-frame">
-            <object data="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp10_training_cosine_heatmap.pdf" type="application/pdf">
-              <p>Unable to render PDF. <a href="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp10_training_cosine_heatmap.pdf">Open figure</a>.</p>
-            </object>
-          </div>
-          <p class="caption">Training features, <em>T</em> = 10 phases.</p>
-        </figure>
-        <figure>
-          <div class="pdf-frame">
-            <object data="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp10_pseudo_cosine_heatmap.pdf" type="application/pdf">
-              <p>Unable to render PDF. <a href="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp10_pseudo_cosine_heatmap.pdf">Open figure</a>.</p>
-            </object>
-          </div>
-          <p class="caption">Pseudo-features, <em>T</em> = 10.</p>
-        </figure>
-        <figure>
-          <div class="pdf-frame">
-            <object data="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp10_validation_cosine_heatmap.pdf" type="application/pdf">
-              <p>Unable to render PDF. <a href="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp10_validation_cosine_heatmap.pdf">Open figure</a>.</p>
-            </object>
-          </div>
-          <p class="caption">Validation features, <em>T</em> = 10.</p>
-        </figure>
-
-        <h3>
-          Pseudo-feature cosine heatmaps (CIFAR-100, <em>n</em> experiences =
-          11)
-        </h3>
-        <figure>
-          <div class="pdf-frame">
-            <object data="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp11_training_cosine_heatmap.pdf" type="application/pdf">
-              <p>Unable to render PDF. <a href="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp11_training_cosine_heatmap.pdf">Open figure</a>.</p>
-            </object>
-          </div>
-          <p class="caption">Training features, <em>T</em> = 11.</p>
-        </figure>
-        <figure>
-          <div class="pdf-frame">
-            <object data="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp11_pseudo_cosine_heatmap.pdf" type="application/pdf">
-              <p>Unable to render PDF. <a href="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp11_pseudo_cosine_heatmap.pdf">Open figure</a>.</p>
-            </object>
-          </div>
-          <p class="caption">Pseudo-features, <em>T</em> = 11.</p>
-        </figure>
-        <figure>
-          <div class="pdf-frame">
-            <object data="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp11_validation_cosine_heatmap.pdf" type="application/pdf">
-              <p>Unable to render PDF. <a href="figures/pseudo_feature_analysis_cifar100_backbone_prototype_seed1993_nexp11_validation_cosine_heatmap.pdf">Open figure</a>.</p>
-            </object>
-          </div>
-          <p class="caption">Validation features, <em>T</em> = 11.</p>
-        </figure>
-
-        <h3>Additional qualitative figures</h3>
+        <h3>Additional qualitative figure</h3>
         <figure>
           <div class="pdf-frame">
             <object data="figures/explain_reasoning_figure4.pdf" type="application/pdf">
@@ -436,16 +697,6 @@
           </div>
           <p class="caption">
             <a href="figures/explain_reasoning_figure4.pdf">explain_reasoning_figure4.pdf</a>
-          </p>
-        </figure>
-        <figure>
-          <div class="pdf-frame">
-            <object data="figures/explain_reasoning_n02640242_dense.pdf" type="application/pdf">
-              <p>Unable to render PDF. <a href="figures/explain_reasoning_n02640242_dense.pdf">Open figure</a>.</p>
-            </object>
-          </div>
-          <p class="caption">
-            <a href="figures/explain_reasoning_n02640242_dense.pdf">explain_reasoning_n02640242_dense.pdf</a>
           </p>
         </figure>
       </section>
