@@ -526,9 +526,9 @@ pre {
                 CI-CBM builds on label-free concept bottleneck models and adapts them to <b>exemplar-free class-incremental learning</b>: new classes arrive over time, old training data is not stored, and predictions stay grounded in human-readable concepts.
             </p>
             <center>
-                <img class="card-img-top img-fluid" src="figures/CI-CBM-pipeline-page10.png" alt="CI-CBM pipeline overview (page 10 of paper PDF)" style="width:900px;max-width:100%;height:auto;border:1px solid #ddd;">
+                <img class="card-img-top img-fluid" src="figures/CI-CBM-pipeline-page10.png" alt="CI-CBM pipeline overview" style="width:900px;max-width:100%;height:auto;border:1px solid #ddd;">
             </center>
-            <p class="caption"><b>Figure 1.</b> CI-CBM pipeline overview (exported from page 10 of the paper PDF). <a href="figures/CI-CBM-pipeline.pdf">Full PDF</a>.</p>
+            <p class="caption"><b>Figure 1.</b> CI-CBM pipeline overview.</p>
             <p>
                 <ul>
                     <li><b>Initialize concepts.</b> Generate an initial set of human-readable concepts for the first group of classes using language-model prompts.</li>
@@ -561,31 +561,34 @@ pre {
         <center><img class="card-img-top img-fluid" src="figures/Table2.png" alt="Table 2: non-pretrained non-interpretable comparison" style="width:900px;max-width:100%;height:auto;border:1px solid #ddd;"></center>
         <p class="caption"><b>Table 2.</b> Comparison to exemplar-free methods without an interpretability constraint (ResNet, non-pretrained setting).</p>
         <center><img class="card-img-top img-fluid" src="figures/Table3.png" alt="Table 3: non-pretrained methods continued" style="width:900px;max-width:100%;height:auto;border:1px solid #ddd;"></center>
-        <p class="caption"><b>Table 3.</b> Comparison to prompt-based EFCIL methods with a DeiT backbone trained from first-phase data (non-pretrained setting; see paper).</p>
+        <p class="caption"><b>Table 3.</b> Comparison to prompt-based EFCIL methods with a DeiT backbone trained from first-phase data (non-pretrained setting).</p>
         <center>
             <img class="img-fluid" src="figures/continual_learning_strategies_comparison-p1.png" alt="Average accuracy over incremental phases" style="max-width:100%;width:auto;height:auto;display:block;margin:0 auto;border:1px solid #ddd;">
         </center>
-        <p class="caption"><b>Figure 2.</b> Average accuracy over incremental phases vs. unrestricted ResNet-based methods (exported from PDF at native aspect ratio). <a href="figures/continual_learning_strategies_comparison.pdf">PDF</a>.</p>
+        <p class="caption"><b>Figure 2.</b> Average accuracy over incremental phases vs. unrestricted ResNet-based methods.</p>
 
         <h3>3. Comparison to pretrained ViT-based methods</h3>
         <ul>
-            <li>Using a ViT-Base/16 backbone pretrained on ImageNet-21k, CI-CBM achieves competitive accuracy relative to state-of-the-art prompt-based continual learning methods while retaining a concept bottleneck; see Table 4 for the head-to-head comparison including the interpretable baseline CLG-CBM.</li>
+            <li>Using a ViT-Base/16 backbone pretrained on ImageNet-21k, CI-CBM achieves competitive accuracy relative to state-of-the-art prompt-based continual learning methods while retaining a concept bottleneck.</li>
         </ul>
         <center><img class="card-img-top img-fluid" src="figures/Table4.png" alt="Table 4: pretrained ViT comparison" style="width:900px;max-width:100%;height:auto;border:1px solid #ddd;"></center>
         <p class="caption"><b>Table 4.</b> Pretrained ViT-based exemplar-free continual learning (average incremental accuracy).</p>
 
         <h3>4. Interpretability and insights on model reasoning</h3>
-        <ul>
-            <li>CI-CBM exposes global concept-to-class structure (positive/negative concept weights across phases) and local per-input concept contributions, illustrating how reasoning stays tied to human-understandable concepts as new classes are added.</li>
-        </ul>
+        <p>
+            CI-CBM is interpretable at two levels. <b>Global interpretability</b> comes from the sparse final layer: each class is described as a weighted combination of human-readable concepts from the bottleneck. You can read off which concepts vote for or against a class, how strong those ties are, and how that structure evolves as new classes and new concepts are added over incremental phases. Concepts with negative weights act as “not this concept” evidence, and the thickness of links reflects the magnitude of each weight, so the model’s high-level decision rules stay inspectable rather than hidden in a black box.
+        </p>
+        <p>
+            <b>Local interpretability</b> explains individual predictions. For a given image, the model forms a concept activation vector; multiplying those activations by the class-specific weights shows how much each concept pushed the classifier toward or away from each label. That yields a per-input attribution: which concepts were most responsible for the predicted class on this example, and how those contributions change when more classes enter the stream and the classifier is updated. Together, global and local views answer both “what rules does the model use for this class?” and “why did it classify this particular image this way?”
+        </p>
         <center>
             <img class="img-fluid" src="figures/TreeSwallow_weight_vis-p1.png" alt="Tree Swallow concept-weight visualization" style="max-width:100%;width:auto;height:auto;display:block;margin:0 auto;border:1px solid #ddd;">
         </center>
-        <p class="caption"><b>Figure 3.</b> Global concept-weight visualization (CUB, Tree Swallow; first page only). <a href="figures/TreeSwallow_weight_vis.pdf">Full multi-page PDF</a>.</p>
+        <p class="caption"><b>Figure 3.</b> Global view of concept-to-class weights for Tree Swallow on CUB: which interpretable concepts support or oppose the class, and how that structure appears under a multi-phase class-incremental setup.</p>
         <center>
             <img class="img-fluid" src="figures/explain_reasoning_figure2-p1.png" alt="Local concept contributions for one prediction" style="max-width:100%;width:auto;height:auto;display:block;margin:0 auto;border:1px solid #ddd;">
         </center>
-        <p class="caption"><b>Figure 4.</b> Local concept contributions for a single prediction across phases (ImageNet-Subset example; exported from PDF). <a href="figures/explain_reasoning_figure2.pdf">PDF</a>.</p>
+        <p class="caption"><b>Figure 4.</b> Local view of concept-level contributions for one image across incremental phases on ImageNet-Subset: how salient concepts for the prediction shift as more classes are learned.</p>
 
     </section>
 
