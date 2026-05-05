@@ -485,14 +485,10 @@ pre {
                     <span class="material-icons" style="margin-right: 6px;"> code </span>
                     Code
                 </a>
-                <!-- <a class="example-btn" href="./examples.html">
-                    <span class="material-icons"> dashboard </span> 
-                    Neuron Examples
+                <a class="paper-btn" href="ablation.html" style="width:auto;min-width:120px;padding-left:10px;padding-right:10px;">
+                    <span class="material-icons" style="margin-right: 6px;"> science </span>
+                    Ablations
                 </a>
-                <a class="example-btn" href="./ablations.html">
-                    <span class="material-icons"> dashboard </span> 
-                    Ablation Studies
-                </a> -->
             </div>
         </div>
     </div>
@@ -578,13 +574,13 @@ pre {
         <p>
             CI-CBM is interpretable at two levels. <b>Global interpretability</b> comes from the sparse final layer: each class is described as a weighted combination of human-readable concepts from the bottleneck. You can read off which concepts vote for or against a class, how strong those ties are, and how that structure evolves as new classes and new concepts are added over incremental phases. Concepts with negative weights act as “not this concept” evidence, and the thickness of links reflects the magnitude of each weight, so the model’s high-level decision rules stay inspectable rather than hidden in a black box.
         </p>
-        <p>
-            <b>Local interpretability</b> explains individual predictions. For a given image, the model forms a concept activation vector; multiplying those activations by the class-specific weights shows how much each concept pushed the classifier toward or away from each label. That yields a per-input attribution: which concepts were most responsible for the predicted class on this example, and how those contributions change when more classes enter the stream and the classifier is updated. Together, global and local views answer both “what rules does the model use for this class?” and “why did it classify this particular image this way?”
-        </p>
         <center>
             <img class="img-fluid" src="figures/TreeSwallow_weight_vis-p1.png" alt="Tree Swallow concept-weight visualization" style="max-width:100%;width:auto;height:auto;display:block;margin:0 auto;border:1px solid #ddd;">
         </center>
         <p class="caption"><b>Figure 3.</b> Global view of concept-to-class weights for Tree Swallow on CUB: which interpretable concepts support or oppose the class, and how that structure appears under a multi-phase class-incremental setup.</p>
+        <p>
+          <b>Local interpretability</b> explains individual predictions. For a given image, the model forms a concept activation vector; multiplying those activations by the class-specific weights shows how much each concept pushed the classifier toward or away from each label. That yields a per-input attribution: which concepts were most responsible for the predicted class on this example, and how those contributions change when more classes enter the stream and the classifier is updated. Together, global and local views answer both “what rules does the model use for this class?” and “why did it classify this particular image this way?”
+      </p>
         <center>
             <img class="img-fluid" src="figures/explain_reasoning_figure2-p1.png" alt="Local concept contributions for one prediction" style="max-width:100%;width:auto;height:auto;display:block;margin:0 auto;border:1px solid #ddd;">
         </center>
@@ -596,32 +592,15 @@ pre {
         <hr>
         <h2>Conclusion</h2>
         <ul>
-            <li>
-                CI-CBM provides an effective, interpretable approach for exemplar-free class-incremental learning.
-            </li>
-            <li>
-                It substantially improves over prior interpretable CIL methods while preserving transparent concept-based reasoning.
-            </li>
-            <li>
-                Results across seven datasets show that interpretability and strong incremental performance can coexist.
-            </li>
+            <li>CI-CBM shows that continual learning can be both accurate and interpretable.</li>
+            <li>The model learns new classes over time without storing old training samples, making it suitable for memory-limited and privacy-sensitive settings.</li>
+            <li>By preserving concept meanings across learning phases, CI-CBM reduces catastrophic forgetting.</li>
+            <li>Pseudo-concept generation helps the model remember old classes while adapting to new ones.</li>
+            <li>CI-CBM significantly outperforms prior interpretable continual learning methods, with an average accuracy gain of 36%.</li>
+            <li>The model provides clear local and global explanations, showing which human-understandable concepts drive each prediction.</li>
+            <li>CI-CBM performs strongly in both pretrained and non-pretrained settings, making it practical across different deployment scenarios.</li>
+            <li>Overall, CI-CBM bridges the gap between explainability and performance in class-incremental learning.</li>
         </ul>
-    </section>
-
-    <section id="related_works">
-        <hr>
-        <h2>Related Works</h2>
-            <div class="flex-row">
-                <left>
-                    [1] P. W. Koh et al., <a href = "https://proceedings.mlr.press/v119/koh20a.html">Concept Bottleneck Models</a>, ICML 2020<br>
-                    [2] T. Oikarinen et al., <a href = "https://arxiv.org/abs/2304.06129">Label-Free Concept Bottleneck Models</a>, ICLR 2023<br>
-                    [3] M. van de Ven et al., <a href = "https://www.sciencedirect.com/science/article/pii/S2666651021000050">Three Types of Incremental Learning</a>, Nature Machine Intelligence 2022<br>
-                    [4] A. Rymarczyk et al., <a href = "https://openreview.net/forum?id=qI7f72A7Uy">ICICLE</a>, ICML 2024<br>
-                    [5] X. Yang et al., <a href = "https://arxiv.org/abs/2404.12925">IN2: Concept-driven Interpretable Continual Learning</a>, arXiv 2024<br>
-                    [6] G. Lai et al., <a href = "https://arxiv.org/abs/2503.10554">CONCIL</a>, arXiv 2025<br>
-                    [7] C. Yu et al., <a href = "https://arxiv.org/abs/2504.14726">CLG-CBM</a>, arXiv 2025<br>
-                </left>
-            </div>
     </section>
 
 
