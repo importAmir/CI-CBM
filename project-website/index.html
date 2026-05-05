@@ -1,175 +1,643 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>
-      CI-CBM: Class-Incremental Concept Bottleneck Model for Interpretable
-      Continual Learning
-    </title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Icons"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="container">
-      <div class="paper-title">
-        <h1>
-          CI-CBM: Class-Incremental Concept Bottleneck Model for Interpretable
-          Continual Learning
-        </h1>
-      </div>
-      <div id="authors">
-        <center>
-          <div class="author-row-new">
-            <a href="https://importamir.github.io">Amirhosein Javadi</a>,
-            <a href="https://tuomaso.github.io">Tuomas Oikarinen</a>,
-            <a href="https://tjavidi.eng.ucsd.edu">Tara Javidi</a>,
-            <a href="https://lilywenglab.github.io">Tsui-Wei (Lily) Weng</a>
-          </div>
-        </center>
-        <center>
-          <div class="affiliations">UC San Diego</div>
-          <div class="venue"><b>TMLR 2026</b></div>
-        </center>
-        <div style="clear: both">
-          <div class="paper-btn-parent">
-            <a class="paper-btn" href="https://arxiv.org/abs/2604.14519">
-              <span class="material-icons">article</span>
-              Paper
-            </a>
-            <a class="paper-btn" href="https://github.com/importAmir/CI-CBM">
-              <span class="material-icons">code</span>
-              Code
-            </a>
-            <a class="paper-btn" href="ablation.html">
-              <span class="material-icons">dashboard</span>
-              Ablations
-            </a>
-          </div>
-        </div>
-      </div>
-      <section id="abstract">
-        <hr />
-        <h2>Abstract</h2>
-        <p>
-          Catastrophic forgetting remains a fundamental challenge in continual
-          learning, in which models often forget previous knowledge when
-          fine-tuned on a new task. This issue is especially pronounced in class
-          incremental learning (CIL), which is the most challenging setting in
-          continual learning. Existing methods to address catastrophic forgetting
-          often sacrifice either model interpretability or accuracy. To address
-          this challenge, we introduce Class-Incremental Concept Bottleneck
-          Model (<strong>CI-CBM</strong>), which leverages effective techniques,
-          including concept regularization and pseudo-concept generation to
-          maintain interpretable decision processes throughout incremental
-          learning phases. Through extensive evaluation on seven datasets,
-          <strong>CI-CBM</strong> achieves comparable performance to black-box
-          models and outperforms previous interpretable approaches in CIL, with
-          an average 36% accuracy gain. <strong>CI-CBM</strong> provides
-          interpretable decisions on individual inputs and understandable global
-          decision rules, as shown in our experiments, thereby demonstrating that
-          human-understandable concepts can be maintained during incremental
-          learning without compromising model performance. Our approach is
-          effective in both pretrained and non-pretrained scenarios; in the latter,
-          the backbone is trained from scratch during the first learning phase.
-        </p>
-      </section>
-      <section id="pipeline">
-        <hr />
-        <h2>Method overview</h2>
-        <p>
-          CI-CBM combines concept regularization with pseudo-concept generation so
-          the concept bottleneck stays aligned with human-understandable concepts
-          while new classes are added over time.
-        </p>
-        <figure>
-          <div class="pdf-frame">
-            <object data="figures/CI-CBM-pipeline.pdf" type="application/pdf">
-              <p>Unable to render PDF. <a href="figures/CI-CBM-pipeline.pdf">Open figure</a>.</p>
-            </object>
-          </div>
-          <p class="caption">
-            CI-CBM pipeline. If the PDF does not render in your browser,
-            <a href="figures/CI-CBM-pipeline.pdf">open the figure</a>.
-          </p>
-        </figure>
-      </section>
-      <section id="strategies">
-        <hr />
-        <h2>Continual learning strategies</h2>
-        <figure>
-          <div class="pdf-frame">
-            <object data="figures/continual_learning_strategies_comparison.pdf" type="application/pdf">
-              <p>Unable to render PDF. <a href="figures/continual_learning_strategies_comparison.pdf">Open figure</a>.</p>
-            </object>
-          </div>
-          <p class="caption">
-            Comparison of continual learning strategies.
-            <a href="figures/continual_learning_strategies_comparison.pdf">Direct link</a>.
-          </p>
-        </figure>
-      </section>
-      <section id="reasoning">
-        <hr />
-        <h2>Interpretable reasoning</h2>
-        <figure>
-          <div class="pdf-frame">
-            <object data="figures/explain_reasoning_figure2.pdf" type="application/pdf">
-              <p>Unable to render PDF. <a href="figures/explain_reasoning_figure2.pdf">Open figure</a>.</p>
-            </object>
-          </div>
-          <p class="caption">
-            Visualization of model reasoning and concept contributions (example
-            from the paper).
-            <a href="figures/explain_reasoning_figure2.pdf">Direct link</a>.
-          </p>
-        </figure>
-      </section>
-      <section id="weights">
-        <hr />
-        <h2>Concept weights</h2>
-        <figure>
-          <div class="pdf-frame">
-            <object data="figures/TreeSwallow_weight_vis.pdf" type="application/pdf">
-              <p>Unable to render PDF. <a href="figures/TreeSwallow_weight_vis.pdf">Open figure</a>.</p>
-            </object>
-          </div>
-          <p class="caption">
-            Example concept-weight structure (Tree Swallow; multi-page PDF).
-            <a href="figures/TreeSwallow_weight_vis.pdf">Direct link</a>.
-          </p>
-        </figure>
-      </section>
-      <section id="cite">
-        <hr />
-        <h2>Cite</h2>
-        <p>
-          If you use this work, please cite the TMLR paper. An
-          <a href="https://arxiv.org/abs/2604.14519">arXiv version</a> is also
-          available.
-        </p>
-        <pre><code>@article{javadi2026ci,
-  title={CI-CBM: Class-Incremental Concept Bottleneck Model for Interpretable Continual Learning},
-  author={Javadi, Amirhosein and Oikarinen, Tuomas and Javidi, Tara and Weng, Tsui-Wei},
-  journal={Transactions on Machine Learning Research},
-  year={2026}
-}</code></pre>
-      </section>
-      <section class="site-note">
-        <hr />
-        Webpage template adapted from
-        <a href="https://nv-tlabs.github.io/LION/">LION</a> (NVLabs), consistent
-        with the
-        <a href="https://github.com/Trustworthy-ML-Lab/posthoc-generative-cbm"
-          >posthoc-generative-cbm template style</a
-        >
-        and in line
-        with other projects in the
-        <a href="https://lilywenglab.github.io/">Trustworthy ML Lab</a>.
-      </section>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<script src="bootstrap.js"></script>
+<script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<style type="text/css">
+body {
+    font-family: Arial, Helvetica;
+    font-weight: 300;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    font-weight: 300;
+    line-height: 1.15em;
+}
+
+svg {
+  shape-rendering: geometricPrecision;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (min-width: 980px){
+    body {
+        width: 980px;
+    }
+}
+
+h1 {
+    font-weight:300;
+    line-height: 1.15em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+a:link,a:visited {
+    color: #5364cc;
+    text-decoration: none;
+}
+a:hover {
+    color: #208799;
+}
+h1 {
+    text-align: center;
+}
+h2,h3 {
+    text-align: left;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+h2 {
+    font-weight: 400;
+    margin: 16px 0px 4px 0px;
+}
+h3 {
+    font-weight: 600;
+    margin: 16px 0px 4px 0px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.paper-title {
+    padding: 1px 0px 1px 0px;
+    /* font-family: 'Titillium Web'; */
+    font-family: 'Arial'
+}
+section {
+    margin: 32px 0px 32px 0px;
+    text-align: justify;
+    clear: both;
+}
+.col-5 {
+     width: 20%;
+     float: left;
+}
+.col-4 {
+     width: 25%;
+     float: left;
+}
+.col-3 {
+     width: 33%;
+     float: left;
+}
+.col-2 {
+     width: 50%;
+     float: left;
+}
+.col-1 {
+     width: 100%;
+     float: left;
+}
+
+.author-row, .affil-row {
+    font-size: 26px;
+}
+
+.author-row-new { 
+    text-align: center; 
+}
+
+.author-row-new a {
+    display: inline-block;
+    font-size: 20px;
+    padding: 4px;
+}
+
+.author-row-new sup {
+    color: #313436;
+    font-size: 12px;
+}
+
+.affiliations-new {
+    font-size: 18px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.row {
+    margin: 16px 0px 16px 0px;
+}
+.authors {
+    font-size: 26px;
+}
+.affiliatons {
+    font-size: 18px;
+}
+.affil-row {
+    margin-top: 18px;
+}
+.teaser {
+    max-width: 100%;
+}
+.text-center {
+    text-align: center;  
+}
+.screenshot {
+    width: 256px;
+    border: 1px solid #ddd;
+}
+.screenshot-el {
+    margin-bottom: 16px;
+}
+hr {
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid #ddd;
+    margin: 0;
+}
+.material-icons {
+    vertical-align: -6px;
+}
+p {
+    line-height: 1.25em;
+}
+.caption {
+    font-size: 14px;
+    color: #565656;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 175px;
+    margin-right: 175px;
+    text-align: center;
+}
+
+
+video {
+    display: block;
+    margin: auto;
+}
+
+
+figure {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#bibtex pre {
+    font-size: 14px;
+    background-color: #eee;
+    padding: 16px;
+}
+.blue {
+    color: #2c82c9;
+    font-weight: bold;
+}
+.orange {
+    color: #d35400;
+    font-weight: bold;
+}
+.flex-row {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.paper-btn-coming-soon {
+    position: relative; 
+    top: 0;
+    left: 0;
+}
+
+.coming-soon {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}
+
+.paper-btn {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+
+  display: inline-flex;
+  margin: 8px;
+  padding: 8px 8px;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  
+  background-color: #5364cc;
+  color: white !important;
+  font-size: 20px;
+  width: 100px;
+  font-weight: 600;
+}
+.paper-btn-parent {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paper-btn:hover {
+    opacity: 0.85;
+}
+
+.example-btn {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+
+    display: inline-flex;
+    margin: 8px;
+    padding: 8px 8px;
+
+    border-width: 0;
+    outline: none;
+    border-radius: 2px;
+
+    /* background-color: #4cd468; */
+    background-color: #5364cc;
+    color: white !important;
+    font-size: 20px;
+    width: 220px;
+    font-weight: 600;
+}
+.example-btn-parent {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0px;
+}
+
+.example-btn:hover {
+    opacity: 0.85;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.venue {
+    font-size: 23px;
+}
+
+.topnav {
+    background-color: #EEEEEE;
+    overflow: hidden;
+}
+
+.topnav div {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+.topnav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topnav img {
+    padding: 2px 0px;
+    width: 100%;
+    margin: 0.2em 0px 0.3em 0px;
+    vertical-align: middle;
+}
+
+pre {
+    font-size: 0.9em;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 3px;
+    background-color: rgb(235, 235, 235);
+    overflow-x: auto;
+}
+
+.download-thumb {
+    display: flex;
+}
+
+@media only screen and (max-width: 620px) {
+    .download-thumb {
+        display: none;
+    }
+}
+
+.paper-stuff {
+    width: 50%;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 620px) {
+    .paper-stuff {
+        width: 100%;
+    }
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  text-align: center;
+  float: left;
+  width: 16.666%;
+  padding: 5px;
+}
+.column3 {
+  text-align: center;
+  float: left;
+  width: 33.333%;
+  padding: 5px;
+}
+.column4 {
+  text-align: center;
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.column5 {
+  text-align: center;
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+.border-right {
+    border-right: 1px solid black;
+}
+.border-bottom{
+    border-bottom: 1px solid black;
+}
+
+
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.figure-img {
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.spaced-list{
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+
+
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .column3 {
+    width: 100%;
+  }
+}
+
+</style>
+<link rel="stylesheet" href="bootstrap-grid.css">
+
+<script type="text/javascript" src="../js/hidebib.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic' rel='stylesheet' type='text/css'>
+    <head>
+        <title>CI-CBM: Class-Incremental Concept Bottleneck Model for Interpretable Continual Learning</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:description" content="CI-CBM: Class-Incremental Concept Bottleneck Model for Interpretable Continual Learning"/>
+        <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    </head>
+
+ <body>
+
+
+<div class="container">
+    <div class="paper-title">
+    <h1> 
+        CI-CBM: Class-Incremental Concept Bottleneck Model for Interpretable Continual Learning </h1>
     </div>
-  </body>
+
+    <!-- <div id="authors" style="font-family: 'Titillium Web';"> -->
+        <div id="authors" style="font-family: 'Arial';">
+            <center>
+            <div class="author-row-new">
+                <a href="https://importamir.github.io">Amirhosein Javadi</a>, <a href="https://tuomaso.github.io/">Tuomas Oikarinen</a>, <a href="https://tjavidi.eng.ucsd.edu">Tara Javidi</a>, <a href="https://lilywenglab.github.io/">Tsui-Wei (Lily) Weng</a>
+            </div>
+        </center>
+        <center>
+        <div class="affiliations">
+            <span> UC San Diego</span>
+        </div>
+
+        <div class="affil-row">
+            <div class="venue text-center"><b>TMLR 2026</b></div>
+        </div>
+
+        </center>
+
+        <div style="clear: both">
+            <div class="paper-btn-parent">
+                <a class="paper-btn" href="https://arxiv.org/abs/2604.14519">
+                    <span class="material-icons" style="margin-right: 6px;"> article </span> 
+                    Paper
+                </a>
+                <a class="paper-btn" href="https://github.com/importAmir/CI-CBM">
+                    <span class="material-icons" style="margin-right: 6px;"> code </span>
+                    Code
+                </a>
+                <!-- <a class="example-btn" href="./examples.html">
+                    <span class="material-icons"> dashboard </span> 
+                    Neuron Examples
+                </a>
+                <a class="example-btn" href="./ablations.html">
+                    <span class="material-icons"> dashboard </span> 
+                    Ablation Studies
+                </a> -->
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <section id="abstract">
+        <hr>
+        <h2>Abstract</h2>
+        <div class="mx-auto">
+            <p>
+              <ul>
+                <li>CI-CBM tackles one of continual learning’s hardest problems: learning new classes over time without forgetting old ones.</li>
+                <li>Unlike black-box continual learning models, CI-CBM keeps decisions interpretable by reasoning through human-understandable concepts.</li>
+                <li>The method does not need to store old training samples, making it more practical for privacy-sensitive and memory-limited settings.</li>
+                <li>CI-CBM introduces concept regularization and pseudo-concept generation to preserve old knowledge while adapting to new classes.</li>
+                <li>Across seven datasets, CI-CBM strongly outperforms prior interpretable continual learning methods, achieving an average accuracy gain of 36%.</li>
+                <li>The model approaches black-box performance while remaining explainable, showing that interpretability and strong accuracy can coexist.</li>
+                <li>CI-CBM provides both local and global explanations, helping users understand why a single prediction was made and how concepts influence each class.</li>
+                <li>The approach works in both pretrained and non-pretrained settings, making it flexible for real-world continual learning scenarios.</li>
+              </ul>
+            </p>
+        </div>
+    </section>
+
+    <section id="method">
+        <hr>
+        <h2>Method</h2>
+        <div class="mx-auto">
+            <p>
+                CI-CBM builds on label-free concept bottleneck models and adapts them to <b>exemplar-free class-incremental learning</b>: new classes arrive over time, old training data is not stored, and predictions stay grounded in human-readable concepts.
+            </p>
+            <center>
+                <img class="card-img-top img-fluid" src="figures/CI-CBM-pipeline-page10.png" alt="CI-CBM pipeline overview (page 10 of paper PDF)" style="width:900px;max-width:100%;height:auto;border:1px solid #ddd;">
+            </center>
+            <p class="caption"><b>Figure 1.</b> CI-CBM pipeline overview (exported from page 10 of the paper PDF). <a href="figures/CI-CBM-pipeline.pdf">Full PDF</a>.</p>
+            <p>
+                <ul>
+                    <li><b>Initialize concepts.</b> Generate an initial set of human-readable concepts for the first group of classes using language-model prompts.</li>
+                    <li><b>Learn the concept bottleneck.</b> Map image features into a concept space, where each dimension corresponds to an interpretable concept.</li>
+                    <li><b>Train a sparse classifier.</b> Learn a sparse final layer that connects important concepts to class predictions.</li>
+                    <li><b>Expand concepts for new classes.</b> When new classes arrive, generate and filter new concepts, then add only unique and useful concepts to the concept set.</li>
+                    <li><b>Prevent concept drift.</b> Use concept regularization so previously learned concepts keep their meaning while the model learns new ones.</li>
+                    <li><b>Generate pseudo-concepts for old classes.</b> Since old data is unavailable, create pseudo-features and pseudo-concepts using stored class centroids.</li>
+                    <li><b>Update the classifier.</b> Train the final sparse classifier using real concepts for new classes and pseudo-concepts for old classes.</li>
+                </ul>
+            </p>
+            <center><img class="card-img-top" src="figures/class_distribution_visualization.pdf" style="width:900px"></center>
+            <p class="caption"><b>Figure 2.</b> Pseudo-feature generation intuition in class-incremental learning.</p>
+        </div>
+    </section>
+
+    <section id="results">
+        <hr>
+        <h2>Experiments</h2>
+        <h3>1. Concept Prediction</h3>
+        <ul>
+            <li>CI-CBM consistently outperforms prior interpretable CIL methods across multiple datasets and phase splits.</li>
+        </ul>
+        <center><img class="card-img-top" src="figures/explain_reasoning_figure2.pdf" style="width:900px"></center>
+        <p class="caption"><b>Figure 3.</b> Example of local concept-based reasoning across phases.</p>
+
+        <h3>2. Steerability</h3>
+        <ul>
+            <li>Ablation confirms both concept regularization and pseudo-concepts are necessary for strong incremental performance.</li>
+            <li>Without pseudo-concepts, old-class decision weights collapse and accuracy drops sharply.</li>
+        </ul>
+        <center><img class="card-img-top" src="figures/cifar100_pretrained_imagenet_backbone_heatmap.pdf" style="width:900px"></center>
+        <p class="caption"><b>Figure 4.</b> CIFAR-100 concept-space analysis (ImageNet-pretrained backbone).</p>
+        <center><img class="card-img-top" src="figures/cifar100_Fetril_backbone_heatmap.pdf" style="width:900px"></center>
+        <p class="caption"><b>Figure 5.</b> CIFAR-100 concept-space analysis (non-pretrained/FeTrIL setting).</p>
+        <p>
+            <ul>
+                <li>Qualitative visualizations show stable and meaningful concept contributions over incremental phases.</li>
+                <li>Pseudo-feature analysis supports the reliability of pseudo-concepts in preserving past knowledge.</li>
+                <li>Performance remains competitive with unrestricted methods in both ResNet and ViT settings.</li>
+            </ul>
+            </p>
+        <center><img class="card-img-top" src="figures/TreeSwallow_weight_vis.pdf" style="width:900px"></center>
+        <p class="caption"><b>Figure 6.</b> Global concept-weight structure for Tree Swallow in CUB.</p>
+
+        <h3>3. Main Ablation</h3>
+        <ul>
+            <li>Combining concept regularization and pseudo-concepts yields the best average incremental accuracy.</li>
+            <li>This validates that preserving concept functionality and classifier adaptation are complementary.</li>
+        </ul>
+        <center><img class="card-img-top" src="figures/class_distribution_visualization.pdf" style="width:900px"></center>
+        <p class="caption"><b>Figure 7.</b> Distribution view illustrating why pseudo-feature transfer works.</p>
+
+    </section>
+
+    <section id="conclusion">
+        <hr>
+        <h2>Conclusion</h2>
+        <ul>
+            <li>
+                CI-CBM provides an effective, interpretable approach for exemplar-free class-incremental learning.
+            </li>
+            <li>
+                It substantially improves over prior interpretable CIL methods while preserving transparent concept-based reasoning.
+            </li>
+            <li>
+                Results across seven datasets show that interpretability and strong incremental performance can coexist.
+            </li>
+        </ul>
+    </section>
+
+    <section id="related_works">
+        <hr>
+        <h2>Related Works</h2>
+            <div class="flex-row">
+                <left>
+                    [1] P. W. Koh et al., <a href = "https://proceedings.mlr.press/v119/koh20a.html">Concept Bottleneck Models</a>, ICML 2020<br>
+                    [2] T. Oikarinen et al., <a href = "https://arxiv.org/abs/2304.06129">Label-Free Concept Bottleneck Models</a>, ICLR 2023<br>
+                    [3] M. van de Ven et al., <a href = "https://www.sciencedirect.com/science/article/pii/S2666651021000050">Three Types of Incremental Learning</a>, Nature Machine Intelligence 2022<br>
+                    [4] A. Rymarczyk et al., <a href = "https://openreview.net/forum?id=qI7f72A7Uy">ICICLE</a>, ICML 2024<br>
+                    [5] X. Yang et al., <a href = "https://arxiv.org/abs/2404.12925">IN2: Concept-driven Interpretable Continual Learning</a>, arXiv 2024<br>
+                    [6] G. Lai et al., <a href = "https://arxiv.org/abs/2503.10554">CONCIL</a>, arXiv 2025<br>
+                    [7] C. Yu et al., <a href = "https://arxiv.org/abs/2504.14726">CLG-CBM</a>, arXiv 2025<br>
+                </left>
+            </div>
+    </section>
+
+
+    <section class="maintext">
+            <hr>
+            <h2>Cite this work</h2>
+            A. Javadi, T. Oikarinen, T. Javidi, and T.-W. Weng, <a href="https://arxiv.org/abs/2604.14519">
+                <b>CI-CBM: Class-Incremental Concept Bottleneck Model for Interpretable Continual Learning</b></a>, TMLR 2026.
+<pre>
+<code>@article{javadi2026ci,
+    title={CI-CBM: Class-Incremental Concept Bottleneck Model for Interpretable Continual Learning},
+    author={Javadi, Amirhosein and Oikarinen, Tuomas and Javidi, Tara and Weng, Tsui-Wei},
+    journal={Transactions on Machine Learning Research},
+    year={2026},
+}</code>
+</pre>
+    </section>
+
+    
+    <section>
+        This webpage template was recycled from <u style="color:#5364cc"><a href='https://nv-tlabs.github.io/LION/'>here</a></u>.
+        <center><u style="color:#5364cc"><p><a href='https://accessibility.ucsd.edu/'><b>Accessibility</b></a></p></u></center>
+    </section>
+
+</div>
+</body>
 </html>
