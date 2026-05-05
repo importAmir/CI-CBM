@@ -20,6 +20,9 @@
       }
       a:link, a:visited { color: #5364cc; text-decoration: none; }
       a:hover { color: #208799; }
+      p {
+        line-height: 1.25em;
+      }
       h1 {
         text-align: center;
         font-size: 40px;
@@ -156,8 +159,17 @@
       .caption {
         font-size: 14px;
         color: #565656;
-        margin: 10px 80px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 175px;
+        margin-right: 175px;
         text-align: center;
+      }
+      @media screen and (max-width: 900px) {
+        .caption {
+          margin-left: 24px;
+          margin-right: 24px;
+        }
       }
       .site-note {
         margin-top: 32px;
@@ -169,13 +181,6 @@
         font-size: 1.02em;
         color: #222;
         margin-bottom: 1rem;
-      }
-      .sec-tag {
-        font-size: 0.88em;
-        font-weight: 600;
-        color: #5364cc;
-        letter-spacing: 0.02em;
-        margin-bottom: 6px;
       }
       .pseudo-row-heading {
         font-weight: 600;
@@ -222,11 +227,9 @@
           grid-template-columns: 1fr;
         }
       }
-      .fig-label {
-        font-size: 13px;
-        font-weight: 600;
-        margin: 10px 0 6px;
-        color: #333;
+      .two-fig .caption {
+        margin-left: 12px;
+        margin-right: 12px;
       }
     </style>
   </head>
@@ -284,7 +287,6 @@
 
       <section id="sec-components">
         <hr />
-        <div class="sec-tag">Main paper · Experiment VI</div>
         <h2>Performance impact of different components of CI-CBM</h2>
         <p class="lead">
           We ablate the two mechanisms that stabilize past knowledge during class-incremental
@@ -299,7 +301,7 @@
           weights for previous classes to collapse toward zero, which wipes their accuracy
           and dominates the aggregate metric. Turning on concept regularization alone does
           not fix that collapse: regularization preserves bottleneck semantics but does not
-          stop the classifier from ignoring old classes. Pseudo-          concepts restore separation
+          stop the classifier from ignoring old classes. Pseudo-concepts restore separation
           between old and new phases; adding regularization on top yields the best numbers,
           matching the full CI-CBM model.
         </p>
@@ -310,11 +312,11 @@
             alt="Table 5: component ablation — concept regularization and pseudo-concept generation on CIFAR-100 and TinyImageNet."
           />
         </figure>
+        <p class="caption"><b>Table 5.</b> Experiment VI (ablation study). Performance impact of different components of CI-CBM.</p>
       </section>
 
       <section id="sec-concept-gen">
         <hr />
-        <div class="sec-tag">Appendix · Experiment X · Table A.4</div>
         <h2>Alternative concept generation methods</h2>
         <p>
           CI-CBM builds each phase’s concept vocabulary from language: we compare using
@@ -333,11 +335,11 @@
             alt="Table A.4: ConceptNet vs GPT-3 concept generation."
           />
         </figure>
+        <p class="caption"><b>Table A.4.</b> Experiment X (ablation study). ConceptNet vs. GPT-3 for initial concept set generation.</p>
       </section>
 
       <section id="sec-sparsity">
         <hr />
-        <div class="sec-tag">Appendix · Experiment XI · Table A.5 · Figure A.1</div>
         <h2>Impact of sparsity on model performance</h2>
         <p>
           Following sparse linear bottleneck ideas (e.g., SAGA-style sparse predictors),
@@ -356,7 +358,7 @@
             alt="Table A.5: dense vs sparse predictor."
           />
         </figure>
-        <p class="fig-label">Figure A.1 — Interpretability without sparsity</p>
+        <p class="caption"><b>Table A.5.</b> Experiment XI (ablation study). Performance impact of sparsity constraints.</p>
         <p>
           Beyond accuracy, we repeat the Sturgeon concept-attribution visualization from the
           main paper while training the predictor <strong>without</strong> sparsity. The
@@ -370,11 +372,11 @@
             alt="Figure A.1: concept contributions for Sturgeon with dense (non-sparse) predictor."
           />
         </figure>
+        <p class="caption"><b>Figure A.1.</b> Dense prediction layer (&lambda; = 0): concept contributions for the same Sturgeon example as in the main paper (contributions spread across many concepts).</p>
       </section>
 
       <section id="sec-concept-size">
         <hr />
-        <div class="sec-tag">Appendix · Experiment XII · Table A.6 · Figures A.2–A.3</div>
         <h2>Effect of concept set size on performance</h2>
         <p>
           Real supervision may omit concepts. We randomly mask fractions of the vocabulary
@@ -390,6 +392,7 @@
             alt="Table A.6: accuracy vs fraction of concepts available."
           />
         </figure>
+        <p class="caption"><b>Table A.6.</b> Experiment XII (ablation study). Accuracy vs. concept availability.</p>
         <p>
           Qualitatively, we revisit Tree Swallow weights on CUB and Sturgeon attributions on
           ImageNet-Subset under <strong>50% masking</strong>. When iconic attributes disappear
@@ -398,7 +401,6 @@
         </p>
         <div class="two-fig">
           <div>
-            <p class="fig-label">Figure A.2 — Tree Swallow weights with 50% concepts</p>
             <figure class="table-shot" style="margin:0;">
               <img
                 src="figures/appendix_FigureA2_TreeSwallow_masked.png"
@@ -406,9 +408,9 @@
                 alt="Figure A.2: Tree Swallow final-layer weights with half of concepts masked."
               />
             </figure>
+            <p class="caption"><b>Figure A.2.</b> Tree Swallow on CUB (four phases): final-layer weights with 50% of concepts randomly masked.</p>
           </div>
           <div>
-            <p class="fig-label">Figure A.3 — Sturgeon reasoning with 50% concepts</p>
             <figure class="table-shot" style="margin:0;">
               <img
                 src="figures/appendix_FigureA3_Sturgeon_masked_reasoning.png"
@@ -416,13 +418,13 @@
                 alt="Figure A.3: concept contributions for Sturgeon under 50% concept masking."
               />
             </figure>
+            <p class="caption"><b>Figure A.3.</b> Sturgeon on ImageNet-Subset: concept contributions with 50% concept masking.</p>
           </div>
         </div>
       </section>
 
       <section id="sec-noise">
         <hr />
-        <div class="sec-tag">Appendix · Experiment XIII · Table A.7</div>
         <h2>Robustness to noise in image–concept alignment</h2>
         <p>
           The supervision matrix <strong><em>P</em></strong> aligns images with text concepts via a
@@ -438,11 +440,11 @@
             alt="Table A.7: accuracy vs SNR noise in concept activations."
           />
         </figure>
+        <p class="caption"><b>Table A.7.</b> Experiment XIII (ablation study). Accuracy vs. SNR in image–concept alignment.</p>
       </section>
 
       <section id="sec-alt-predictor">
         <hr />
-        <div class="sec-tag">Appendix · Experiment XIV · Table A.8</div>
         <h2>Alternative approach for learning the prediction layer</h2>
         <p>
           CI-CBM learns a shared linear predictor with pseudo-features mimicking old-class
@@ -462,11 +464,11 @@
             alt="Table A.8: alternative strategies for learning the prediction layer."
           />
         </figure>
+        <p class="caption"><b>Table A.8.</b> Experiment XIV (ablation study). Performance comparison of alternative prediction-layer learning strategies.</p>
       </section>
 
       <section id="sec-unique-concepts">
         <hr />
-        <div class="sec-tag">Appendix · Experiment XVI · Figure A.4</div>
         <h2>Unique concept expansion</h2>
         <p>
           Each phase could append every GPT-generated string, but duplicates inflate the
@@ -475,7 +477,6 @@
           unique expansion roughly halves the number of active concepts by the final phase for
           <em>T</em> = 20, shrinking both matrices and making explanations shorter and more stable.
         </p>
-        <p class="fig-label">Figure A.4 — Concepts per seen class (unique vs cumulative)</p>
         <figure class="table-shot">
           <img
             src="figures/appendix_FigureA4_concept_vs_class.png"
@@ -483,11 +484,11 @@
             alt="Figure A.4: concepts per number of seen classes for unique vs cumulative expansion."
           />
         </figure>
+        <p class="caption"><b>Figure A.4.</b> Experiment XVI (ablation study). Concepts per number of seen classes (unique concept-set expansion vs. cumulative count).</p>
       </section>
 
       <section id="sec-distill-acc">
         <hr />
-        <div class="sec-tag">Appendix · Experiment XVII · Table A.10</div>
         <h2>Impact of distillation regularizer weight on accuracy</h2>
         <p>
           Distillation weight <strong>&beta;</strong> trades off fidelity to previous concept
@@ -503,11 +504,11 @@
             alt="Table A.10: accuracy vs distillation weight beta."
           />
         </figure>
+        <p class="caption"><b>Table A.10.</b> Experiment XVII (ablation). Effect of distillation weight &beta; on average incremental accuracy.</p>
       </section>
 
       <section id="sec-distill-fid">
         <hr />
-        <div class="sec-tag">Appendix · Experiment XVIII · Table A.11</div>
         <h2>Impact of the distillation regularizer on concept fidelity</h2>
         <p>
           Accuracy alone does not guarantee interpretable units. We therefore score how well each
@@ -540,11 +541,11 @@
             alt="Table A.11: concept fidelity with vs without concept regularization."
           />
         </figure>
+        <p class="caption"><b>Table A.11.</b> Experiment XVIII (ablation study). Impact of distillation-based concept regularization on concept fidelity (CLIP cosine similarity and top-5 concept accuracy).</p>
       </section>
 
       <section id="sec-vlm">
         <hr />
-        <div class="sec-tag">Appendix · Experiments XIX–XX · Tables A.12–A.13</div>
         <h2>Impact of vision–language model (SigLIP vs CLIP)</h2>
         <p>
           Matrix <strong><em>P</em></strong> can be built with any aligned VLM. Keeping training
@@ -560,6 +561,7 @@
             alt="Table A.12: CLIP vs SigLIP for computing P — classification accuracy."
           />
         </figure>
+        <p class="caption"><b>Table A.12.</b> Experiment XIX (ablation study). Incremental accuracy when computing concept activations <em>P</em> with CLIP vs. SigLIP.</p>
         <p>
           <strong>Table A.13</strong> repeats the fidelity evaluation from the previous section:
           SigLIP-tuned models achieve higher CLIP cosine similarity and top-5 concept accuracy,
@@ -572,11 +574,11 @@
             alt="Table A.13: CLIP vs SigLIP — concept fidelity metrics."
           />
         </figure>
+        <p class="caption"><b>Table A.13.</b> Experiment XX (ablation study). Concept-fidelity metrics when computing <em>P</em> with CLIP vs. SigLIP.</p>
       </section>
 
       <section id="sec-pseudo-prototype">
         <hr />
-        <div class="sec-tag">Appendix · Experiment XXI · Figure / heatmaps</div>
         <h2>Pseudo-features track real feature geometry under a prototype classifier</h2>
         <p>
           Pseudo-features are meant to mimic true backbone embeddings of forgotten classes. To test
@@ -639,6 +641,7 @@
             <div class="mini-cap">CI-CBM<br />(test accuracy)</div>
           </div>
         </div>
+        <p class="caption"><b>Experiment XXI.</b> Phase-by-phase matrices under a cosine-prototype classifier on CIFAR-100: training, pseudo-feature, and validation/test alignment vs. CI-CBM test accuracy (top: ImageNet-pretrained ResNet-18, <em>T</em> = 10; bottom: ResNet-18 trained on first-phase data, <em>T</em> = 11).</p>
       </section>
 
       <section class="site-note">
