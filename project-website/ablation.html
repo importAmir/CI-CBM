@@ -264,14 +264,6 @@
           Ablations
         </a>
       </div>
-      <p class="note">
-        This page mirrors the ablation discussion in the CI-CBM paper
-        (<a href="https://arxiv.org/abs/2604.14519">arXiv:2604.14519</a>). Section
-        titles match the manuscript; tables use the same numbering as in the PDF.
-        Extended backbone-forgetting tables (Experiments VII–IX), the one-class
-        increment table (Experiment XV, Table A.9), and full captions are only in
-        the <a href="https://arxiv.org/pdf/2604.14519.pdf">PDF</a>.
-      </p>
 
       <nav class="toc-ablation" aria-labelledby="toc-heading">
         <h2 id="toc-heading">On this page</h2>
@@ -287,7 +279,6 @@
           <li><a href="#sec-distill-fid">Distillation and concept fidelity</a></li>
           <li><a href="#sec-vlm">Vision–language model (CLIP vs SigLIP)</a></li>
           <li><a href="#sec-pseudo-prototype">Pseudo-features vs prototype classifier</a></li>
-          <li><a href="#appendix-figures">Other appendix figures (PDF)</a></li>
         </ul>
       </nav>
 
@@ -308,9 +299,9 @@
           weights for previous classes to collapse toward zero, which wipes their accuracy
           and dominates the aggregate metric. Turning on concept regularization alone does
           not fix that collapse: regularization preserves bottleneck semantics but does not
-          stop the classifier from ignoring old classes. Pseudo-concepts restore separation
+          stop the classifier from ignoring old classes. Pseudo-          concepts restore separation
           between old and new phases; adding regularization on top yields the best numbers,
-          matching the full CI-CBM model used elsewhere in the paper.
+          matching the full CI-CBM model.
         </p>
         <figure class="table-shot">
           <img
@@ -427,11 +418,6 @@
             </figure>
           </div>
         </div>
-        <p class="note">
-          If your checklist referred to “Figure A.1” for this subsection as well, note that
-          <strong>Figure A.1</strong> above belongs to the sparsity study; masking analyses are
-          Figures <strong>A.2</strong> and <strong>A.3</strong>, matching their order in the appendix PDF.
-        </p>
       </section>
 
       <section id="sec-noise">
@@ -538,8 +524,7 @@
           <li>
             <strong>Top-5 concept accuracy.</strong> Using the same ranking, we check whether the
             ground-truth concept text appears among the five nearest concepts by cosine similarity.
-            This captures partial aliasing when synonyms appear in the vocabulary (concept counts
-            <em>M</em> are listed in the paper).
+            This captures partial aliasing when synonyms appear in the vocabulary.
           </li>
         </ul>
         <p>
@@ -604,7 +589,7 @@
           classifier). We repeat for <strong>ImageNet-pretrained ResNet-18</strong> (top row,
           <em>T</em> = 10 phases) and for a backbone trained only on first-phase data (bottom row,
           <em>T</em> = 11 phases), with the fourth column contrasting ImageNet-pretrained vs FeTrIL-style
-          backbone heatmaps as in the manuscript.
+          backbone heatmaps.
         </p>
         <p>
           Pseudo-feature matrices closely track their training and validation counterparts: nearest-centroid
@@ -656,50 +641,6 @@
         </div>
       </section>
 
-      <section id="appendix-figures">
-        <hr />
-        <h2>Other appendix figures (PDF)</h2>
-        <p>
-          Additional PDFs in <code>figures/</code> that are not inlined above (distribution plots,
-          boundary sketches, extra qualitative panels).
-        </p>
-
-        <h3>Class distribution</h3>
-        <figure>
-          <div class="pdf-frame">
-            <object data="figures/class_distribution_visualization.pdf" type="application/pdf">
-              <p>Unable to render PDF. <a href="figures/class_distribution_visualization.pdf">Open figure</a>.</p>
-            </object>
-          </div>
-          <p class="caption">
-            <a href="figures/class_distribution_visualization.pdf">class_distribution_visualization.pdf</a>
-          </p>
-        </figure>
-
-        <h3>Global decision boundaries</h3>
-        <figure>
-          <div class="pdf-frame">
-            <object data="figures/global_decision_boundaries.pdf" type="application/pdf">
-              <p>Unable to render PDF. <a href="figures/global_decision_boundaries.pdf">Open figure</a>.</p>
-            </object>
-          </div>
-          <p class="caption">
-            <a href="figures/global_decision_boundaries.pdf">global_decision_boundaries.pdf</a>
-          </p>
-        </figure>
-
-        <h3>Additional qualitative figure</h3>
-        <figure>
-          <div class="pdf-frame">
-            <object data="figures/explain_reasoning_figure4.pdf" type="application/pdf">
-              <p>Unable to render PDF. <a href="figures/explain_reasoning_figure4.pdf">Open figure</a>.</p>
-            </object>
-          </div>
-          <p class="caption">
-            <a href="figures/explain_reasoning_figure4.pdf">explain_reasoning_figure4.pdf</a>
-          </p>
-        </figure>
-      </section>
       <section class="site-note">
         <hr />
         Webpage template adapted from
