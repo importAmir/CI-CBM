@@ -501,9 +501,9 @@ pre {
         <div class="mx-auto">
             <p>
               <ul>
-                <li>CI-CBM addresses exemplar-free class-incremental learning by combining concept bottlenecks with concept regularization and pseudo-concept generation, so new classes can be learned without storing old samples or collapsing old-class performance.</li>
-                <li>The model stays interpretable throughout incremental training: globally through sparse concept-to-class weights and locally through per-image concept attributions that explain why a prediction is made.</li>
-                <li>Across seven datasets and both pretrained/non-pretrained settings, CI-CBM substantially outperforms prior interpretable continual-learning baselines (36% average gain) while remaining competitive with strong black-box methods.</li>
+                <li>CI-CBM addresses catastrophic forgetting in class-incremental learning while keeping the model’s decisions interpretable through human-understandable concepts.</li>
+                <li>The method learns new classes without storing old training samples, using concept regularization and pseudo-concept generation to preserve previous knowledge.</li>
+                <li>Across seven datasets, CI-CBM outperforms prior interpretable continual learning methods with an average 36% accuracy gain, approaching black-box performance while remaining explainable.</li>
               </ul>
             </p>
         </div>
@@ -587,9 +587,9 @@ pre {
         <hr>
         <h2>Conclusion</h2>
         <ul>
-            <li>CI-CBM demonstrates that class-incremental learning can remain both interpretable and accurate by preserving concept semantics over time and augmenting old classes with pseudo-concepts instead of stored replay data.</li>
-            <li>The method consistently improves over prior interpretable baselines while retaining practical performance in both pretrained and non-pretrained regimes, including challenging exemplar-free setups.</li>
-            <li>By providing both global class-level concept structure and local per-instance concept contributions, CI-CBM offers actionable explanations without sacrificing continual-learning effectiveness.</li>
+            <li>CI-CBM shows that interpretability and strong continual learning performance can coexist, reducing the usual trade-off between accuracy and transparency.</li>
+            <li>By regularizing the concept bottleneck and generating pseudo-concepts for old classes, CI-CBM learns new classes without storing past training data.</li>
+            <li>The results demonstrate that CI-CBM is practical and flexible, working well in both pretrained and non-pretrained settings across diverse benchmarks.</li>
         </ul>
     </section>
 
