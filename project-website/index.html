@@ -501,14 +501,9 @@ pre {
         <div class="mx-auto">
             <p>
               <ul>
-                <li>CI-CBM tackles one of continual learning’s hardest problems: learning new classes over time without forgetting old ones.</li>
-                <li>Unlike black-box continual learning models, CI-CBM keeps decisions interpretable by reasoning through human-understandable concepts.</li>
-                <li>The method does not need to store old training samples, making it more practical for privacy-sensitive and memory-limited settings.</li>
-                <li>CI-CBM introduces concept regularization and pseudo-concept generation to preserve old knowledge while adapting to new classes.</li>
-                <li>Across seven datasets, CI-CBM strongly outperforms prior interpretable continual learning methods, achieving an average accuracy gain of 36%.</li>
-                <li>The model approaches black-box performance while remaining explainable, showing that interpretability and strong accuracy can coexist.</li>
-                <li>CI-CBM provides both local and global explanations, helping users understand why a single prediction was made and how concepts influence each class.</li>
-                <li>The approach works in both pretrained and non-pretrained settings, making it flexible for real-world continual learning scenarios.</li>
+                <li>CI-CBM enables exemplar-free class-incremental learning by preserving concept meaning over time through concept regularization and pseudo-concept generation, so the model can learn new classes without forgetting old ones.</li>
+                <li>Unlike black-box continual learners, CI-CBM keeps predictions interpretable with both global class-level concept weights and local per-image concept attributions, while still remaining practical for privacy- and memory-constrained settings.</li>
+                <li>Across seven benchmarks, CI-CBM significantly outperforms prior interpretable continual learning methods (about 36% average gain) and approaches the accuracy of strong non-interpretable baselines.</li>
               </ul>
             </p>
         </div>
@@ -592,14 +587,9 @@ pre {
         <hr>
         <h2>Conclusion</h2>
         <ul>
-            <li>CI-CBM shows that continual learning can be both accurate and interpretable.</li>
-            <li>The model learns new classes over time without storing old training samples, making it suitable for memory-limited and privacy-sensitive settings.</li>
-            <li>By preserving concept meanings across learning phases, CI-CBM reduces catastrophic forgetting.</li>
-            <li>Pseudo-concept generation helps the model remember old classes while adapting to new ones.</li>
-            <li>CI-CBM significantly outperforms prior interpretable continual learning methods, with an average accuracy gain of 36%.</li>
-            <li>The model provides clear local and global explanations, showing which human-understandable concepts drive each prediction.</li>
-            <li>CI-CBM performs strongly in both pretrained and non-pretrained settings, making it practical across different deployment scenarios.</li>
-            <li>Overall, CI-CBM bridges the gap between explainability and performance in class-incremental learning.</li>
+            <li>CI-CBM shows that continual learning can be both interpretable and high-performing by combining concept regularization with pseudo-concept generation to retain prior knowledge while learning new classes.</li>
+            <li>The method is exemplar-free and practical for real deployments: it does not store past training images, supports both pretrained and non-pretrained settings, and provides transparent global and local concept-based explanations.</li>
+            <li>Empirically, CI-CBM substantially outperforms prior interpretable continual-learning methods (about 36% average gain) while staying competitive with strong black-box baselines.</li>
         </ul>
     </section>
 
