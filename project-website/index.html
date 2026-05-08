@@ -449,7 +449,7 @@ object {
 }
 
 .table-1-img {
-    width: 750px;
+    width: 825px;
     max-width: 100%;
     margin-left: auto;
 }
@@ -593,6 +593,10 @@ object {
                 </li>
                 <li>
                     <span class="method-step-title">Step 4: Pseudo-feature and pseudo-concept generation.</span> For each past class \(c_p\), CI-CBM finds the nearest new class \(c_n\), shifts features from that new-class distribution toward the stored past-class centroid, and projects the generated pseudo-features into concept space:
+                    <figure class="figure-shot">
+                        <img class="figure-img-plain" src="figures/class_distribution_visualization.png" alt="Pseudo-feature generation illustration" style="width:650px;max-width:100%;">
+                    </figure>
+                    <p class="caption"><b>Figure 1.</b> Pseudo-feature generation: CI-CBM shifts the nearest new-class feature distribution toward each past-class centroid to synthesize pseudo-features for old classes.</p>
                     <div class="method-equation">
                         \[
                         \hat{f}(c_p) = f(c_n) - \mu(c_n) + \mu(c_p),
@@ -600,10 +604,6 @@ object {
                         \hat{f}_c(c_p) = W_C^t \hat{f}(c_p).
                         \]
                     </div>
-                    <figure class="figure-shot">
-                        <img class="figure-img-plain" src="figures/class_distribution_visualization.png" alt="Pseudo-feature generation illustration" style="width:650px;max-width:100%;">
-                    </figure>
-                    <p class="caption"><b>Pseudo-feature generation.</b> CI-CBM shifts the nearest new-class feature distribution toward each past-class centroid to synthesize pseudo-features for old classes.</p>
                 </li>
                 <li>
                     <span class="method-step-title">Step 5: Sparse FC layer (\(W_F^t\)) learning with actual and pseudo-concepts.</span> The sparse final classifier is trained with actual concepts for the current phase and pseudo-concepts for previous phases:
@@ -621,7 +621,7 @@ object {
             <figure class="figure-shot">
                 <img class="figure-img-plain" src="figures/CI-CBM-pipeline-page10.png" alt="CI-CBM pipeline overview" style="width:750px;max-width:100%;">
             </figure>
-            <p class="caption"><b>Figure 1.</b> CI-CBM pipeline overview.</p>
+            <p class="caption"><b>Figure 2.</b> CI-CBM pipeline overview.</p>
         </div>
     </section>
 
@@ -649,7 +649,7 @@ object {
         <center>
             <img class="figure-img-plain" src="figures/continual_learning_strategies_comparison-p1.png" alt="Average accuracy over incremental phases" style="max-width:83%;width:auto;">
         </center>
-        <p class="caption"><b>Figure 2.</b> Average accuracy over incremental phases vs. unrestricted ResNet-based methods.</p>
+        <p class="caption"><b>Figure 3.</b> Average accuracy over incremental phases vs. unrestricted ResNet-based methods.</p>
 
         <h3>3. Comparison to pretrained ViT-based methods</h3>
         <ul>
@@ -666,11 +666,11 @@ object {
         <center>
             <img class="figure-img-plain" src="figures/TreeSwallow_weight_vis-p1.png" alt="Tree Swallow concept-weight visualization" style="max-width:83%;width:auto;">
         </center>
-        <p class="caption"><b>Figure 3.</b> Global view of concept-to-class weights for Tree Swallow on CUB: which interpretable concepts support or oppose the class, and how that structure appears under a multi-phase class-incremental setup.</p>
+        <p class="caption"><b>Figure 4.</b> Global view of concept-to-class weights for Tree Swallow on CUB: which interpretable concepts support or oppose the class, and how that structure appears under a multi-phase class-incremental setup.</p>
         <center>
             <img class="figure-img-plain" src="figures/explain_reasoning_figure2-p1.png" alt="Local concept contributions for one prediction" style="max-width:83%;width:auto;">
         </center>
-        <p class="caption"><b>Figure 4.</b> Local view of concept-level contributions for one image across incremental phases on ImageNet-Subset: how salient concepts for the prediction shift as more classes are learned.</p>
+        <p class="caption"><b>Figure 5.</b> Local view of concept-level contributions for one image across incremental phases on ImageNet-Subset: how salient concepts for the prediction shift as more classes are learned.</p>
 
     </section>
 
