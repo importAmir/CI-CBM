@@ -662,16 +662,16 @@ object {
         <p class="caption"><b>Table 4.</b> Pretrained ViT-based exemplar-free continual learning (average incremental accuracy).</p>
 
         <h3>4. Interpretability and insights on model reasoning</h3>
-        <p>
-            <b>Global interpretability.</b> CI-CBM explains each learned class through the sparse final-layer weights \(W_F^t\), which connect human-readable concept neurons to class logits. For a class \(i\), the row \(W_F^t[i,:]\) shows which concepts support the class with positive weights and which concepts oppose it with negative weights. In the visualization, CI-CBM displays the strongest concept-class links (absolute weight above 0.2); line width is proportional to \(|W_F^t[i,j]|\), and negative concepts are shown as “NOT” concepts. This makes the model’s class-level decision rule inspectable across incremental phases.
-        </p>
+        <ul>
+            <li><span class="method-step-title">Global interpretability.</span> CI-CBM explains each learned class through the sparse final-layer weights \(W_F^t\), which connect human-readable concept neurons to class logits. For a class \(i\), the row \(W_F^t[i,:]\) shows which concepts support the class with positive weights and which concepts oppose it with negative weights. In the visualization, line width is proportional to \(|W_F^t[i,j]|\), and negative concepts are shown as “NOT” concepts. This makes the model’s class-level decision rule inspectable across incremental phases.</li>
+        </ul>
         <center>
             <img class="figure-img-plain" src="figures/TreeSwallow_weight_vis-p1.png" alt="Tree Swallow concept-weight visualization" style="max-width:100%;width:auto;">
         </center>
         <p class="caption"><b>Figure 4.</b> Global view of concept-to-class weights for Tree Swallow on CUB: which interpretable concepts support or oppose the class, and how that structure appears under a multi-phase class-incremental setup.</p>
-        <p>
-            <b>Local interpretability.</b> CI-CBM explains an individual prediction by decomposing the class score into concept contributions. For input image \(x_k\), class \(i\), and concept \(j\), the contribution is computed as \(\text{Contrib}(x_k,i,j)=W_F^t[i,j]\times f_c^t(x_k)[j]\). Here, \(f_c^t(x_k)[j]\) is the image’s activation on concept \(j\), and \(W_F^t[i,j]\) is how strongly that concept affects class \(i\). Large positive contributions support the prediction, while negative contributions push against it. This shows why the same old-class image can remain correctly classified as new classes are introduced.
-        </p>
+        <ul>
+            <li><span class="method-step-title">Local interpretability.</span> CI-CBM explains an individual prediction by decomposing the class score into concept contributions. For input image \(x_k\), class \(i\), and concept \(j\), the contribution is computed as \(\text{Contrib}(x_k,i,j)=W_F^t[i,j]\times f_c^t(x_k)[j]\). Here, \(f_c^t(x_k)[j]\) is the image’s activation on concept \(j\), and \(W_F^t[i,j]\) is how strongly that concept affects class \(i\). Large positive contributions support the prediction, while negative contributions push against it. This shows why the same old-class image can remain correctly classified as new classes are introduced.</li>
+        </ul>
         <center>
             <img class="figure-img-plain" src="figures/explain_reasoning_figure2-p1.png" alt="Local concept contributions for one prediction" style="max-width:100%;width:auto;">
         </center>
