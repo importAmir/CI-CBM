@@ -575,11 +575,28 @@ object {
                 CI-CBM builds on label-free concept bottleneck models and adapts them to <b>exemplar-free class-incremental learning</b>: new classes arrive over time, old training data is not stored, and predictions stay grounded in human-readable concepts.
             </p>
             <ul class="method-steps">
-                <li><b>Step 1: Unique concept set expansion.</b> For each new phase, CI-CBM prompts a language model for class-related concepts, removes near-duplicates and class-name-like terms with text-embedding similarity, and updates the running concept vocabulary \(C_t \leftarrow C_{t-1} \cup \{\text{filtered new concepts}\}\).</li>
-                <li><b>Step 2: Embedding calculation based on \(X\).</b> Given the current images \(X_t\) and expanded concept set \(C_t\), CI-CBM computes the image-text alignment matrix \(P^t\), where \(P^t[i,j] = E_I(x_i)^\top E_T(c_j)\).</li>
-                <li><b>Step 3: CBL (\(W_C\)) learning.</b> The concept bottleneck layer maps frozen backbone features into concept activations, \(f_c(x)=W_C^t f(x)\), while a distillation regularizer keeps previously learned concept neurons from drifting.</li>
+                <li><b><u>Step 1: Unique concept set expansion.</u></b> For each new phase, CI-CBM prompts a language model for class-related concepts, removes near-duplicates and class-name-like terms with text-embedding similarity, and updates the running concept vocabulary \(C_t \leftarrow C_{t-1} \cup \{\text{filtered new concepts}\}\).</li>
+                <li><b><u>Step 2: Embedding calculation based on \(X_t\).</u></b> Given the current images \(X_t\) and expanded concept set \(C_t\), CI-CBM computes the image-text alignment matrix \(P^t\), where \(P^t[i,j] = E_I(x_i)^\top E_T(c_j)\).</li>
                 <li>
-                    <b>Step 4: Pseudo-feature and pseudo-concept generation.</b> For each past class \(c_p\), CI-CBM finds the nearest new class \(c_n\), shifts features from that new-class distribution toward the stored past-class centroid, and projects the generated pseudo-features into concept space:
+                    <b><u>Step 3: CBL (\(W_C^t\)) learning.</u></b> The concept bottleneck layer maps frozen backbone features into concept activations, \(f_c(x)=W_C^t f(x)\), while a distillation regularizer keeps previously learned concept neurons from drifting:
+                    <div class="method-equation">
+                        \[
+                        \begin{aligned}
+                        L(W_C^t)
+                        &=
+                        \sum_{i=1}^{M_t}
+                        -\frac{\overline{q_i^t}^{\,3}\cdot \overline{P^t_{:,i}}^{\,3}}
+                        {\|\overline{q_i^t}^{\,3}\|_2\|\overline{P^t_{:,i}}^{\,3}\|_2} \\
+                        &\quad+
+                        \beta \sum_{i=1}^{M_{t-1}}
+                        -\frac{\overline{q_i^t}^{\,3}\cdot \overline{q_i^{t-1}}^{\,3}}
+                        {\|\overline{q_i^t}^{\,3}\|_2\|\overline{q_i^{t-1}}^{\,3}\|_2}.
+                        \end{aligned}
+                        \]
+                    </div>
+                </li>
+                <li>
+                    <b><u>Step 4: Pseudo-feature and pseudo-concept generation.</u></b> For each past class \(c_p\), CI-CBM finds the nearest new class \(c_n\), shifts features from that new-class distribution toward the stored past-class centroid, and projects the generated pseudo-features into concept space:
                     <div class="method-equation">
                         \[
                         \hat{f}(c_p) = f(c_n) - \mu(c_n) + \mu(c_p),
@@ -587,9 +604,13 @@ object {
                         \hat{f}_c(c_p) = W_C^t \hat{f}(c_p).
                         \]
                     </div>
+                    <figure class="figure-shot">
+                        <img class="figure-img-plain" src="figures/class_distribution_visualization.png" alt="Pseudo-feature generation illustration" style="width:650px;max-width:100%;">
+                    </figure>
+                    <p class="caption"><b>Pseudo-feature generation.</b> CI-CBM shifts the nearest new-class feature distribution toward each past-class centroid to synthesize pseudo-features for old classes.</p>
                 </li>
                 <li>
-                    <b>Step 5: Sparse FC layer (\(W_F\)) learning with actual and pseudo-concepts.</b> The sparse final classifier is trained with actual concepts for the current phase and pseudo-concepts for previous phases:
+                    <b><u>Step 5: Sparse FC layer (\(W_F^t\)) learning with actual and pseudo-concepts.</u></b> The sparse final classifier is trained with actual concepts for the current phase and pseudo-concepts for previous phases:
                     <div class="method-equation">
                         \[
                         \min_{W_F^t,b_F^t}
