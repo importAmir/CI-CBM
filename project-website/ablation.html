@@ -128,10 +128,10 @@
       .table-shot img {
         max-width: 83%;
         height: auto;
-        border: 0;
-        outline: none;
-        box-shadow: none;
-        background: transparent;
+        border: 0 !important;
+        outline: 0 !important;
+        box-shadow: none !important;
+        background: transparent !important;
       }
       .pdf-frame {
         width: 100%;
@@ -141,11 +141,23 @@
         display: block;
         width: 100%;
         min-height: 480px;
-        border: 0;
-        outline: none;
-        box-shadow: none;
+        border: 0 !important;
+        outline: 0 !important;
+        box-shadow: none !important;
       }
       figure { margin: 16px 0; }
+      figure,
+      figure img,
+      .table-shot,
+      .table-shot img,
+      .pdf-frame,
+      .pdf-frame object,
+      .pseudo-cell img {
+        border: 0 !important;
+        outline: 0 !important;
+        box-shadow: none !important;
+        background: transparent !important;
+      }
       .caption {
         font-size: 14px;
         color: #565656;
@@ -199,10 +211,10 @@
         width: 100%;
         height: auto;
         display: block;
-        border: 0;
-        outline: none;
-        box-shadow: none;
-        background: transparent;
+        border: 0 !important;
+        outline: 0 !important;
+        box-shadow: none !important;
+        background: transparent !important;
       }
       .pseudo-cell .mini-cap {
         font-size: 11px;
