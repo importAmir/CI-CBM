@@ -432,12 +432,21 @@ object {
     border: 0;
     outline: none;
     box-shadow: none;
+    background: transparent;
+}
+
+.figure-shot {
+    margin: 16px 0;
+    text-align: center;
+    border: 0;
+    outline: none;
+    box-shadow: none;
 }
 
 .table-1-img {
-    width: 1220px;
-    max-width: 124%;
-    margin-left: -12%;
+    width: 1400px;
+    max-width: 140%;
+    margin-left: -20%;
 }
 
 .card-img-top {
@@ -592,9 +601,9 @@ object {
                     </div>
                 </li>
             </ul>
-            <center>
+            <figure class="figure-shot">
                 <img class="figure-img-plain" src="figures/CI-CBM-pipeline-page10.png" alt="CI-CBM pipeline overview" style="width:750px;max-width:100%;">
-            </center>
+            </figure>
             <p class="caption"><b>Figure 1.</b> CI-CBM pipeline overview.</p>
         </div>
     </section>
@@ -607,7 +616,9 @@ object {
         <ul>
             <li>CI-CBM substantially improves average incremental accuracy over prior interpretable continual learning methods (ICICLE, IN2, CONCIL) across CIFAR-10/100, CUB, TinyImageNet, Places365, and ImageNet, while staying close to an impractical full-rehearsal upper bound that stores all past data.</li>
         </ul>
-        <center><img class="figure-img-plain table-1-img" src="figures/Table1.png" alt="Table 1: interpretable methods comparison"></center>
+        <figure class="figure-shot">
+            <img class="figure-img-plain table-1-img" src="figures/Table1.png" alt="Table 1: interpretable methods comparison">
+        </figure>
         <p class="caption"><b>Table 1.</b> Comparison to other interpretable class-incremental methods.</p>
 
         <h3>2. Comparison to non-pretrained and non-interpretable methods</h3>
@@ -631,16 +642,14 @@ object {
         <p class="caption"><b>Table 4.</b> Pretrained ViT-based exemplar-free continual learning (average incremental accuracy).</p>
 
         <h3>4. Interpretability and insights on model reasoning</h3>
-        <p>
-            CI-CBM is interpretable at two levels. <b>Global interpretability</b> comes from the sparse final layer: each class is described as a weighted combination of human-readable concepts from the bottleneck. You can read off which concepts vote for or against a class, how strong those ties are, and how that structure evolves as new classes and new concepts are added over incremental phases. Concepts with negative weights act as “not this concept” evidence, and the thickness of links reflects the magnitude of each weight, so the model’s high-level decision rules stay inspectable rather than hidden in a black box.
-        </p>
+        <ul>
+            <li><b>Global interpretability.</b> The sparse final layer describes each class as a weighted combination of human-readable concepts. Positive and negative links show which concepts support or oppose a class, and line thickness indicates weight magnitude as the model learns across phases.</li>
+            <li><b>Local interpretability.</b> For one image, CI-CBM multiplies concept activations by class-specific weights to show which concepts push the prediction toward or away from each label. This explains how the same input remains correctly classified as new classes enter the stream.</li>
+        </ul>
         <center>
             <img class="figure-img-plain" src="figures/TreeSwallow_weight_vis-p1.png" alt="Tree Swallow concept-weight visualization" style="max-width:83%;width:auto;">
         </center>
         <p class="caption"><b>Figure 3.</b> Global view of concept-to-class weights for Tree Swallow on CUB: which interpretable concepts support or oppose the class, and how that structure appears under a multi-phase class-incremental setup.</p>
-        <p>
-          <b>Local interpretability</b> explains individual predictions. For a given image, the model forms a concept activation vector; multiplying those activations by the class-specific weights shows how much each concept pushed the classifier toward or away from each label. That yields a per-input attribution: which concepts were most responsible for the predicted class on this example, and how those contributions change when more classes enter the stream and the classifier is updated. Together, global and local views answer both “what rules does the model use for this class?” and “why did it classify this particular image this way?”
-      </p>
         <center>
             <img class="figure-img-plain" src="figures/explain_reasoning_figure2-p1.png" alt="Local concept contributions for one prediction" style="max-width:83%;width:auto;">
         </center>
