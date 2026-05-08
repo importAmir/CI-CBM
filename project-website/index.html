@@ -403,6 +403,14 @@ pre {
   line-height: 1;
 }
 
+img,
+object {
+    border: 0;
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+}
+
 .method-steps {
     margin-top: 12px;
 }
@@ -427,9 +435,9 @@ pre {
 }
 
 .table-1-img {
-    width: 1100px;
-    max-width: 112%;
-    margin-left: -6%;
+    width: 1220px;
+    max-width: 124%;
+    margin-left: -12%;
 }
 
 .card-img-top {
@@ -558,11 +566,11 @@ pre {
                 CI-CBM builds on label-free concept bottleneck models and adapts them to <b>exemplar-free class-incremental learning</b>: new classes arrive over time, old training data is not stored, and predictions stay grounded in human-readable concepts.
             </p>
             <ul class="method-steps">
-                <li><b>Step 1: Unique concept set expansion.</b> For each new phase, CI-CBM prompts a language model for class-related concepts, filters duplicates and class-name-like terms with text-embedding similarity, and updates the running vocabulary \(C_t \leftarrow C_{t-1} \cup \{\text{filtered new concepts}\}\).</li>
-                <li><b>Step 2: Embedding calculation based on \(X\).</b> Using the current images \(X_t\) and expanded concept set \(C_t\), CI-CBM computes the image-text alignment matrix \(P^t\), where \(P^t[i,j] = E_I(x_i)^\top E_T(c_j)\).</li>
-                <li><b>Step 3: CBL (\(W_C\)) learning.</b> The concept bottleneck layer maps frozen backbone features into concept activations, \(f_c(x)=W_C^t f(x)\), while distillation keeps previously learned concept neurons from drifting.</li>
+                <li><b>Step 1: Unique concept set expansion.</b> For each new phase, CI-CBM prompts a language model for class-related concepts, removes near-duplicates and class-name-like terms with text-embedding similarity, and updates the running concept vocabulary \(C_t \leftarrow C_{t-1} \cup \{\text{filtered new concepts}\}\).</li>
+                <li><b>Step 2: Embedding calculation based on \(X\).</b> Given the current images \(X_t\) and expanded concept set \(C_t\), CI-CBM computes the image-text alignment matrix \(P^t\), where \(P^t[i,j] = E_I(x_i)^\top E_T(c_j)\).</li>
+                <li><b>Step 3: CBL (\(W_C\)) learning.</b> The concept bottleneck layer maps frozen backbone features into concept activations, \(f_c(x)=W_C^t f(x)\), while a distillation regularizer keeps previously learned concept neurons from drifting.</li>
                 <li>
-                    <b>Step 4: Pseudo-feature and pseudo-concept generation.</b> For each past class \(c_p\), CI-CBM finds the nearest new class \(c_n\), shifts new-class features toward the stored past-class centroid, and projects them into concept space:
+                    <b>Step 4: Pseudo-feature and pseudo-concept generation.</b> For each past class \(c_p\), CI-CBM finds the nearest new class \(c_n\), shifts features from that new-class distribution toward the stored past-class centroid, and projects the generated pseudo-features into concept space:
                     <div class="method-equation">
                         \[
                         \hat{f}(c_p) = f(c_n) - \mu(c_n) + \mu(c_p),
@@ -572,11 +580,11 @@ pre {
                     </div>
                 </li>
                 <li>
-                    <b>Step 5: Sparse FC layer (\(W_F\)) learning with actual and pseudo-concepts.</b> The final sparse classifier is trained on real concepts for the current phase and pseudo-concepts for previous phases:
+                    <b>Step 5: Sparse FC layer (\(W_F\)) learning with actual and pseudo-concepts.</b> The sparse final classifier is trained with actual concepts for the current phase and pseudo-concepts for previous phases:
                     <div class="method-equation">
                         \[
                         \min_{W_F^t,b_F^t}
-                        \sum_{(x_i,y_i)\in D_{1:t-1}} L_{ce}(W_F^t \hat{f}_c(x_i)+b_F^t,y_i)
+                        \sum_{(x_i,y_i)\in D_1 \cup \dots \cup D_{t-1}} L_{ce}(W_F^t \hat{f}_c(x_i)+b_F^t,y_i)
                         +
                         \sum_{(x_i,y_i)\in D_t} L_{ce}(W_F^t f_c(x_i)+b_F^t,y_i)
                         + \lambda R_\alpha(W_F^t).
