@@ -1,8 +1,8 @@
-**[Project website](https://lilywenglab.github.io/Class-Incremental-CBM/) · [Paper (arXiv)](https://arxiv.org/abs/2604.14519) · [Paper (OpenReview PDF)](https://openreview.net/pdf?id=Wf6OpLgj2i)**
-
 ## Official implementation of “CI-CBM: Class-Incremental Concept Bottleneck Model for Interpretable Continual Learning“.
 
 Published at Transactions on Machine Learning Research (TMLR).
+
+**[Project website](https://lilywenglab.github.io/Class-Incremental-CBM/) · [Paper (arXiv)](https://arxiv.org/abs/2604.14519)**
 
 CI-CBM is an interpretable class-incremental learning method that combines concept regularization with pseudo-concept generation, enabling both local and global explanations for decision-making throughout class-incremental phases. It maintains robust concept-based reasoning as new classes are introduced, substantially outperforms prior interpretable continual-learning methods, and remains competitive with black-box baselines in both pretrained and non-pretrained settings.
 
