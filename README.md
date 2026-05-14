@@ -1,3 +1,5 @@
+**[Project website](https://lilywenglab.github.io/Class-Incremental-CBM/) · [Paper (arXiv)](https://arxiv.org/abs/2604.14519) · [Paper (OpenReview PDF)](https://openreview.net/pdf?id=Wf6OpLgj2i)**
+
 ## Official implementation of “CI-CBM: Class-Incremental Concept Bottleneck Model for Interpretable Continual Learning“.
 
 Published at Transactions on Machine Learning Research (TMLR).
@@ -62,38 +64,19 @@ Evaluate the trained models by running `evaluate_cbm.py` codes in the `training_
 
 ## Citation
 
-If you use the FeTrIL or APG backbones in your research, please cite the following works:
+If you use this code or our method in your research, please cite:
 
-**FeTrIL** ([GitHub](https://github.com/GregoirePetit/FeTrIL)):
 ```bibtex
-@inproceedings{petit2023fetril,
-  title={Fetril: Feature translation for exemplar-free class-incremental learning},
-  author={Petit, Gr{\'e}goire and Popescu, Adrian and Schindler, Hugo and Picard, David and Delezoide, Bertrand},
-  booktitle={Proceedings of the IEEE/CVF winter conference on applications of computer vision},
-  pages={3911--3920},
-  year={2023}
+@article{javadi2026ci,
+  title={CI-CBM: Class-Incremental Concept Bottleneck Model for Interpretable Continual Learning},
+  author={Javadi, Amirhosein and Oikarinen, Tuomas and Javidi, Tara and Weng, Tsui-Wei},
+  journal={Transactions on Machine Learning Research},
+  year={2026},
 }
 ```
 
-**APG** ([GitHub](https://github.com/TOM-tym/APG)):
-```bibtex
-@inproceedings{tang2023prompt,
-  title={When prompt-based incremental learning does not meet strong pretraining},
-  author={Tang, Yu-Ming and Peng, Yi-Xing and Zheng, Wei-Shi},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-  pages={1706--1716},
-  year={2023}
-}
-```
+This implementation uses FeTrIL and APG pretrained backbones (via `backbone_download/`) and sparse final-layer training based on SAGA (see `glm_saga/`). The official repositories for those components are:
 
-**SAGA (sparse final layer training)** ([GitHub](https://github.com/MadryLab/glm_saga)):
-```bibtex
-@inproceedings{wong2021leveraging,
-  title={Leveraging sparse linear layers for debuggable deep networks},
-  author={Wong, Eric and Santurkar, Shibani and Madry, Aleksander},
-  booktitle={International Conference on Machine Learning},
-  pages={11205--11216},
-  year={2021},
-  organization={PMLR}
-}
-```
+* **FeTrIL:** [github.com/GregoirePetit/FeTrIL](https://github.com/GregoirePetit/FeTrIL)
+* **APG:** [github.com/TOM-tym/APG](https://github.com/TOM-tym/APG)
+* **SAGA (sparse final layer training):** [github.com/MadryLab/glm_saga](https://github.com/MadryLab/glm_saga)
