@@ -1,6 +1,6 @@
 ## Official implementation of “CI-CBM: Class-Incremental Concept Bottleneck Model for Interpretable Continual Learning“.
 
-Published at Transactions on Machine Learning Research (TMLR).
+This work is published at Transactions on Machine Learning Research (TMLR), 2026.
 
 **[Project website](https://lilywenglab.github.io/Class-Incremental-CBM/) · [Paper](https://arxiv.org/abs/2604.14519)**
 
